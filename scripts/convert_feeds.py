@@ -1,24 +1,13 @@
 #!/usr/bin/env python3
-"""
-Threat Feed Converter -- AdGuard Home + FortiGate
+"""Threat Feed Converter -- AdGuard Home + FortiGate (with whitelist)."""
 
-Fetches threat intelligence feeds defined in config/feeds.yml and converts
-them into formats compatible with:
-
-  - AdGuard Home   (adblock-style: ||domain^)     -- domain feeds only
-  - FortiGate      (plain text, one entry/line)    -- domain, IP, AND hash feeds
-
-IP and hash feeds are output for FortiGate only.
-
-Generates two combined output variants:
-  - combined.txt             -- all feeds merged (for mid-range/high-end FortiGates)
-  - entry-model-combined.txt -- curated subset for entry-level FortiGates
-"""
-
+import csv
+import io
 import ipaddress
 import logging
 import re
 import sys
+import zipfile
 from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import urlparse
@@ -26,158 +15,122 @@ from urllib.parse import urlparse
 import requests
 import yaml
 
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s [%(levelname)s] %(message)s",
-    datefmt="%Y-%m-%d %H:%M:%S",
-)
+logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s", datefmt="%Y-%m-%d %H:%M:%S")
 log = logging.getLogger(__name__)
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 CONFIG_PATH = REPO_ROOT / "config" / "feeds.yml"
+WHITELIST_PATH = REPO_ROOT / "config" / "whitelist.yml"
 OUTPUT_ADGUARD = REPO_ROOT / "output" / "adguard"
 OUTPUT_FG_DOMAINS = REPO_ROOT / "output" / "fortigate" / "domains"
 OUTPUT_FG_IP = REPO_ROOT / "output" / "fortigate" / "ip"
 OUTPUT_FG_HASH = REPO_ROOT / "output" / "fortigate" / "hash"
-
 HOMEPAGE = "https://github.com/weightlessit/dns-threat-feeds"
 
-# -- Regex patterns ----------------------------------------------------
-DOMAIN_RE = re.compile(
-    r"^(?:[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?\.)+[a-zA-Z]{2,}$"
-)
-HOSTS_RE = re.compile(
-    r"^(?:0\.0\.0\.0|127\.0\.0\.1)\s+(.+)$"
-)
-ADGUARD_RULE_RE = re.compile(
-    r"^\|\|.+\^"
-)
-IP_LINE_RE = re.compile(
-    r"^(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}(?:/\d{1,2})?)$"
-)
-IP_RANGE_RE = re.compile(
-    r"^(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})-(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})$"
-)
-HASH_RE = re.compile(
-    r"^([a-fA-F0-9]{32}|[a-fA-F0-9]{40}|[a-fA-F0-9]{64})(?:\s.*)?$"
-)
+DOMAIN_RE = re.compile(r"^(?:[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?\.)+[a-zA-Z]{2,}$")
+HOSTS_RE = re.compile(r"^(?:0\.0\.0\.0|127\.0\.0\.1)\s+(.+)$")
+ADGUARD_RULE_RE = re.compile(r"^\|\|.+\^")
+IP_LINE_RE = re.compile(r"^(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}(?:/\d{1,2})?)$")
+IP_RANGE_RE = re.compile(r"^(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})-(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})$")
+HASH_RE = re.compile(r"^([a-fA-F0-9]{32}|[a-fA-F0-9]{40}|[a-fA-F0-9]{64})(?:\s.*)?$")
 
-# Private / bogon ranges to exclude from IP feeds
-PRIVATE_NETWORKS = [
-    ipaddress.ip_network("0.0.0.0/8"),
-    ipaddress.ip_network("10.0.0.0/8"),
-    ipaddress.ip_network("100.64.0.0/10"),
-    ipaddress.ip_network("127.0.0.0/8"),
-    ipaddress.ip_network("169.254.0.0/16"),
-    ipaddress.ip_network("172.16.0.0/12"),
-    ipaddress.ip_network("192.0.0.0/24"),
-    ipaddress.ip_network("192.0.2.0/24"),
-    ipaddress.ip_network("192.168.0.0/16"),
-    ipaddress.ip_network("198.18.0.0/15"),
-    ipaddress.ip_network("198.51.100.0/24"),
-    ipaddress.ip_network("203.0.113.0/24"),
-    ipaddress.ip_network("224.0.0.0/4"),
-    ipaddress.ip_network("240.0.0.0/4"),
-    ipaddress.ip_network("255.255.255.255/32"),
-]
+PRIVATE_NETWORKS = [ipaddress.ip_network(n) for n in [
+    "0.0.0.0/8", "10.0.0.0/8", "100.64.0.0/10", "127.0.0.0/8", "169.254.0.0/16",
+    "172.16.0.0/12", "192.0.0.0/24", "192.0.2.0/24", "192.168.0.0/16", "198.18.0.0/15",
+    "198.51.100.0/24", "203.0.113.0/24", "224.0.0.0/4", "240.0.0.0/4", "255.255.255.255/32"]]
 
 
-# -- Validation --------------------------------------------------------
+# -- Validation ----------------------------------------------------------------
 
-def is_valid_domain(domain: str) -> bool:
-    if not domain or len(domain) > 253:
+def is_valid_domain(d):
+    if not d or len(d) > 253:
         return False
-    if re.match(r"^\d{1,3}(\.\d{1,3}){3}$", domain):
+    if re.match(r"^\d{1,3}(\.\d{1,3}){3}$", d):
         return False
-    return bool(DOMAIN_RE.match(domain))
+    return bool(DOMAIN_RE.match(d))
 
 
-def is_private_ip(ip_str: str) -> bool:
+def is_private_ip(s):
     try:
-        addr = ipaddress.ip_address(ip_str)
-        return any(addr in net for net in PRIVATE_NETWORKS)
+        return any(ipaddress.ip_address(s) in n for n in PRIVATE_NETWORKS)
     except ValueError:
         return False
 
 
-def is_private_network(cidr_str: str) -> bool:
+def is_private_network(s):
     try:
-        net = ipaddress.ip_network(cidr_str, strict=False)
-        return any(net.overlaps(priv) for priv in PRIVATE_NETWORKS)
+        return any(ipaddress.ip_network(s, strict=False).overlaps(n) for n in PRIVATE_NETWORKS)
     except ValueError:
         return False
 
 
-# -- HTTP fetch --------------------------------------------------------
+# -- HTTP fetch ----------------------------------------------------------------
 
-def fetch_feed(url: str, timeout: int = 120) -> str | None:
+def fetch_feed(url, timeout=120):
     try:
         log.info(f"  Fetching: {url}")
-        resp = requests.get(url, timeout=timeout, headers={
-            "User-Agent": "ThreatFeed-Converter/3.0"
-        })
-        resp.raise_for_status()
-        log.info(f"  Downloaded {len(resp.text):,} bytes")
-        return resp.text
+        r = requests.get(url, timeout=timeout, headers={"User-Agent": "ThreatFeed-Converter/3.0"})
+        r.raise_for_status()
+        log.info(f"  Downloaded {len(r.text):,} bytes")
+        return r.text
     except requests.RequestException as e:
         log.error(f"  Failed to fetch {url}: {e}")
         return None
 
 
-# -- Domain Feed Parsers -----------------------------------------------
+# -- Domain parsers ------------------------------------------------------------
 
-def parse_domain_feed(raw: str) -> set[str]:
-    domains: set[str] = set()
+def parse_domain_feed(raw):
+    out = set()
     for line in raw.splitlines():
         line = line.strip().lower()
-        if not line or line.startswith("#") or line.startswith("!") or line.startswith(";"):
+        if not line or line[0] in "#!;":
             continue
         if is_valid_domain(line):
-            domains.add(line)
-    return domains
+            out.add(line)
+    return out
 
 
-def parse_hosts_feed(raw: str) -> set[str]:
-    domains: set[str] = set()
+def parse_hosts_feed(raw):
+    out = set()
     for line in raw.splitlines():
         line = line.strip().lower()
-        if not line or line.startswith("#") or line.startswith("!"):
+        if not line or line[0] in "#!":
             continue
-        match = HOSTS_RE.match(line)
-        if match:
-            domain = match.group(1).strip().split("#")[0].strip()
-            if is_valid_domain(domain):
-                domains.add(domain)
-    return domains
+        m = HOSTS_RE.match(line)
+        if m:
+            d = m.group(1).strip().split("#")[0].strip()
+            if is_valid_domain(d):
+                out.add(d)
+    return out
 
 
-def parse_url_feed(raw: str) -> set[str]:
-    domains: set[str] = set()
+def parse_url_feed(raw):
+    out = set()
     for line in raw.splitlines():
         line = line.strip()
-        if not line or line.startswith("#") or line.startswith("!"):
+        if not line or line[0] in "#!":
             continue
         try:
-            parsed = urlparse(line if "://" in line else f"http://{line}")
-            hostname = parsed.hostname
-            if hostname and is_valid_domain(hostname.lower()):
-                domains.add(hostname.lower())
+            h = urlparse(line if "://" in line else f"http://{line}").hostname
+            if h and is_valid_domain(h.lower()):
+                out.add(h.lower())
         except Exception:
-            continue
-    return domains
+            pass
+    return out
 
 
-def parse_adguard_feed(raw: str) -> set[str]:
-    domains: set[str] = set()
+def parse_adguard_feed(raw):
+    out = set()
     for line in raw.splitlines():
         line = line.strip()
-        if not line or line.startswith("!") or line.startswith("#"):
+        if not line or line[0] in "!#":
             continue
         if ADGUARD_RULE_RE.match(line):
-            domain = line.lstrip("|").rstrip("^").lower()
-            if is_valid_domain(domain):
-                domains.add(domain)
-    return domains
+            d = line.lstrip("|").rstrip("^").lower()
+            if is_valid_domain(d):
+                out.add(d)
+    return out
 
 
 DOMAIN_PARSERS = {
@@ -188,73 +141,62 @@ DOMAIN_PARSERS = {
 }
 
 
-# -- IP Feed Parsers ---------------------------------------------------
+# -- IP parsers ----------------------------------------------------------------
 
-def parse_ip_feed(raw: str) -> set[str]:
-    """Parse IP/CIDR/range list. Returns clean entries for FortiGate."""
-    entries: set[str] = set()
+def parse_ip_feed(raw):
+    out = set()
     for line in raw.splitlines():
         line = line.strip()
-        if not line or line.startswith("#") or line.startswith(";"):
+        if not line or line[0] in "#;":
             continue
-        line = line.split(";")[0].strip()
-        line = line.split("#")[0].strip()
+        line = line.split(";")[0].split("#")[0].strip()
         if not line:
             continue
-
-        range_match = IP_RANGE_RE.match(line)
-        if range_match:
-            start_ip = range_match.group(1)
-            end_ip = range_match.group(2)
+        rm = IP_RANGE_RE.match(line)
+        if rm:
             try:
-                ipaddress.ip_address(start_ip)
-                ipaddress.ip_address(end_ip)
-                if not is_private_ip(start_ip):
-                    entries.add(f"{start_ip}-{end_ip}")
+                ipaddress.ip_address(rm.group(1))
+                ipaddress.ip_address(rm.group(2))
+                if not is_private_ip(rm.group(1)):
+                    out.add(f"{rm.group(1)}-{rm.group(2)}")
             except ValueError:
-                continue
+                pass
             continue
-
-        ip_match = IP_LINE_RE.match(line)
-        if ip_match:
-            entry = ip_match.group(1)
-            if "/" in entry:
-                if not is_private_network(entry):
+        im = IP_LINE_RE.match(line)
+        if im:
+            e = im.group(1)
+            if "/" in e:
+                if not is_private_network(e):
                     try:
-                        net = ipaddress.ip_network(entry, strict=False)
-                        entries.add(str(net))
+                        out.add(str(ipaddress.ip_network(e, strict=False)))
                     except ValueError:
-                        continue
+                        pass
             else:
                 try:
-                    addr = ipaddress.ip_address(entry)
-                    if not is_private_ip(str(addr)):
-                        entries.add(str(addr))
+                    a = ipaddress.ip_address(e)
+                    if not is_private_ip(str(a)):
+                        out.add(str(a))
                 except ValueError:
-                    continue
-    return entries
+                    pass
+    return out
 
 
-def parse_alienvault_feed(raw: str) -> set[str]:
-    """Parse AlienVault IP reputation feed (IP#risk#reliability#...)."""
-    entries: set[str] = set()
+def parse_alienvault_feed(raw):
+    out = set()
     for line in raw.splitlines():
         line = line.strip()
-        if not line or line.startswith("#") or line.startswith("!"):
+        if not line or line[0] in "#!":
             continue
-        parts = line.split("#")
-        if not parts:
-            continue
-        ip_str = parts[0].strip()
+        ip_str = line.split("#")[0].strip()
         if not ip_str:
             continue
         try:
-            addr = ipaddress.ip_address(ip_str)
-            if not is_private_ip(str(addr)):
-                entries.add(str(addr))
+            a = ipaddress.ip_address(ip_str)
+            if not is_private_ip(str(a)):
+                out.add(str(a))
         except ValueError:
-            continue
-    return entries
+            pass
+    return out
 
 
 IP_PARSERS = {
@@ -263,67 +205,111 @@ IP_PARSERS = {
 }
 
 
-# -- Hash Feed Parser --------------------------------------------------
+# -- Hash parser ---------------------------------------------------------------
 
-def parse_hash_feed(raw: str) -> set[str]:
-    """Parse malware hash list. Returns hex hashes (lowercase)."""
-    hashes: set[str] = set()
+def parse_hash_feed(raw):
+    out = set()
     for line in raw.splitlines():
         line = line.strip()
-        if not line or line.startswith("#") or line.startswith("!"):
+        if not line or line[0] in "#!":
             continue
-        match = HASH_RE.match(line)
-        if match:
-            hashes.add(match.group(1).lower())
-    return hashes
+        m = HASH_RE.match(line)
+        if m:
+            out.add(m.group(1).lower())
+    return out
 
 
-# -- Output helpers ----------------------------------------------------
+# -- Whitelist -----------------------------------------------------------------
 
-def adguard_header(name: str, desc: str, count: int) -> str:
+def load_whitelist():
+    """Load whitelist from config/whitelist.yml (Tranco top N + manual entries)."""
+    wl = set()
+    if not WHITELIST_PATH.exists():
+        log.warning(f"Whitelist config not found: {WHITELIST_PATH}")
+        return wl
+    with open(WHITELIST_PATH, "r") as f:
+        cfg = yaml.safe_load(f) or {}
+    tranco = cfg.get("tranco", {})
+    if tranco.get("enabled", False):
+        url = tranco.get("url", "")
+        count = tranco.get("count", 10000)
+        log.info(f"Loading Tranco top {count:,} whitelist domains...")
+        try:
+            resp = requests.get(url, timeout=60,
+                                headers={"User-Agent": "ThreatFeed-Converter/3.0"})
+            resp.raise_for_status()
+            with zipfile.ZipFile(io.BytesIO(resp.content)) as zf:
+                csv_name = zf.namelist()[0]
+                with zf.open(csv_name) as csv_file:
+                    reader = csv.reader(io.TextIOWrapper(csv_file, "utf-8"))
+                    for i, row in enumerate(reader):
+                        if i >= count:
+                            break
+                        if len(row) >= 2:
+                            d = row[1].strip().lower()
+                            if d:
+                                wl.add(d)
+            log.info(f"  Loaded {len(wl):,} Tranco domains")
+        except Exception as e:
+            log.warning(f"  Failed to load Tranco list: {e}")
+            log.warning("  Continuing without Tranco whitelist")
+    for d in (cfg.get("manual") or []):
+        if d:
+            wl.add(d.strip().lower())
+    log.info(f"  Total whitelist: {len(wl):,} domains")
+    return wl
+
+
+def apply_whitelist(domains, whitelist):
+    """Remove whitelisted domains. Walks up domain hierarchy so
+    whitelisting google.com also covers drive.google.com, etc."""
+    if not whitelist:
+        return domains, 0
+    filtered, removed = set(), 0
+    for domain in domains:
+        parts = domain.split(".")
+        hit = False
+        for i in range(len(parts) - 1):  # stop before bare TLD
+            if ".".join(parts[i:]) in whitelist:
+                hit = True
+                break
+        if hit:
+            removed += 1
+        else:
+            filtered.add(domain)
+    return filtered, removed
+
+
+# -- Output helpers ------------------------------------------------------------
+
+def adguard_header(name, desc, count):
     now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
-    return (
-        f"! Title: {name}\n"
-        f"! Description: {desc}\n"
-        f"! Homepage: {HOMEPAGE}\n"
-        f"! License: MIT\n"
-        f"! Last modified: {now}\n"
-        f"! Total rules: {count}\n"
-        f"!\n"
-        f"! Auto-generated -- do not edit manually.\n"
-        f"!\n"
-    )
+    return (f"! Title: {name}\n! Description: {desc}\n! Homepage: {HOMEPAGE}\n"
+            f"! License: MIT\n! Last modified: {now}\n! Total rules: {count}\n!\n"
+            f"! Auto-generated -- do not edit manually.\n!\n")
 
 
-def fortigate_header(name: str, desc: str, count: int, feed_type: str = "entry") -> str:
+def fortigate_header(name, desc, count, ft="entry"):
     now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
-    return (
-        f"# Title: {name}\n"
-        f"# Description: {desc}\n"
-        f"# Homepage: {HOMEPAGE}\n"
-        f"# License: MIT\n"
-        f"# Last modified: {now}\n"
-        f"# Total {feed_type}s: {count}\n"
-        f"#\n"
-        f"# Auto-generated -- do not edit manually.\n"
-        f"# FortiGate external threat feed format (one {feed_type} per line).\n"
-        f"#\n"
-    )
+    return (f"# Title: {name}\n# Description: {desc}\n# Homepage: {HOMEPAGE}\n"
+            f"# License: MIT\n# Last modified: {now}\n# Total {ft}s: {count}\n#\n"
+            f"# Auto-generated -- do not edit manually.\n"
+            f"# FortiGate external threat feed format (one {ft} per line).\n#\n")
 
 
-def write_list(filepath: Path, header: str, entries: set[str]) -> None:
-    sorted_entries = sorted(entries)
+def write_list(filepath, header, entries):
+    s = sorted(entries)
     filepath.parent.mkdir(parents=True, exist_ok=True)
     with open(filepath, "w", encoding="utf-8") as f:
         f.write(header)
-        f.write("\n".join(sorted_entries))
+        f.write("\n".join(s))
         f.write("\n")
-    log.info(f"  Wrote {len(sorted_entries):,} entries -> {filepath}")
+    log.info(f"  Wrote {len(s):,} entries -> {filepath}")
 
 
-# -- Main --------------------------------------------------------------
+# -- Main ----------------------------------------------------------------------
 
-def main() -> int:
+def main():
     log.info("=" * 60)
     log.info("Threat Feed Converter  (AdGuard Home + FortiGate)")
     log.info("=" * 60)
@@ -336,28 +322,27 @@ def main() -> int:
         config = yaml.safe_load(f)
 
     errors = 0
+    whitelist = load_whitelist()
+    total_wl_removed = 0
 
-    # ==================================================================
-    # DOMAIN FEEDS  (AdGuard + FortiGate)
-    # ==================================================================
+    # ---- DOMAIN FEEDS ----
     domain_feeds = config.get("domain_feeds", [])
-    all_domains: set[str] = set()
-    entry_domains: set[str] = set()
+    all_domains, entry_domains = set(), set()
 
     log.info(f"\nProcessing {len(domain_feeds)} domain feed(s)...\n")
 
     for feed in domain_feeds:
         name = feed["name"]
         url = feed["url"]
-        feed_type = feed["type"]
-        output_name = feed["output"]
-        description = feed.get("description", name)
+        ft = feed["type"]
+        out_name = feed["output"]
+        desc = feed.get("description", name)
         is_entry = feed.get("entry_combined", False)
 
         log.info(f"[{name}]{'  (entry-model)' if is_entry else ''}")
 
-        if feed_type not in DOMAIN_PARSERS:
-            log.error(f"  Unknown feed type: '{feed_type}'")
+        if ft not in DOMAIN_PARSERS:
+            log.error(f"  Unknown type: '{ft}'")
             errors += 1
             continue
 
@@ -366,37 +351,40 @@ def main() -> int:
             errors += 1
             continue
 
-        domains = DOMAIN_PARSERS[feed_type](raw)
+        domains = DOMAIN_PARSERS[ft](raw)
         if not domains:
-            log.warning(f"  No valid domains extracted from {name}")
+            log.warning(f"  No valid domains from {name}")
             errors += 1
             continue
+
+        # Apply whitelist
+        domains, wl_removed = apply_whitelist(domains, whitelist)
+        if wl_removed:
+            log.info(f"  Whitelist removed {wl_removed:,} domains")
+            total_wl_removed += wl_removed
 
         all_domains.update(domains)
         if is_entry:
             entry_domains.update(domains)
 
         ag_rules = {f"||{d}^" for d in domains}
-        ag_hdr = adguard_header(name, description, len(ag_rules))
-        write_list(OUTPUT_ADGUARD / f"{output_name}.txt", ag_hdr, ag_rules)
-
-        fg_hdr = fortigate_header(name, description, len(domains))
-        write_list(OUTPUT_FG_DOMAINS / f"{output_name}.txt", fg_hdr, domains)
+        write_list(OUTPUT_ADGUARD / f"{out_name}.txt",
+                   adguard_header(name, desc, len(ag_rules)), ag_rules)
+        write_list(OUTPUT_FG_DOMAINS / f"{out_name}.txt",
+                   fortigate_header(name, desc, len(domains)), domains)
         log.info("")
 
     if all_domains:
         log.info("[Combined Domain Blocklist]")
-        ag_combined = {f"||{d}^" for d in all_domains}
-        write_list(
-            OUTPUT_ADGUARD / "combined.txt",
-            adguard_header("Combined Threat Feed", "All domain feeds merged and deduplicated", len(ag_combined)),
-            ag_combined,
-        )
-        write_list(
-            OUTPUT_FG_DOMAINS / "combined.txt",
-            fortigate_header("Combined Threat Feed", "All domain feeds merged and deduplicated", len(all_domains)),
-            all_domains,
-        )
+        ag_all = {f"||{d}^" for d in all_domains}
+        write_list(OUTPUT_ADGUARD / "combined.txt",
+                   adguard_header("Combined Threat Feed",
+                                  "All domain feeds merged and deduplicated",
+                                  len(ag_all)), ag_all)
+        write_list(OUTPUT_FG_DOMAINS / "combined.txt",
+                   fortigate_header("Combined Threat Feed",
+                                    "All domain feeds merged and deduplicated",
+                                    len(all_domains)), all_domains)
         log.info("")
 
     if entry_domains:
@@ -405,35 +393,30 @@ def main() -> int:
             OUTPUT_FG_DOMAINS / "entry-model-combined.txt",
             fortigate_header(
                 "Entry-Model Combined Domain Feed",
-                "Curated domain feed for FortiGate entry-level models (80E, 60F, 40F, etc). "
-                "Targets ~750K domains within the 1M global domain limit (FortiOS 7.4.4+).",
-                len(entry_domains),
-            ),
-            entry_domains,
-        )
+                "Curated domain feed for entry-level FortiGates (80E, 60F, 40F). "
+                "Targets ~750K within 1M global domain limit (FortiOS 7.4.4+).",
+                len(entry_domains)),
+            entry_domains)
         log.info("")
 
-    # ==================================================================
-    # IP FEEDS  (FortiGate only)
-    # ==================================================================
+    # ---- IP FEEDS ----
     ip_feeds = config.get("ip_feeds", [])
-    all_ips: set[str] = set()
-    entry_ips: set[str] = set()
+    all_ips, entry_ips = set(), set()
 
     log.info(f"Processing {len(ip_feeds)} IP feed(s)...\n")
 
     for feed in ip_feeds:
         name = feed["name"]
         url = feed["url"]
-        feed_type = feed.get("type", "ip")
-        output_name = feed["output"]
-        description = feed.get("description", name)
+        ft = feed.get("type", "ip")
+        out_name = feed["output"]
+        desc = feed.get("description", name)
         is_entry = feed.get("entry_combined", False)
 
         log.info(f"[{name}]{'  (entry-model)' if is_entry else ''}")
 
-        if feed_type not in IP_PARSERS:
-            log.error(f"  Unknown IP feed type: '{feed_type}'")
+        if ft not in IP_PARSERS:
+            log.error(f"  Unknown IP type: '{ft}'")
             errors += 1
             continue
 
@@ -442,9 +425,9 @@ def main() -> int:
             errors += 1
             continue
 
-        ips = IP_PARSERS[feed_type](raw)
+        ips = IP_PARSERS[ft](raw)
         if not ips:
-            log.warning(f"  No valid IPs extracted from {name}")
+            log.warning(f"  No valid IPs from {name}")
             errors += 1
             continue
 
@@ -452,17 +435,16 @@ def main() -> int:
         if is_entry:
             entry_ips.update(ips)
 
-        fg_hdr = fortigate_header(name, description, len(ips))
-        write_list(OUTPUT_FG_IP / f"{output_name}.txt", fg_hdr, ips)
+        write_list(OUTPUT_FG_IP / f"{out_name}.txt",
+                   fortigate_header(name, desc, len(ips)), ips)
         log.info("")
 
     if all_ips:
         log.info("[Combined IP Blocklist]")
-        write_list(
-            OUTPUT_FG_IP / "combined.txt",
-            fortigate_header("Combined IP Threat Feed", "All IP feeds merged and deduplicated", len(all_ips)),
-            all_ips,
-        )
+        write_list(OUTPUT_FG_IP / "combined.txt",
+                   fortigate_header("Combined IP Threat Feed",
+                                    "All IP feeds merged and deduplicated",
+                                    len(all_ips)), all_ips)
         log.info("")
 
     if entry_ips:
@@ -471,27 +453,23 @@ def main() -> int:
             OUTPUT_FG_IP / "entry-model-combined.txt",
             fortigate_header(
                 "Entry-Model Combined IP Feed",
-                "Curated IP feed for FortiGate entry-level models (80E, 60F, 40F, etc). "
-                "Targets ~200K IPs within the 300K global IP limit (FortiOS 7.4.4+).",
-                len(entry_ips),
-            ),
-            entry_ips,
-        )
+                "Curated IP feed for entry-level FortiGates (80E, 60F, 40F). "
+                "Targets ~200K within 300K global IP limit (FortiOS 7.4.4+).",
+                len(entry_ips)),
+            entry_ips)
         log.info("")
 
-    # ==================================================================
-    # HASH FEEDS  (FortiGate only)
-    # ==================================================================
+    # ---- HASH FEEDS ----
     hash_feeds = config.get("hash_feeds", [])
-    all_hashes: set[str] = set()
+    all_hashes = set()
 
     log.info(f"Processing {len(hash_feeds)} hash feed(s)...\n")
 
     for feed in hash_feeds:
         name = feed["name"]
         url = feed["url"]
-        output_name = feed["output"]
-        description = feed.get("description", name)
+        out_name = feed["output"]
+        desc = feed.get("description", name)
 
         log.info(f"[{name}]")
 
@@ -502,35 +480,32 @@ def main() -> int:
 
         hashes = parse_hash_feed(raw)
         if not hashes:
-            log.warning(f"  No valid hashes extracted from {name}")
+            log.warning(f"  No valid hashes from {name}")
             errors += 1
             continue
 
         all_hashes.update(hashes)
-
-        fg_hdr = fortigate_header(name, description, len(hashes), "hash")
-        write_list(OUTPUT_FG_HASH / f"{output_name}.txt", fg_hdr, hashes)
+        write_list(OUTPUT_FG_HASH / f"{out_name}.txt",
+                   fortigate_header(name, desc, len(hashes), "hash"), hashes)
         log.info("")
 
     if all_hashes:
         log.info("[Combined Hash Blocklist]")
-        write_list(
-            OUTPUT_FG_HASH / "combined.txt",
-            fortigate_header("Combined Hash Threat Feed", "All hash feeds merged and deduplicated", len(all_hashes), "hash"),
-            all_hashes,
-        )
+        write_list(OUTPUT_FG_HASH / "combined.txt",
+                   fortigate_header("Combined Hash Threat Feed",
+                                    "All hash feeds merged and deduplicated",
+                                    len(all_hashes), "hash"), all_hashes)
         log.info("")
 
-    total_feeds = len(domain_feeds) + len(ip_feeds) + len(hash_feeds)
+    total = len(domain_feeds) + len(ip_feeds) + len(hash_feeds)
     log.info("=" * 60)
     log.info(
         f"Done.  Domains: {len(all_domains):,} (entry: {len(entry_domains):,})  |  "
         f"IPs: {len(all_ips):,} (entry: {len(entry_ips):,})  |  "
-        f"Hashes: {len(all_hashes):,}  |  Errors: {errors}"
-    )
+        f"Hashes: {len(all_hashes):,}  |  WL removed: {total_wl_removed:,}  |  Errors: {errors}")
     log.info("=" * 60)
 
-    return 1 if errors == total_feeds else 0
+    return 1 if errors == total else 0
 
 
 if __name__ == "__main__":

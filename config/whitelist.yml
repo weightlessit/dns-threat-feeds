@@ -1,0 +1,8 @@
+# Whitelist: domains here never appear in output.
+# Subdomain matching: google.com covers drive.google.com, etc.
+tranco:
+  enabled: true
+  url: https://tranco-list.eu/top-1m.csv.zip
+  count: 10000
+manual: []
+  # - example.com
