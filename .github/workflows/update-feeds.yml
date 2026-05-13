@@ -42,6 +42,8 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add output/
           TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M UTC")
-          RULE_COUNT=$(grep -rch "^||" output/ | paste -sd+ | bc)
-          git commit -m "Update threat feeds - ${TIMESTAMP} - ${RULE_COUNT} rules"
+          AG_COUNT=$(grep -rch "^||" output/adguard/ 2>/dev/null | paste -sd+ | bc 2>/dev/null || echo 0)
+          FG_DOMAIN=$(wc -l output/fortigate/domains/combined.txt 2>/dev/null | awk '{print $1}' || echo 0)
+          FG_IP=$(wc -l output/fortigate/ip/combined.txt 2>/dev/null | awk '{print $1}' || echo 0)
+          git commit -m "Update feeds - ${TIMESTAMP} | AdGuard: ${AG_COUNT} | FortiGate domains: ${FG_DOMAIN} IPs: ${FG_IP}"
           git push

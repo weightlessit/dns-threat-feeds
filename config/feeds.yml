@@ -1,26 +1,35 @@
-# ----------------------------------------------------------------------
-# AdGuard Threat Feeds - Feed Configuration
-# ----------------------------------------------------------------------
+# ======================================================================
+# DNS Threat Feeds -- Feed Configuration
+# ======================================================================
 #
-# Only DOMAIN-BASED feeds belong here. AdGuard Home operates at the DNS
-# query level - it matches hostnames/FQDNs, not IP addresses. IP-based
-# threat feeds should be applied at your firewall or IDS/IPS instead.
+# This file defines two categories of feeds:
 #
-# Supported types:
-#   domain        - plain list of domains, one per line
-#   hosts         - /etc/hosts format  (0.0.0.0 domain  or  127.0.0.1 domain)
-#   url           - list of full URLs  (domains are extracted)
-#   adguard       - already in AdGuard adblock-style syntax (passthrough)
-#   phishtank_csv - PhishTank CSV  (domains extracted from 'url' column)
-# ----------------------------------------------------------------------
+#   domain_feeds  -- domain/FQDN-based threat intelligence.
+#                    Output is generated for BOTH AdGuard Home and FortiGate.
+#
+#   ip_feeds      -- IP address-based threat intelligence.
+#                    Output is generated for FortiGate ONLY.
+#                    (AdGuard Home cannot use IP feeds -- it is a DNS sinkhole
+#                     that matches hostnames, not resolved IP addresses.)
+#
+# Supported types for domain_feeds:
+#   domain        -- plain domain list, one per line
+#   hosts         -- /etc/hosts format (0.0.0.0 domain)
+#   url           -- full URLs (domains are extracted)
+#   adguard       -- already in ||domain^ format (passthrough)
+#   phishtank_csv -- PhishTank CSV with a 'url' column
+#
+# Supported types for ip_feeds:
+#   ip            -- plain IP/CIDR list, one per line
+# ======================================================================
 
-feeds:
+domain_feeds:
 
-  # -- abuse.ch ---------------------------------------------------------
+  # -- abuse.ch --------------------------------------------------------
   - name: URLhaus Malware Domains (hostfile)
     url: https://urlhaus.abuse.ch/downloads/hostfile/
     type: hosts
-    output: urlhaus-hostfile-domains.txt
+    output: urlhaus-hostfile-domains
     description: >-
       Malware distribution domains from abuse.ch URLhaus
       (hosts-file format, updated every 5 minutes)
@@ -28,7 +37,7 @@ feeds:
   - name: URLhaus Recent URLs
     url: https://urlhaus.abuse.ch/downloads/text_recent/
     type: url
-    output: urlhaus-recent-domains.txt
+    output: urlhaus-recent-domains
     description: >-
       Domains extracted from recently reported malicious URLs
       tracked by abuse.ch URLhaus
@@ -36,16 +45,16 @@ feeds:
   - name: ThreatFox IOC Domains
     url: https://threatfox.abuse.ch/downloads/hostfile/
     type: hosts
-    output: threatfox-domains.txt
+    output: threatfox-domains
     description: >-
       Indicators of compromise (domain-based) from abuse.ch
-      ThreatFox, covering C2, payload delivery, and more
+      ThreatFox covering C2 and payload delivery
 
-  # -- Phishing ---------------------------------------------------------
+  # -- Phishing --------------------------------------------------------
   - name: Phishing Army Extended
     url: https://phishing.army/download/phishing_army_blocklist_extended.txt
     type: domain
-    output: phishing-army-domains.txt
+    output: phishing-army-domains
     description: >-
       Aggregated phishing domain blocklist from Phishing Army
       (extended version with broader coverage)
@@ -53,81 +62,142 @@ feeds:
   - name: OpenPhish Community Feed
     url: https://openphish.com/feed.txt
     type: url
-    output: openphish-domains.txt
+    output: openphish-domains
     description: >-
-      Community phishing URL feed from OpenPhish (domains
-      extracted from full URLs)
+      Community phishing URL feed from OpenPhish
+      (domains extracted from full URLs)
 
   - name: PhishTank Verified Phishing
     url: http://data.phishtank.com/data/online-valid.csv
     type: phishtank_csv
-    output: phishtank-domains.txt
+    output: phishtank-domains
     description: >-
-      Verified active phishing domains from PhishTank's
-      community-validated database
+      Verified active phishing domains from PhishTank
 
-  # -- CERTs & Research -------------------------------------------------
+  # -- CERTs and Research ----------------------------------------------
   - name: CERT Polska Malicious Domains
     url: https://hole.cert.pl/domains/domains.txt
     type: domain
-    output: cert-polska-domains.txt
+    output: cert-polska-domains
     description: >-
-      Malicious domains identified and published by the Polish
-      national CERT (CERT Polska / NASK)
+      Malicious domains from the Polish national CERT (NASK)
 
   - name: DigitalSide.it Latest Malware Domains
     url: https://osint.digitalside.it/Threat-Intel/lists/latestdomains.txt
     type: domain
-    output: digitalside-domains.txt
+    output: digitalside-domains
     description: >-
-      Latest malicious domains from the DigitalSide.it OSINT
-      threat intelligence project
+      Latest malicious domains from the DigitalSide.it OSINT project
 
   - name: Rescure Malicious Domains
     url: https://rescure.me/rescure_domain_blacklist.txt
     type: domain
-    output: rescure-domains.txt
+    output: rescure-domains
     description: >-
-      Malicious domain blacklist from Rescure cyber threat
-      intelligence
+      Malicious domain blacklist from Rescure cyber threat intelligence
 
   - name: Maltrail Malware Domains
     url: https://raw.githubusercontent.com/stamparm/maltrail/master/trails/static/malware/domains.txt
     type: domain
-    output: maltrail-malware-domains.txt
+    output: maltrail-malware-domains
     description: >-
-      Static malware-associated domains from Stamparm's Maltrail
-      intrusion detection system
+      Static malware-associated domains from Stamparm Maltrail
 
-  # -- Pre-formatted AdGuard lists (passthrough) ------------------------
+  # -- Pre-formatted AdGuard lists (passthrough) -----------------------
   - name: Block List Project - Malware
     url: https://blocklistproject.github.io/Lists/adguard/malware-ags.txt
     type: adguard
-    output: blp-malware.txt
+    output: blp-malware
     description: >-
-      Malware domain blocklist from The Block List Project
-      (pre-formatted for AdGuard)
+      Malware domains from The Block List Project (AdGuard format)
 
   - name: Block List Project - Phishing
     url: https://blocklistproject.github.io/Lists/adguard/phishing-ags.txt
     type: adguard
-    output: blp-phishing.txt
+    output: blp-phishing
     description: >-
-      Phishing domain blocklist from The Block List Project
-      (pre-formatted for AdGuard)
+      Phishing domains from The Block List Project (AdGuard format)
 
   - name: Block List Project - Ransomware
     url: https://blocklistproject.github.io/Lists/adguard/ransomware-ags.txt
     type: adguard
-    output: blp-ransomware.txt
+    output: blp-ransomware
     description: >-
-      Ransomware domain blocklist from The Block List Project
-      (pre-formatted for AdGuard)
+      Ransomware domains from The Block List Project (AdGuard format)
 
   - name: HaGeZi Threat Intelligence Feeds
     url: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/tif.txt
     type: adguard
-    output: hagezi-tif.txt
+    output: hagezi-tif
     description: >-
-      HaGeZi's curated threat intelligence feed - blocks malware,
+      HaGeZi curated threat intelligence feed covering malware,
       cryptojacking, scam, spam, and phishing domains
+
+
+ip_feeds:
+
+  # -- IP-based feeds (FortiGate only) ---------------------------------
+  - name: ET Compromised IPs
+    url: https://rules.emergingthreats.net/blockrules/compromised-ips.txt
+    type: ip
+    output: et-compromised-ips
+    description: >-
+      Compromised IP addresses from Proofpoint Emerging Threats
+
+  - name: Feodo Tracker Botnet C2 IPs
+    url: https://feodotracker.abuse.ch/downloads/ipblocklist.txt
+    type: ip
+    output: feodo-tracker-ips
+    description: >-
+      Botnet command-and-control server IPs from abuse.ch Feodo Tracker
+
+  - name: Spamhaus DROP
+    url: https://www.spamhaus.org/drop/drop.txt
+    type: ip
+    output: spamhaus-drop
+    description: >-
+      Spamhaus Don't Route Or Peer list -- hijacked IP ranges
+
+  - name: Spamhaus EDROP
+    url: https://www.spamhaus.org/drop/edrop.txt
+    type: ip
+    output: spamhaus-edrop
+    description: >-
+      Spamhaus Extended DROP list -- additional hijacked ranges
+
+  - name: Blocklist.de All Attackers
+    url: https://lists.blocklist.de/lists/all.txt
+    type: ip
+    output: blocklist-de-all
+    description: >-
+      IPs detected attacking services (SSH, mail, web) by blocklist.de
+
+  - name: CINSscore Bad IPs
+    url: https://cinsscore.com/list/ci-badguys.txt
+    type: ip
+    output: cinsscore-badguys
+    description: >-
+      Collective Intelligence Network Security threat IP list
+
+  - name: DigitalSide.it Latest IPs
+    url: https://osint.digitalside.it/Threat-Intel/lists/latestips.txt
+    type: ip
+    output: digitalside-ips
+    description: >-
+      Latest malicious IPs from the DigitalSide.it OSINT project
+
+  - name: Binary Defense Ban List
+    url: https://www.binarydefense.com/banlist.txt
+    type: ip
+    output: binarydefense-banlist
+    description: >-
+      Artillery honeypot threat intelligence ban list from Binary Defense
+
+  # -- Requires API key (uncomment and set key to enable) --------------
+  # - name: AbuseIPDB Blacklist
+  #   url: https://api.abuseipdb.com/api/v2/blacklist?plaintext=true&key=YOUR_API_KEY
+  #   type: ip
+  #   output: abuseipdb-blacklist
+  #   description: >-
+  #     Top abusive IPs from AbuseIPDB (requires free API key from
+  #     https://www.abuseipdb.com -- replace YOUR_API_KEY above)
