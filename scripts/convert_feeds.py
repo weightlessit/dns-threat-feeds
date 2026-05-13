@@ -53,6 +53,9 @@ ADGUARD_RULE_RE = re.compile(
 IP_LINE_RE = re.compile(
     r"^(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}(?:/\d{1,2})?)$"
 )
+IP_RANGE_RE = re.compile(
+    r"^(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})-(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})$"
+)
 HASH_RE = re.compile(
     r"^([a-fA-F0-9]{32}|[a-fA-F0-9]{40}|[a-fA-F0-9]{64})(?:\s.*)?$"
 )
@@ -206,17 +209,39 @@ DOMAIN_PARSERS = {
 # -- IP Feed Parser ----------------------------------------------------
 
 def parse_ip_feed(raw: str) -> set[str]:
-    """Parse plain IP/CIDR list. Returns clean IPs/CIDRs (not expanded)."""
+    """Parse IP/CIDR/range list. Returns clean entries for FortiGate.
+
+    Supported line formats:
+      - Single IP:     192.168.1.1
+      - CIDR:          192.168.1.0/24
+      - IP range:      192.168.1.0-192.168.1.255  (FortiGate-native)
+    """
     entries: set[str] = set()
     for line in raw.splitlines():
         line = line.strip()
         if not line or line.startswith("#") or line.startswith(";"):
             continue
+        # Strip inline comments
         line = line.split(";")[0].strip()
         line = line.split("#")[0].strip()
         if not line:
             continue
 
+        # Check for IP range format: x.x.x.x-y.y.y.y
+        range_match = IP_RANGE_RE.match(line)
+        if range_match:
+            start_ip = range_match.group(1)
+            end_ip = range_match.group(2)
+            try:
+                ipaddress.ip_address(start_ip)
+                ipaddress.ip_address(end_ip)
+                if not is_private_ip(start_ip):
+                    entries.add(f"{start_ip}-{end_ip}")
+            except ValueError:
+                continue
+            continue
+
+        # Check for single IP or CIDR
         ip_match = IP_LINE_RE.match(line)
         if ip_match:
             entry = ip_match.group(1)

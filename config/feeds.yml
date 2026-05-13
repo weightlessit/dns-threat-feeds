@@ -186,13 +186,14 @@ ip_feeds:
       140K malicious IPs from honeypot telemetry and OSINT,
       updated every 15 minutes (threathive.net)
 
-  - name: OpenDBL IPSum Level 3
-    url: https://opendbl.net/lists/ipsum3.list
+  - name: IPSum Level 3 (stamparm)
+    url: https://raw.githubusercontent.com/stamparm/ipsum/master/levels/3.txt
     type: ip
-    output: opendbl-ipsum3
+    output: ipsum-level3
     description: >-
-      IPs appearing on 3 or more independent blacklists --
-      high confidence, low false positive (opendbl.net)
+      IPs appearing on 3 or more independent blacklists from
+      stamparm/ipsum -- high confidence, low false positive,
+      updated daily
 
   - name: OpenDBL ET Known Compromised
     url: https://opendbl.net/lists/etknown.list
@@ -215,7 +216,7 @@ ip_feeds:
     output: opendbl-dshield
     description: >-
       SANS DShield top attacking subnets, optimized for
-      firewall ingestion (opendbl.net)
+      firewall ingestion -- uses IP range format (opendbl.net)
 
   - name: Bitwire Outbound Blocklist
     url: https://raw.githubusercontent.com/bitwire-it/ipblocklist/main/outbound.txt
