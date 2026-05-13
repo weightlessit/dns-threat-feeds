@@ -206,7 +206,7 @@ DOMAIN_PARSERS = {
 }
 
 
-# -- IP Feed Parser ----------------------------------------------------
+# -- IP Feed Parsers ---------------------------------------------------
 
 def parse_ip_feed(raw: str) -> set[str]:
     """Parse IP/CIDR/range list. Returns clean entries for FortiGate.
@@ -260,6 +260,38 @@ def parse_ip_feed(raw: str) -> set[str]:
                 except ValueError:
                     continue
     return entries
+
+
+def parse_alienvault_feed(raw: str) -> set[str]:
+    """Parse AlienVault IP reputation feed.
+
+    Format: IP#risk#reliability#activity#country#city#lat,lon#unknown
+    Example: 49.143.32.6#4#2#Malicious Host#KR##37.51,126.97#3
+    """
+    entries: set[str] = set()
+    for line in raw.splitlines():
+        line = line.strip()
+        if not line or line.startswith("#") or line.startswith("!"):
+            continue
+        parts = line.split("#")
+        if not parts:
+            continue
+        ip_str = parts[0].strip()
+        if not ip_str:
+            continue
+        try:
+            addr = ipaddress.ip_address(ip_str)
+            if not is_private_ip(str(addr)):
+                entries.add(str(addr))
+        except ValueError:
+            continue
+    return entries
+
+
+IP_PARSERS = {
+    "ip": parse_ip_feed,
+    "alienvault": parse_alienvault_feed,
+}
 
 
 # -- Hash Feed Parser --------------------------------------------------
@@ -405,17 +437,23 @@ def main() -> int:
     for feed in ip_feeds:
         name = feed["name"]
         url = feed["url"]
+        feed_type = feed.get("type", "ip")
         output_name = feed["output"]
         description = feed.get("description", name)
 
         log.info(f"[{name}]")
+
+        if feed_type not in IP_PARSERS:
+            log.error(f"  Unknown IP feed type: '{feed_type}'")
+            errors += 1
+            continue
 
         raw = fetch_feed(url)
         if raw is None:
             errors += 1
             continue
 
-        ips = parse_ip_feed(raw)
+        ips = IP_PARSERS[feed_type](raw)
         if not ips:
             log.warning(f"  No valid IPs extracted from {name}")
             errors += 1

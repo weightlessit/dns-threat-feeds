@@ -15,7 +15,7 @@
 #
 # Supported types:
 #   domain_feeds: domain | hosts | url | adguard | phishtank_csv
-#   ip_feeds:     ip
+#   ip_feeds:     ip | alienvault
 #   hash_feeds:   hash
 # ======================================================================
 
@@ -142,6 +142,14 @@ ip_feeds:
     description: >-
       Compromised IP addresses from Proofpoint Emerging Threats
 
+  - name: ET Firewall Block IPs
+    url: http://rules.emergingthreats.net/fwrules/emerging-Block-IPs.txt
+    type: ip
+    output: et-block-ips
+    description: >-
+      Emerging Threats firewall block IP list -- broader than
+      the compromised-ips feed, includes known malicious sources
+
   - name: Feodo Tracker Botnet C2 IPs
     url: https://feodotracker.abuse.ch/downloads/ipblocklist.txt
     type: ip
@@ -234,6 +242,15 @@ ip_feeds:
       Scanners, brute-force, spam sources, and web exploits --
       for inbound traffic blocking (updated 2h)
 
+  - name: AlienVault IP Reputation
+    url: https://reputation.alienvault.com/reputation.data
+    type: alienvault
+    output: alienvault-reputation
+    description: >-
+      AlienVault OTX IP reputation feed covering scanning,
+      malware, C2, and other malicious activity categories
+      (custom delimited format, parsed automatically)
+
   # -- Requires API key (uncomment and set key to enable) --------------
   # - name: AbuseIPDB Blacklist
   #   url: https://api.abuseipdb.com/api/v2/blacklist?plaintext=true&key=YOUR_API_KEY
@@ -260,16 +277,15 @@ hash_feeds:
       (bazaar.abuse.ch, urlhaus, alienvault, etc). Updated daily.
       71K hashes, built specifically for FortiGate ingestion.
 
-  # -- Requires auth key (uncomment and set key to enable) -------------
-  # abuse.ch now requires authentication for data exports.
-  # Get a free auth key at https://auth.abuse.ch/
-  #
-  # - name: MalwareBazaar Recent SHA256
-  #   url: https://bazaar.abuse.ch/export/txt/sha256/recent/
-  #   type: hash
-  #   output: malwarebazaar-sha256
-  #   headers:
-  #     Auth-Key: YOUR_AUTH_KEY
-  #   description: >-
-  #     Recently submitted malware SHA256 hashes from abuse.ch
-  #     MalwareBazaar (requires free auth key from https://auth.abuse.ch)
+  - name: MalwareBazaar Recent SHA256
+    url: https://bazaar.abuse.ch/export/txt/sha256/recent/
+    type: hash
+    output: malwarebazaar-sha256
+    description: >-
+      Recently submitted malware SHA256 hashes from abuse.ch
+      MalwareBazaar, updated continuously (last 48 hours)
+
+  # Note: the MalwareBazaar export endpoint above works without
+  # authentication for the recent SHA256 plain-text list. Other
+  # export formats (CSV, full dumps) require a free auth key
+  # from https://auth.abuse.ch/

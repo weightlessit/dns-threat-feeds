@@ -12,9 +12,10 @@ and commits the updated lists. Point your devices at the raw GitHub URLs.
 
 Threat intelligence feeds come in a dozen different formats -- hosts files,
 CSV dumps, URL lists, AdGuard syntax, plain IPs, CIDR blocks, IP ranges,
-hash lists. Neither AdGuard Home nor FortiGate can consume them all natively.
-This project normalises everything into the exact format each platform
-expects and keeps it current automatically.
+hash lists, and custom delimited formats (like AlienVault). Neither AdGuard
+Home nor FortiGate can consume them all natively. This project normalises
+everything into the exact format each platform expects and keeps it current
+automatically.
 
 ---
 
@@ -41,7 +42,8 @@ hash blocklists respectively.
 ### AdGuard Domain Feed URLs
 
 | Feed | Raw URL |
-|------|---------|| URLhaus Malware Domains | `https://raw.githubusercontent.com/weightlessit/dns-threat-feeds/main/output/adguard/urlhaus-hostfile-domains.txt` |
+|------|---------|\
+| URLhaus Malware Domains | `https://raw.githubusercontent.com/weightlessit/dns-threat-feeds/main/output/adguard/urlhaus-hostfile-domains.txt` |
 | URLhaus Recent URLs | `https://raw.githubusercontent.com/weightlessit/dns-threat-feeds/main/output/adguard/urlhaus-recent-domains.txt` |
 | ThreatFox IOC Domains | `https://raw.githubusercontent.com/weightlessit/dns-threat-feeds/main/output/adguard/threatfox-domains.txt` |
 | Phishing Army Extended | `https://raw.githubusercontent.com/weightlessit/dns-threat-feeds/main/output/adguard/phishing-army-domains.txt` |
@@ -72,7 +74,8 @@ Do not mix them. This project keeps them in separate directories.
 Use type **Domain Name** when creating the connector.
 
 | Feed | Raw URL |
-|------|---------|| **Combined Domains** | `https://raw.githubusercontent.com/weightlessit/dns-threat-feeds/main/output/fortigate/domains/combined.txt` |
+|------|---------|\
+| **Combined Domains** | `https://raw.githubusercontent.com/weightlessit/dns-threat-feeds/main/output/fortigate/domains/combined.txt` |
 
 Individual feeds use the same path -- replace `combined` with the output
 name from `config/feeds.yml` (e.g. `urlhaus-hostfile-domains`).
@@ -85,7 +88,9 @@ FortiGate supports single IPs, CIDR notation, and IP ranges (x.x.x.x-y.y.y.y).
 All three formats are used in these feeds depending on the upstream source.
 
 | Feed | Raw URL |
-|------|---------|| ET Compromised IPs | `https://raw.githubusercontent.com/weightlessit/dns-threat-feeds/main/output/fortigate/ip/et-compromised-ips.txt` |
+|------|---------|\
+| ET Compromised IPs | `https://raw.githubusercontent.com/weightlessit/dns-threat-feeds/main/output/fortigate/ip/et-compromised-ips.txt` |
+| ET Firewall Block IPs | `https://raw.githubusercontent.com/weightlessit/dns-threat-feeds/main/output/fortigate/ip/et-block-ips.txt` |
 | Feodo Tracker C2 | `https://raw.githubusercontent.com/weightlessit/dns-threat-feeds/main/output/fortigate/ip/feodo-tracker-ips.txt` |
 | Spamhaus DROP | `https://raw.githubusercontent.com/weightlessit/dns-threat-feeds/main/output/fortigate/ip/spamhaus-drop.txt` |
 | Blocklist.de All | `https://raw.githubusercontent.com/weightlessit/dns-threat-feeds/main/output/fortigate/ip/blocklist-de-all.txt` |
@@ -98,6 +103,7 @@ All three formats are used in these feeds depending on the upstream source.
 | OpenDBL DShield | `https://raw.githubusercontent.com/weightlessit/dns-threat-feeds/main/output/fortigate/ip/opendbl-dshield.txt` |
 | Bitwire Outbound | `https://raw.githubusercontent.com/weightlessit/dns-threat-feeds/main/output/fortigate/ip/bitwire-outbound.txt` |
 | Bitwire Inbound | `https://raw.githubusercontent.com/weightlessit/dns-threat-feeds/main/output/fortigate/ip/bitwire-inbound.txt` |
+| AlienVault Reputation | `https://raw.githubusercontent.com/weightlessit/dns-threat-feeds/main/output/fortigate/ip/alienvault-reputation.txt` |
 | **Combined (all IPs)** | `https://raw.githubusercontent.com/weightlessit/dns-threat-feeds/main/output/fortigate/ip/combined.txt` |
 
 ### FortiGate Malware Hash Feeds
@@ -111,11 +117,10 @@ Fortinet recommends using only ONE hash type per feed (do not mix MD5/SHA1/
 SHA256 in the same file). All feeds in this project use SHA256 exclusively.
 
 | Feed | Raw URL |
-|------|---------|| romainmarcoux SHA256 | `https://raw.githubusercontent.com/weightlessit/dns-threat-feeds/main/output/fortigate/hash/romainmarcoux-sha256.txt` |
+|------|---------|\
+| romainmarcoux SHA256 | `https://raw.githubusercontent.com/weightlessit/dns-threat-feeds/main/output/fortigate/hash/romainmarcoux-sha256.txt` |
+| MalwareBazaar Recent SHA256 | `https://raw.githubusercontent.com/weightlessit/dns-threat-feeds/main/output/fortigate/hash/malwarebazaar-sha256.txt` |
 | **Combined (all hashes)** | `https://raw.githubusercontent.com/weightlessit/dns-threat-feeds/main/output/fortigate/hash/combined.txt` |
-
-Note: MalwareBazaar SHA256 export is included in feeds.yml as a commented-out
-option -- it requires a free auth key from https://auth.abuse.ch.
 
 ### FortiGate CLI Configuration Examples
 
@@ -192,11 +197,12 @@ end
 | [Block List Project](https://blocklistproject.github.io/Lists/) | AdGuard | Malware, phishing, ransomware |
 | [HaGeZi](https://github.com/hagezi/dns-blocklists) | AdGuard | Curated threat intelligence feeds |
 
-### IP Feeds (FortiGate only) -- 13 feeds
+### IP Feeds (FortiGate only) -- 15 feeds
 
 | Source | Format | Description |
 |--------|--------|-------------|
 | [Emerging Threats](https://rules.emergingthreats.net/) | IP | Compromised IPs (Proofpoint) |
+| [Emerging Threats FW](https://rules.emergingthreats.net/) | IP | Firewall block IPs (broader coverage) |
 | [Feodo Tracker](https://feodotracker.abuse.ch/) | IP | Botnet C2 server IPs |
 | [Spamhaus DROP](https://www.spamhaus.org/drop/) | CIDR | Hijacked IP ranges (EDROP merged in) |
 | [Blocklist.de](https://www.blocklist.de/) | IP | IPs attacking services (SSH, mail, web) |
@@ -209,12 +215,14 @@ end
 | [OpenDBL DShield](https://opendbl.net/) | Range | SANS DShield top attackers |
 | [Bitwire Outbound](https://github.com/bitwire-it/ipblocklist) | IP | C2, malware drops, phishing (outbound) |
 | [Bitwire Inbound](https://github.com/bitwire-it/ipblocklist) | IP | Scanners, brute-force, spam (inbound) |
+| [AlienVault](https://reputation.alienvault.com/) | Custom | IP reputation (scanning, malware, C2) |
 
-### Malware Hash Feeds (FortiGate only) -- 1 feed
+### Malware Hash Feeds (FortiGate only) -- 2 feeds
 
 | Source | Hash Type | Description |
 |--------|-----------|-------------|
 | [romainmarcoux](https://github.com/romainmarcoux/malicious-hash) | SHA256 | 71K aggregated malware hashes, updated daily |
+| [MalwareBazaar](https://bazaar.abuse.ch/) | SHA256 | Recent malware submissions (last 48h, continuous) |
 
 ---
 
@@ -233,7 +241,7 @@ domain_feeds:
 ip_feeds:
   - name: My New IP Feed
     url: https://example.com/ips.txt
-    type: ip            # supports plain IP, CIDR, and x.x.x.x-y.y.y.y ranges
+    type: ip            # ip (plain/CIDR/range) | alienvault (custom format)
     output: my-new-ip-feed
     description: What this feed blocks
 
@@ -264,7 +272,7 @@ scripts/convert_feeds.py
 1. GitHub Action triggers every 6 hours (or manually)
 2. Script reads feeds.yml and downloads each feed
 3. Domain feeds output in both AdGuard and FortiGate formats
-4. IP feeds output in FortiGate format only (supports IP, CIDR, and ranges)
+4. IP feeds output in FortiGate format only (supports IP, CIDR, ranges, AlienVault)
 5. Hash feeds output in FortiGate format only
 6. Combined/merged lists are generated for each output type
 7. Changes are committed and pushed automatically
