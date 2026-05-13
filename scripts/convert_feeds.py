@@ -6,10 +6,9 @@ Fetches threat intelligence feeds defined in config/feeds.yml and converts
 them into formats compatible with:
 
   - AdGuard Home   (adblock-style: ||domain^)     -- domain feeds only
-  - FortiGate      (plain text, one entry/line)    -- domain AND IP feeds
+  - FortiGate      (plain text, one entry/line)    -- domain, IP, AND hash feeds
 
-IP-based feeds are output for FortiGate only. AdGuard Home is a DNS sinkhole
-that matches hostnames -- IP feeds are useless there.
+IP and hash feeds are output for FortiGate only.
 """
 
 import csv
@@ -37,6 +36,9 @@ CONFIG_PATH = REPO_ROOT / "config" / "feeds.yml"
 OUTPUT_ADGUARD = REPO_ROOT / "output" / "adguard"
 OUTPUT_FG_DOMAINS = REPO_ROOT / "output" / "fortigate" / "domains"
 OUTPUT_FG_IP = REPO_ROOT / "output" / "fortigate" / "ip"
+OUTPUT_FG_HASH = REPO_ROOT / "output" / "fortigate" / "hash"
+
+HOMEPAGE = "https://github.com/weightlessit/dns-threat-feeds"
 
 # -- Regex patterns ----------------------------------------------------
 DOMAIN_RE = re.compile(
@@ -50,6 +52,9 @@ ADGUARD_RULE_RE = re.compile(
 )
 IP_LINE_RE = re.compile(
     r"^(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}(?:/\d{1,2})?)$"
+)
+HASH_RE = re.compile(
+    r"^([a-fA-F0-9]{32}|[a-fA-F0-9]{40}|[a-fA-F0-9]{64})(?:\s.*)?$"
 )
 
 # Private / bogon ranges to exclude from IP feeds
@@ -100,11 +105,11 @@ def is_private_network(cidr_str: str) -> bool:
 
 # -- HTTP fetch --------------------------------------------------------
 
-def fetch_feed(url: str, timeout: int = 90) -> str | None:
+def fetch_feed(url: str, timeout: int = 120) -> str | None:
     try:
         log.info(f"  Fetching: {url}")
         resp = requests.get(url, timeout=timeout, headers={
-            "User-Agent": "ThreatFeed-Converter/2.0"
+            "User-Agent": "ThreatFeed-Converter/3.0"
         })
         resp.raise_for_status()
         log.info(f"  Downloaded {len(resp.text):,} bytes")
@@ -232,6 +237,21 @@ def parse_ip_feed(raw: str) -> set[str]:
     return entries
 
 
+# -- Hash Feed Parser --------------------------------------------------
+
+def parse_hash_feed(raw: str) -> set[str]:
+    """Parse malware hash list. Returns hex hashes (lowercase)."""
+    hashes: set[str] = set()
+    for line in raw.splitlines():
+        line = line.strip()
+        if not line or line.startswith("#") or line.startswith("!"):
+            continue
+        match = HASH_RE.match(line)
+        if match:
+            hashes.add(match.group(1).lower())
+    return hashes
+
+
 # -- Output helpers ----------------------------------------------------
 
 def adguard_header(name: str, desc: str, count: int) -> str:
@@ -239,7 +259,7 @@ def adguard_header(name: str, desc: str, count: int) -> str:
     return (
         f"! Title: {name}\n"
         f"! Description: {desc}\n"
-        f"! Homepage: https://github.com/weightlessit/dns-threat-feeds\n"
+        f"! Homepage: {HOMEPAGE}\n"
         f"! License: MIT\n"
         f"! Last modified: {now}\n"
         f"! Total rules: {count}\n"
@@ -249,18 +269,18 @@ def adguard_header(name: str, desc: str, count: int) -> str:
     )
 
 
-def fortigate_header(name: str, desc: str, count: int) -> str:
+def fortigate_header(name: str, desc: str, count: int, feed_type: str = "entry") -> str:
     now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
     return (
         f"# Title: {name}\n"
         f"# Description: {desc}\n"
-        f"# Homepage: https://github.com/weightlessit/dns-threat-feeds\n"
+        f"# Homepage: {HOMEPAGE}\n"
         f"# License: MIT\n"
         f"# Last modified: {now}\n"
-        f"# Total entries: {count}\n"
+        f"# Total {feed_type}s: {count}\n"
         f"#\n"
         f"# Auto-generated -- do not edit manually.\n"
-        f"# FortiGate external threat feed format (one entry per line).\n"
+        f"# FortiGate external threat feed format (one {feed_type} per line).\n"
         f"#\n"
     )
 
@@ -326,17 +346,14 @@ def main() -> int:
 
         all_domains.update(domains)
 
-        # AdGuard output: ||domain^
         ag_rules = {f"||{d}^" for d in domains}
         ag_hdr = adguard_header(name, description, len(ag_rules))
         write_list(OUTPUT_ADGUARD / f"{output_name}.txt", ag_hdr, ag_rules)
 
-        # FortiGate output: plain domain
         fg_hdr = fortigate_header(name, description, len(domains))
         write_list(OUTPUT_FG_DOMAINS / f"{output_name}.txt", fg_hdr, domains)
         log.info("")
 
-    # Combined domain lists
     if all_domains:
         log.info("[Combined Domain Blocklist]")
         ag_combined = {f"||{d}^" for d in all_domains}
@@ -385,7 +402,6 @@ def main() -> int:
         write_list(OUTPUT_FG_IP / f"{output_name}.txt", fg_hdr, ips)
         log.info("")
 
-    # Combined IP list
     if all_ips:
         log.info("[Combined IP Blocklist]")
         write_list(
@@ -395,9 +411,51 @@ def main() -> int:
         )
         log.info("")
 
-    total_feeds = len(domain_feeds) + len(ip_feeds)
+    # ==================================================================
+    # HASH FEEDS  (FortiGate only)
+    # ==================================================================
+    hash_feeds = config.get("hash_feeds", [])
+    all_hashes: set[str] = set()
+
+    log.info(f"Processing {len(hash_feeds)} hash feed(s)...\n")
+
+    for feed in hash_feeds:
+        name = feed["name"]
+        url = feed["url"]
+        output_name = feed["output"]
+        description = feed.get("description", name)
+
+        log.info(f"[{name}]")
+
+        raw = fetch_feed(url)
+        if raw is None:
+            errors += 1
+            continue
+
+        hashes = parse_hash_feed(raw)
+        if not hashes:
+            log.warning(f"  No valid hashes extracted from {name}")
+            errors += 1
+            continue
+
+        all_hashes.update(hashes)
+
+        fg_hdr = fortigate_header(name, description, len(hashes), "hash")
+        write_list(OUTPUT_FG_HASH / f"{output_name}.txt", fg_hdr, hashes)
+        log.info("")
+
+    if all_hashes:
+        log.info("[Combined Hash Blocklist]")
+        write_list(
+            OUTPUT_FG_HASH / "combined.txt",
+            fortigate_header("Combined Hash Threat Feed", "All hash feeds merged and deduplicated", len(all_hashes), "hash"),
+            all_hashes,
+        )
+        log.info("")
+
+    total_feeds = len(domain_feeds) + len(ip_feeds) + len(hash_feeds)
     log.info("=" * 60)
-    log.info(f"Done.  Domains: {len(all_domains):,}  |  IPs: {len(all_ips):,}  |  Errors: {errors}")
+    log.info(f"Done.  Domains: {len(all_domains):,}  |  IPs: {len(all_ips):,}  |  Hashes: {len(all_hashes):,}  |  Errors: {errors}")
     log.info("=" * 60)
 
     return 1 if errors == total_feeds else 0

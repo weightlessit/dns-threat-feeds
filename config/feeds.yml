@@ -2,25 +2,21 @@
 # DNS Threat Feeds -- Feed Configuration
 # ======================================================================
 #
-# This file defines two categories of feeds:
+# Three categories of feeds:
 #
-#   domain_feeds  -- domain/FQDN-based threat intelligence.
-#                    Output is generated for BOTH AdGuard Home and FortiGate.
+#   domain_feeds  -- domain/FQDN threat intelligence
+#                    Output: AdGuard Home + FortiGate
 #
-#   ip_feeds      -- IP address-based threat intelligence.
-#                    Output is generated for FortiGate ONLY.
-#                    (AdGuard Home cannot use IP feeds -- it is a DNS sinkhole
-#                     that matches hostnames, not resolved IP addresses.)
+#   ip_feeds      -- IP address threat intelligence
+#                    Output: FortiGate ONLY
 #
-# Supported types for domain_feeds:
-#   domain        -- plain domain list, one per line
-#   hosts         -- /etc/hosts format (0.0.0.0 domain)
-#   url           -- full URLs (domains are extracted)
-#   adguard       -- already in ||domain^ format (passthrough)
-#   phishtank_csv -- PhishTank CSV with a 'url' column
+#   hash_feeds    -- Malware file hash threat intelligence
+#                    Output: FortiGate ONLY (Malware Hash connector)
 #
-# Supported types for ip_feeds:
-#   ip            -- plain IP/CIDR list, one per line
+# Supported types:
+#   domain_feeds: domain | hosts | url | adguard | phishtank_csv
+#   ip_feeds:     ip
+#   hash_feeds:   hash
 # ======================================================================
 
 domain_feeds:
@@ -82,26 +78,28 @@ domain_feeds:
     description: >-
       Malicious domains from the Polish national CERT (NASK)
 
-  - name: DigitalSide.it Latest Malware Domains
-    url: https://osint.digitalside.it/Threat-Intel/lists/latestdomains.txt
+  - name: CyberHost Malware and Phishing
+    url: https://lists.cyberhost.uk/malware_domains_only.txt
     type: domain
-    output: digitalside-domains
+    output: cyberhost-malware-domains
     description: >-
-      Latest malicious domains from the DigitalSide.it OSINT project
+      Verified malware and phishing domains from CyberHost,
+      updated multiple times daily (~37K domains)
 
-  - name: Rescure Malicious Domains
-    url: https://rescure.me/rescure_domain_blacklist.txt
+  - name: Disconnect Malvertising
+    url: https://s3.amazonaws.com/lists.disconnect.me/simple_malvertising.txt
     type: domain
-    output: rescure-domains
+    output: disconnect-malvertising
     description: >-
-      Malicious domain blacklist from Rescure cyber threat intelligence
+      Malvertising distribution domains from Disconnect.me
 
-  - name: Maltrail Malware Domains
-    url: https://raw.githubusercontent.com/stamparm/maltrail/master/trails/static/malware/domains.txt
+  - name: StopForumSpam Toxic Domains
+    url: https://www.stopforumspam.com/downloads/toxic_domains_whole.txt
     type: domain
-    output: maltrail-malware-domains
+    output: stopforumspam-toxic
     description: >-
-      Static malware-associated domains from Stamparm Maltrail
+      Spam and scam domains used in forum-based attacks
+      from StopForumSpam
 
   # -- Pre-formatted AdGuard lists (passthrough) -----------------------
   - name: Block List Project - Malware
@@ -157,13 +155,7 @@ ip_feeds:
     output: spamhaus-drop
     description: >-
       Spamhaus Don't Route Or Peer list -- hijacked IP ranges
-
-  - name: Spamhaus EDROP
-    url: https://www.spamhaus.org/drop/edrop.txt
-    type: ip
-    output: spamhaus-edrop
-    description: >-
-      Spamhaus Extended DROP list -- additional hijacked ranges
+      (EDROP has been merged into this list)
 
   - name: Blocklist.de All Attackers
     url: https://lists.blocklist.de/lists/all.txt
@@ -179,19 +171,67 @@ ip_feeds:
     description: >-
       Collective Intelligence Network Security threat IP list
 
-  - name: DigitalSide.it Latest IPs
-    url: https://osint.digitalside.it/Threat-Intel/lists/latestips.txt
-    type: ip
-    output: digitalside-ips
-    description: >-
-      Latest malicious IPs from the DigitalSide.it OSINT project
-
   - name: Binary Defense Ban List
     url: https://www.binarydefense.com/banlist.txt
     type: ip
     output: binarydefense-banlist
     description: >-
       Artillery honeypot threat intelligence ban list from Binary Defense
+
+  - name: ThreatHive Blocklist
+    url: https://threathive.net/hiveblocklist.txt
+    type: ip
+    output: threathive
+    description: >-
+      140K malicious IPs from honeypot telemetry and OSINT,
+      updated every 15 minutes (threathive.net)
+
+  - name: OpenDBL IPSum Level 3
+    url: https://opendbl.net/lists/ipsum3.list
+    type: ip
+    output: opendbl-ipsum3
+    description: >-
+      IPs appearing on 3 or more independent blacklists --
+      high confidence, low false positive (opendbl.net)
+
+  - name: OpenDBL ET Known Compromised
+    url: https://opendbl.net/lists/etknown.list
+    type: ip
+    output: opendbl-etknown
+    description: >-
+      Emerging Threats known compromised hosts, pre-formatted
+      for firewall ingestion (opendbl.net)
+
+  - name: OpenDBL BruteforceBlocker
+    url: https://opendbl.net/lists/bruteforce.list
+    type: ip
+    output: opendbl-bruteforce
+    description: >-
+      SSH and service brute-force attacker IPs (opendbl.net)
+
+  - name: OpenDBL DShield
+    url: https://opendbl.net/lists/dshield.list
+    type: ip
+    output: opendbl-dshield
+    description: >-
+      SANS DShield top attacking subnets, optimized for
+      firewall ingestion (opendbl.net)
+
+  - name: Bitwire Outbound Blocklist
+    url: https://raw.githubusercontent.com/bitwire-it/ipblocklist/main/outbound.txt
+    type: ip
+    output: bitwire-outbound
+    description: >-
+      C2 servers, botnet controllers, malware drop sites, and
+      phishing hosts -- for outbound traffic blocking (updated 2h)
+
+  - name: Bitwire Inbound Blocklist
+    url: https://raw.githubusercontent.com/bitwire-it/ipblocklist/main/inbound.txt
+    type: ip
+    output: bitwire-inbound
+    description: >-
+      Scanners, brute-force, spam sources, and web exploits --
+      for inbound traffic blocking (updated 2h)
 
   # -- Requires API key (uncomment and set key to enable) --------------
   # - name: AbuseIPDB Blacklist
@@ -201,3 +241,34 @@ ip_feeds:
   #   description: >-
   #     Top abusive IPs from AbuseIPDB (requires free API key from
   #     https://www.abuseipdb.com -- replace YOUR_API_KEY above)
+
+
+hash_feeds:
+
+  # -- Malware hash feeds (FortiGate only) -----------------------------
+  # FortiGate ingests these via Security Fabric > External Connectors >
+  # Threat Feeds > Malware Hash. Each line: <hex_hash> [description]
+  # Use ONE hash type per feed (do not mix MD5/SHA1/SHA256).
+
+  - name: romainmarcoux Malicious SHA256
+    url: https://raw.githubusercontent.com/romainmarcoux/malicious-hash/main/full-hash-sha256-aa.txt
+    type: hash
+    output: romainmarcoux-sha256
+    description: >-
+      Aggregated malicious SHA256 hashes from multiple sources
+      (bazaar.abuse.ch, urlhaus, alienvault, etc). Updated daily.
+      71K hashes, built specifically for FortiGate ingestion.
+
+  # -- Requires auth key (uncomment and set key to enable) -------------
+  # abuse.ch now requires authentication for data exports.
+  # Get a free auth key at https://auth.abuse.ch/
+  #
+  # - name: MalwareBazaar Recent SHA256
+  #   url: https://bazaar.abuse.ch/export/txt/sha256/recent/
+  #   type: hash
+  #   output: malwarebazaar-sha256
+  #   headers:
+  #     Auth-Key: YOUR_AUTH_KEY
+  #   description: >-
+  #     Recently submitted malware SHA256 hashes from abuse.ch
+  #     MalwareBazaar (requires free auth key from https://auth.abuse.ch)

@@ -33,7 +33,11 @@ jobs:
       - name: Check for changes
         id: changes
         run: |
-          git diff --quiet output/ && echo "changed=false" >> "$GITHUB_OUTPUT" || echo "changed=true" >> "$GITHUB_OUTPUT"
+          if [ -n "$(git status --porcelain output/)" ]; then
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          fi
 
       - name: Commit and push updates
         if: steps.changes.outputs.changed == 'true'
@@ -45,5 +49,6 @@ jobs:
           AG_COUNT=$(grep -rch "^||" output/adguard/ 2>/dev/null | paste -sd+ | bc 2>/dev/null || echo 0)
           FG_DOMAIN=$(wc -l output/fortigate/domains/combined.txt 2>/dev/null | awk '{print $1}' || echo 0)
           FG_IP=$(wc -l output/fortigate/ip/combined.txt 2>/dev/null | awk '{print $1}' || echo 0)
-          git commit -m "Update feeds - ${TIMESTAMP} | AdGuard: ${AG_COUNT} | FortiGate domains: ${FG_DOMAIN} IPs: ${FG_IP}"
+          FG_HASH=$(wc -l output/fortigate/hash/combined.txt 2>/dev/null | awk '{print $1}' || echo 0)
+          git commit -m "Update feeds - ${TIMESTAMP} | AG: ${AG_COUNT} | FG domains: ${FG_DOMAIN} IPs: ${FG_IP} hashes: ${FG_HASH}"
           git push
