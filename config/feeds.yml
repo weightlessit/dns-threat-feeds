@@ -1,0 +1,133 @@
+# ----------------------------------------------------------------------
+# AdGuard Threat Feeds - Feed Configuration
+# ----------------------------------------------------------------------
+#
+# Only DOMAIN-BASED feeds belong here. AdGuard Home operates at the DNS
+# query level - it matches hostnames/FQDNs, not IP addresses. IP-based
+# threat feeds should be applied at your firewall or IDS/IPS instead.
+#
+# Supported types:
+#   domain        - plain list of domains, one per line
+#   hosts         - /etc/hosts format  (0.0.0.0 domain  or  127.0.0.1 domain)
+#   url           - list of full URLs  (domains are extracted)
+#   adguard       - already in AdGuard adblock-style syntax (passthrough)
+#   phishtank_csv - PhishTank CSV  (domains extracted from 'url' column)
+# ----------------------------------------------------------------------
+
+feeds:
+
+  # -- abuse.ch ---------------------------------------------------------
+  - name: URLhaus Malware Domains (hostfile)
+    url: https://urlhaus.abuse.ch/downloads/hostfile/
+    type: hosts
+    output: urlhaus-hostfile-domains.txt
+    description: >-
+      Malware distribution domains from abuse.ch URLhaus
+      (hosts-file format, updated every 5 minutes)
+
+  - name: URLhaus Recent URLs
+    url: https://urlhaus.abuse.ch/downloads/text_recent/
+    type: url
+    output: urlhaus-recent-domains.txt
+    description: >-
+      Domains extracted from recently reported malicious URLs
+      tracked by abuse.ch URLhaus
+
+  - name: ThreatFox IOC Domains
+    url: https://threatfox.abuse.ch/downloads/hostfile/
+    type: hosts
+    output: threatfox-domains.txt
+    description: >-
+      Indicators of compromise (domain-based) from abuse.ch
+      ThreatFox, covering C2, payload delivery, and more
+
+  # -- Phishing ---------------------------------------------------------
+  - name: Phishing Army Extended
+    url: https://phishing.army/download/phishing_army_blocklist_extended.txt
+    type: domain
+    output: phishing-army-domains.txt
+    description: >-
+      Aggregated phishing domain blocklist from Phishing Army
+      (extended version with broader coverage)
+
+  - name: OpenPhish Community Feed
+    url: https://openphish.com/feed.txt
+    type: url
+    output: openphish-domains.txt
+    description: >-
+      Community phishing URL feed from OpenPhish (domains
+      extracted from full URLs)
+
+  - name: PhishTank Verified Phishing
+    url: http://data.phishtank.com/data/online-valid.csv
+    type: phishtank_csv
+    output: phishtank-domains.txt
+    description: >-
+      Verified active phishing domains from PhishTank's
+      community-validated database
+
+  # -- CERTs & Research -------------------------------------------------
+  - name: CERT Polska Malicious Domains
+    url: https://hole.cert.pl/domains/domains.txt
+    type: domain
+    output: cert-polska-domains.txt
+    description: >-
+      Malicious domains identified and published by the Polish
+      national CERT (CERT Polska / NASK)
+
+  - name: DigitalSide.it Latest Malware Domains
+    url: https://osint.digitalside.it/Threat-Intel/lists/latestdomains.txt
+    type: domain
+    output: digitalside-domains.txt
+    description: >-
+      Latest malicious domains from the DigitalSide.it OSINT
+      threat intelligence project
+
+  - name: Rescure Malicious Domains
+    url: https://rescure.me/rescure_domain_blacklist.txt
+    type: domain
+    output: rescure-domains.txt
+    description: >-
+      Malicious domain blacklist from Rescure cyber threat
+      intelligence
+
+  - name: Maltrail Malware Domains
+    url: https://raw.githubusercontent.com/stamparm/maltrail/master/trails/static/malware/domains.txt
+    type: domain
+    output: maltrail-malware-domains.txt
+    description: >-
+      Static malware-associated domains from Stamparm's Maltrail
+      intrusion detection system
+
+  # -- Pre-formatted AdGuard lists (passthrough) ------------------------
+  - name: Block List Project - Malware
+    url: https://blocklistproject.github.io/Lists/adguard/malware-ags.txt
+    type: adguard
+    output: blp-malware.txt
+    description: >-
+      Malware domain blocklist from The Block List Project
+      (pre-formatted for AdGuard)
+
+  - name: Block List Project - Phishing
+    url: https://blocklistproject.github.io/Lists/adguard/phishing-ags.txt
+    type: adguard
+    output: blp-phishing.txt
+    description: >-
+      Phishing domain blocklist from The Block List Project
+      (pre-formatted for AdGuard)
+
+  - name: Block List Project - Ransomware
+    url: https://blocklistproject.github.io/Lists/adguard/ransomware-ags.txt
+    type: adguard
+    output: blp-ransomware.txt
+    description: >-
+      Ransomware domain blocklist from The Block List Project
+      (pre-formatted for AdGuard)
+
+  - name: HaGeZi Threat Intelligence Feeds
+    url: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/tif.txt
+    type: adguard
+    output: hagezi-tif.txt
+    description: >-
+      HaGeZi's curated threat intelligence feed - blocks malware,
+      cryptojacking, scam, spam, and phishing domains
