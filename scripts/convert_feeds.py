@@ -11,12 +11,10 @@ them into formats compatible with:
 IP and hash feeds are output for FortiGate only.
 
 Generates two combined output variants:
-  - combined.txt         -- all feeds merged (for mid-range/high-end FortiGates)
+  - combined.txt             -- all feeds merged (for mid-range/high-end FortiGates)
   - entry-model-combined.txt -- curated subset for entry-level FortiGates
 """
 
-import csv
-import io
 import ipaddress
 import logging
 import re
@@ -182,31 +180,11 @@ def parse_adguard_feed(raw: str) -> set[str]:
     return domains
 
 
-def parse_phishtank_csv(raw: str) -> set[str]:
-    domains: set[str] = set()
-    try:
-        reader = csv.DictReader(io.StringIO(raw))
-        for row in reader:
-            url = row.get("url", "")
-            if url:
-                try:
-                    parsed = urlparse(url)
-                    hostname = parsed.hostname
-                    if hostname and is_valid_domain(hostname.lower()):
-                        domains.add(hostname.lower())
-                except Exception:
-                    continue
-    except Exception as e:
-        log.error(f"  Failed to parse PhishTank CSV: {e}")
-    return domains
-
-
 DOMAIN_PARSERS = {
     "domain": parse_domain_feed,
     "hosts": parse_hosts_feed,
     "url": parse_url_feed,
     "adguard": parse_adguard_feed,
-    "phishtank_csv": parse_phishtank_csv,
 }
 
 

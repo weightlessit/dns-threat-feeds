@@ -14,7 +14,7 @@
 #                    Output: FortiGate ONLY (Malware Hash connector)
 #
 # Supported types:
-#   domain_feeds: domain | hosts | url | adguard | phishtank_csv
+#   domain_feeds: domain | hosts | url | adguard
 #   ip_feeds:     ip | alienvault
 #   hash_feeds:   hash
 #
@@ -73,13 +73,6 @@ domain_feeds:
     description: >-
       Community phishing URL feed from OpenPhish
       (domains extracted from full URLs)
-
-  - name: PhishTank Verified Phishing
-    url: http://data.phishtank.com/data/online-valid.csv
-    type: phishtank_csv
-    output: phishtank-domains
-    description: >-
-      Verified active phishing domains from PhishTank
 
   # -- CERTs and Research ----------------------------------------------
   - name: CERT Polska Malicious Domains

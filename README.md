@@ -101,7 +101,6 @@ the FortiGate hit its global domain limit and dropped the rest.
 | ThreatFox IOC Domains | `https://raw.githubusercontent.com/weightlessit/dns-threat-feeds/main/output/adguard/threatfox-domains.txt` |
 | Phishing Army Extended | `https://raw.githubusercontent.com/weightlessit/dns-threat-feeds/main/output/adguard/phishing-army-domains.txt` |
 | OpenPhish Community | `https://raw.githubusercontent.com/weightlessit/dns-threat-feeds/main/output/adguard/openphish-domains.txt` |
-| PhishTank Verified | `https://raw.githubusercontent.com/weightlessit/dns-threat-feeds/main/output/adguard/phishtank-domains.txt` |
 | CERT Polska | `https://raw.githubusercontent.com/weightlessit/dns-threat-feeds/main/output/adguard/cert-polska-domains.txt` |
 | CyberHost Malware | `https://raw.githubusercontent.com/weightlessit/dns-threat-feeds/main/output/adguard/cyberhost-malware-domains.txt` |
 | Disconnect Malvertising | `https://raw.githubusercontent.com/weightlessit/dns-threat-feeds/main/output/adguard/disconnect-malvertising.txt` |
@@ -226,7 +225,7 @@ running **FortiOS 7.4.4 or later**.
 | `entry-model-combined.txt` (domains) | ~750,000 | 1,000,000 | ~250,000 |
 | `entry-model-combined.txt` (IPs) | ~200,000 | 300,000 | ~100,000 |
 
-### Domain feeds included (7 of 14)
+### Domain feeds included (7 of 13)
 
 | Feed | Est. Entries | Why included |
 |------|-------------|--------------|
@@ -238,12 +237,11 @@ running **FortiOS 7.4.4 or later**.
 | CERT Polska | ~20K | National CERT malware domains |
 | OpenPhish Community | ~5K | Active phishing URLs |
 
-### Domain feeds excluded (7 of 14)
+### Domain feeds excluded (6 of 13)
 
 | Feed | Reason |
 |------|--------|
 | URLhaus Recent URLs | Heavily overlaps with URLhaus hostfile |
-| PhishTank Verified | Slow/unreliable downloads, overlap with Phishing Army |
 | Disconnect Malvertising | Lower priority (ad-related, not malware) |
 | StopForumSpam Toxic | Lower priority (spam, not malware/phishing) |
 | BLP Malware | ~200K entries, heavy overlap with HaGeZi TIF |
@@ -292,7 +290,7 @@ running **FortiOS 7.4.4 or later**.
 
 ## Included Feeds
 
-### Domain Feeds (AdGuard + FortiGate) -- 14 feeds
+### Domain Feeds (AdGuard + FortiGate) -- 13 feeds
 
 | Source | Type | Description |
 |--------|------|-------------|
@@ -301,7 +299,6 @@ running **FortiOS 7.4.4 or later**.
 | [ThreatFox](https://threatfox.abuse.ch/) | Hosts | IOC domains (C2, payload delivery) |
 | [Phishing Army](https://phishing.army/) | Domain | Aggregated phishing domains (extended) |
 | [OpenPhish](https://openphish.com/) | URL | Community phishing URLs |
-| [PhishTank](https://phishtank.org/) | CSV | Verified active phishing domains |
 | [CERT Polska](https://hole.cert.pl/) | Domain | Malicious domains from Polish CERT |
 | [CyberHost](https://cyberhost.uk/malware-blocklist/) | Domain | Verified malware and phishing domains |
 | [Disconnect](https://disconnect.me/) | Domain | Malvertising distribution domains |
@@ -346,7 +343,7 @@ Edit `config/feeds.yml` and add an entry to the appropriate section:
 domain_feeds:
   - name: My New Domain Feed
     url: https://example.com/domains.txt
-    type: domain        # domain | hosts | url | adguard | phishtank_csv
+    type: domain        # domain | hosts | url | adguard
     output: my-new-feed
     entry_combined: true # include in entry-model-combined.txt (optional)
     description: What this feed blocks
