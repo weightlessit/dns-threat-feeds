@@ -9,6 +9,10 @@ them into formats compatible with:
   - FortiGate      (plain text, one entry/line)    -- domain, IP, AND hash feeds
 
 IP and hash feeds are output for FortiGate only.
+
+Generates two combined output variants:
+  - combined.txt         -- all feeds merged (for mid-range/high-end FortiGates)
+  - entry-model-combined.txt -- curated subset for entry-level FortiGates
 """
 
 import csv
@@ -209,25 +213,17 @@ DOMAIN_PARSERS = {
 # -- IP Feed Parsers ---------------------------------------------------
 
 def parse_ip_feed(raw: str) -> set[str]:
-    """Parse IP/CIDR/range list. Returns clean entries for FortiGate.
-
-    Supported line formats:
-      - Single IP:     192.168.1.1
-      - CIDR:          192.168.1.0/24
-      - IP range:      192.168.1.0-192.168.1.255  (FortiGate-native)
-    """
+    """Parse IP/CIDR/range list. Returns clean entries for FortiGate."""
     entries: set[str] = set()
     for line in raw.splitlines():
         line = line.strip()
         if not line or line.startswith("#") or line.startswith(";"):
             continue
-        # Strip inline comments
         line = line.split(";")[0].strip()
         line = line.split("#")[0].strip()
         if not line:
             continue
 
-        # Check for IP range format: x.x.x.x-y.y.y.y
         range_match = IP_RANGE_RE.match(line)
         if range_match:
             start_ip = range_match.group(1)
@@ -241,7 +237,6 @@ def parse_ip_feed(raw: str) -> set[str]:
                 continue
             continue
 
-        # Check for single IP or CIDR
         ip_match = IP_LINE_RE.match(line)
         if ip_match:
             entry = ip_match.group(1)
@@ -263,11 +258,7 @@ def parse_ip_feed(raw: str) -> set[str]:
 
 
 def parse_alienvault_feed(raw: str) -> set[str]:
-    """Parse AlienVault IP reputation feed.
-
-    Format: IP#risk#reliability#activity#country#city#lat,lon#unknown
-    Example: 49.143.32.6#4#2#Malicious Host#KR##37.51,126.97#3
-    """
+    """Parse AlienVault IP reputation feed (IP#risk#reliability#...)."""
     entries: set[str] = set()
     for line in raw.splitlines():
         line = line.strip()
@@ -373,6 +364,7 @@ def main() -> int:
     # ==================================================================
     domain_feeds = config.get("domain_feeds", [])
     all_domains: set[str] = set()
+    entry_domains: set[str] = set()
 
     log.info(f"\nProcessing {len(domain_feeds)} domain feed(s)...\n")
 
@@ -382,8 +374,9 @@ def main() -> int:
         feed_type = feed["type"]
         output_name = feed["output"]
         description = feed.get("description", name)
+        is_entry = feed.get("entry_combined", False)
 
-        log.info(f"[{name}]")
+        log.info(f"[{name}]{'  (entry-model)' if is_entry else ''}")
 
         if feed_type not in DOMAIN_PARSERS:
             log.error(f"  Unknown feed type: '{feed_type}'")
@@ -402,6 +395,8 @@ def main() -> int:
             continue
 
         all_domains.update(domains)
+        if is_entry:
+            entry_domains.update(domains)
 
         ag_rules = {f"||{d}^" for d in domains}
         ag_hdr = adguard_header(name, description, len(ag_rules))
@@ -426,11 +421,26 @@ def main() -> int:
         )
         log.info("")
 
+    if entry_domains:
+        log.info("[Entry-Model Combined Domain Blocklist]")
+        write_list(
+            OUTPUT_FG_DOMAINS / "entry-model-combined.txt",
+            fortigate_header(
+                "Entry-Model Combined Domain Feed",
+                "Curated domain feed for FortiGate entry-level models (80E, 60F, 40F, etc). "
+                "Targets ~750K domains within the 1M global domain limit (FortiOS 7.4.4+).",
+                len(entry_domains),
+            ),
+            entry_domains,
+        )
+        log.info("")
+
     # ==================================================================
     # IP FEEDS  (FortiGate only)
     # ==================================================================
     ip_feeds = config.get("ip_feeds", [])
     all_ips: set[str] = set()
+    entry_ips: set[str] = set()
 
     log.info(f"Processing {len(ip_feeds)} IP feed(s)...\n")
 
@@ -440,8 +450,9 @@ def main() -> int:
         feed_type = feed.get("type", "ip")
         output_name = feed["output"]
         description = feed.get("description", name)
+        is_entry = feed.get("entry_combined", False)
 
-        log.info(f"[{name}]")
+        log.info(f"[{name}]{'  (entry-model)' if is_entry else ''}")
 
         if feed_type not in IP_PARSERS:
             log.error(f"  Unknown IP feed type: '{feed_type}'")
@@ -460,6 +471,8 @@ def main() -> int:
             continue
 
         all_ips.update(ips)
+        if is_entry:
+            entry_ips.update(ips)
 
         fg_hdr = fortigate_header(name, description, len(ips))
         write_list(OUTPUT_FG_IP / f"{output_name}.txt", fg_hdr, ips)
@@ -471,6 +484,20 @@ def main() -> int:
             OUTPUT_FG_IP / "combined.txt",
             fortigate_header("Combined IP Threat Feed", "All IP feeds merged and deduplicated", len(all_ips)),
             all_ips,
+        )
+        log.info("")
+
+    if entry_ips:
+        log.info("[Entry-Model Combined IP Blocklist]")
+        write_list(
+            OUTPUT_FG_IP / "entry-model-combined.txt",
+            fortigate_header(
+                "Entry-Model Combined IP Feed",
+                "Curated IP feed for FortiGate entry-level models (80E, 60F, 40F, etc). "
+                "Targets ~200K IPs within the 300K global IP limit (FortiOS 7.4.4+).",
+                len(entry_ips),
+            ),
+            entry_ips,
         )
         log.info("")
 
@@ -518,7 +545,11 @@ def main() -> int:
 
     total_feeds = len(domain_feeds) + len(ip_feeds) + len(hash_feeds)
     log.info("=" * 60)
-    log.info(f"Done.  Domains: {len(all_domains):,}  |  IPs: {len(all_ips):,}  |  Hashes: {len(all_hashes):,}  |  Errors: {errors}")
+    log.info(
+        f"Done.  Domains: {len(all_domains):,} (entry: {len(entry_domains):,})  |  "
+        f"IPs: {len(all_ips):,} (entry: {len(entry_ips):,})  |  "
+        f"Hashes: {len(all_hashes):,}  |  Errors: {errors}"
+    )
     log.info("=" * 60)
 
     return 1 if errors == total_feeds else 0

@@ -33,6 +33,59 @@ hash blocklists respectively.
 
 ---
 
+## FortiGate Model-Tier Limits (FortiOS 7.4.4+)
+
+Starting with FortiOS 7.4.4, external threat feed entry limits are applied
+**globally** (across all feeds of the same type combined) and vary by model
+tier. If you exceed these limits, entries are silently truncated.
+
+| Resource Type | Entry-Level (Branch) | Mid-Range (Campus) | High-End (Data Center) |
+|---------------|---------------------|--------------------|-----------------------|
+| Category (URL) | 150,000 | 300,000 | 2,000,000 |
+| **IP Address** | **300,000** | 300,000 (1M on 7.4.9+/7.6.3+) | 300,000 (5M on 7.4.9+/7.6.3+) |
+| **Domain** | **1,000,000** | 3,000,000 | 5,000,000 |
+| MAC Address | 1,000,000 | 1,000,000 | 1,000,000 |
+| File size limit | 32 MB | 64 MB | 128 MB |
+
+**Entry-level models** include: FortiGate 40F, 60E/F, 70F, 80E/F, 90E, etc.
+**Mid-range models** include: FortiGate 100F, 200F, 400E/F, 600E, etc.
+**High-end models** include: FortiGate 1000F, 2000E, 3000F, 6000F, etc.
+
+> **Before FortiOS 7.4.4**, the limit was **131,072 entries per feed** and
+> **10 MB file size** regardless of model. If you are running an older
+> firmware, use the individual feed files rather than combined lists.
+
+### Checking for Truncation
+
+Run this command on the FortiGate CLI to see per-feed statistics:
+
+```
+diagnose sys external-resource stats
+```
+
+Example output:
+
+```
+name: ThreatFeed-Domains; uuid_idx: 606; type: domain;
+  update_method: feed;
+  truncated total lines: 2262179;
+  valid lines: 2262179;
+  error lines: 0;
+  used: yes;
+  buildable: 261969;
+  total in count file: 2262179;
+```
+
+Key fields:
+- **valid lines** -- entries with correct syntax (parsed successfully)
+- **buildable** -- entries actually accepted and enforced
+- **If `buildable` < `valid lines`, entries are being truncated!**
+
+In the example above, 2M domains were valid but only ~262K were accepted --
+the FortiGate hit its global domain limit and dropped the rest.
+
+---
+
 ## Quick Start -- AdGuard Home
 
 1. Open **AdGuard Home > Filters > DNS Blocklists > Add blocklist > Add a custom list**
@@ -42,7 +95,7 @@ hash blocklists respectively.
 ### AdGuard Domain Feed URLs
 
 | Feed | Raw URL |
-|------|---------|\
+|------|---------|
 | URLhaus Malware Domains | `https://raw.githubusercontent.com/weightlessit/dns-threat-feeds/main/output/adguard/urlhaus-hostfile-domains.txt` |
 | URLhaus Recent URLs | `https://raw.githubusercontent.com/weightlessit/dns-threat-feeds/main/output/adguard/urlhaus-recent-domains.txt` |
 | ThreatFox IOC Domains | `https://raw.githubusercontent.com/weightlessit/dns-threat-feeds/main/output/adguard/threatfox-domains.txt` |
@@ -59,6 +112,8 @@ hash blocklists respectively.
 | HaGeZi Threat Intel | `https://raw.githubusercontent.com/weightlessit/dns-threat-feeds/main/output/adguard/hagezi-tif.txt` |
 | **Combined (all domains)** | `https://raw.githubusercontent.com/weightlessit/dns-threat-feeds/main/output/adguard/combined.txt` |
 
+AdGuard Home has no entry limit like FortiGate -- use combined.txt freely.
+
 ---
 
 ## Quick Start -- FortiGate
@@ -69,55 +124,34 @@ FortiGate imports external threat feeds as plain text files via
 Important: FortiGate requires **separate feeds for domains, IPs, and hashes**.
 Do not mix them. This project keeps them in separate directories.
 
+> **Entry-level models (80E, 60F, 40F, etc.):** Use the
+> `entry-model-combined.txt` files instead of `combined.txt`.
+> See [Entry-Model Combined Lists](#entry-model-combined-lists) below.
+
 ### FortiGate Domain Feeds
 
 Use type **Domain Name** when creating the connector.
 
 | Feed | Raw URL |
-|------|---------|\
-| **Combined Domains** | `https://raw.githubusercontent.com/weightlessit/dns-threat-feeds/main/output/fortigate/domains/combined.txt` |
-
-Individual feeds use the same path -- replace `combined` with the output
-name from `config/feeds.yml` (e.g. `urlhaus-hostfile-domains`).
+|------|---------|
+| **Entry-Model Combined (recommended for 80E, 60F, etc.)** | `https://raw.githubusercontent.com/weightlessit/dns-threat-feeds/main/output/fortigate/domains/entry-model-combined.txt` |
+| **Full Combined (mid-range/high-end only)** | `https://raw.githubusercontent.com/weightlessit/dns-threat-feeds/main/output/fortigate/domains/combined.txt` |
 
 ### FortiGate IP Feeds
 
 Use type **IP Address** when creating the connector.
 
-FortiGate supports single IPs, CIDR notation, and IP ranges (x.x.x.x-y.y.y.y).
-All three formats are used in these feeds depending on the upstream source.
-
 | Feed | Raw URL |
-|------|---------|\
-| ET Compromised IPs | `https://raw.githubusercontent.com/weightlessit/dns-threat-feeds/main/output/fortigate/ip/et-compromised-ips.txt` |
-| ET Firewall Block IPs | `https://raw.githubusercontent.com/weightlessit/dns-threat-feeds/main/output/fortigate/ip/et-block-ips.txt` |
-| Feodo Tracker C2 | `https://raw.githubusercontent.com/weightlessit/dns-threat-feeds/main/output/fortigate/ip/feodo-tracker-ips.txt` |
-| Spamhaus DROP | `https://raw.githubusercontent.com/weightlessit/dns-threat-feeds/main/output/fortigate/ip/spamhaus-drop.txt` |
-| Blocklist.de All | `https://raw.githubusercontent.com/weightlessit/dns-threat-feeds/main/output/fortigate/ip/blocklist-de-all.txt` |
-| CINSscore Bad IPs | `https://raw.githubusercontent.com/weightlessit/dns-threat-feeds/main/output/fortigate/ip/cinsscore-badguys.txt` |
-| Binary Defense | `https://raw.githubusercontent.com/weightlessit/dns-threat-feeds/main/output/fortigate/ip/binarydefense-banlist.txt` |
-| ThreatHive | `https://raw.githubusercontent.com/weightlessit/dns-threat-feeds/main/output/fortigate/ip/threathive.txt` |
-| IPSum Level 3 | `https://raw.githubusercontent.com/weightlessit/dns-threat-feeds/main/output/fortigate/ip/ipsum-level3.txt` |
-| OpenDBL ET Known | `https://raw.githubusercontent.com/weightlessit/dns-threat-feeds/main/output/fortigate/ip/opendbl-etknown.txt` |
-| OpenDBL Bruteforce | `https://raw.githubusercontent.com/weightlessit/dns-threat-feeds/main/output/fortigate/ip/opendbl-bruteforce.txt` |
-| OpenDBL DShield | `https://raw.githubusercontent.com/weightlessit/dns-threat-feeds/main/output/fortigate/ip/opendbl-dshield.txt` |
-| Bitwire Outbound | `https://raw.githubusercontent.com/weightlessit/dns-threat-feeds/main/output/fortigate/ip/bitwire-outbound.txt` |
-| Bitwire Inbound | `https://raw.githubusercontent.com/weightlessit/dns-threat-feeds/main/output/fortigate/ip/bitwire-inbound.txt` |
-| AlienVault Reputation | `https://raw.githubusercontent.com/weightlessit/dns-threat-feeds/main/output/fortigate/ip/alienvault-reputation.txt` |
-| **Combined (all IPs)** | `https://raw.githubusercontent.com/weightlessit/dns-threat-feeds/main/output/fortigate/ip/combined.txt` |
+|------|---------|
+| **Entry-Model Combined (recommended for 80E, 60F, etc.)** | `https://raw.githubusercontent.com/weightlessit/dns-threat-feeds/main/output/fortigate/ip/entry-model-combined.txt` |
+| **Full Combined (mid-range/high-end only)** | `https://raw.githubusercontent.com/weightlessit/dns-threat-feeds/main/output/fortigate/ip/combined.txt` |
 
 ### FortiGate Malware Hash Feeds
 
 Use type **Malware Hash** when creating the connector.
 
-To use hash feeds, you must also enable **"Use external malware block list"**
-in your Antivirus profile (Security Profiles > AntiVirus > edit profile).
-
-Fortinet recommends using only ONE hash type per feed (do not mix MD5/SHA1/
-SHA256 in the same file). All feeds in this project use SHA256 exclusively.
-
 | Feed | Raw URL |
-|------|---------|\
+|------|---------|
 | romainmarcoux SHA256 | `https://raw.githubusercontent.com/weightlessit/dns-threat-feeds/main/output/fortigate/hash/romainmarcoux-sha256.txt` |
 | MalwareBazaar Recent SHA256 | `https://raw.githubusercontent.com/weightlessit/dns-threat-feeds/main/output/fortigate/hash/malwarebazaar-sha256.txt` |
 | **Combined (all hashes)** | `https://raw.githubusercontent.com/weightlessit/dns-threat-feeds/main/output/fortigate/hash/combined.txt` |
@@ -125,26 +159,27 @@ SHA256 in the same file). All feeds in this project use SHA256 exclusively.
 ### FortiGate CLI Configuration Examples
 
 ```
-# Domain threat feed (DNS Filter / Web Filter)
+# Domain threat feed -- use entry-model-combined for entry-level hardware
+# Switch to combined.txt for mid-range/high-end models
 config system external-resource
     edit "ThreatFeed-Domains"
         set type domain
         set category 192
-        set resource "https://raw.githubusercontent.com/weightlessit/dns-threat-feeds/main/output/fortigate/domains/combined.txt"
+        set resource "https://raw.githubusercontent.com/weightlessit/dns-threat-feeds/main/output/fortigate/domains/entry-model-combined.txt"
         set refresh-rate 360
     next
 end
 
-# IP threat feed (Firewall policy address object)
+# IP threat feed -- use entry-model-combined for entry-level hardware
 config system external-resource
     edit "ThreatFeed-IPs"
         set type address
-        set resource "https://raw.githubusercontent.com/weightlessit/dns-threat-feeds/main/output/fortigate/ip/combined.txt"
+        set resource "https://raw.githubusercontent.com/weightlessit/dns-threat-feeds/main/output/fortigate/ip/entry-model-combined.txt"
         set refresh-rate 360
     next
 end
 
-# Malware hash threat feed (Antivirus external block list)
+# Malware hash threat feed
 config system external-resource
     edit "ThreatFeed-Hashes"
         set type malware
@@ -175,6 +210,83 @@ config firewall policy
     next
 end
 ```
+
+After applying, verify with: `diagnose sys external-resource stats`
+
+---
+
+## Entry-Model Combined Lists
+
+These curated combined lists are designed to fit within the global entry
+limits of **FortiGate entry-level models** (80E, 60F, 40F, 90E, etc.)
+running **FortiOS 7.4.4 or later**.
+
+| File | Target | Limit | Headroom |
+|------|--------|-------|----------|
+| `entry-model-combined.txt` (domains) | ~750,000 | 1,000,000 | ~250,000 |
+| `entry-model-combined.txt` (IPs) | ~200,000 | 300,000 | ~100,000 |
+
+### Domain feeds included (7 of 14)
+
+| Feed | Est. Entries | Why included |
+|------|-------------|--------------|
+| HaGeZi TIF | ~500K | Most comprehensive single source |
+| Phishing Army Extended | ~80K | Broad phishing coverage |
+| URLhaus Malware Domains | ~50K | Active malware distribution |
+| CyberHost Malware/Phishing | ~37K | Verified malware and phishing |
+| ThreatFox IOC Domains | ~30K | C2 and payload delivery |
+| CERT Polska | ~20K | National CERT malware domains |
+| OpenPhish Community | ~5K | Active phishing URLs |
+
+### Domain feeds excluded (7 of 14)
+
+| Feed | Reason |
+|------|--------|
+| URLhaus Recent URLs | Heavily overlaps with URLhaus hostfile |
+| PhishTank Verified | Slow/unreliable downloads, overlap with Phishing Army |
+| Disconnect Malvertising | Lower priority (ad-related, not malware) |
+| StopForumSpam Toxic | Lower priority (spam, not malware/phishing) |
+| BLP Malware | ~200K entries, heavy overlap with HaGeZi TIF |
+| BLP Phishing | ~200K entries, heavy overlap with HaGeZi TIF |
+| BLP Ransomware | Small but overlaps with HaGeZi TIF |
+
+### IP feeds included (12 of 15)
+
+| Feed | Est. Entries | Why included |
+|------|-------------|--------------|
+| Blocklist.de All | ~30K | SSH/mail/web attack detection |
+| IPSum Level 3 | ~18K | High confidence (3+ blacklists) |
+| CINSscore Bad IPs | ~15K | Collective intelligence |
+| Binary Defense | ~3K | Honeypot ban list |
+| Spamhaus DROP | ~1K CIDRs | Hijacked IP ranges (critical) |
+| ET Compromised IPs | ~500 | Proofpoint compromised hosts |
+| ET Firewall Block IPs | varies | Broader ET block list |
+| OpenDBL ET Known | ~400 | ET hosts (firewall-ready) |
+| OpenDBL Bruteforce | ~400 | Brute-force attackers |
+| Feodo Tracker C2 | ~200 | Botnet C2 (critical) |
+| OpenDBL DShield | ~20 ranges | SANS DShield top attackers |
+| Bitwire Outbound | varies | C2/malware drops (outbound) |
+
+### IP feeds excluded (3 of 15)
+
+| Feed | Reason |
+|------|--------|
+| ThreatHive | ~140K alone eats half the 300K budget; heavy overlap |
+| Bitwire Inbound | Save headroom; outbound is higher priority for C2 blocking |
+| AlienVault Reputation | Very large; significant overlap with other feeds |
+
+### Entry-Model Combined URLs
+
+| Type | Raw URL |
+|------|---------|
+| **Domains** | `https://raw.githubusercontent.com/weightlessit/dns-threat-feeds/main/output/fortigate/domains/entry-model-combined.txt` |
+| **IPs** | `https://raw.githubusercontent.com/weightlessit/dns-threat-feeds/main/output/fortigate/ip/entry-model-combined.txt` |
+
+> **Recommendation:** On entry-level FortiGates, use ONLY the
+> entry-model-combined files as your single domain and IP threat feed.
+> Do not add additional individual feeds on top -- the entry counts are
+> global and will cause truncation. If you need specific individual feeds
+> instead, manually select feeds that fit within your model's budget.
 
 ---
 
@@ -236,6 +348,7 @@ domain_feeds:
     url: https://example.com/domains.txt
     type: domain        # domain | hosts | url | adguard | phishtank_csv
     output: my-new-feed
+    entry_combined: true # include in entry-model-combined.txt (optional)
     description: What this feed blocks
 
 ip_feeds:
@@ -243,15 +356,13 @@ ip_feeds:
     url: https://example.com/ips.txt
     type: ip            # ip (plain/CIDR/range) | alienvault (custom format)
     output: my-new-ip-feed
-    description: What this feed blocks
-
-hash_feeds:
-  - name: My New Hash Feed
-    url: https://example.com/hashes.txt
-    type: hash
-    output: my-new-hash-feed
+    entry_combined: true # include in entry-model-combined.txt (optional)
     description: What this feed blocks
 ```
+
+> **Important:** When adding feeds with `entry_combined: true`, verify
+> the total entry count stays within your model's limits using:
+> `diagnose sys external-resource stats`
 
 ---
 
@@ -274,7 +385,9 @@ scripts/convert_feeds.py
 3. Domain feeds output in both AdGuard and FortiGate formats
 4. IP feeds output in FortiGate format only (supports IP, CIDR, ranges, AlienVault)
 5. Hash feeds output in FortiGate format only
-6. Combined/merged lists are generated for each output type
+6. Three combined variants are generated:
+   - `combined.txt` -- all feeds merged (for mid-range/high-end FortiGates and AdGuard)
+   - `entry-model-combined.txt` -- curated subset (for entry-level FortiGates)
 7. Changes are committed and pushed automatically
 
 ---

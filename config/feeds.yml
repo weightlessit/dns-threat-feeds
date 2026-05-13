@@ -17,6 +17,13 @@
 #   domain_feeds: domain | hosts | url | adguard | phishtank_csv
 #   ip_feeds:     ip | alienvault
 #   hash_feeds:   hash
+#
+# entry_combined: true
+#   Marks a feed for inclusion in the entry-model-combined.txt output.
+#   These curated subsets are designed to fit within FortiGate entry-level
+#   model limits (80E, 60F, 40F, etc) on FortiOS 7.4.4+:
+#     - Domains: ~750K target within 1M global limit
+#     - IPs:    ~200K target within 300K global limit
 # ======================================================================
 
 domain_feeds:
@@ -26,6 +33,7 @@ domain_feeds:
     url: https://urlhaus.abuse.ch/downloads/hostfile/
     type: hosts
     output: urlhaus-hostfile-domains
+    entry_combined: true
     description: >-
       Malware distribution domains from abuse.ch URLhaus
       (hosts-file format, updated every 5 minutes)
@@ -42,6 +50,7 @@ domain_feeds:
     url: https://threatfox.abuse.ch/downloads/hostfile/
     type: hosts
     output: threatfox-domains
+    entry_combined: true
     description: >-
       Indicators of compromise (domain-based) from abuse.ch
       ThreatFox covering C2 and payload delivery
@@ -51,6 +60,7 @@ domain_feeds:
     url: https://phishing.army/download/phishing_army_blocklist_extended.txt
     type: domain
     output: phishing-army-domains
+    entry_combined: true
     description: >-
       Aggregated phishing domain blocklist from Phishing Army
       (extended version with broader coverage)
@@ -59,6 +69,7 @@ domain_feeds:
     url: https://openphish.com/feed.txt
     type: url
     output: openphish-domains
+    entry_combined: true
     description: >-
       Community phishing URL feed from OpenPhish
       (domains extracted from full URLs)
@@ -75,6 +86,7 @@ domain_feeds:
     url: https://hole.cert.pl/domains/domains.txt
     type: domain
     output: cert-polska-domains
+    entry_combined: true
     description: >-
       Malicious domains from the Polish national CERT (NASK)
 
@@ -82,6 +94,7 @@ domain_feeds:
     url: https://lists.cyberhost.uk/malware_domains_only.txt
     type: domain
     output: cyberhost-malware-domains
+    entry_combined: true
     description: >-
       Verified malware and phishing domains from CyberHost,
       updated multiple times daily (~37K domains)
@@ -127,6 +140,7 @@ domain_feeds:
     url: https://raw.githubusercontent.com/hagezi/dns-blocklists/main/adblock/tif.txt
     type: adguard
     output: hagezi-tif
+    entry_combined: true
     description: >-
       HaGeZi curated threat intelligence feed covering malware,
       cryptojacking, scam, spam, and phishing domains
@@ -139,6 +153,7 @@ ip_feeds:
     url: https://rules.emergingthreats.net/blockrules/compromised-ips.txt
     type: ip
     output: et-compromised-ips
+    entry_combined: true
     description: >-
       Compromised IP addresses from Proofpoint Emerging Threats
 
@@ -146,6 +161,7 @@ ip_feeds:
     url: http://rules.emergingthreats.net/fwrules/emerging-Block-IPs.txt
     type: ip
     output: et-block-ips
+    entry_combined: true
     description: >-
       Emerging Threats firewall block IP list -- broader than
       the compromised-ips feed, includes known malicious sources
@@ -154,6 +170,7 @@ ip_feeds:
     url: https://feodotracker.abuse.ch/downloads/ipblocklist.txt
     type: ip
     output: feodo-tracker-ips
+    entry_combined: true
     description: >-
       Botnet command-and-control server IPs from abuse.ch Feodo Tracker
 
@@ -161,6 +178,7 @@ ip_feeds:
     url: https://www.spamhaus.org/drop/drop.txt
     type: ip
     output: spamhaus-drop
+    entry_combined: true
     description: >-
       Spamhaus Don't Route Or Peer list -- hijacked IP ranges
       (EDROP has been merged into this list)
@@ -169,6 +187,7 @@ ip_feeds:
     url: https://lists.blocklist.de/lists/all.txt
     type: ip
     output: blocklist-de-all
+    entry_combined: true
     description: >-
       IPs detected attacking services (SSH, mail, web) by blocklist.de
 
@@ -176,6 +195,7 @@ ip_feeds:
     url: https://cinsscore.com/list/ci-badguys.txt
     type: ip
     output: cinsscore-badguys
+    entry_combined: true
     description: >-
       Collective Intelligence Network Security threat IP list
 
@@ -183,6 +203,7 @@ ip_feeds:
     url: https://www.binarydefense.com/banlist.txt
     type: ip
     output: binarydefense-banlist
+    entry_combined: true
     description: >-
       Artillery honeypot threat intelligence ban list from Binary Defense
 
@@ -198,6 +219,7 @@ ip_feeds:
     url: https://raw.githubusercontent.com/stamparm/ipsum/master/levels/3.txt
     type: ip
     output: ipsum-level3
+    entry_combined: true
     description: >-
       IPs appearing on 3 or more independent blacklists from
       stamparm/ipsum -- high confidence, low false positive,
@@ -207,6 +229,7 @@ ip_feeds:
     url: https://opendbl.net/lists/etknown.list
     type: ip
     output: opendbl-etknown
+    entry_combined: true
     description: >-
       Emerging Threats known compromised hosts, pre-formatted
       for firewall ingestion (opendbl.net)
@@ -215,6 +238,7 @@ ip_feeds:
     url: https://opendbl.net/lists/bruteforce.list
     type: ip
     output: opendbl-bruteforce
+    entry_combined: true
     description: >-
       SSH and service brute-force attacker IPs (opendbl.net)
 
@@ -222,6 +246,7 @@ ip_feeds:
     url: https://opendbl.net/lists/dshield.list
     type: ip
     output: opendbl-dshield
+    entry_combined: true
     description: >-
       SANS DShield top attacking subnets, optimized for
       firewall ingestion -- uses IP range format (opendbl.net)
@@ -230,6 +255,7 @@ ip_feeds:
     url: https://raw.githubusercontent.com/bitwire-it/ipblocklist/main/outbound.txt
     type: ip
     output: bitwire-outbound
+    entry_combined: true
     description: >-
       C2 servers, botnet controllers, malware drop sites, and
       phishing hosts -- for outbound traffic blocking (updated 2h)
@@ -264,10 +290,6 @@ ip_feeds:
 hash_feeds:
 
   # -- Malware hash feeds (FortiGate only) -----------------------------
-  # FortiGate ingests these via Security Fabric > External Connectors >
-  # Threat Feeds > Malware Hash. Each line: <hex_hash> [description]
-  # Use ONE hash type per feed (do not mix MD5/SHA1/SHA256).
-
   - name: romainmarcoux Malicious SHA256
     url: https://raw.githubusercontent.com/romainmarcoux/malicious-hash/main/full-hash-sha256-aa.txt
     type: hash

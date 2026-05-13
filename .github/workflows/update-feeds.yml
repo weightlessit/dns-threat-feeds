@@ -2,9 +2,8 @@ name: Update Threat Feeds
 
 on:
   schedule:
-    # Run every 6 hours
     - cron: "0 */6 * * *"
-  workflow_dispatch: # Allow manual trigger
+  workflow_dispatch:
 
 permissions:
   contents: write
