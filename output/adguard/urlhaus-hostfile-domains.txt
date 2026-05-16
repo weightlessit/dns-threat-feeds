@@ -2,8 +2,8 @@
 ! Description: Malware distribution domains from abuse.ch URLhaus (hosts-file format, updated every 5 minutes)
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-05-16 07:58:46 UTC
-! Total rules: 528
+! Last modified: 2026-05-16 13:13:45 UTC
+! Total rules: 532
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -27,11 +27,13 @@
 ||admin.gestroom.it^
 ||adulter-bassist.courses^
 ||advanced-it-infrastructure.courses^
+||affirmingyourlife.com^
 ||agence-immobiliere-lyon.com^
 ||alarmline.com.br^
 ||alineeleuterio.com.br^
 ||allendostmen.com^
 ||allister.ee^
+||altamoorgoods.com^
 ||alternativas.ru^
 ||analytical-traffic-audit-record-file.wiki^
 ||andjemztech.com^
@@ -53,6 +55,7 @@
 ||avbackup.acionline.de^
 ||backupso.com^
 ||bargecontradictionexcrement.courses^
+||bblissmassage.com^
 ||bbos.minet.vn^
 ||beacontweezersbinge.wiki^
 ||beoauto.alexion.rs^
@@ -79,7 +82,6 @@
 ||byte-horizon-get-hash.courses^
 ||byte-stream-encryption-standard-base.wiki^
 ||c.fi3.me^
-||c2.mc-live.online^
 ||cad.659t.cn^
 ||card-oracle-mac-laptop.wiki^
 ||cartwell-pastphantom.courses^
@@ -101,6 +103,7 @@
 ||cl.ssouy.com^
 ||clipaid.app^
 ||cloud-infrastructure-management-platform.wiki^
+||cloud-infrastructure.garden^
 ||cloud-sync.courses^
 ||cloudinfrastructure.courses^
 ||cloudruntime.courses^
@@ -118,6 +121,7 @@
 ||correction-pancake-seissy.courses^
 ||cpofficial.com^
 ||creativevoltage.com^
+||crimefreesoftware.com^
 ||crypt-algorithm-analysis-expert-board.wiki^
 ||crystalpvp.ru^
 ||cs.go.kg^
@@ -139,8 +143,6 @@
 ||dialkwik.in^
 ||digobkp.store^
 ||diphtongspecialchess.courses^
-||disk.accord1key.cn^
-||distrib-ost-penal-network.garden^
 ||distributed-cache-storage-layer.wiki^
 ||distributed-event-processing-lab.courses^
 ||distributed-petal-network.garden^
@@ -165,6 +167,7 @@
 ||download.kaobeitu.com^
 ||download.pdf00.cn^
 ||download.pdf00.com^
+||download.suxiazai.com^
 ||dowonline.ru^
 ||dreamwatchevent.com^
 ||drevos.ro^
@@ -173,6 +176,7 @@
 ||dweixin.cn^
 ||easybrand.vn^
 ||edge-network-hub.courses^
+||edge-network-on-hub.garden^
 ||edge-processing-network.courses^
 ||edge-processing-network.wiki^
 ||eh-masled.courses^
@@ -194,7 +198,6 @@
 ||falacerta.com^
 ||farschid.de^
 ||fd.v2downf.shop^
-||federated-grow-install-framework.garden^
 ||federated-storage-cluster-system.wiki^
 ||federatedgrowframework.garden^
 ||federatedstoragelab.courses^
@@ -208,7 +211,6 @@
 ||flora-security-base.garden^
 ||flyingmutts.com^
 ||focus-mutovka-transfer-able.courses^
-||folder-management-core.garden^
 ||fotomaxinstall.click^
 ||frozi.cc^
 ||fukt.link^
@@ -217,6 +219,7 @@
 ||galerisenimutiara.com^
 ||gestionycobranzas.com^
 ||get-folder-runtime-harbor.courses^
+||get-on-processing-engine.garden^
 ||global-infra-logic-get-hash.wiki^
 ||global-infra-node-date-hash.wiki^
 ||globalbank.us^
@@ -255,7 +258,6 @@
 ||itssprout.com^
 ||izocab.com^
 ||izogard.com^
-||jawaratekno.com^
 ||jin.com.my^
 ||jlwz.cn^
 ||joyeriatauro.com^
@@ -277,7 +279,6 @@
 ||layer-obs-usget-tron.wiki^
 ||leniniansexualbeginner.courses^
 ||libss.0x504.com^
-||lindenappliances.co.za^
 ||lindnerelektroanlagen.de^
 ||local-update.com^
 ||logic-buffer-skills.courses^
@@ -296,13 +297,15 @@
 ||medicin-morisomtobeafraid.wiki^
 ||meetvideogoogle.com^
 ||meta-data-shredding-cleanup-utility.wiki^
-||micro-fan-obs-plan.garden^
+||metrics.gocloudmaps.com^
+||micro-service-cluster.garden^
 ||microfloraobservatory.garden^
 ||microservice-control-plane-node.wiki^
 ||microservicecluster.courses^
 ||microservicehub.courses^
 ||mistralkorea.ru^
 ||mitreart.com^
+||mixed-on-storage-layer.garden^
 ||mobshah.com^
 ||mogimall.com^
 ||mosselnet.co.za^
@@ -317,7 +320,6 @@
 ||neural-routing-fabric.courses^
 ||new.quranushaiqer.org.sa^
 ||noithaticon.vn^
-||nusatoyota.co.id^
 ||ny.lshdw.cc^
 ||o24o.ru^
 ||obese-table-usweb-play.wiki^
@@ -334,9 +336,9 @@
 ||packet-routing-lab.courses^
 ||packetlattice.courses^
 ||palharesinformatica.com.br^
-||path-green-second-hub.garden^
 ||pay.aqiu6.com^
 ||pcupd.com^
+||petal-distribution-hub.garden^
 ||petitesalope.com^
 ||planetariumobil.ro^
 ||plasteredplayn.com^
@@ -365,7 +367,6 @@
 ||reifenquick.de^
 ||remote-sensor-proxy-tunnel-config.wiki^
 ||reutilizemais.co.mz^
-||rheddh.com^
 ||riderspin.com^
 ||robertrowe.com^
 ||royalindiancurryclub.com^
@@ -383,6 +384,7 @@
 ||seismophonic.com^
 ||separadordecc.com^
 ||serverless-mesh-core.courses^
+||serverless-print-control-plane.garden^
 ||serverless-runtime-orchestration-engine.wiki^
 ||serverlesscontrolplane.courses^
 ||sg123.net^
@@ -459,6 +461,7 @@
 ||vidacaninapet.com^
 ||videomeetgoogle.com^
 ||vincentdemiero.com^
+||virtual-gate-way.garden^
 ||virtual-pipeline-ten-it.courses^
 ||virtual-routing-gateway.wiki^
 ||virtual-session-gateway.courses^
@@ -473,6 +476,7 @@
 ||website.mypetapp.co.za^
 ||whbackend.ru^
 ||widexenmexico.com.mx^
+||wildfloragrowthsystem.garden^
 ||wildflower-path-mapping.garden^
 ||wildflower-routing-path.garden^
 ||windomstatetheater.com^
