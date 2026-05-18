@@ -2,8 +2,8 @@
 ! Description: Indicators of compromise (domain-based) from abuse.ch ThreatFox covering C2 and payload delivery
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-05-18 09:54:10 UTC
-! Total rules: 44063
+! Last modified: 2026-05-18 15:20:38 UTC
+! Total rules: 44093
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -154,6 +154,7 @@
 ||0gk.lake-ray.ru^
 ||0gs.mossgate.ru^
 ||0h.ru7x.ru^
+||0h5smwzp.network-forge.digital^
 ||0i.a-zon.ru^
 ||0i.frostwilder.ru^
 ||0i.pulse-knob.ru^
@@ -3293,6 +3294,7 @@
 ||activebridgehub.top^
 ||activities-strict.gl.at.ply.gg^
 ||activitydmy.icu^
+||activitymeal.space^
 ||activityof.com^
 ||actomil.cyou^
 ||actor.1-byhih-05-ey.ru^
@@ -4272,7 +4274,6 @@
 ||api.genesisproj.org^
 ||api.gigaversecentiliumai.cloud^
 ||api.global-net-admin-service.wiki^
-||api.google-update.xyz^
 ||api.grabtrust.icu^
 ||api.groksearch.net^
 ||api.hdstlr.net^
@@ -7627,6 +7628,7 @@
 ||c56xjoz.represent-skittish.lat^
 ||c5r0ty9b.windb1rd.ru^
 ||c5wnvaa8.sn1pburrow.ru^
+||c5ylbfsw.packet-vector.digital^
 ||c6.0y2i.ru^
 ||c6.ko-lu.ru^
 ||c6e051x9.khudrukrantingmanic.digital^
@@ -9247,6 +9249,7 @@
 ||containerizedecosystem.garden^
 ||containerizedgardenmesh.garden^
 ||containerizedplantmesh.garden^
+||containerizedplantnetwork.garden^
 ||containerizedworkflowengine.courses^
 ||containerorchestrationhub.wiki^
 ||contains-are.gl.at.ply.gg^
@@ -11070,6 +11073,7 @@
 ||distributedobjectstoragenet.wiki^
 ||distributionmondrelay.com^
 ||distributionsuivi-colis.com^
+||distributiontheory.cfd^
 ||dit.kievholod.kiev.ua^
 ||dit.multiatend.com.br^
 ||ditabop.cyou^
@@ -11298,6 +11302,7 @@
 ||doclabutil.vexon4ar.pics^
 ||docs-espaces-pros.cloud^
 ||docs.tigerfed.net.bd^
+||docsfan-flora-ability-system.garden^
 ||docteurefarahnesrine.ch^
 ||doctoracristinachacon.com^
 ||document-mutual.gl.at.ply.gg^
@@ -11390,6 +11395,7 @@
 ||doorforum.com^
 ||doormatic.tn^
 ||doorsleeds.co.uk^
+||doorsoap.cfd^
 ||dootnode.themesbrand.website^
 ||doreen.com^
 ||dorn.fo0operate1.ru^
@@ -12064,6 +12070,8 @@
 ||ecom-arteterapeutica.signo.dev.br^
 ||economyassistant.com^
 ||economywise.coupons^
+||ecosystem-processing-tienginx-center.garden^
+||ecosystemmanagementcore.garden^
 ||ecosystemmanagementhub.garden^
 ||ecosystemprocessingcenter.garden^
 ||ecq0.p1acetit1e.ru^
@@ -12638,7 +12646,6 @@
 ||enslaveculprit.digital^
 ||ensure-witness.gl.at.ply.gg^
 ||ent.33b2.ru^
-||enter.xone.la^
 ||enterprise-security-log.courses^
 ||enterprise-solution-buffer-utility-log.wiki^
 ||entertainment-pirates.gl.at.ply.gg^
@@ -13976,6 +13983,7 @@
 ||flora-obsrvs-ability-todo.garden^
 ||flora-processing-framework.garden^
 ||flora-security-base.garden^
+||floraanalyticsengine.garden^
 ||floradatextil.kbral.com.br^
 ||floralsupply.com^
 ||floraobservabilitysystem.garden^
@@ -15499,8 +15507,6 @@
 ||gepinui5.ru^
 ||gepsir.cl0udmist.ru^
 ||gepula.com^
-||ger.clashofmaps.vip^
-||ger.mummyhildasrice.com^
 ||gerafort.com.br.caldasservice.com.br^
 ||gerafort.com.br^
 ||geralnewlong.com^
@@ -16253,6 +16259,7 @@
 ||gov.hanel.work^
 ||goveanrs.org^
 ||govearali.org^
+||governmentyard.cfd^
 ||govno777-63586.portmap.host^
 ||gowaronusd1.lol^
 ||gowinston.lol^
@@ -16397,6 +16404,7 @@
 ||greenhillmatrix.top^
 ||greenhouse-climate-control-sys.garden^
 ||greenhousecontrolhub.garden^
+||greenhousemonitoringhub.garden^
 ||greenhouseoperationscenter.garden^
 ||greenhouseoperationshub.garden^
 ||greenhouseresourceengine.garden^
@@ -17570,6 +17578,8 @@
 ||hmo.stoneh0use.ru^
 ||hmoeagent.com^
 ||hmonylg.ru^
+||hms.4k-stream.site^
+||hms.chadasvendas.com^
 ||hn.silverklamm.ru^
 ||hn.windm1ll.ru^
 ||hn40pz.milo3ren.lat^
@@ -18894,6 +18904,7 @@
 ||iscape-31656.portmap.host^
 ||iscfyub.net^
 ||iscx3.velorix.life^
+||isellchildren.online^
 ||isf.ssffaa4.xyz^
 ||isf.syslicense.net^
 ||isgilan.com^
@@ -19396,6 +19407,7 @@
 ||jm.vw0e1.ru^
 ||jm7xf.sprutte5t.lat^
 ||jma-architecture.ch^
+||jmaeciy3.signal-vault.digital^
 ||jmazpbc.com^
 ||jmlzwn2l.limous-nitout.digital^
 ||jmpbowl.coupons^
@@ -20300,6 +20312,7 @@
 ||kitten-smp.com^
 ||kittenclient.com^
 ||kittenmc.com^
+||kittenschalk.xyz^
 ||kittenscraft.com^
 ||kittensmc.com^
 ||kittensmp.site^
@@ -20359,7 +20372,6 @@
 ||kkvbyroasdr.cn^
 ||kkx89c8vegyrq7w.top^
 ||kkx90jas.v0xenharvest.ru^
-||kl.kimlinlin.com^
 ||kl.ko-lu.ru^
 ||kl.softf0x.ru^
 ||kl.wholeunfrosted.cfd^
@@ -21177,7 +21189,6 @@
 ||ledger.pitman123wid.coupons^
 ||ledgerprotected.com^
 ||ledivineenfant-60344.portmap.host^
-||leeleelee.xyz^
 ||left.kuvuboa29.ru^
 ||lega1.5-kafaq-7-io.ru^
 ||legacy.sushymns.org^
@@ -23710,6 +23721,7 @@
 ||me0.lo5ermedi0c.ru^
 ||me0wly.c1oudcat.ru^
 ||me1.qute3.ru^
+||me4stn67.network-forge.digital^
 ||me52.snibblecap.ru^
 ||me8.rv-2-o-5.ru^
 ||me9ves1uohydo9ps.org^
@@ -24470,6 +24482,7 @@
 ||moneyepeople.com.br^
 ||moneygeniushub.com^
 ||moneypond.in^
+||mongofly-container-gard-mesh.garden^
 ||moni8-wave.grov6lira.bet^
 ||monitor-graph.toorout.lat^
 ||monkey.kyun.li^
@@ -25878,6 +25891,7 @@
 ||nix.ssffaa3.xyz^
 ||nix.swadeshcomputer.com^
 ||nixum.harpmos.org^
+||nizy2y1o.signal-vault.digital^
 ||nj.n6ri.ru^
 ||nj.ty9a.ru^
 ||nj77rzyff6jp3ahe.org^
@@ -27540,6 +27554,7 @@
 ||packet-relay-engine.courses^
 ||packet-relay-engine.garden^
 ||packet-routing-lab.courses^
+||packet-vector.digital^
 ||packetdistributionmesh.wiki^
 ||packetlattice.courses^
 ||packetrelay.wiki^
@@ -27772,6 +27787,7 @@
 ||pc4.aspenatlas.ru^
 ||pc4.saffronkern.ru^
 ||pc7n.chi8nondanyl.surf^
+||pcapshay-bute-gard-source.garden^
 ||pcbnn.demon5tratpripek.surf^
 ||pcccthanhhuy.com^
 ||pccomputadores.com.br^
@@ -27933,6 +27949,7 @@
 ||petal.beautybundle.coupons^
 ||petal7.fr0stpetai.ru^
 ||petal9.ston3garden.ru^
+||petaldistributioncenter.garden^
 ||petaldistributionplatform.garden^
 ||petalprocessingplatform.garden^
 ||peterandalexa.com^
@@ -28647,6 +28664,7 @@
 ||portalvaledojiquirica.caldasservice.com.br^
 ||portentry.fig2ship.coupons^
 ||portevergrenncallaosilcent.dynuddns.com^
+||porthot-irr-gation-menthub.garden^
 ||portlandinterviewmagazine.com^
 ||portmeshnode.sora5link.surf^
 ||portmeshnode.zori9vax.bet^
@@ -29452,6 +29470,7 @@
 ||q4.w9v5r4.ru^
 ||q4.z1u2z.ru^
 ||q40eo.quant-melt.ru^
+||q41liphc.packet-vector.digital^
 ||q4g.f1owreci7at.ru^
 ||q4m8v.believein41fant.coupons^
 ||q4m8v.peach3package.coupons^
@@ -30225,6 +30244,7 @@
 ||radiodeputter.nl^
 ||radiofan88fm.ro^
 ||radiohostbrasil.com.br^
+||radiopin-botn-monitor-in-gengine.garden^
 ||radiopoljubac.net^
 ||radiosandiegomantilla.com^
 ||radiovidanews.com^
@@ -31169,6 +31189,7 @@
 ||rorkery.com^
 ||ros-tele.com^
 ||rosecutdiamonds.ca^
+||rosegrip.xyz^
 ||rosemarie.zerosoft.in^
 ||rosianagordoninteriordesigner.com^
 ||rosklun.cn^
@@ -32762,6 +32783,7 @@
 ||siniloan.kawayanmedia.com^
 ||sinitjq.cyou^
 ||sinkingyourself.courses^
+||sinkwash.space^
 ||sinobazaar.com^
 ||sinpidorasa228nixware-44719.portmap.host^
 ||sinq-biyou.com^
@@ -32981,6 +33003,7 @@
 ||slanef.r1dsheet5et.ru^
 ||slantboardguy.testingweblink.com^
 ||slash.gdyl-2.ru^
+||slashbob-distrib-plat-form.garden^
 ||slate.bluest0ne.ru^
 ||slate1-pulse.audiheadboa7d.lat^
 ||slayieure-62635.portmap.host^
@@ -36618,6 +36641,7 @@
 ||tt-ynl.top^
 ||tt.hush-zigzag.ru^
 ||tt.nightfl0w.ru^
+||ttcxdljiue.cn^
 ||tteljeo.com^
 ||tth.123230.xyz^
 ||tth.blogdospesados.com.br^
@@ -38646,6 +38670,7 @@
 ||vbq6.v1b3forge.ru^
 ||vbv.hidayahnetwork.com^
 ||vbvfs28b.network-harbor.digital^
+||vbytelot-mead-automation-form.garden^
 ||vc.5-rt.ru^
 ||vc.rogosie4.ru^
 ||vcc-library.uk^
@@ -39166,6 +39191,7 @@
 ||volarfab.ru^
 ||volatile-suppose.gl.joinmc.link^
 ||volcanic-magma-chamber.garden^
+||volcanopin.xyz^
 ||volez.icu^
 ||volokno.net^
 ||volp.run^
@@ -40129,6 +40155,7 @@
 ||whip.tangleflux.ru^
 ||whisper-lake.ru^
 ||whisper.mumb1e8uess.ru^
+||whistlebook.cfd^
 ||whistlesong.xyz^
 ||white-tag.com^
 ||white.nqyf-7.ru^
@@ -40233,10 +40260,12 @@
 ||wild6.skybl1ss.ru^
 ||wild7.r1ver.ru^
 ||wild9siteview.so8laven.bet^
+||wilder-flow-work-lmsystem.garden^
 ||wildfloracontrolsystem.garden^
 ||wildfloragrowthsystem.garden^
 ||wildflorainfrastructure.garden^
 ||wildfloraprocessingsystem.garden^
+||wildfloraresourceengine.garden^
 ||wildfloraworkflowsystem.garden^
 ||wildflower-path-mapping.garden^
 ||wildflower-routing-path.garden^
@@ -42069,7 +42098,6 @@
 ||www.ynps553g.shop^
 ||www.yoshinari-raita.com^
 ||www.youauthors.xyz^
-||www.youwhui.cn^
 ||www.ysrmrhon.shop^
 ||www.ytegs.com^
 ||www.ytop01.icu^
@@ -42088,7 +42116,6 @@
 ||www.zm7.top^
 ||www.zmoonshots.com^
 ||www.znqkr.live^
-||www.zp857.online^
 ||www.zt9398net.online^
 ||www.zu2w4.com^
 ||www.zvg6wbuu.shop^
@@ -42972,6 +42999,8 @@
 ||yamamoto-ashiba.com^
 ||yamatosteel.jp^
 ||yamsmell.xyz^
+||yan.4k-stream.site^
+||yan.chadasvendas.com^
 ||yandi9988.com^
 ||yandibaiji0203.com^
 ||yandibaiji0219.com^
@@ -43892,6 +43921,7 @@
 ||zone7logicnet.felo7zone.surf^
 ||zone7taskhub.nelo2qir.bet^
 ||zonebleuzeit1.novismetaweb.garden^
+||zoneday-green-house-oper-center.garden^
 ||zong.elpaies.info^
 ||zoning.articu1urb2n.ru^
 ||zoo.st0bepress.ru^
