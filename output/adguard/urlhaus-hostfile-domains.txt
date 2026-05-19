@@ -2,8 +2,8 @@
 ! Description: Malware distribution domains from abuse.ch URLhaus (hosts-file format, updated every 5 minutes)
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-05-19 09:36:37 UTC
-! Total rules: 571
+! Last modified: 2026-05-19 14:51:57 UTC
+! Total rules: 570
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -28,12 +28,12 @@
 ||aakrutitexture.in^
 ||abandoned-asylum-expedition.garden^
 ||abyssal-kraken-trench.garden^
+||acaviationsupplies.com^
 ||acc.jiangsujiaxue.com^
 ||access.skaparade.com^
 ||acms.saleseos.com^
 ||admin.byte.in.ua^
 ||admin.gestroom.it^
-||affirmingyourlife.com^
 ||agence-immobiliere-lyon.com^
 ||aimgrub2-cloud-sphere-get.garden^
 ||alarmline.com.br^
@@ -42,7 +42,6 @@
 ||allendostmen.com^
 ||allister.ee^
 ||alternativas.ru^
-||ancient-colosseum-engineering.garden^
 ||andjemztech.com^
 ||antbots-uni-resou-plats.garden^
 ||api.baimless.com^
@@ -61,9 +60,9 @@
 ||ba5ufc2h.logic-sphere.digital^
 ||backupso.com^
 ||bada-bing-sopranos-lounge.garden^
+||bagansi-wild-flowr-manage-form.garden^
 ||bbos.minet.vn^
 ||beoauto.alexion.rs^
-||bioluminescent-fungi-spore.garden^
 ||blessdayservices.org^
 ||blogs.sokun.jp^
 ||bmdcompany.com^
@@ -84,14 +83,12 @@
 ||c.fi3.me^
 ||c2rdcpuv.runtime-sphere.digital^
 ||cad.659t.cn^
-||carbon-fiber-monocoque.garden^
 ||cat.dashabi.in^
 ||cat.xiaojiji.nl^
 ||cat.xiaoshabi.nl^
 ||catbaparadisehotel.com.vn^
 ||ccleaner.gl^
 ||cdaonline.com.ar^
-||cdn.file6.goodid.com^
 ||celebratingseniors.net^
 ||chat-server.maverickpreviews.com^
 ||checkfivem.com^
@@ -99,6 +96,7 @@
 ||chinaapper.com^
 ||chiptune.com^
 ||chronicle-archive-keeper.garden^
+||chuguadventures.co.tz^
 ||chungminhtaichinhsaigon.net^
 ||cl.ssouy.com^
 ||clamprob-folder-runtime-forge.garden^
@@ -109,11 +107,11 @@
 ||cntainrs-folders-giped-green-hub.garden^
 ||co-emas.com^
 ||coad-meadow-analytics-center.garden^
-||codeassociates.co.ke^
 ||compuserviceonline.com.br^
 ||container-folder-gized-greenhub.garden^
 ||containerizedbloomhub.garden^
 ||containerizedecosystem.garden^
+||containerizedgardenengine.garden^
 ||containerizedgardenhub.garden^
 ||containerizedgardenmesh.garden^
 ||containerizedplantnetwork.garden^
@@ -139,10 +137,12 @@
 ||damiancollier.com^
 ||data.yhydl.com^
 ||dcrun.co.uk^
+||dcwblida.dz^
 ||de.cloud.dxang.com^
 ||deep-sea-hydrothermal-vent.garden^
 ||deep-space-artificial-gravity.garden^
 ||delp-heizungsbau.de^
+||dengrep-resource-opencut-engine.garden^
 ||derekludlow.com^
 ||desentupidora.pro.br^
 ||dev1-revitavive.com^
@@ -220,6 +220,7 @@
 ||floraanalyticsresource.garden^
 ||floraautomationnetwork.garden^
 ||floraobservabilitysystem.garden^
+||floraresourcecontroller.garden^
 ||flow-hub-green-house-work.garden^
 ||flyingmutts.com^
 ||forgotten-civilization-myth.garden^
@@ -246,6 +247,7 @@
 ||got-flexl-distrib-engine.garden^
 ||gothic-cathedral-blueprint.garden^
 ||great-fauna-tcpipgay-go-system.garden^
+||green-macrohim-work-center.garden^
 ||greenf.alexion.rs^
 ||greenhousecontrolplatform.garden^
 ||greenhousedeploymenthub.garden^
@@ -267,12 +269,12 @@
 ||i.404.pm^
 ||icoffeecloud.com^
 ||igra123.com^
+||indeanapolice.cc^
 ||infoworkerone.com^
 ||infoworkerone.org^
 ||infra-blue-high-print.garden^
 ||injectroblox.ru^
 ||inmbau.com^
-||interstellar-dust-nebula.garden^
 ||ircftp.net^
 ||irrigation-control-network.garden^
 ||irrigationautomationhub.garden^
@@ -304,8 +306,8 @@
 ||kavacanada.ca^
 ||khoancatbetong89.vn^
 ||kimyen.net^
+||kis.marketing^
 ||kitdocs-openlow-observe-matrix.garden^
-||kms.com.bd^
 ||kokorostore.it^
 ||konsor.ru^
 ||kramersmarionnettes.com^
@@ -313,7 +315,6 @@
 ||landonirwin.com^
 ||lawfirm.paperbirdtech.com^
 ||libss.0x504.com^
-||lindenappliances.co.za^
 ||lindnerelektroanlagen.de^
 ||load-meadows-analytics-cntr.garden^
 ||local-update.com^
@@ -342,6 +343,7 @@
 ||monstersstat.com^
 ||mosselnet.co.za^
 ||motriztrading.com.br^
+||msedge.vg^
 ||msgrouppolicy.vg^
 ||mstopsai.com^
 ||muledo.com^
@@ -354,6 +356,7 @@
 ||new.quranushaiqer.org.sa^
 ||noithaticon.vn^
 ||novacinder.digital^
+||nusatoyota.co.id^
 ||ny.lshdw.cc^
 ||o24o.ru^
 ||ojang.pe.kr^
@@ -379,7 +382,6 @@
 ||petalresourceframework.garden^
 ||petalworkflowengine.garden^
 ||petitesalope.com^
-||pid.fly160.com^
 ||pixelartcanvas.garden^
 ||planetariumobil.ro^
 ||plasteredplayn.com^
@@ -390,7 +392,7 @@
 ||predator-hunting-chronicles.garden^
 ||primemic.com^
 ||primordial-soup-evolution.garden^
-||project360.hr^
+||protherapycenter.com^
 ||public.demo.securecloudsandbox.com^
 ||pvsa.gxfugy.cn^
 ||q41liphc.packet-vector.digital^
@@ -425,6 +427,7 @@
 ||separadordecc.com^
 ||serverless-mesh-core-yet-go.garden^
 ||sg123.net^
+||shaderm.com^
 ||shahamanatme.com^
 ||shells-garden-framework.garden^
 ||shop.mediasova.ru^
@@ -448,17 +451,17 @@
 ||static.topxgun.com^
 ||static.youdm.cn^
 ||stdown.dinju.com^
-||stealth-bomber-radar-cross.garden^
+||steam66.cn^
 ||steampunkaeronautics.garden^
 ||stg1-swaggrhockey.com^
 ||stonecradle.com^
-||stratographic-core-drill.garden^
 ||stratospheric-weather-balloon.garden^
 ||subdermal-biometric-chip.garden^
 ||subfossil-oak-chronology.garden^
 ||suboceanic-trench-sonar.garden^
 ||support.clz.kr^
 ||sutterpoint.com^
+||svirtual.sanviatorperu.edu.pe^
 ||svo-pois.file-online.lat^
 ||svosoldati.file-online.lat^
 ||synctimenow.org^
@@ -484,12 +487,10 @@
 ||trtmyanmar.com^
 ||ukguk71.ru^
 ||uniform-factory.ae^
-||upaicdn.xinmei365.com^
 ||upchemicals.co.in^
 ||update.cg100iii.com^
 ||v9rvls59.stack-matrix.digital^
 ||vagler.ru^
-||vanta.st^
 ||vaultask-micro-service-pulse.garden^
 ||vbytelot-mead-automation-form.garden^
 ||vcc-library.uk^
@@ -506,7 +507,6 @@
 ||volcanic-magma-chamber.garden^
 ||vrajras.com^
 ||webcstore.pw^
-||website.mypetapp.co.za^
 ||widexenmexico.com.mx^
 ||wild-flora-processing-go-system.garden^
 ||wilder-flow-work-lmsystem.garden^
@@ -524,7 +524,6 @@
 ||www.astenterprises.com.pk^
 ||www.automobile-bk.de^
 ||www.backupallfresh2030.com^
-||www.benshamcentre.co.uk^
 ||www.blackhattoolz.com^
 ||www.bratusferramentas.grupomoltz.com.br^
 ||www.chenwangqiao.com^
@@ -566,7 +565,6 @@
 ||www.zhikey.com^
 ||xbgnx37a.byte-lattice.digital^
 ||xc88b0.file-online.lat^
-||xemhang.vn^
 ||xenon.studio^
 ||xn--yh4bx88a.com^
 ||xshop.com.tr^
@@ -575,6 +573,7 @@
 ||youtransfer.net^
 ||zamilgroups.com^
 ||zenglobalenerji.com^
+||zhigao5191.com^
 ||ziti-multicooker-hacks.garden^
 ||zoneday-green-house-oper-center.garden^
 ||zycdjz.com^
