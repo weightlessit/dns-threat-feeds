@@ -2,7 +2,7 @@
 ! Description: Indicators of compromise (domain-based) from abuse.ch ThreatFox covering C2 and payload delivery
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-05-19 14:51:58 UTC
+! Last modified: 2026-05-19 19:48:08 UTC
 ! Total rules: 44088
 !
 ! Auto-generated -- do not edit manually.
@@ -241,6 +241,7 @@
 ||0vp7.softw1nd.ru^
 ||0vs-r.ru^
 ||0w.da5y.ru^
+||0wv09g11.gothiccathedralblueprint.digital^
 ||0x0.7-h9.ru^
 ||0x0security.com^
 ||0x295bae89192c32.com^
@@ -2585,6 +2586,7 @@
 ||8xd.r4tu.ru^
 ||8xorq0f0.after-diacritic.digital^
 ||8xouz.driftquartz.ru^
+||8xtx6dv2.gothiccathedralblueprint.digital^
 ||8xx-game.team^
 ||8xx-online.com^
 ||8xx-vn.com^
@@ -3624,6 +3626,7 @@
 ||agi.elythia.online^
 ||agico.net^
 ||agidelgembee.monster^
+||agilebee-federate-growth-net.garden^
 ||agipcrc.com^
 ||agitate6vagina.digital^
 ||agitex.africa.com^
@@ -4410,10 +4413,7 @@
 ||app-6-v.ru^
 ||app-adj.bomain.ru^
 ||app-chrome.com^
-||app-everstake.cfd^
 ||app-front.anmaradigital.com^
-||app-marginfi.sbs^
-||app-sanctum.top^
 ||app-v09-data.optic-prime.cfd^
 ||app-v12-data.core-protocol.net^
 ||app.accarda.com^
@@ -5257,7 +5257,6 @@
 ||axiscontrol.ltd^
 ||axle.r0bintorque.ru^
 ||axle.vextimber.ru^
-||axlom-app.cfd^
 ||axm.mjg1.ru^
 ||axon.nerv0u5radic.ru^
 ||axwq1.sorix7el.lat^
@@ -7636,6 +7635,7 @@
 ||c4y3itze.sparmarkt.qpon^
 ||c4z.v0rtatouch.ru^
 ||c52ih.lomov-stroganal.lat^
+||c533d8a0-2c69-47ed-b173-0234c17c3989.codepit-rized-denengine.garden^
 ||c56xjoz.represent-skittish.lat^
 ||c5r0ty9b.windb1rd.ru^
 ||c5wnvaa8.sn1pburrow.ru^
@@ -9049,6 +9049,7 @@
 ||codeframe.wiki^
 ||codeinecrazy.xyz^
 ||codemeshsite.cryptosyncflow.bet^
+||codepit-rized-denengine.garden^
 ||coder-logic-vault.courses^
 ||codered.chownjoysomerville.com^
 ||codered.ironalarm.io^
@@ -10106,6 +10107,7 @@
 ||damonke43453-59818.portmap.host^
 ||damos.com.cy^
 ||damp-vask.dk^
+||dampcaps-flor-sou-rail.garden^
 ||dampf.flintquelle.ru^
 ||dampf.frostgipfel.ru^
 ||damysa10.top^
@@ -11080,6 +11082,7 @@
 ||distributedcache.courses^
 ||distributedgardenanalytics.garden^
 ||distributedgardencontrol.garden^
+||distributedgardenmesh.garden^
 ||distributedgardenresource.garden^
 ||distributedgrowthnetwork.garden^
 ||distributedmeadownetwork.garden^
@@ -13984,7 +13987,6 @@
 ||flip.dou5etossin8.ru^
 ||flip.f1ippme7re.ru^
 ||flip.tundra-flip.ru^
-||flipgg.sbs^
 ||flipinlanjal.mail-cube.store^
 ||flisinfuntar.mail-lab.store^
 ||flivication-officefax.myhome-server.de^
@@ -15480,7 +15482,6 @@
 ||gemez007.com^
 ||gemini-console.com^
 ||gemis.mt-org.com^
-||genbloke.mywire.org^
 ||gene-pod.di7ectkoshevoy.lat^
 ||gene-track.messy-zamai.pics^
 ||geneqey6.ru^
@@ -15766,8 +15767,6 @@
 ||gjkz2erq.easyyear.digital^
 ||gjo.aasscc.how^
 ||gjo.cebolinhaburger.com^
-||gjt.clashofmaps.vip^
-||gjt.mummyhildasrice.com^
 ||gjt.nigeriaafricatime.com^
 ||gjt.wallyapp.xyz^
 ||gjvhfiouvwiqvtewbu.com^
@@ -16425,6 +16424,7 @@
 ||greengy.tech^
 ||greenhillmatrix.top^
 ||greenhouse-climate-control-sys.garden^
+||greenhouse-resource-center.garden^
 ||greenhousecontrolhub.garden^
 ||greenhousecontrolplatform.garden^
 ||greenhousedeploymenthub.garden^
@@ -20375,7 +20375,6 @@
 ||kj.zi-qa.ru^
 ||kj4j9.cheb0t5agit.ru^
 ||kjarz.com^
-||kjh.servebeer.com^
 ||kji.sun0rbit.ru^
 ||kjjeuhhqiwvfnuvvtkd.com^
 ||kjlhsgg.net^
@@ -20517,7 +20516,6 @@
 ||kokoslotlogin.com^
 ||kokucho.tokyo^
 ||kolbexenterprise.com^
-||koleporter.com^
 ||kolmina.com^
 ||kolscan.fi^
 ||komba.online^
@@ -23852,6 +23850,7 @@
 ||memoud-59303.portmap.host^
 ||menbel.network^
 ||menchocoin.lol^
+||mendocs-opera-shub-cowddos.garden^
 ||menioffituat.chickenkiller.com^
 ||menopjc.cyou^
 ||mensare.top^
@@ -24439,10 +24438,12 @@
 ||mode.techdriftway.lat^
 ||mode.urbanflowbase.lat^
 ||modedapk.net^
+||modelcut-auto-frame-nodipfs.garden^
 ||modelo.gbdkdesign.com.br^
 ||models.litellm.cloud^
 ||modernnutraguide.com^
 ||modernrecent.com^
+||modesix-iontel-scalapie-system.garden^
 ||modestopowerwashing.com^
 ||modul3-stack.lafaofn0thes.surf^
 ||modular-analog-synthesizer.garden^
@@ -27961,6 +27962,7 @@
 ||petah.lol^
 ||petal-distribution-engine.garden^
 ||petal-distribution-hub.garden^
+||petal-processing-platform.garden^
 ||petal-routing-platform.garden^
 ||petal.beautybundle.coupons^
 ||petal7.fr0stpetai.ru^
@@ -28599,7 +28601,6 @@
 ||policy.ydns.eu^
 ||policybk.ydns.eu^
 ||poligun.com.tr^
-||politics-tower.gl.at.ply.gg^
 ||poljooprema.com^
 ||polkadotdp.com^
 ||polledanswer.com^
@@ -29013,7 +29014,6 @@
 ||prosil.mail-mentor.store^
 ||prospectorplumbing.com^
 ||prostazin.com^
-||protection-hub.cfd^
 ||protectormexico.com.mx^
 ||protecttar.bytegrid.lat^
 ||protectvision.com.br^
@@ -30506,7 +30506,6 @@
 ||rdsnets.com^
 ||rdtssml.com^
 ||rdv2slcujtsiga6c.org^
-||rdweb.csmanay.com^
 ||re.nyfk.ru^
 ||re.qacacoe3.ru^
 ||re.s2-ly.ru^
@@ -30779,7 +30778,6 @@
 ||resume.nicholastuck.com^
 ||resumebuilders.us^
 ||resumodamoda.com^
-||resusct.qpon^
 ||ret4in6-sync.mikestahlber.work^
 ||reta-wave.woodfor.lat^
 ||retailvelvet.mixruby.life^
@@ -31249,6 +31247,8 @@
 ||rpcnetconnect.com^
 ||rpf.windsh1ft.ru^
 ||rpi.capital^
+||rpi.fazvende.com^
+||rpi.tristans-tea.com^
 ||rpiqrre.ru^
 ||rpkskwn.ru^
 ||rps7g.windbarrow.ru^
@@ -31917,6 +31917,7 @@
 ||scaffoldersnearme.com^
 ||scalarview.icu^
 ||scalarview.shop^
+||scaletax-bute-analytics-toeheap.garden^
 ||scalezoneyview.cobaltpathsys.garden^
 ||scalezoneyview.vectorpointsite.garden^
 ||scalp-coiffure.com^
@@ -33025,6 +33026,7 @@
 ||slhwyjw.com^
 ||sliokrvnkjenhwgpjl.com^
 ||slmomdmcjuoaxdip.com^
+||slngftr.beer^
 ||slnt7k.s1lentlake.ru^
 ||slong.help^
 ||slot0p.smartb0x.ru^
@@ -34366,7 +34368,6 @@
 ||stop5logicway.staticmeshview.bet^
 ||store-image.sbs^
 ||store-image.shop^
-||store.csmanay.com^
 ||store.greendreamcannabis.com^
 ||store.xinnomix.net^
 ||storedonutsmp.net^
@@ -34830,7 +34831,6 @@
 ||sxqy-9.ru^
 ||sxw.lo2p.ru^
 ||sxwa.nxjwl.com^
-||sxwajnextcloud.csmanay.com^
 ||sxxpv-193-25-251-10.a.free.pinggy.link^
 ||sxyz.sumukye2.ru^
 ||sy336556254c.cyou^
@@ -35848,7 +35848,6 @@
 ||thre-thic.pav1mirex.lat^
 ||thread-mark.7toralex.lat^
 ||thread-television.gl.at.ply.gg^
-||threadproperty.xyz^
 ||threenetragroup.kusherp.com^
 ||threepublic.com^
 ||thresumebuilder.com^
@@ -36421,7 +36420,6 @@
 ||transfergocompany.com^
 ||transfernow.website^
 ||transit-sur.nexo5mir.surf^
-||transition-gate.help^
 ||translacat.com^
 ||translator.isotoop.be^
 ||transpd.cyou^
@@ -36885,6 +36883,7 @@
 ||u3.jt4o0.ru^
 ||u31.darksh1ft.ru^
 ||u3c.v4-z.ru^
+||u3hqns4msrc4hei.top^
 ||u3i3y.st0nefield.ru^
 ||u3k.amberr0cket.ru^
 ||u3kd.sn1pixel.ru^
@@ -37091,6 +37090,7 @@
 ||uh.tfba6.ru^
 ||uh.xvqy-8.ru^
 ||uh.yq-4n.ru^
+||uh83re33.magneticlevitationtrain.digital^
 ||uhf.ibzr-2.ru^
 ||uhiueaaubgbuadg.su^
 ||uhjhjst.ru^
@@ -37158,7 +37158,6 @@
 ||ukd0.saffron-dent.ru^
 ||ukflagcompany.co.uk^
 ||ukfxwac.com^
-||ukhorizons.com^
 ||uklidprolidi.cz^
 ||ukocpmma.offe7sawmi1.ru^
 ||ukpod.co.uk^
@@ -38815,7 +38814,6 @@
 ||verification-step-5321.com^
 ||verificationsbycapcha.center^
 ||verificatlonhost.com^
-||verify-connection.sbs^
 ||verify-my-accounts.com^
 ||verify-slack.com^
 ||verifyecho.auditsounder.ru^
@@ -39501,6 +39499,7 @@
 ||w53zv1lx.blue128cinder.digital^
 ||w5ck98rk.n1ghtcre5t.ru^
 ||w5okah58.ebensen-timent.digital^
+||w5r4tev8.magneticlevitationtrain.digital^
 ||w5t.g7ve.ru^
 ||w5ukqj3l.maidalensesalvy.ru^
 ||w6.nytk.ru^
@@ -40263,6 +40262,7 @@
 ||wildfloraprocessinghub.garden^
 ||wildfloraprocessingsystem.garden^
 ||wildfloraresourceengine.garden^
+||wildfloraworkflowhub.garden^
 ||wildfloraworkflowsystem.garden^
 ||wildflower-path-mapping.garden^
 ||wildflower-routing-path.garden^
@@ -40396,7 +40396,6 @@
 ||winupd.technoglobalnet.lat^
 ||winupdate.cfd^
 ||winupdateconf.cfd^
-||winwin24.mywire.org^
 ||winwinexpert.com^
 ||winwinexpert.ru^
 ||winworkorders.com^
@@ -43636,6 +43635,7 @@
 ||zed9ra.driftquartz.ru^
 ||zeellow.com^
 ||zeermoda.com^
+||zef6cv5o.byte-lattice.digital^
 ||zefyr7.mintpeak.ru^
 ||zeit.cranezeit.ru^
 ||zeitzaatar.com^
