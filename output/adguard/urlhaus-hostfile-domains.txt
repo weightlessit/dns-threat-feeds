@@ -2,8 +2,8 @@
 ! Description: Malware distribution domains from abuse.ch URLhaus (hosts-file format, updated every 5 minutes)
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-05-21 14:57:01 UTC
-! Total rules: 509
+! Last modified: 2026-05-21 19:48:35 UTC
+! Total rules: 518
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -22,7 +22,6 @@
 ||aakrutitexture.in^
 ||abimj.edu.af^
 ||abyssal-plain-topography.garden^
-||acaviationsupplies.com^
 ||acc.jiangsujiaxue.com^
 ||access.skaparade.com^
 ||acms.saleseos.com^
@@ -41,7 +40,6 @@
 ||api.baimless.com^
 ||api.ezilax.com^
 ||app.appzcvb.com^
-||app.idanburuku.sbs^
 ||apple-service93.ru^
 ||ardena.pro^
 ||areyouready.co.za^
@@ -77,6 +75,7 @@
 ||bvaco.com^
 ||byzantine-mosaic-restoration.garden^
 ||c.fi3.me^
+||c2.mc-live.online^
 ||cad.659t.cn^
 ||carbon-dating-calibration.garden^
 ||carbon-fiber-monocoque.garden^
@@ -93,8 +92,10 @@
 ||checkinetverifk.com^
 ||chinaapper.com^
 ||chiptune.com^
+||chuguadventures.co.tz^
 ||chungminhtaichinhsaigon.net^
 ||cl.ssouy.com^
+||cloud-sync-engine.christmas^
 ||clubdetiroelpicarcho.com^
 ||cn.unionlever.com^
 ||co-emas.com^
@@ -134,16 +135,17 @@
 ||dexios.co.za^
 ||dezcom.com^
 ||dhnconstrucciones.com.ar^
-||dialkwik.in^
 ||disk.accord1key.cn^
 ||distributedbloomnetwork.garden^
 ||distributedgardenanalytics.garden^
 ||divvanews.com^
+||dl.1003b.56a.com^
 ||dl.dzqzd.com^
 ||dl.natgo.cn^
 ||doc.e-statements.app^
 ||donkeytourscroatia.com^
 ||donutsmpcheats.com^
+||down.54nb.com^
 ||down.pcclear.com^
 ||down.qqfarmer.com.cn^
 ||download.caihong.com^
@@ -180,7 +182,6 @@
 ||fertas.com.tr^
 ||fgbojhem.meadowprocessingframework.garden^
 ||file.blackint3.com^
-||file.uhsea.com^
 ||filerit.com^
 ||finger.aulinked.org^
 ||finger.linkedby.org^
@@ -190,9 +191,7 @@
 ||floraresourcecenter.garden^
 ||floraresourcecontroller.garden^
 ||flyingmutts.com^
-||forcrash-classnet.christmas^
 ||frcdk4gw.deepseahydrothermalvent.digital^
-||frost-marketplace.christmas^
 ||frozi.cc^
 ||fucktermedfir.st^
 ||fukt.link^
@@ -225,6 +224,7 @@
 ||hseda.com^
 ||hydraulic-actuator-valve.garden^
 ||i.404.pm^
+||ice-evergreen.christmas^
 ||icfzyz.distributedgrowthengine.garden^
 ||icoffeecloud.com^
 ||id8796.cfd^
@@ -243,7 +243,7 @@
 ||isometricsindia.co.in^
 ||itssprout.com^
 ||jalfms.gardenworkflowplatform.garden^
-||jawaratekno.com^
+||jessespridecharters.com^
 ||jfmz4630.badabingsopranoslounge.digital^
 ||jin.com.my^
 ||jlwz.cn^
@@ -256,13 +256,11 @@
 ||kevtel.com^
 ||khoancatbetong89.vn^
 ||kimyen.net^
-||kis.marketing^
 ||klichkogov.pro^
 ||kokorostore.it^
 ||konsor.ru^
 ||kramersmarionnettes.com^
 ||kzwvrleb.irrigation-monitoring-system.garden^
-||labshift-winmail-get.christmas^
 ||landonirwin.com^
 ||lasagnabakingsecrets.study^
 ||lawfirm.paperbirdtech.com^
@@ -288,6 +286,8 @@
 ||mendocs-opera-shub-cowddos.garden^
 ||metrics.gocloudmaps.com^
 ||microflora-management-hub.garden^
+||microservice-hub.christmas^
+||missileperformance.hu^
 ||mistralkorea.ru^
 ||mitreart.com^
 ||mlye7rvg.siciliandefensetheory.digital^
@@ -313,7 +313,6 @@
 ||ns.barnamenevis.shop^
 ||nusatoyota.co.id^
 ||ny.lshdw.cc^
-||o24o.ru^
 ||ojang.pe.kr^
 ||okhan.net^
 ||oknoplastik.sk^
@@ -338,6 +337,7 @@
 ||pos-mobile.enlineatechnologies.com^
 ||postelnini.mk^
 ||preciosasjoyitas.com.mx^
+||proxy-hub.christmas^
 ||public.demo.securecloudsandbox.com^
 ||pvsa.gxfugy.cn^
 ||q956x3rl.badabingsopranoslounge.digital^
@@ -361,9 +361,11 @@
 ||rxquickpay.com^
 ||sablayan.seasonshotelmindoro.com^
 ||samsclass.info^
+||sanjaydharmraj.in^
 ||save.jnrsmcu.com^
 ||scainseto.com.br^
 ||scaletax-bute-analytics-toeheap.garden^
+||schenckel.com.br^
 ||sdnzyq.botanical-control-system.garden^
 ||sdvgpro.ru^
 ||sec.dashabi.in^
@@ -372,10 +374,11 @@
 ||seismophonic.com^
 ||separadordecc.com^
 ||sg123.net^
-||shaderm.com^
 ||shahamanatme.com^
 ||shop.mediasova.ru^
 ||shqdown.ggzuhao.com^
+||signal-core-engine.christmas^
+||silverhost.vg^
 ||sk-comtel.com^
 ||slotmy-send.tech^
 ||smartermail.host^
@@ -383,8 +386,9 @@
 ||softcatalog.ru^
 ||solar-sanat.net^
 ||spgint.com^
+||spoar.org.in^
+||stack-flow.christmas^
 ||stage1-orschellx.com^
-||star-workshop.christmas^
 ||static.ilclock.com^
 ||static.topxgun.com^
 ||static.youdm.cn^
@@ -405,6 +409,7 @@
 ||tectonic-fault-seismograph.garden^
 ||tecunonline.com^
 ||tehnomag.rs^
+||telemetry-grid.christmas^
 ||temirtau-adm.ru^
 ||tengfeidn.cn^
 ||test.peperoncinochepassione.it^
@@ -426,10 +431,12 @@
 ||uh83re33.magneticlevitationtrain.digital^
 ||ukguk71.ru^
 ||uniform-factory.ae^
+||upaicdn.xinmei365.com^
 ||upchemicals.co.in^
 ||update.cg100iii.com^
 ||vacuum-tube-amplifier.garden^
 ||vagler.ru^
+||vanta.st^
 ||vantarat.st^
 ||vcc-library.uk^
 ||versaclean.com.br^
@@ -460,6 +467,7 @@
 ||www.astenterprises.com.pk^
 ||www.automobile-bk.de^
 ||www.backupallfresh2030.com^
+||www.benshamcentre.co.uk^
 ||www.blackhattoolz.com^
 ||www.bratusferramentas.grupomoltz.com.br^
 ||www.chenwangqiao.com^
@@ -475,6 +483,7 @@
 ||www.konsor.ru^
 ||www.longfeng188.com^
 ||www.medises.co.kr^
+||www.mevetlab.cl^
 ||www.mobimpex.ro^
 ||www.myvcart.com^
 ||www.namuvpn.com^
