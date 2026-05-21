@@ -2,8 +2,8 @@
 ! Description: Indicators of compromise (domain-based) from abuse.ch ThreatFox covering C2 and payload delivery
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-05-21 09:32:24 UTC
-! Total rules: 44209
+! Last modified: 2026-05-21 14:57:02 UTC
+! Total rules: 44245
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -499,6 +499,7 @@
 ||1k.k59ee.ru^
 ||1k.vbep3.ru^
 ||1k1d6q8jc5f47we.top^
+||1k78h3dc.kernel-vertex.digital^
 ||1k90ste9cjunii0p.org^
 ||1kl.xa9t.ru^
 ||1l.j3ve.ru^
@@ -680,6 +681,7 @@
 ||22754.ant1er5noos.ru^
 ||228mxuu79voqll5e.org^
 ||22g3uiuyqqa4txxuyvzmlyvlou4crrgfvgnvodrv3wrxcedtvjgx6aid.onion^
+||22goulm8.runtime-nexus.digital^
 ||22k.g7ve.ru^
 ||22va.mikestahlber.work^
 ||22xfund.com^
@@ -4128,6 +4130,7 @@
 ||androidgadget.org^
 ||andryyylostveyna-31915.portmap.host^
 ||anduconsulting.com^
+||andyras.com^
 ||aneurin.staging.xrf.digital^
 ||anfrage.displayinsel.de^
 ||angaralim.com^
@@ -4405,6 +4408,7 @@
 ||apiopsstat.sorix2en.pics^
 ||apis.sentihey.dedyn.io^
 ||apiservinaut.amsd.cl^
+||apitelemetryinfrastructure.org^
 ||apiv1.alilicloud.com^
 ||apiv3.wincryptapi.com^
 ||apiv4.frostapi.com^
@@ -5654,6 +5658,7 @@
 ||ballisi.cyou^
 ||ballisr.cyou^
 ||baltonmed.ru^
+||balvlqts.cyou^
 ||bambooorgan.org^
 ||bamboopaw2021.sbs^
 ||bamdeluxe.nl^
@@ -6261,6 +6266,7 @@
 ||bil.syslicense.net^
 ||bil1sun8en.ru^
 ||bileklikizmir.com^
+||biletors.cfd^
 ||bilfojsclod.beer^
 ||bill-lu.gl.at.ply.gg^
 ||bill-proof.cc^
@@ -6530,6 +6536,7 @@
 ||bjrgt.ru^
 ||bju1b4zl.websphere.digital^
 ||bjzm628x.5doreval.lat^
+||bjzrz6je.packet-cascade.digital^
 ||bk.jk-3-y-7.ru^
 ||bk.shadowsprint.ru^
 ||bk.w3h8j.ru^
@@ -7251,6 +7258,7 @@
 ||browgew.click^
 ||brown6.1-mafus-044-e.ru^
 ||brownandgraymusic.com^
+||brownhc.cyou^
 ||brownmountainangus.com.au^
 ||browns.sn1pixel.ru^
 ||browser-hazard.gl.at.ply.gg^
@@ -8895,6 +8903,7 @@
 ||cloudnewupdate.us^
 ||cloudo4meetup.com^
 ||cloudproxy.link^
+||cloudpuput.com^
 ||cloudruntime.courses^
 ||cloudservbr.com^
 ||cloudteamupdata.top^
@@ -9841,7 +9850,6 @@
 ||cubeconsulting.co^
 ||cubuj.press^
 ||cubwmio.ru^
-||cucuketeee.dynuddns.com^
 ||cucumb.cyou^
 ||cudefoe9.ru^
 ||cuemjuh.ru^
@@ -11048,6 +11056,7 @@
 ||diofysf.com^
 ||dioseschido.com^
 ||dioseschido.subastamelo.com^
+||diospfj.cyou^
 ||dip.hxit8.ru^
 ||dip.net-0-prosa.ru^
 ||dip.qen9.ru^
@@ -11710,6 +11719,7 @@
 ||du2iv.ru^
 ||du5tly.dustpeak.ru^
 ||du7fucn1.rockyhigra.ru^
+||duaeshen.org^
 ||duandep.vn^
 ||dubaiexpertplumber.com^
 ||dubrix.insti8sc2tter.ru^
@@ -14270,6 +14280,7 @@
 ||forbacjskdfred.accesscam.org^
 ||force-007-bk.ydns.eu^
 ||forcevision.hu^
+||forcrash-classnet.christmas^
 ||ford.mobimark.net^
 ||fordleg.net^
 ||fordlin.ie^
@@ -14503,6 +14514,7 @@
 ||fromlink.net^
 ||front95.5-kafaq-7-io.ru^
 ||fronta1maturity.digital^
+||frost-marketplace.christmas^
 ||frost-wilder.online^
 ||frost.acr0b2tdiffer.ru^
 ||frost.cl0udfall.ru^
@@ -14993,6 +15005,7 @@
 ||gaghpaheiafhjefijp.su^
 ||gaghpaheiafhjefijr.cc^
 ||gaghpaheiafhjefijw.top^
+||gahtaro.com^
 ||gaiargt.com^
 ||gaieufhaefuefhg.su^
 ||gain7taskhub.mira4then.bet^
@@ -16412,6 +16425,7 @@
 ||grapanlanjal623.xentari.cfd^
 ||grapeballs.fun^
 ||graph.fern-estates.com^
+||graphnewclass.christmas^
 ||grass.solidlink.surf^
 ||grassrootscontent.com^
 ||grassturkey.info^
@@ -17778,8 +17792,6 @@
 ||hop-g3.online^
 ||hop-g3.ru^
 ||hop.me2v.ru^
-||hop.noisolation.org.uk^
-||hop.wallyapp.xyz^
 ||hop9taskhub.mira5qor.bet^
 ||hopaa18r.blueh1ll.ru^
 ||hope.cewyzui61.ru^
@@ -18342,6 +18354,7 @@
 ||iceshore.frozengrove.coupons^
 ||icetap.ru^
 ||icethornridge.ru^
+||icevault-cutshift.christmas^
 ||icewounded.digital^
 ||icey4x.iceglow.ru^
 ||icfzyz.distributedgrowthengine.garden^
@@ -19428,6 +19441,7 @@
 ||jiky7.ru^
 ||jil2ol5c.harr0wp2i.ru^
 ||jilgnhe.net^
+||jilibdt.com^
 ||jimbb.ydns.eu^
 ||jimeauzjab8v5kq9.org^
 ||jimej54602-35562.portmap.host^
@@ -20380,6 +20394,7 @@
 ||kis.deshsaradin.com^
 ||kis.munsitex.com.lk^
 ||kislosflfkcjdj.com^
+||kiss.a-dog.top^
 ||kissyou.ydns.eu^
 ||kit.asrkala.top^
 ||kit.chadamaite.com^
@@ -20966,11 +20981,13 @@
 ||labs.quibsnare.ru^
 ||labs.spryvolt.ru^
 ||labs0.tweak-mire.ru^
+||labshift-winmail-get.christmas^
 ||lacasadelsoleets.it^
 ||lacasadianto.com^
 ||lacedomu.cyou^
 ||lacemeup-64707.portmap.host^
 ||lacevcnt.cyou^
+||lack.work.gd^
 ||laclemanccz.com^
 ||lacompaniahostal.com^
 ||lacouleurs.com^
@@ -22043,6 +22060,7 @@
 ||lq.pymh.ru^
 ||lq.sh0rtwe5ter.ru^
 ||lq4f.racketloom.ru^
+||lq5oouw7.runtime-nexus.digital^
 ||lqcyrc07p4qbblay.org^
 ||lqd.champm2loma1.ru^
 ||lqsvi.inktrap.ru^
@@ -23189,6 +23207,7 @@
 ||malikodjonsbastoliosd.com^
 ||malkim.com^
 ||mallorca.myftp.org^
+||maloneyr.cyou^
 ||maltguard.brannysuppress.ru^
 ||malware.29dsasprosnowmeprona.za.com^
 ||malware.55clubz.com^
@@ -23609,6 +23628,7 @@
 ||marketwizardspro.com^
 ||markkacy.lol^
 ||marktwx.cyou^
+||markzsa.cyou^
 ||marle.io^
 ||marlin204.promoportal4.coupons^
 ||marmelad.lat^
@@ -23840,7 +23860,6 @@
 ||medicine.gsinds.com^
 ||medihai.eu^
 ||medikalmasoz.com^
-||medinflow.com^
 ||medinova.ng^
 ||meditationsociety.com^
 ||medium.exathomeswebuytexas.com^
@@ -24174,6 +24193,7 @@
 ||mill.vextimber.ru^
 ||millersteel.digital^
 ||million-acc.gl.at.ply.gg^
+||milnleny.cyou^
 ||milolo-44643.portmap.host^
 ||mimaletamusical.gleeze.com^
 ||mimiparry02-32990.portmap.host^
@@ -25860,6 +25880,7 @@
 ||nhg.cobbleyard.ru^
 ||nhomkinhtienphatvn.com^
 ||nhoprge.net^
+||nhr83i9y.kernel-vertex.digital^
 ||ni3h0x2y.gastronsyriansky.digital^
 ||ni5.bid-5.ru^
 ||ni7zcfqx.gas98generator.digital^
@@ -27733,6 +27754,7 @@
 ||panplanning.com^
 ||pantera.no-ip.biz^
 ||pantipendowokudus.com^
+||pantofr.cyou^
 ||paok24.com^
 ||paopao.fit^
 ||pap.tov4.ru^
@@ -28276,6 +28298,7 @@
 ||pietepublice.ro^
 ||pig.fix-fg.ru^
 ||pigb.lake-spry.ru^
+||pigtweet-kitdiff-it.christmas^
 ||pihuvio6.ru^
 ||pike.ci2udforge.ru^
 ||pillar-ms.com^
@@ -30748,6 +30771,7 @@
 ||relaynet.parody^
 ||relayontop.dad^
 ||relays.buziopoasbubu.top^
+||relays.idanburuku.sbs^
 ||relays.zyabozadpap.top^
 ||release-notes.us^
 ||releases-export-finishing-phillips.trycloudflare.com^
@@ -31499,6 +31523,7 @@
 ||runtime-control-plane.courses^
 ||runtime-core-fabric-get.garden^
 ||runtime-forge.digital^
+||runtime-nexus.digital^
 ||runtime-sphere.digital^
 ||runtimeexecutionlayer.wiki^
 ||runtimefabric.courses^
@@ -31846,6 +31871,7 @@
 ||sakurazuma.com^
 ||salamancacooperativa.es^
 ||salbik.antip2th5ub.ru^
+||salchipapas.monster^
 ||salemacro.xamir2el.surf^
 ||sales-loop.grov6lira.bet^
 ||sales.activemedicaresolutions.com^
@@ -32614,6 +32640,7 @@
 ||shells-garden-framework.garden^
 ||shellsig.demon5tratpripek.surf^
 ||shenlong.eu.cc^
+||shenyac.cyou^
 ||shericandler.com^
 ||shgh.junkmancitric.icu^
 ||shield.cl0udriver.ru^
@@ -33556,6 +33583,7 @@
 ||solidclouaps.com^
 ||solidgate8.com^
 ||solidgma.biz^
+||solidlattice65.com^
 ||solidleaf.rockwood.coupons^
 ||solidnews.pro^
 ||solidnexio.com^
@@ -34236,6 +34264,7 @@
 ||stanintil.xentari.cfd^
 ||staninvinal.norvexa.rest^
 ||stanley-jeter.aurovine.com^
+||star-workshop.christmas^
 ||star.brightflowsite.lat^
 ||star.brightreef.surf^
 ||star.brightskyway.lat^
@@ -35620,7 +35649,9 @@
 ||ted9q6r.favour128influen.coupons^
 ||teddyclub.su^
 ||tedxamsterdamed.nl^
+||tee.adasm188.top^
 ||tee.ambil-disini.web.id^
+||tee.fbvendas.com^
 ||tee.plugazapp.com.br^
 ||teenpattijawaan.com^
 ||teens-resource.gl.at.ply.gg^
@@ -36468,6 +36499,7 @@
 ||trading-lots-money.com^
 ||trading-view-app.org^
 ||trading-view.io^
+||traffadmin.monster^
 ||trafficcore.info^
 ||traffichub.urbanpulse.coupons^
 ||trafficmanagerupdate.com^
@@ -39592,6 +39624,7 @@
 ||w3c.quartzace.ru^
 ||w3djb3j2.p2ciftamp0n.ru^
 ||w3p.co.in^
+||w3ruma49.packet-cascade.digital^
 ||w3xasv14culvnqj.top^
 ||w4.cioudriver.ru^
 ||w4.r8li.ru^
@@ -40245,6 +40278,7 @@
 ||wharf.cinderloom.ru^
 ||whatfuck000.intermediate.cyou^
 ||whatfuck000.intermediate.icu^
+||whatisbred.com^
 ||whatsappcenter.com^
 ||whbackend.ru^
 ||whdoefodpz4jjpwr5imipdntkh6kdbjazhx2zvdhcbmrtuxs6f3iwnid.onion^
@@ -41267,6 +41301,7 @@
 ||www.dosalpick.com^
 ||www.dr-karimaccountant.com^
 ||www.dreamyhub.com.br^
+||www.drechftankholding.com^
 ||www.drenithej.com^
 ||www.drivelivelime.com^
 ||www.drpaulocatalao.com.br^
@@ -41822,6 +41857,7 @@
 ||www.prithvihairexports.com^
 ||www.produtoperfeito.tech.suavidaadois.com.br^
 ||www.progressyourgym.co.uk^
+||www.projectusf.com^
 ||www.pronhub.shop^
 ||www.proxy1pal.shop^
 ||www.ptzdv.irish^

@@ -2,8 +2,8 @@
 ! Description: Malware distribution domains from abuse.ch URLhaus (hosts-file format, updated every 5 minutes)
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-05-21 09:32:23 UTC
-! Total rules: 513
+! Last modified: 2026-05-21 14:57:01 UTC
+! Total rules: 509
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -30,7 +30,6 @@
 ||admin.gestroom.it^
 ||agence-immobiliere-lyon.com^
 ||agilebee-federate-growth-net.garden^
-||agropole.tg^
 ||alarmline.com.br^
 ||alineeleuterio.com.br^
 ||allendostmen.com^
@@ -42,8 +41,10 @@
 ||api.baimless.com^
 ||api.ezilax.com^
 ||app.appzcvb.com^
+||app.idanburuku.sbs^
 ||apple-service93.ru^
 ||ardena.pro^
+||areyouready.co.za^
 ||atasapka.com.tr^
 ||audicontadores.com^
 ||augsburg-auto.com^
@@ -60,12 +61,12 @@
 ||beoauto.alexion.rs^
 ||bioluminescent-fungi-spore.garden^
 ||blessdayservices.org^
+||blogs.sokun.jp^
 ||bloom-distribution-engine.garden^
 ||bloomdistributioncenter.garden^
 ||bmdcompany.com^
 ||bnet-api.playm8ru.win^
 ||bnet.playm8ru.win^
-||boblegvlist.christmas^
 ||bombayonline.in^
 ||book.rollingvideogames.com^
 ||botanicalautomationframework.garden^
@@ -83,6 +84,7 @@
 ||cat.xiaojiji.nl^
 ||cat.xiaoshabi.nl^
 ||catbaparadisehotel.com.vn^
+||ccleaner.gl^
 ||cdaonline.com.ar^
 ||cdn.file6.goodid.com^
 ||celebratingseniors.net^
@@ -91,10 +93,8 @@
 ||checkinetverifk.com^
 ||chinaapper.com^
 ||chiptune.com^
-||chuguadventures.co.tz^
 ||chungminhtaichinhsaigon.net^
 ||cl.ssouy.com^
-||cloudnewsfeed.com^
 ||clubdetiroelpicarcho.com^
 ||cn.unionlever.com^
 ||co-emas.com^
@@ -105,7 +105,6 @@
 ||containerizedgardenengine.garden^
 ||containerizedplantengine.garden^
 ||continentalgroup.net.in^
-||controlhomecr.com^
 ||controliumbt.com^
 ||coralasargetia.ro^
 ||corporacioncrf.com^
@@ -125,7 +124,6 @@
 ||data.yhydl.com^
 ||dcrun.co.uk^
 ||dcwblida.dz^
-||de.cloud.dxang.com^
 ||delp-heizungsbau.de^
 ||dengrep-resource-opencut-engine.garden^
 ||derekludlow.com^
@@ -141,15 +139,13 @@
 ||distributedbloomnetwork.garden^
 ||distributedgardenanalytics.garden^
 ||divvanews.com^
-||dl.1003b.56a.com^
 ||dl.dzqzd.com^
 ||dl.natgo.cn^
 ||doc.e-statements.app^
 ||donkeytourscroatia.com^
 ||donutsmpcheats.com^
-||down.54nb.com^
-||down.fwqlt.com^
 ||down.pcclear.com^
+||down.qqfarmer.com.cn^
 ||download.caihong.com^
 ||download.doumaibiji.cn^
 ||download.haozip.com^
@@ -163,7 +159,6 @@
 ||dubaitechnicalservice.ae^
 ||dusttv.com^
 ||dweixin.cn^
-||dynga.pl^
 ||easybrand.vn^
 ||ecosystemworkflow.garden^
 ||electri.billregulator.com^
@@ -184,7 +179,6 @@
 ||federatedplantmesh.garden^
 ||fertas.com.tr^
 ||fgbojhem.meadowprocessingframework.garden^
-||fiinterchillers.com^
 ||file.blackint3.com^
 ||file.uhsea.com^
 ||filerit.com^
@@ -196,7 +190,9 @@
 ||floraresourcecenter.garden^
 ||floraresourcecontroller.garden^
 ||flyingmutts.com^
+||forcrash-classnet.christmas^
 ||frcdk4gw.deepseahydrothermalvent.digital^
+||frost-marketplace.christmas^
 ||frozi.cc^
 ||fucktermedfir.st^
 ||fukt.link^
@@ -221,7 +217,6 @@
 ||gutando.com^
 ||happytugsbakery.com^
 ||hasalltalent.com^
-||hasvideoproxy.christmas^
 ||hitman-pro.ru^
 ||hitstation.nl^
 ||hobobot.net^
@@ -248,6 +243,7 @@
 ||isometricsindia.co.in^
 ||itssprout.com^
 ||jalfms.gardenworkflowplatform.garden^
+||jawaratekno.com^
 ||jfmz4630.badabingsopranoslounge.digital^
 ||jin.com.my^
 ||jlwz.cn^
@@ -260,11 +256,13 @@
 ||kevtel.com^
 ||khoancatbetong89.vn^
 ||kimyen.net^
+||kis.marketing^
 ||klichkogov.pro^
 ||kokorostore.it^
 ||konsor.ru^
 ||kramersmarionnettes.com^
 ||kzwvrleb.irrigation-monitoring-system.garden^
+||labshift-winmail-get.christmas^
 ||landonirwin.com^
 ||lasagnabakingsecrets.study^
 ||lawfirm.paperbirdtech.com^
@@ -278,7 +276,9 @@
 ||luizmatoso.com.br^
 ||lv5evztg.cyberneticprostheticlab.digital^
 ||m.jkoa.co.kr^
+||m.meta-dm.com^
 ||maglev-propulsion-system.garden^
+||maidforyou1985.com^
 ||marsalek.cy^
 ||meadow-observability-core.garden^
 ||meadow-processing-core.garden^
@@ -288,7 +288,6 @@
 ||mendocs-opera-shub-cowddos.garden^
 ||metrics.gocloudmaps.com^
 ||microflora-management-hub.garden^
-||miskolc-dugulaselharitas.hu^
 ||mistralkorea.ru^
 ||mitreart.com^
 ||mlye7rvg.siciliandefensetheory.digital^
@@ -314,6 +313,7 @@
 ||ns.barnamenevis.shop^
 ||nusatoyota.co.id^
 ||ny.lshdw.cc^
+||o24o.ru^
 ||ojang.pe.kr^
 ||okhan.net^
 ||oknoplastik.sk^
@@ -333,6 +333,7 @@
 ||pid.fly160.com^
 ||planetariumobil.ro^
 ||plasteredplayn.com^
+||pns.org.pk^
 ||pobedastaff.ru^
 ||pos-mobile.enlineatechnologies.com^
 ||postelnini.mk^
@@ -363,7 +364,6 @@
 ||save.jnrsmcu.com^
 ||scainseto.com.br^
 ||scaletax-bute-analytics-toeheap.garden^
-||schenckel.com.br^
 ||sdnzyq.botanical-control-system.garden^
 ||sdvgpro.ru^
 ||sec.dashabi.in^
@@ -374,10 +374,8 @@
 ||sg123.net^
 ||shaderm.com^
 ||shahamanatme.com^
-||shalimarlpg.com^
 ||shop.mediasova.ru^
 ||shqdown.ggzuhao.com^
-||silverhost.vg^
 ||sk-comtel.com^
 ||slotmy-send.tech^
 ||smartermail.host^
@@ -385,8 +383,8 @@
 ||softcatalog.ru^
 ||solar-sanat.net^
 ||spgint.com^
-||spoar.org.in^
 ||stage1-orschellx.com^
+||star-workshop.christmas^
 ||static.ilclock.com^
 ||static.topxgun.com^
 ||static.youdm.cn^
@@ -404,7 +402,6 @@
 ||talentrecruitments.com^
 ||tanscarattorneys.co.tz^
 ||tapestryoftruth.com^
-||techtattva.in^
 ||tectonic-fault-seismograph.garden^
 ||tecunonline.com^
 ||tehnomag.rs^
@@ -424,13 +421,11 @@
 ||top8onlinegame.com^
 ||transparenciacanaa.com.br^
 ||trtmyanmar.com^
-||tuplediskdkey.christmas^
 ||tvlhpsjn.meadowprocessingframework.garden^
 ||u2fl6mod.stratosphericweatherballoon.digital^
 ||uh83re33.magneticlevitationtrain.digital^
 ||ukguk71.ru^
 ||uniform-factory.ae^
-||upaicdn.xinmei365.com^
 ||upchemicals.co.in^
 ||update.cg100iii.com^
 ||vacuum-tube-amplifier.garden^
@@ -465,9 +460,9 @@
 ||www.astenterprises.com.pk^
 ||www.automobile-bk.de^
 ||www.backupallfresh2030.com^
-||www.benshamcentre.co.uk^
 ||www.blackhattoolz.com^
 ||www.bratusferramentas.grupomoltz.com.br^
+||www.chenwangqiao.com^
 ||www.crazywickedaddiction.com^
 ||www.cutting-edge.in^
 ||www.drgenov.com^
@@ -512,6 +507,7 @@
 ||xenon.studio^
 ||xn--yh4bx88a.com^
 ||xshop.com.tr^
+||xuezha.net^
 ||ybhyrjaj.asynchronouswateringmesh.garden^
 ||youtransfer.net^
 ||zamilgroups.com^
