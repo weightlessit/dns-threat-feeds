@@ -2,8 +2,8 @@
 ! Description: Domains extracted from recently reported malicious URLs tracked by abuse.ch URLhaus
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-05-21 19:48:35 UTC
-! Total rules: 4873
+! Last modified: 2026-05-22 02:52:54 UTC
+! Total rules: 4880
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -42,7 +42,6 @@
 ||1uxjjv36.fina1vrub.surf^
 ||1vz4le.airport-clar.lat^
 ||1ws11.rataj-vertky.lat^
-||204.76.203.196.ptr.pfcloud.network^
 ||209id.queuedimsys.lat^
 ||217.60.241.36.ptr.pfcloud.network^
 ||22goulm8.runtime-nexus.digital^
@@ -499,7 +498,6 @@
 ||base.solidstonecore.lat^
 ||base.webdataprocess.pics^
 ||base.wintercoldlab.lat^
-||base44.app^
 ||base7wavenet.basaltlogicnode.garden^
 ||basehostunit.kali9drift.surf^
 ||basehostunit.staticmeshview.bet^
@@ -679,7 +677,9 @@
 ||byi4cjm.expo5ejouer.lat^
 ||byt32-ring.pavo8rex.lat^
 ||byte-horizon-get-hash.courses^
+||byte-network-hub.christmas^
 ||byte-stream-encryption-standard-base.wiki^
+||byte-vault.christmas^
 ||byte.agilelid.lat^
 ||byte.archiv-checkered.surf^
 ||byte.powertechlink.lat^
@@ -787,6 +787,7 @@
 ||cloud7logicnet.neto7cloud.surf^
 ||cloudfilenow.online^
 ||cloudinfrastructure.courses^
+||cloudruntime.christmas^
 ||cloudruntime.courses^
 ||clubcampestrededurango.com^
 ||cluster-module-deployment-standard-map.wiki^
@@ -871,6 +872,7 @@
 ||conjur-kremlinshort.wiki^
 ||contactdisrupwhite.wiki^
 ||container-folder-gized-greenhub.garden^
+||container-mesh.christmas^
 ||containerfabric.wiki^
 ||containerized-growth-platform.garden^
 ||containerized-plant-system.garden^
@@ -1365,7 +1367,6 @@
 ||epx5g5.file-online.lat^
 ||eqdq.vexon4al.lat^
 ||equ1t-spark.ve7loria.garden^
-||erzurumyoresel.com^
 ||etomoe.cfd^
 ||etomoidomen.cfd^
 ||eventsyouwant.com^
@@ -1459,7 +1460,6 @@
 ||fikvjna5.telemetry-orbit.digital^
 ||file7pathgate.pilo1byte.surf^
 ||filehostunit.sara5byte.surf^
-||files.catbox.moe^
 ||filt3-scope.lightforge.garden^
 ||filte-path.7zorelax.lat^
 ||finalcampaign.porukau8ar.lat^
@@ -2186,6 +2186,7 @@
 ||kelvenet8.dark-salittle.bet^
 ||kernalstress.st^
 ||kernel-azur.represent-skittish.lat^
+||kernel-control-engine.christmas^
 ||kernel-patch-update-release-history.wiki^
 ||kevtel.com^
 ||key.magicgoldlogic.lat^
@@ -2479,7 +2480,6 @@
 ||mark1siteview.tula8data.surf^
 ||mark9siteview.karo3view.surf^
 ||markbra.fira6dox.lat^
-||markway.ru^
 ||mass.cryptobase.surf^
 ||mass.solidcore.surf^
 ||mass.solidlink.surf^
@@ -2575,7 +2575,6 @@
 ||metaviewhub.cloudflowops.co^
 ||metecgroup.cam^
 ||meteorite-crater-safari.garden^
-||metotmimarlik.com.tr^
 ||metricregistry.xamir3on.lat^
 ||mgr.openlogmgr.pics^
 ||mi5t-cache.2zavlore.surf^
@@ -2653,7 +2652,6 @@
 ||moon.darknightstar.lat^
 ||moral-reach.inconprofitab1e.surf^
 ||moralaudio.pavi1lor.lat^
-||mosselnet.co.za^
 ||motifroy.gabard-viewed.surf^
 ||motriztrading.com.br^
 ||moun4-plate.milo3ren.lat^
@@ -2750,6 +2748,7 @@
 ||netvector.wiki^
 ||netvvork-hinge.cybernode.ink^
 ||networ2-forge.scriptmesh.ink^
+||network-flow-system.christmas^
 ||network-security-ops-flow-base.wiki^
 ||neural-atlas-code-flat.courses^
 ||neural-routing-fabric.courses^
@@ -2825,7 +2824,6 @@
 ||oakbalancer.setqueueat.lat^
 ||oasis1-span.pixel-harbor.life^
 ||oasis5-well.so1aver.garden^
-||ob1phqqu.degassing-mould.digital^
 ||ob53rv-mesh.greenbloom.garden^
 ||obese-table-usweb-play.wiki^
 ||obese-uzousweb-play.wiki^
@@ -2970,6 +2968,7 @@
 ||p9015zuh.unp2idvalk.digital^
 ||pack-bar.1zorelin.lat^
 ||packagesca.woodfor.lat^
+||packet-distribution-core.christmas^
 ||packet-relay-engine.courses^
 ||packet-relay-engine.garden^
 ||packet-routing-lab.courses^
@@ -3147,7 +3146,9 @@
 ||proto-s0uth.cloudmesh.lat^
 ||prox.fastworknode.lat^
 ||proxy-gate.foersteron.work^
+||proxy-hub.christmas^
 ||proxy-matrix-kernel-on.courses^
+||proxy-stream.christmas^
 ||proxy.cloudproxyserv.pics^
 ||proxy.darkstonebase.lat^
 ||proxy.monop-oriental.surf^
@@ -3449,6 +3450,7 @@
 ||runtime-control-plane.courses^
 ||runtime-control.christmas^
 ||runtime-core-fabric-get.garden^
+||runtime-processing-node.christmas^
 ||runtimeexecutionlayer.wiki^
 ||runvva-route.lightforge.garden^
 ||runw2-flow.wentgot.lat^
@@ -3559,6 +3561,8 @@
 ||sifthostunit.silicapathsys.garden^
 ||signal-core-engine.christmas^
 ||signal-late-it-folder.courses^
+||signal-processing-core.christmas^
+||signal-routing-framework.christmas^
 ||signalenzy.mav2lirex.lat^
 ||signalwestport.cryptovoxelsync.garden^
 ||signalwestport.kinetichostbit.garden^
@@ -3858,6 +3862,7 @@
 ||stack-core-node-date-hash.wiki^
 ||stack-flow.christmas^
 ||stack.networkstackmgr.pics^
+||stackbridge.christmas^
 ||stackcoupon.baked5ham.lat^
 ||stackforge.wiki^
 ||stackforgeacademy.courses^
@@ -4136,6 +4141,7 @@
 ||techhostunit.deno2link.surf^
 ||tectonic-fault-seismograph.garden^
 ||tehpafro.script-horizon.digital^
+||telemetry-control-hub.christmas^
 ||telemetry-folder-stream-core.garden^
 ||telemetry-grid.christmas^
 ||telemetry-observability-core.wiki^
@@ -4144,6 +4150,7 @@
 ||telemetry-stream-hub.wiki^
 ||telemetrycore.courses^
 ||telemetrygardenmesh.garden^
+||telemetrymesh.christmas^
 ||temp-f8.herbertrutt.work^
 ||temp.darkwinterlab.lat^
 ||temp.frostpoint.surf^
