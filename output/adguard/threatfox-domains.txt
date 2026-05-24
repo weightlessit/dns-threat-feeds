@@ -2,8 +2,8 @@
 ! Description: Indicators of compromise (domain-based) from abuse.ch ThreatFox covering C2 and payload delivery
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-05-24 02:49:28 UTC
-! Total rules: 43971
+! Last modified: 2026-05-24 08:24:39 UTC
+! Total rules: 43986
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -4507,6 +4507,7 @@
 ||applog.smartcloudstorageset.lat^
 ||applog.technoglobalnet.lat^
 ||apply.loanroad.co.uk^
+||appmine.io^
 ||appolobase.com^
 ||appraisal.ge^
 ||approugesoft.novismetaweb.garden^
@@ -7962,7 +7963,6 @@
 ||castlefordlocksmiths.leethelocksmithleeds.co.uk^
 ||castlerocks.za.com^
 ||castous.cyou^
-||castra.site^
 ||casual-hinge.pastor-publicist.lat^
 ||casual-trail.mixzipcore64.lat^
 ||casuashor.7lorexan.surf^
@@ -10855,6 +10855,7 @@
 ||dh.sheh0.ru^
 ||dh28.s0ftcrest.ru^
 ||dh4vdz12.doha-neutral.digital^
+||dharmaraladventure.hu^
 ||dhdjisksnsbhssu.com^
 ||dhi.windc0ve.ru^
 ||dhjfgt4rzuu6tfdo85wfjj.followz.st^
@@ -10946,6 +10947,7 @@
 ||diphtongspecialchess.courses^
 ||diplomi.live^
 ||diqblfc.ru^
+||dirdurr.eu^
 ||direct-access-point.vertjardin.coupons^
 ||direct-gateway-77.vifespoir.coupons^
 ||direct-web-client.perk9parcel.coupons^
@@ -11407,6 +11409,7 @@
 ||dp.f1owreci7at.ru^
 ||dp.plx5.ru^
 ||dp.sxuj-7.ru^
+||dpalwallet.io^
 ||dpenergy.org^
 ||dperw.ede-1-g-0-rge.ru^
 ||dpf-fap.co.uk^
@@ -11791,6 +11794,7 @@
 ||dzzwfgn.ru^
 ||e-konutbasvuru.sbs^
 ||e-konutbasvuruekran.sbs^
+||e-maxibikes.nl^
 ||e-mu-morioka.com^
 ||e.0u7y.ru^
 ||e.2f8-2.ru^
@@ -13127,7 +13131,6 @@
 ||f6b.st0rmbyte.ru^
 ||f6m8.chickenkiller.com^
 ||f6o.cloudr1ver.ru^
-||f77.f3322.net^
 ||f78.ju8r.ru^
 ||f7nm8f7u.mi5tpath.ru^
 ||f7ozu1t9.flogginquisit.digital^
@@ -14064,6 +14067,7 @@
 ||fo.kokq.ru^
 ||fo.nqju-5.ru^
 ||fo1dex.5tormfoid.ru^
+||fo88.ws^
 ||foaga.org^
 ||foam.t1nkerbay.ru^
 ||foam9y.l1mewave.ru^
@@ -15532,6 +15536,7 @@
 ||gfddx.run^
 ||gfdzv1z4.grivense7v2nt.ru^
 ||gfikzts.ru^
+||gfirzz.dravencoffee.hu^
 ||gfwcy7xf.subdermalbiometricchip.digital^
 ||gfxnick.emerald.usbx.me^
 ||gg.3druv.ru^
@@ -15703,6 +15708,7 @@
 ||gkhdxpf.net^
 ||gkholyjchymn.com^
 ||gkit1b32.ann0uncedwhiner.surf^
+||gkmulq.dimamma.hu^
 ||gkrhs.dis9ualescapes.bet^
 ||gkusimsgjcauehgdjn.com^
 ||gkzujmj.ru^
@@ -17116,6 +17122,7 @@
 ||hbmuxmh.ru^
 ||hbo8.dr1ftpanda.ru^
 ||hboyjrn.ru^
+||hbpvpp.deye.hu^
 ||hbr.qo1s.ru^
 ||hbrgmzy.net^
 ||hbridal.co.uk^
@@ -18040,6 +18047,7 @@
 ||hylvet.fl0rinf2t.ru^
 ||hylyqoo2.ru^
 ||hym.fozomya6.ru^
+||hymllz.deplast.hu^
 ||hyp0-vvrite.capitul98hypo.coupons^
 ||hyper-c0ra.logicbyte.lat^
 ||hyper-cr4te.1dorelax.surf^
@@ -19535,6 +19543,7 @@
 ||js-appboy.bomain.ru^
 ||js-framework.cfd^
 ||js-server.beer^
+||js-shop.my^
 ||js.byxiaolin.dpdns.org^
 ||js.byxly.eu.cc^
 ||js.byxly.vip^
@@ -20076,6 +20085,7 @@
 ||kettlewhisper.icu^
 ||kettopluszegy.hu^
 ||ketuakelasacc4d.click^
+||keukengemaal.nl^
 ||kevh.grov3elia.bet^
 ||kevincheat.com^
 ||kevindavis-58161.portmap.host^
@@ -21902,6 +21912,7 @@
 ||lreindia.com^
 ||lridia.space^
 ||lrjovevg.cyberlens.digital^
+||lrnjen.dharmaralstudio.com^
 ||lrtapbs.ru^
 ||lrzgxti.ru^
 ||ls.sj-5-o-5.ru^
@@ -24720,7 +24731,6 @@
 ||muhoj.top^
 ||muhwtwa.mav3torel.surf^
 ||muj.xa4p.ru^
-||mujjs.com^
 ||mujqm85.glen4mora.garden^
 ||muk3av.cr1pptit2n.ru^
 ||mukidashiactive.com^
@@ -25779,6 +25789,7 @@
 ||nithani.co.uk^
 ||nitxwet4-32679.portmap.host^
 ||nitzschi.com^
+||niupmo.dimoppalyazat.com^
 ||niursosokforhoht.biz^
 ||niursosokforhoht.com^
 ||niursosokforhoht.info^
@@ -26560,7 +26571,6 @@
 ||oeeoeuueueuuepn.su^
 ||oeeoeuueueuuetr.cc^
 ||oeeoeuueueuuezt.io^
-||oehme-partner.de^
 ||oekemmo.ru^
 ||oel6h.d7mbbmer1d.ru^
 ||oelgado.com^
@@ -27628,6 +27638,7 @@
 ||pathwaysseminars.com^
 ||patologiamoderna.com^
 ||patrafoam.com^
+||patriciakleijn.nl^
 ||patriciamattos.agencialegalads.com^
 ||patrickscodelab.com^
 ||patrmpf.cyou^
@@ -28959,7 +28970,6 @@
 ||prqgwut.ru^
 ||prqkv.ma5kd7unk.ru^
 ||prr.mcej9.ru^
-||prsuerinkicon.today^
 ||prt.chriskendall.media^
 ||prt.loniluekegerman.com^
 ||pru.qe3yn.ru^
@@ -31139,6 +31149,7 @@
 ||rqebifm.ru^
 ||rqgdpcq.ru^
 ||rqhk6he.stoneflare.garden^
+||rqknxy.dorottyanadorfi.com^
 ||rqnquxf.net^
 ||rqykzbi.ru^
 ||rr-panel-1.online^
@@ -35368,7 +35379,6 @@
 ||team-nt.com^
 ||team.limo^
 ||teambuildingstrand.nl^
-||teambuildingtunisie.com^
 ||teamcss.beer^
 ||teampurenode.zora7vex.bet^
 ||teams.live05ms.us^
@@ -35981,6 +35991,7 @@
 ||toescloth.space^
 ||toespiders.xyz^
 ||toesucking.chat^
+||tofstore.nl^
 ||tofyjoi0.ru^
 ||tog.deshsaradin.com^
 ||tog.skjeelancipla.com.lk^
@@ -36679,6 +36690,7 @@
 ||twelve.gdyl-2.ru^
 ||twessy.tasawk.net^
 ||twettor.mobilefoundationrepair.com^
+||twgdna.digital360.hu^
 ||twieebcgsds.cn^
 ||twig.pr0wlmint.ru^
 ||twig7s.0akshade.ru^
@@ -37234,6 +37246,7 @@
 ||uon8hnbd.wildframe41.digital^
 ||uortyfivev.crabdance.com^
 ||uotahi.za.com^
+||uowhim.dharmaraladventure.com^
 ||up.ciqe8.ru^
 ||up.dasurie36.ru^
 ||up.fucirai75.ru^
@@ -42624,6 +42637,7 @@
 ||xshy.luwotaa1.ru^
 ||xsllxib.net^
 ||xsredbpaef.com^
+||xstp.me^
 ||xsw.asrkala.top^
 ||xsw.chadamaite.com^
 ||xswdeu.za.com^
@@ -43864,6 +43878,7 @@
 ||zrq0.sun5park.ru^
 ||zrsglol.com^
 ||zrwn3l2y.radiantprospera.digital^
+||zrxotn.dorihurosartwork.com^
 ||zryupao.com^
 ||zs.b1tcrush.ru^
 ||zs.bluef0rest.ru^
