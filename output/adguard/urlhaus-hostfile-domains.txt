@@ -2,8 +2,8 @@
 ! Description: Malware distribution domains from abuse.ch URLhaus (hosts-file format, updated every 5 minutes)
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-05-27 09:38:30 UTC
-! Total rules: 506
+! Last modified: 2026-05-27 15:29:06 UTC
+! Total rules: 505
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -14,7 +14,6 @@
 ||3bra.solonettochka.ru^
 ||3k3qw9fd.system-forge.digital^
 ||5ib6hoc4.stack-orbit.digital^
-||6ak-tehnik.si^
 ||7louefau.microservice-compass.digital^
 ||9awu4igb.cloud-lattice.digital^
 ||a7px1y1v.container-pulse.digital^
@@ -41,6 +40,7 @@
 ||api.ezilax.com^
 ||app.appzcvb.com^
 ||apple-service93.ru^
+||areyouready.co.za^
 ||atasapka.com.tr^
 ||audicontadores.com^
 ||augsburg-auto.com^
@@ -59,10 +59,10 @@
 ||blacknigger.boo^
 ||blaold.indebud.hu^
 ||blessdayservices.org^
-||blit.co.za^
 ||blogs.sokun.jp^
 ||bmdcompany.com^
 ||bnet-api.playm8ru.win^
+||bnet.playm8ru.win^
 ||bombayonline.in^
 ||book.rollingvideogames.com^
 ||bridgeroad.maverickpreviews.com^
@@ -89,12 +89,11 @@
 ||checkinetverifk.com^
 ||chinaapper.com^
 ||chiptune.com^
-||chuguadventures.co.tz^
 ||chungminhtaichinhsaigon.net^
 ||ci7uxmq7.proxy-harbor.digital^
+||cl.ssouy.com^
 ||clacndjsvulnarbi.beer^
 ||clubdetiroelpicarcho.com^
-||cn.unionlever.com^
 ||co-emas.com^
 ||compuserviceonline.com.br^
 ||continentalgroup.net.in^
@@ -121,7 +120,6 @@
 ||dev1-trucksdirectuk.com^
 ||dexios.co.za^
 ||dezcom.com^
-||dialkwik.in^
 ||disk.accord1key.cn^
 ||divvanews.com^
 ||dl.1003b.56a.com^
@@ -184,6 +182,7 @@
 ||fukt.link^
 ||fuluz.akonyvelod.hu^
 ||furystaff.tech^
+||fz.tiansys.cn^
 ||galerisenimutiara.com^
 ||gcrexj.glfree.hu^
 ||geo-foundation.vg^
@@ -207,7 +206,6 @@
 ||hatvtf.globalcontact.hu^
 ||hitman-pro.ru^
 ||hitstation.nl^
-||hobobot.net^
 ||hseda.com^
 ||htfnjw.jatekotmindenkinek.hu^
 ||i-ramps.com^
@@ -225,6 +223,7 @@
 ||iwojm.webgondozas.hu^
 ||j543wvuu.packet-orbit.digital^
 ||jakos.ovh^
+||jawaratekno.com^
 ||jessespridecharters.com^
 ||jkjey.vizhoszivattyu.hu^
 ||jlwz.cn^
@@ -251,12 +250,12 @@
 ||libss.0x504.com^
 ||lindenappliances.co.za^
 ||lindnerelektroanlagen.de^
-||lmlawcorp.com^
 ||local-update.com^
 ||lomejordesalamanca.es^
 ||luizmatoso.com.br^
 ||lvavdb.nyitottkeramia.hu^
 ||m.jkoa.co.kr^
+||m.meta-dm.com^
 ||m8fpbfz3.container-bridge.digital^
 ||magnusworkspace.com^
 ||mahcr.banhidileadershipacademy.hu^
@@ -269,6 +268,7 @@
 ||mlbmb.bonuszugynokseg.hu^
 ||mobshah.com^
 ||mogimall.com^
+||mosselnet.co.za^
 ||mp696mc8.script-nexus.digital^
 ||mrwqb.bartaenergetika.com^
 ||msedge.vg^
@@ -284,6 +284,7 @@
 ||neypx.bmz.hu^
 ||noithaticon.vn^
 ||nspbcu.krokodilpince.hu^
+||nusatoyota.co.id^
 ||nveth.brandbuilder.hu^
 ||ny.lshdw.cc^
 ||o24o.ru^
@@ -294,7 +295,6 @@
 ||ohzmh.bninolimit.com^
 ||ojang.pe.kr^
 ||okhan.net^
-||oknoplastik.sk^
 ||oleavv.levelupadventure.hu^
 ||onfiltre.com.tr^
 ||onwqrw.lillafunfit.com^
@@ -332,6 +332,7 @@
 ||redlk.com^
 ||refaccionesalma.com.mx^
 ||reifenquick.de^
+||remoto.ddins.click^
 ||reutilizemais.co.mz^
 ||rheddh.com^
 ||rlaa5uje.stack-frontier.digital^
@@ -377,7 +378,6 @@
 ||static.ilclock.com^
 ||static.topxgun.com^
 ||static.youdm.cn^
-||stdown.dinju.com^
 ||steam66.cn^
 ||stg1-swaggrhockey.com^
 ||stonecradle.com^
@@ -386,14 +386,12 @@
 ||svirtual.sanviatorperu.edu.pe^
 ||swhbk.bohochal.hu^
 ||swiftfusion.tech^
-||take-care.africa^
 ||talentrecruitments.com^
 ||tanscarattorneys.co.tz^
 ||tapestryoftruth.com^
 ||tecunonline.com^
 ||tehnomag.rs^
 ||temirtau-adm.ru^
-||tengfeidn.cn^
 ||test.peperoncinochepassione.it^
 ||theholidayroads.com^
 ||thementordirectory.com^
@@ -407,6 +405,7 @@
 ||torrrj.highlife-global.com^
 ||tradedsglobal.com^
 ||transparenciacanaa.com.br^
+||transporteloggi.com^
 ||trtmyanmar.com^
 ||udiqhj.levivilaga.hu^
 ||uekdrl.gesol.hu^
@@ -418,7 +417,6 @@
 ||usoiuv.gyorsanhaz.hu^
 ||uubbkkxd.network-vector.digital^
 ||vagler.ru^
-||vanta.st^
 ||vcc-library.uk^
 ||vdbkti.ispilates.hu^
 ||versaclean.com.br^
@@ -458,6 +456,7 @@
 ||www.first-security-verden.de^
 ||www.hippamsas.com^
 ||www.hostingcloud.science^
+||www.hseda.com^
 ||www.intelligradeeducation.vicentecisnerospub.com^
 ||www.jozefinskiatelje.si^
 ||www.konsor.ru^
