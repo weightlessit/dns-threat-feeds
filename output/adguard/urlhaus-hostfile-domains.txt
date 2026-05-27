@@ -2,8 +2,8 @@
 ! Description: Malware distribution domains from abuse.ch URLhaus (hosts-file format, updated every 5 minutes)
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-05-27 02:56:55 UTC
-! Total rules: 505
+! Last modified: 2026-05-27 09:38:30 UTC
+! Total rules: 506
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -14,6 +14,7 @@
 ||3bra.solonettochka.ru^
 ||3k3qw9fd.system-forge.digital^
 ||5ib6hoc4.stack-orbit.digital^
+||6ak-tehnik.si^
 ||7louefau.microservice-compass.digital^
 ||9awu4igb.cloud-lattice.digital^
 ||a7px1y1v.container-pulse.digital^
@@ -40,7 +41,6 @@
 ||api.ezilax.com^
 ||app.appzcvb.com^
 ||apple-service93.ru^
-||areyouready.co.za^
 ||atasapka.com.tr^
 ||audicontadores.com^
 ||augsburg-auto.com^
@@ -59,10 +59,10 @@
 ||blacknigger.boo^
 ||blaold.indebud.hu^
 ||blessdayservices.org^
+||blit.co.za^
 ||blogs.sokun.jp^
 ||bmdcompany.com^
 ||bnet-api.playm8ru.win^
-||bnet.playm8ru.win^
 ||bombayonline.in^
 ||book.rollingvideogames.com^
 ||bridgeroad.maverickpreviews.com^
@@ -92,7 +92,6 @@
 ||chuguadventures.co.tz^
 ||chungminhtaichinhsaigon.net^
 ||ci7uxmq7.proxy-harbor.digital^
-||cl.ssouy.com^
 ||clacndjsvulnarbi.beer^
 ||clubdetiroelpicarcho.com^
 ||cn.unionlever.com^
@@ -104,6 +103,7 @@
 ||corporacioncrf.com^
 ||creativevoltage.com^
 ||crescentegramas.com.br^
+||crimefreesoftware.com^
 ||crystalpvp.ru^
 ||cs.go.kg^
 ||csg-app.com^
@@ -134,6 +134,7 @@
 ||down.fwqlt.com^
 ||down.pcclear.com^
 ||down.qqfarmer.com.cn^
+||download.caihong.com^
 ||download.doumaibiji.cn^
 ||download.haozip.com^
 ||download.kaobeitu.com^
@@ -141,6 +142,7 @@
 ||download.pdf00.com^
 ||download.suxiazai.com^
 ||dowonline.ru^
+||dparagons.com^
 ||dreamwatchevent.com^
 ||drevos.ro^
 ||dubaitechnicalservice.ae^
@@ -159,7 +161,6 @@
 ||evangroup.ru^
 ||eventsyouwant.com^
 ||everycarebd.com^
-||explorer.vg^
 ||fakers.co.jp^
 ||farschid.de^
 ||fayzcm.greenwaysolar.hu^
@@ -183,7 +184,6 @@
 ||fukt.link^
 ||fuluz.akonyvelod.hu^
 ||furystaff.tech^
-||fz.tiansys.cn^
 ||galerisenimutiara.com^
 ||gcrexj.glfree.hu^
 ||geo-foundation.vg^
@@ -194,7 +194,6 @@
 ||gijjr.welovevent.com^
 ||globalbank.us^
 ||glsvuu.knminerals.hu^
-||gobiotechpestcontrol.com^
 ||google-services.cc^
 ||gotextileltd.com^
 ||gqsgdt.interimpro.hu^
@@ -208,6 +207,7 @@
 ||hatvtf.globalcontact.hu^
 ||hitman-pro.ru^
 ||hitstation.nl^
+||hobobot.net^
 ||hseda.com^
 ||htfnjw.jatekotmindenkinek.hu^
 ||i-ramps.com^
@@ -225,7 +225,6 @@
 ||iwojm.webgondozas.hu^
 ||j543wvuu.packet-orbit.digital^
 ||jakos.ovh^
-||jawaratekno.com^
 ||jessespridecharters.com^
 ||jkjey.vizhoszivattyu.hu^
 ||jlwz.cn^
@@ -252,17 +251,18 @@
 ||libss.0x504.com^
 ||lindenappliances.co.za^
 ||lindnerelektroanlagen.de^
+||lmlawcorp.com^
 ||local-update.com^
 ||lomejordesalamanca.es^
 ||luizmatoso.com.br^
 ||lvavdb.nyitottkeramia.hu^
 ||m.jkoa.co.kr^
-||m.meta-dm.com^
 ||m8fpbfz3.container-bridge.digital^
 ||magnusworkspace.com^
 ||mahcr.banhidileadershipacademy.hu^
 ||maidforyou1985.com^
 ||meetvideogoogle.com^
+||metrics.gocloudmaps.com^
 ||miqhc.bmiroda.hu^
 ||mistralkorea.ru^
 ||mitreart.com^
@@ -284,7 +284,6 @@
 ||neypx.bmz.hu^
 ||noithaticon.vn^
 ||nspbcu.krokodilpince.hu^
-||nusatoyota.co.id^
 ||nveth.brandbuilder.hu^
 ||ny.lshdw.cc^
 ||o24o.ru^
@@ -307,11 +306,13 @@
 ||pcupd.com^
 ||petitesalope.com^
 ||phmro.optikusom.hu^
+||photobookadm.pro^
 ||pid.fly160.com^
 ||pjvro.cannaturalgroup.com^
 ||planetariumobil.ro^
 ||plasteredplayn.com^
 ||pobedastaff.ru^
+||pos-mobile.enlineatechnologies.com^
 ||postelnini.mk^
 ||preciosasjoyitas.com.mx^
 ||ptnza.bni-ai.com^
@@ -347,7 +348,6 @@
 ||sablayan.seasonshotelmindoro.com^
 ||sagdxf.krokodilpince.hu^
 ||samsclass.info^
-||satuatlas.com^
 ||save.jnrsmcu.com^
 ||scainseto.com.br^
 ||schenckel.com.br^
@@ -363,12 +363,12 @@
 ||shahamanatme.com^
 ||shop.mediasova.ru^
 ||shqdown.ggzuhao.com^
-||shreesaiseva.org^
 ||silverhost.vg^
 ||sk-comtel.com^
 ||slotmy-send.tech^
 ||smartermail.host^
 ||sneodo.gerecseglamping.com^
+||soft.110route.com^
 ||softcatalog.ru^
 ||solar-sanat.net^
 ||spgint.com^
@@ -380,11 +380,13 @@
 ||stdown.dinju.com^
 ||steam66.cn^
 ||stg1-swaggrhockey.com^
+||stonecradle.com^
 ||support.clz.kr^
 ||sutterpoint.com^
 ||svirtual.sanviatorperu.edu.pe^
 ||swhbk.bohochal.hu^
 ||swiftfusion.tech^
+||take-care.africa^
 ||talentrecruitments.com^
 ||tanscarattorneys.co.tz^
 ||tapestryoftruth.com^
@@ -456,7 +458,6 @@
 ||www.first-security-verden.de^
 ||www.hippamsas.com^
 ||www.hostingcloud.science^
-||www.hseda.com^
 ||www.intelligradeeducation.vicentecisnerospub.com^
 ||www.jozefinskiatelje.si^
 ||www.konsor.ru^
