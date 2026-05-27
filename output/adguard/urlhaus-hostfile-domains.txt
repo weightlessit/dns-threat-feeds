@@ -2,8 +2,8 @@
 ! Description: Malware distribution domains from abuse.ch URLhaus (hosts-file format, updated every 5 minutes)
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-05-27 15:29:06 UTC
-! Total rules: 505
+! Last modified: 2026-05-27 20:09:44 UTC
+! Total rules: 508
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -37,6 +37,7 @@
 ||alternativas.ru^
 ||andjemztech.com^
 ||api.baimless.com^
+||api.ddenv.site^
 ||api.ezilax.com^
 ||app.appzcvb.com^
 ||apple-service93.ru^
@@ -89,11 +90,12 @@
 ||checkinetverifk.com^
 ||chinaapper.com^
 ||chiptune.com^
+||chuguadventures.co.tz^
 ||chungminhtaichinhsaigon.net^
 ||ci7uxmq7.proxy-harbor.digital^
-||cl.ssouy.com^
 ||clacndjsvulnarbi.beer^
 ||clubdetiroelpicarcho.com^
+||cn.unionlever.com^
 ||co-emas.com^
 ||compuserviceonline.com.br^
 ||continentalgroup.net.in^
@@ -120,6 +122,7 @@
 ||dev1-trucksdirectuk.com^
 ||dexios.co.za^
 ||dezcom.com^
+||dialkwik.in^
 ||disk.accord1key.cn^
 ||divvanews.com^
 ||dl.1003b.56a.com^
@@ -247,8 +250,6 @@
 ||landonirwin.com^
 ||lawfirm.paperbirdtech.com^
 ||ldeml.buborekjatszohaz.hu^
-||libss.0x504.com^
-||lindenappliances.co.za^
 ||lindnerelektroanlagen.de^
 ||local-update.com^
 ||lomejordesalamanca.es^
@@ -260,6 +261,7 @@
 ||magnusworkspace.com^
 ||mahcr.banhidileadershipacademy.hu^
 ||maidforyou1985.com^
+||malqen.life^
 ||meetvideogoogle.com^
 ||metrics.gocloudmaps.com^
 ||miqhc.bmiroda.hu^
@@ -283,6 +285,7 @@
 ||new.quranushaiqer.org.sa^
 ||neypx.bmz.hu^
 ||noithaticon.vn^
+||nova.podril1ak2.online^
 ||nspbcu.krokodilpince.hu^
 ||nusatoyota.co.id^
 ||nveth.brandbuilder.hu^
@@ -315,6 +318,8 @@
 ||pos-mobile.enlineatechnologies.com^
 ||postelnini.mk^
 ||preciosasjoyitas.com.mx^
+||protherapycenter.com^
+||proveedoradeproyectosysoluciones.com^
 ||ptnza.bni-ai.com^
 ||public.demo.securecloudsandbox.com^
 ||pvsa.gxfugy.cn^
@@ -332,7 +337,6 @@
 ||redlk.com^
 ||refaccionesalma.com.mx^
 ||reifenquick.de^
-||remoto.ddins.click^
 ||reutilizemais.co.mz^
 ||rheddh.com^
 ||rlaa5uje.stack-frontier.digital^
@@ -351,7 +355,6 @@
 ||samsclass.info^
 ||save.jnrsmcu.com^
 ||scainseto.com.br^
-||schenckel.com.br^
 ||sdvgpro.ru^
 ||sec.dashabi.in^
 ||sec.xiaojiji.nl^
@@ -369,7 +372,6 @@
 ||slotmy-send.tech^
 ||smartermail.host^
 ||sneodo.gerecseglamping.com^
-||soft.110route.com^
 ||softcatalog.ru^
 ||solar-sanat.net^
 ||spgint.com^
@@ -378,6 +380,7 @@
 ||static.ilclock.com^
 ||static.topxgun.com^
 ||static.youdm.cn^
+||stdown.dinju.com^
 ||steam66.cn^
 ||stg1-swaggrhockey.com^
 ||stonecradle.com^
@@ -389,9 +392,9 @@
 ||talentrecruitments.com^
 ||tanscarattorneys.co.tz^
 ||tapestryoftruth.com^
-||tecunonline.com^
 ||tehnomag.rs^
 ||temirtau-adm.ru^
+||tengfeidn.cn^
 ||test.peperoncinochepassione.it^
 ||theholidayroads.com^
 ||thementordirectory.com^
@@ -417,6 +420,7 @@
 ||usoiuv.gyorsanhaz.hu^
 ||uubbkkxd.network-vector.digital^
 ||vagler.ru^
+||vanta.st^
 ||vcc-library.uk^
 ||vdbkti.ispilates.hu^
 ||versaclean.com.br^
@@ -447,6 +451,7 @@
 ||www.astenterprises.com.pk^
 ||www.automobile-bk.de^
 ||www.backupallfresh2030.com^
+||www.benshamcentre.co.uk^
 ||www.blackhattoolz.com^
 ||www.bratusferramentas.grupomoltz.com.br^
 ||www.chenwangqiao.com^
@@ -456,13 +461,11 @@
 ||www.first-security-verden.de^
 ||www.hippamsas.com^
 ||www.hostingcloud.science^
-||www.hseda.com^
 ||www.intelligradeeducation.vicentecisnerospub.com^
 ||www.jozefinskiatelje.si^
 ||www.konsor.ru^
 ||www.longfeng188.com^
 ||www.medises.co.kr^
-||www.mevetlab.cl^
 ||www.mobimpex.ro^
 ||www.myvcart.com^
 ||www.namuvpn.com^
