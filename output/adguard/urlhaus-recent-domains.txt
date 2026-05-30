@@ -2,8 +2,8 @@
 ! Description: Domains extracted from recently reported malicious URLs tracked by abuse.ch URLhaus
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-05-30 02:41:19 UTC
-! Total rules: 4848
+! Last modified: 2026-05-30 08:23:59 UTC
+! Total rules: 4867
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -53,6 +53,7 @@
 ||2b7f1jfa.cloud-forge.digital^
 ||2c5gt5bd.seresniki.com^
 ||2dvs.miri7qen.lat^
+||2dzxuao7.parossag.hu^
 ||2ol471ks.kernel-lattice.digital^
 ||2qfqpi.flen4vax.lat^
 ||2qjub.logicstack.ink^
@@ -641,6 +642,7 @@
 ||box.coldwindy.lat^
 ||box.fastbitbox.pics^
 ||box.mailban.pics^
+||bphiipa.evaz.io^
 ||bq99ksyi.unseen-zorenka.digital^
 ||br1d-array.chi8nondanyl.surf^
 ||brave.archiv-checkered.surf^
@@ -1237,6 +1239,7 @@
 ||dvzzer4n.parossag.hu^
 ||dwchg.webermann.hu^
 ||dxblg.workoutwithdorci.com^
+||dxclneq.webrevelem.hu^
 ||dxsdji.felhangolo.com^
 ||dyn-fluxix.porukau8ar.lat^
 ||dyn-lithos.xamir2el.surf^
@@ -1581,6 +1584,7 @@
 ||gacorbos.me^
 ||gahay.visszateritok.net^
 ||game.longwave5hot.surf^
+||games-point.com^
 ||gardenautomationframework.garden^
 ||gardeninfrastructurecore.garden^
 ||gardeninfrastructurelab.garden^
@@ -1778,6 +1782,7 @@
 ||gxhkg.sm188dvlv.skin^
 ||gxyuad.userssawtone.lat^
 ||gzhcn.sm188login.sbs^
+||gzxrgq4a.saostar.biz^
 ||h04c.kernelwave.lat^
 ||h1ll-switch.pav1mirex.lat^
 ||h3mraocc.telemetry-harbor.digital^
@@ -2050,6 +2055,7 @@
 ||irrigationtelemetrysystem.garden^
 ||irrigationworkflowsystem.garden^
 ||irrvh.ceremoniavezeto.hu^
+||iscpbxp.datastella.co^
 ||iscx3.velorix.life^
 ||isellchildren.online^
 ||islsta.zori6mav.lat^
@@ -2208,6 +2214,7 @@
 ||kuacu.eight-education.lat^
 ||kukere.42web.io^
 ||kzaftq.hyflowtp.com^
+||kzbxkhv.newspaperseng.com^
 ||kznyspcb.arch-vivarium.lat^
 ||kzwvrleb.irrigation-monitoring-system.garden^
 ||l3tter7-logic.lami4qor.surf^
@@ -2789,6 +2796,7 @@
 ||not1fie-mesh.mixzipcore64.lat^
 ||nova.cyberdrift.surf^
 ||nova.cyberlayer.surf^
+||nova.dudos.cfd^
 ||nova.ipsetlap.lat^
 ||nova.podril1ak2.online^
 ||nova.powertechlink.lat^
@@ -2825,6 +2833,7 @@
 ||odauc.aiteszt.com^
 ||odna.oltigergely.hu^
 ||odqtx.bbglobalbau.hu^
+||oeyvwkv.hitsforge.com^
 ||offermedia.devmatrix.lat^
 ||offerparc.daro6vex.lat^
 ||ogoba.bohochal.hu^
@@ -3210,6 +3219,7 @@
 ||pwrlogview.xamir4al.pics^
 ||pwrlogviewsys.openapiservicedata.pics^
 ||pyexv.yanis.hu^
+||pymyajs.pegaadvance.com^
 ||pyzoi.ceremoniavezeto.hu^
 ||q41liphc.packet-vector.digital^
 ||q8gac86p.unseen-zorenka.digital^
@@ -3224,6 +3234,7 @@
 ||qe74wzzp.unseen-zorenka.digital^
 ||qgrqy.business360.hu^
 ||qhnhv.vrtigo.hu^
+||qkexyga.wlwyb.com^
 ||qlhsnt.lifealigned.hu^
 ||qmzbbjle.microfloraresource.garden^
 ||qsxrao.flybuilt.hu^
@@ -3920,6 +3931,7 @@
 ||swing-nutten-hon-parameter.trycloudflare.com^
 ||swioute.fira6dox.lat^
 ||swopewoodspecialties.com^
+||sybxhd9s.stgsolar.hu^
 ||sycoreltd.yzz.me^
 ||sync.cloudflowops.co^
 ||sync.clouditapp.pics^
@@ -3999,6 +4011,7 @@
 ||system-analytics-pro-guide.courses^
 ||system-stack-node-data-reference.wiki^
 ||t0n3-wave.5toravex.lat^
+||t5kfgfm1.stgsolar.hu^
 ||t66l.fira6dox.lat^
 ||t7osftz9.estat-goldilock.digital^
 ||tab.rowlocks.pics^
@@ -4154,6 +4167,7 @@
 ||tmpdirsets.webcfgmanager.pics^
 ||tmpdirsetsys.cloudstacklogic.pics^
 ||tmpfiles.org^
+||tohiels.payestation.com^
 ||toj4.dark-salittle.bet^
 ||tokenimport.klatren.lat^
 ||tokentrav.saget-sly.surf^
@@ -4230,12 +4244,14 @@
 ||truepartner.great-insue.pics^
 ||trusted-capi.nexa2vor.lat^
 ||trustedbas.handker-unicamer.surf^
+||tspdegr.askvava.com^
 ||tukwp.bni-ai.com^
 ||tuplediskdkey.christmas^
 ||turnmeshnode.torquegridunit.bet^
 ||tutorial.clashverge.space^
 ||tvlhpsjn.meadowprocessingframework.garden^
 ||tvqib.centrifuge-four.lat^
+||tvrtwkf.ricebowl.io^
 ||twdhpaua.frostmirelens.life^
 ||txfbc.sm188daftar.net^
 ||txt.textits.pics^
@@ -4246,6 +4262,7 @@
 ||u2fl6mod.stratosphericweatherballoon.digital^
 ||u8813.biograph-discoball.pics^
 ||ubiywot.zen-5lora.life^
+||ubydanl.doppe.io^
 ||uclq1my.inconprofitab1e.surf^
 ||ucovu.lelekszepsegstudio.hu^
 ||udiqhj.levivilaga.hu^
@@ -4292,6 +4309,7 @@
 ||ultra.silverwoodhub.lat^
 ||ultraceda.sorix3en.lat^
 ||ultrafal.notice-ohlamon.surf^
+||ultraviolence.buzz^
 ||ulyow.legrandpartnerklub.hu^
 ||umrhrnh.lampaoszlopbolt.hu^
 ||un1o-loop.tavro4xel.lat^
@@ -4669,6 +4687,7 @@
 ||wipe3taskhub.everfo7mat.bet^
 ||wiwcg.lelekbuvar.hu^
 ||wjkhmcp.sm188dvlv.cfd^
+||wjyfieh.evaz.io^
 ||wk4z.retellin8tolle.bet^
 ||wknzex.petalresourcehub.garden^
 ||wkqsof7p.network-pulse.digital^
