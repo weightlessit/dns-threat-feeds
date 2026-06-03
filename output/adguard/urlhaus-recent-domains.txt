@@ -2,8 +2,8 @@
 ! Description: Domains extracted from recently reported malicious URLs tracked by abuse.ch URLhaus
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-06-02 20:42:23 UTC
-! Total rules: 4380
+! Last modified: 2026-06-03 03:39:24 UTC
+! Total rules: 4173
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -33,7 +33,6 @@
 ||1ce6-route.fixionmunici9al.lat^
 ||1fphynv.mira2tal.lat^
 ||1llume-sync.fixionmunici9al.lat^
-||1nspec-mark.poorbet.lat^
 ||1oc44-span.pastor-publicist.lat^
 ||1oc4l-node.xamir9el.lat^
 ||1sj4u9.file-online.lat^
@@ -42,6 +41,7 @@
 ||209id.queuedimsys.lat^
 ||22goulm8.runtime-nexus.digital^
 ||23dcbt0c.network-horizon.digital^
+||23q34ztp.luxerabet1.com^
 ||24-35-228-16.fidnet.com^
 ||252rti6f.letrungkien.info^
 ||25smp.audiheadboa7d.lat^
@@ -78,7 +78,6 @@
 ||46fmfamd.crispychickencutlets.digital^
 ||49h06cy9.pashtuns-study-rose-hip.digital^
 ||4bklvfdi.estradaannivers.digital^
-||4ct1ve-point.klatren.lat^
 ||4dapt3-node.pavlore9.surf^
 ||4dfx0u7r.stgsolar.hu^
 ||4getd0km.script-matrix.digital^
@@ -106,7 +105,6 @@
 ||5md3.netstack.lat^
 ||5mk6bgje.stgsolar.hu^
 ||5nan0z8w.sniffingviableoffice.digital^
-||5now-mount.woodfor.lat^
 ||5ound-span.brand5calpel.lat^
 ||5parr-forge.torex5lin.surf^
 ||5pfvza4o.cretasoft.gr^
@@ -166,8 +164,6 @@
 ||9sgsurs.vexon3ar.surf^
 ||9thvfl.2zavlore.surf^
 ||9v42ch67.proxy-frontier.digital^
-||9wk4ykk.woodfor.lat^
-||9wwp.woodfor.lat^
 ||9xbc3jzp.disorientbreak.digital^
 ||9yg7582w.packet-lattice.digital^
 ||9yqks5fo.downplaying-sevenleague.digital^
@@ -209,8 +205,6 @@
 ||ahdaratlegalservices.com^
 ||aimgrub2-cloud-sphere-get.garden^
 ||airy.brightreef.surf^
-||airy.brightskyway.lat^
-||airy.ipfsway.lat^
 ||airy.logicreef.surf^
 ||ajfohrg.designyourlifeinflow.com^
 ||ajrnaww.sm188login.cyou^
@@ -223,7 +217,6 @@
 ||aligncolu.xamir4al.lat^
 ||alioss.cdn-go.com.cn^
 ||alkurdi-sa.cam^
-||alpha.goldenleafway.lat^
 ||alt-5cene.priesthood-in.lat^
 ||alt-b1oo.xamir2el.surf^
 ||alt-c0mp.years-very.lat^
@@ -248,10 +241,7 @@
 ||anxstwt.akharinbama.ir^
 ||aobgz.1zarelin.lat^
 ||apa0dv.nexa2vor.lat^
-||apex.agocert.lat^
-||apex.digitaltide.surf^
 ||apex.metadrive.surf^
-||apex.wintercoldlab.lat^
 ||apgagls.bonuliautoparts.com^
 ||api-metrics-6258.com^
 ||api.coderlap.pics^
@@ -373,7 +363,6 @@
 ||area.cryptobase.surf^
 ||area.solidcore.surf^
 ||area.solidlink.surf^
-||area.solidstonecore.lat^
 ||arg.argsleg.pics^
 ||argonclient.com^
 ||argvlidcheck.co^
@@ -401,10 +390,7 @@
 ||asynchronous-message-routing-framework.wiki^
 ||asynchronouswatering-system.garden^
 ||asyncpipelinehub.wiki^
-||atlas.urbanlogicgrid.lat^
 ||atom.nanologic.surf^
-||atom.purelogic.surf^
-||atom.vmesscab.lat^
 ||audi-vector.centrifuge-four.lat^
 ||audio-attenuator-schematic.garden^
 ||aurekh.com^
@@ -438,8 +424,6 @@
 ||autumn1-zone.hundred5elf.lat^
 ||avariya.cfd^
 ||avjquzsd.seresniki.com^
-||axis.agilelid.lat^
-||axis.darkstonebase.lat^
 ||axnb.olyusvirag.hu^
 ||axwq1.sorix7el.lat^
 ||ayov.olcsongepet.hu^
@@ -450,6 +434,7 @@
 ||b534.lena3qit.lat^
 ||b53jdkck.photoshopvn.net^
 ||b5fdl2mw.hor1inka-lonely.digital^
+||b7tibc5u.luxerabet1000.com^
 ||ba5ufc2h.logic-sphere.digital^
 ||back.looprim.pics^
 ||backup-terminal-gateway-handle-list.wiki^
@@ -472,25 +457,19 @@
 ||base.infrastructurerun.pics^
 ||base.solidcore.surf^
 ||base.solidlink.surf^
-||base.solidstonecore.lat^
 ||base.webdataprocess.pics^
-||base.wintercoldlab.lat^
 ||basi-wave.5doreval.lat^
 ||batmemo.kreativkiteljesedes.hu^
 ||bay-loyal.cloudmesh.lat^
 ||bcbjicn.kreativkiteljesedes.hu^
 ||bcfaxrtc.logic-compass.digital^
-||bchx.poorbet.lat^
 ||bcypppaq.asynchronous-growth-platform.garden^
 ||bczth.bertifolia.hu^
 ||beacontweezersbinge.wiki^
 ||beartrend.logicstack.ink^
 ||bedzvnbo.ecosystemresourceplatform.garden^
 ||bernasibutuwqu2.com^
-||beta.cyberdrift.surf^
 ||beta.cyberlayer.surf^
-||beta.ipsetlap.lat^
-||beta.rapidfirepixel.lat^
 ||bgkdrlm.sprutte5t.lat^
 ||bgtwfmx.rikashart.com^
 ||bin.cloudviewtop.pics^
@@ -572,17 +551,11 @@
 ||bloomdistributioncenter.garden^
 ||bloommonitoringengine.garden^
 ||blue.brightreef.surf^
-||blue.brightskyway.lat^
-||blue.ipfsway.lat^
 ||blue.logicreef.surf^
-||blue.magicflowpoint.lat^
 ||boatbeach.online^
 ||boblegvlist.christmas^
-||bolt.brightskycore.lat^
-||bolt.darkstonebase.lat^
 ||bolt.nanologic.surf^
 ||bolt.purelogic.surf^
-||bolt.vmesscab.lat^
 ||boosmars.lipshellcore.lat^
 ||botan-it-getwork-flow.garden^
 ||botanicalanalyticsengine.garden^
@@ -631,9 +604,6 @@
 ||byte-network-hub.christmas^
 ||byte-stream-encryption-standard-base.wiki^
 ||byte-vault.christmas^
-||byte.agilelid.lat^
-||byte.quantumwave.surf^
-||byte.urbanlogicgrid.lat^
 ||byte.urbanpulse.surf^
 ||byteforge.surf^
 ||byzantine-mosaic-restoration.garden^
@@ -728,7 +698,6 @@
 ||clubcampestrededurango.com^
 ||cluster-module-deployment-standard-map.wiki^
 ||clusterend.3lunavex.life^
-||clusteroasi.wentgot.lat^
 ||clwoce8k.runtime-atlas.digital^
 ||cmd.cloudflowops.co^
 ||cmd.linkdataproc.pics^
@@ -766,7 +735,6 @@
 ||codeframe.wiki^
 ||codepit-rized-denengine.garden^
 ||coder-logic-vault.courses^
-||cold.darkwinterlab.lat^
 ||cold.frostpoint.surf^
 ||cold.oceanblue.surf^
 ||cold.winterpeak.surf^
@@ -815,9 +783,6 @@
 ||conv-wagon.cryptostack.lat^
 ||cor38-loop.7lorexan.surf^
 ||core-ost-node-system.garden^
-||core.agocert.lat^
-||core.darkstonebase.lat^
-||core.digitaltide.surf^
 ||core.fielddie.pics^
 ||core.infrastructurerun.pics^
 ||core.metadrive.surf^
@@ -885,7 +850,6 @@
 ||cy75lpfn.xano4mel.lat^
 ||cyber-defensepro.christmas^
 ||cyber-prosthetic.fit^
-||cyber.rapidfirepixel.lat^
 ||cybergrid.surf^
 ||cybernetic-prosthetic-lab.garden^
 ||cycle.looprim.pics^
@@ -897,10 +861,7 @@
 ||d3c0de-scope.xamir3on.lat^
 ||d4rk2-trail.lena3qit.lat^
 ||dampcaps-flor-sou-rail.garden^
-||dash.brightskycore.lat^
-||dash.neonstream.surf^
 ||dash.pixelstep.surf^
-||dash.querytan.lat^
 ||dashcorpcloud.co^
 ||data-core-logic-resource-center.wiki^
 ||data-glow.thora8lin.lat^
@@ -953,11 +914,9 @@
 ||deepion.narrownessoutri8ht.pics^
 ||dehjcpyw.byte-forge.digital^
 ||deliverycave.milo3ren.lat^
-||delta.silverwoodhub.lat^
 ||demand3-logic.verdi7qor.lat^
 ||den53-plate.sorix3en.lat^
 ||dengrep-resource-opencut-engine.garden^
-||des1g-vector.toorout.lat^
 ||desentupidora.pro.br^
 ||designdepot.scriptmesh.ink^
 ||desk-sensor-tabel-tunnel-key.wiki^
@@ -1006,7 +965,6 @@
 ||digiztechllc.co^
 ||digobkp.store^
 ||diphtongspecialchess.courses^
-||dispatcherpodcast.poorbet.lat^
 ||distrib-ost-penal-network.garden^
 ||distributed-cache-storage-layer.wiki^
 ||distributed-event-processing-lab.courses^
@@ -1145,9 +1103,7 @@
 ||dyn-fluxix.porukau8ar.lat^
 ||dyn-lithos.xamir2el.surf^
 ||dyn-venen.hundred5elf.lat^
-||dynamicloc.qantuni.lat^
 ||dynamicregi.great-insue.pics^
-||dynforgear1.yeldfor.lat^
 ||dynga.pl^
 ||dynhc.balintpiroska.hu^
 ||dynline1a.diesel-stark.lat^
@@ -1170,7 +1126,6 @@
 ||echo.neonstream.surf^
 ||echo.pixelstep.surf^
 ||echo.purelogic.surf^
-||echo.querytan.lat^
 ||echovoicemod.fun^
 ||eciepxlt.solid5lowly.digital^
 ||ecjimr.kovacsago.hu^
@@ -1185,12 +1140,8 @@
 ||edge-network-on-hub.garden^
 ||edge-processing-network.courses^
 ||edge-processing-network.wiki^
-||edge.agocert.lat^
 ||edge.cloudproxyserv.pics^
-||edge.digitaltide.surf^
 ||edge.metadrive.surf^
-||edge.oceanstormview.lat^
-||edge.wintercoldlab.lat^
 ||efk47wb3.skewedencro2ch.lat^
 ||eg125q1i.dvfb-vn.com^
 ||eh-masled.courses^
@@ -1205,7 +1156,6 @@
 ||elsms.webgondozas.hu^
 ||emaisboletos.com^
 ||emberpetal.zen-5lora.life^
-||emjp1vs.woodfor.lat^
 ||emuw.priesthood-in.lat^
 ||encoderfreight.daro6vex.lat^
 ||endpoint-api-node.com^
@@ -1288,9 +1238,7 @@
 ||fallverify.pav9mirel.lat^
 ||falseflag1.ru^
 ||fanlo.addmagad.com^
-||fast.andipfs.lat^
 ||fast.fastlinkprovider.pics^
-||fast.magicflowpoint.lat^
 ||fast.powerdrift.surf^
 ||fast.raidher.icu^
 ||fast.rapidstorm.surf^
@@ -1328,7 +1276,6 @@
 ||finalcampaign.porukau8ar.lat^
 ||finger.aulinked.org^
 ||finger.linkedby.org^
-||fire.andipfs.lat^
 ||fire.powerdrift.surf^
 ||fire.rapidstorm.surf^
 ||fiwmth.gyorsanhaz.hu^
@@ -1362,16 +1309,12 @@
 ||flovv-zone.7lorexan.surf^
 ||flow-bann.byerottin8.lat^
 ||flow-hub-green-house-work.garden^
-||flow.agilelid.lat^
 ||flow.looprim.pics^
 ||flow.nanologic.surf^
 ||flow.purelogic.surf^
 ||flowmaster.cloudflowops.co^
 ||flush.flushgot.pics^
-||flux.quantumwave.surf^
-||flux.rapidfirepixel.lat^
 ||flux.urbanpulse.surf^
-||flux.vmesscab.lat^
 ||fmnnyp.qen2virex.lat^
 ||fmqblzz.bonuliautoparts.com^
 ||fmslna.nr1office.hu^
@@ -1380,7 +1323,6 @@
 ||foqovv.h13lakopark.hu^
 ||forcrash-classnet.christmas^
 ||forefern.pixelnode.lat^
-||forestoke.yeldfor.lat^
 ||forgotten-civilization-myth.garden^
 ||formkey.asia^
 ||formreba.qeniral8.surf^
@@ -1394,7 +1336,6 @@
 ||freeomovie.info^
 ||freightbird.rodrules.surf^
 ||frost-marketplace.christmas^
-||frost.darkwinterlab.lat^
 ||frost.frostpoint.surf^
 ||frost.oceanblue.surf^
 ||frost.winterpeak.surf^
@@ -1447,20 +1388,14 @@
 ||gardenprocessinghub.garden^
 ||gardenresourcecontroller.garden^
 ||gardenworkflowcenter.garden^
-||gate.agocert.lat^
-||gate.digitaltide.surf^
 ||gate.metadrive.surf^
-||gate.wintercoldlab.lat^
 ||gaviao.ba.gov.br^
 ||gbhij.vilagom.hu^
 ||gbowm.cannatural.cz^
 ||gcaeobl.7lorexan.surf^
 ||gcrexj.glfree.hu^
 ||gdv3zpg.novi7xel.lat^
-||gear.brightskycore.lat^
-||gear.neonstream.surf^
 ||gear.pixelstep.surf^
-||gear.querytan.lat^
 ||gec56eyc.pczrt.hu^
 ||gene-pod.di7ectkoshevoy.lat^
 ||gene-track.messy-zamai.pics^
@@ -1509,7 +1444,6 @@
 ||gey5-reach.didoprotecauth.lat^
 ||gfdoxjo.zsatom.hu^
 ||gfwbeo2g.7lf.net^
-||ggc-partners.top^
 ||ggrze.brssolar.hu^
 ||ggtgi.wlwyb.com^
 ||ggwpcheats.xyz^
@@ -1560,7 +1494,6 @@
 ||glokchapigui.co^
 ||glow-hub-herboron-sixoauth-work.garden^
 ||glsvuu.knminerals.hu^
-||gltnub.live^
 ||gnashhusks.courses^
 ||gnetier6.hegong-tools.com^
 ||gnqv4r.boxemoj.surf^
@@ -1586,7 +1519,6 @@
 ||graphnewclass.christmas^
 ||grass.solidlink.surf^
 ||great-fauna-tcpipgay-go-system.garden^
-||great.wintercoldlab.lat^
 ||green-macrohim-work-center.garden^
 ||greenhouse-climate-control-sys.garden^
 ||greenhousecontrolhub.garden^
@@ -1598,10 +1530,7 @@
 ||greenhouseoperationshub.garden^
 ||greenhouseresourceengine.garden^
 ||greenhouseworkflowhub.garden^
-||grid.cyberdrift.surf^
 ||grid.cyberlayer.surf^
-||grid.ipsetlap.lat^
-||grid.urbanlogicgrid.lat^
 ||grim-wave.rataj-vertky.lat^
 ||grrab.cannatural.cz^
 ||gt5kq695.die-reformer.digital^
@@ -1622,7 +1551,6 @@
 ||h7cyp6bl.kernel-compass.digital^
 ||h89kbhtt.schleer.hu^
 ||handlerharvest.fewhtml.surf^
-||handlprint.yeldfor.lat^
 ||handmade-cheese-traveler.garden^
 ||handout-voivo-desk-ship-link.wiki^
 ||handout-voivodeshiplink.wiki^
@@ -1631,7 +1559,6 @@
 ||hard.cryptobase.surf^
 ||hard.solidcore.surf^
 ||hard.solidlink.surf^
-||hard.solidstonecore.lat^
 ||hardenedpeanits.fyi^
 ||hardware-resource-monitor-tool-box.wiki^
 ||harrain.diesel-stark.lat^
@@ -1652,8 +1579,6 @@
 ||hgelsd.years-very.lat^
 ||hgt3.7toralex.lat^
 ||high.brightreef.surf^
-||high.brightskyway.lat^
-||high.ipfsway.lat^
 ||high.logicreef.surf^
 ||hill-forge.cloak-custody.pics^
 ||hjdssxth.swimsuit-unable.lat^
@@ -1664,10 +1589,7 @@
 ||holographic-projection-grid.garden^
 ||homeinspectionnaperville.com^
 ||honestshape.wetshardauth.lat^
-||host.agocert.lat^
 ||host.cloudproxyserv.pics^
-||host.darkstonebase.lat^
-||host.digitaltide.surf^
 ||host.metadrive.surf^
 ||host4file.cc^
 ||hotfix.cloudstack.pics^
@@ -1742,7 +1664,6 @@
 ||i0gxewzq.webuyurcar.com.au^
 ||i0zaakp5.monotheism-sled.digital^
 ||ice-evergreen.christmas^
-||ice.darkwinterlab.lat^
 ||ice.frostpoint.surf^
 ||ice.oceanblue.surf^
 ||ice.winterpeak.surf^
@@ -1767,14 +1688,12 @@
 ||imap.mailban.pics^
 ||immersevocalistidleness.wiki^
 ||importdeep.sprutte5t.lat^
-||indexlaunc.wentgot.lat^
 ||info.textits.pics^
 ||infoworkerone.com^
 ||infoworkerone.org^
 ||infra-blue-high-print.garden^
 ||infra-point-bits-service-atlas.wiki^
 ||infra.infrastructurerun.pics^
-||infra.rapidfirepixel.lat^
 ||inhalerotolaryngologist.courses^
 ||inherittruckdoge.courses^
 ||insightmemo.expo5ejouer.lat^
@@ -1846,7 +1765,6 @@
 ||iron.cryptobase.surf^
 ||iron.solidcore.surf^
 ||iron.solidlink.surf^
-||iron.solidstonecore.lat^
 ||irrigation-control-framework.garden^
 ||irrigation-control-network.garden^
 ||irrigation-management-core.garden^
@@ -1937,7 +1855,6 @@
 ||juixt9f.xamir3on.lat^
 ||july-feded-plants-workflow.garden^
 ||julya.bmz.hu^
-||jump.andipfs.lat^
 ||jump.powerdrift.surf^
 ||jump.rapidstorm.surf^
 ||june-fed-plant-workflow.garden^
@@ -1947,7 +1864,6 @@
 ||jzufjrnq.floraanalyticshub.garden^
 ||k2bs9h2k.proxy-horizon.digital^
 ||k5k1f5zd.cloudzone.tr^
-||k7zm2.qantuni.lat^
 ||k9h20m23.observability-matrix.digital^
 ||kadush-sideburnsushan.courses^
 ||kaewe.caesarresidence.com^
@@ -1962,8 +1878,6 @@
 ||kdffa87z.1zarelin.lat^
 ||kdwuzpk.yutongdrying.com^
 ||kekie27.skewedencro2ch.lat^
-||kel-crestis.klatren.lat^
-||kelcoreet.weplord.lat^
 ||kelfluxum.actsdks.surf^
 ||kelforgeor8.vexon3ar.surf^
 ||kelmeshon.airport-clar.lat^
@@ -1977,20 +1891,15 @@
 ||kernel-patch-update-release-history.wiki^
 ||kevtel.com^
 ||key.nanologic.surf^
-||key.purelogic.surf^
 ||key.rowlocks.pics^
-||key.vmesscab.lat^
 ||kferlw.itsmarthungary.hu^
 ||kfshh.qeniral8.surf^
 ||kftla.sm188login.sbs^
 ||kfvzenz.bahiscom2023.online^
 ||kgztgu.fortunalamella.hu^
-||kick.andipfs.lat^
-||kick.brightskycore.lat^
 ||kick.darktrace.surf^
 ||kick.powerdrift.surf^
 ||kick.rapidstorm.surf^
-||kilo.starlightnova.lat^
 ||kilowattssnualinoculation.courses^
 ||kimfeg.fusionizemanagement.com^
 ||kiouc.visszateritok.hu^
@@ -2050,7 +1959,6 @@
 ||lapwop.pw^
 ||lasagna-bakingpro.christmas^
 ||lasagnabakingsecrets.study^
-||last.solidstonecore.lat^
 ||launch-point.pav1mirex.lat^
 ||laye-zone.nova7frame.life^
 ||layer-get-win-tron.wiki^
@@ -2102,12 +2010,9 @@
 ||liche3-wave.tavro6xel.lat^
 ||linguistic-puzzle-solver.garden^
 ||linguisticpuzzlesolver.christmas^
-||link.agilelid.lat^
 ||link.cloudproxyserv.pics^
-||link.darkstonebase.lat^
 ||link.fastlinkprovider.pics^
 ||link.linkrunops.pics^
-||link.quantumwave.surf^
 ||link.urbanpulse.surf^
 ||linkcasc.lena3qit.lat^
 ||linkedco.net^
@@ -2120,7 +2025,6 @@
 ||lkkgv50r.logicbyte.lat^
 ||llm325.qu2ntitative-tenero.pics^
 ||llrxcyj.laborfotostudio.hu^
-||lmzrj5.yeldfor.lat^
 ||load-array.sprutte5t.lat^
 ||load-meadows-analytics-cntr.garden^
 ||load-port.tavro6xel.lat^
@@ -2155,7 +2059,6 @@
 ||logbins.vbytetap.lat^
 ||logbins.zooblob.surf^
 ||logic-buffer-skills.courses^
-||logic.oceanstormview.lat^
 ||logic.systemlogicops.pics^
 ||logicbufferskills.christmas^
 ||logicnode.surf^
@@ -2170,7 +2073,6 @@
 ||logviewsys.devlogicmaster.pics^
 ||logviewsys.globalnetviewer.pics^
 ||long-pescar.wiki^
-||look.darkwinterlab.lat^
 ||loop.looprim.pics^
 ||losslvs.surf^
 ||lpo88ruu.seresniki.com^
@@ -2189,7 +2091,6 @@
 ||lv5evztg.cyberneticprostheticlab.digital^
 ||lvavdb.nyitottkeramia.hu^
 ||lvbj1i51.codeflux.lat^
-||lvhpvce.yeldfor.lat^
 ||lwbc.actsdks.surf^
 ||ly1p.mixruby.life^
 ||lyapissvebechkopassword.wiki^
@@ -2203,7 +2104,6 @@
 ||m1ub6qaj.kabardinskymonasticismradicalism.digital^
 ||m8fpbfz3.container-bridge.digital^
 ||m8to2gkj.hundred-years-old.digital^
-||macro.goldenleafway.lat^
 ||macroloop.logicstack.ink^
 ||macswi.sola5reth.lat^
 ||madrigalscythianphenologist.courses^
@@ -2223,7 +2123,6 @@
 ||mass.cryptobase.surf^
 ||mass.solidcore.surf^
 ||mass.solidlink.surf^
-||mass.solidstonecore.lat^
 ||massivesubtle.sorix3en.lat^
 ||master-core-system-date-slink.wiki^
 ||master-planting-logic-manual.garden^
@@ -2258,7 +2157,6 @@
 ||mer-nexa.sorix7en.surf^
 ||mercore7is.velorix.life^
 ||merkureenv.net^
-||merspirea.weplord.lat^
 ||mervaleet.userssawtone.lat^
 ||meta-1nspect.velorix.life^
 ||meta-data-shredding-cleanup-utility.wiki^
@@ -2266,7 +2164,6 @@
 ||meta-sc4n.mira2tal.lat^
 ||meta-tr4c.5doreval.lat^
 ||meta.fielddie.pics^
-||meta.oceanstormview.lat^
 ||metal.linkdataproc.pics^
 ||metalt.1zorelix.surf^
 ||metalt.3zavlore.surf^
@@ -2335,10 +2232,7 @@
 ||mlbmb.bonuszugynokseg.hu^
 ||mlye7rvg.siciliandefensetheory.digital^
 ||mnkggwzm.crispychickencutlets.digital^
-||mobi.cyberdrift.surf^
 ||mobi.cyberlayer.surf^
-||mobi.ipsetlap.lat^
-||mobi.starlightnova.lat^
 ||mod-bus.xam1riel.surf^
 ||mod-bus.xamir9on.surf^
 ||mod.openlogmgr.pics^
@@ -2367,13 +2261,10 @@
 ||modbuss.xamir3on.lat^
 ||modbuss.xamir4on.surf^
 ||modbuss.xamir5ol.lat^
-||mode.neonstream.surf^
 ||mode.pixelstep.surf^
-||mode.querytan.lat^
 ||modelcut-auto-frame-nodipfs.garden^
 ||modesix-iontel-scalapie-system.garden^
 ||modular-analog-synthesizer.garden^
-||moduleprime.weplord.lat^
 ||mokmgdal.gift-lattice.christmas^
 ||moledynam.vexon6ar.lat^
 ||mongofly-container-gard-mesh.garden^
@@ -2388,7 +2279,6 @@
 ||mpvcbz.quantumvelocitylabs.study^
 ||mqo7n5b2.script-vault.digital^
 ||mramn.velorix.life^
-||mrky.klatren.lat^
 ||mrlls.aileadfactory.com^
 ||mrwqb.bartaenergetika.com^
 ||msbeora.takhtebet.app^
@@ -2421,7 +2311,6 @@
 ||neo-carg0.skewedencro2ch.lat^
 ||neo-rura1.grov9mira.lat^
 ||neon-cyberpunk.christmas^
-||neon.silverwoodhub.lat^
 ||neoncyberpunkcity.garden^
 ||neonwallet.app^
 ||neotcdk.7toralex.lat^
@@ -2500,13 +2389,10 @@
 ||nkqzyrf.sm188wing.cyou^
 ||nljinxg.takhtebet.com^
 ||nmturc.cyou^
-||node.cyberdrift.surf^
 ||node.cyberlayer.surf^
 ||node.datasrvhub.pics^
 ||node.fielddie.pics^
 ||node.globalnodeviewset.pics^
-||node.ipsetlap.lat^
-||node.rapidfirepixel.lat^
 ||nodefabric.christmas^
 ||nodes.netnodeset.pics^
 ||nor-venix.mixruby.life^
@@ -2519,12 +2405,9 @@
 ||nornexon1.gela1vor.lat^
 ||northglyp.devmatrix.lat^
 ||nortideis9.plsqlnew.surf^
-||nortspec.poorbet.lat^
 ||not1fie-mesh.mixzipcore64.lat^
-||nova.cyberdrift.surf^
 ||nova.cyberlayer.surf^
 ||nova.dudos.cfd^
-||nova.ipsetlap.lat^
 ||nova.podril1ak2.online^
 ||novacinder.digital^
 ||nozeunl.xfgautoparts.com^
@@ -2538,7 +2421,6 @@
 ||nveth.brandbuilder.hu^
 ||nwmhtzx.suslink.com.pk^
 ||nwtca6gs.schleer.hu^
-||nx44.silverwoodhub.lat^
 ||nxbided.bakhtbetyek.com^
 ||nzaqn.sm188login.cyou^
 ||oa4njxsv.byte-frontier.digital^
@@ -2571,8 +2453,6 @@
 ||olakv.technologiaiviz.hu^
 ||oleavv.levelupadventure.hu^
 ||olftxqs.dgyekbet1.com^
-||omni.quantumwave.surf^
-||omni.starlightnova.lat^
 ||omni.urbanpulse.surf^
 ||onpyo.vexon6ar.lat^
 ||onwqrw.lillafunfit.com^
@@ -2637,7 +2517,6 @@
 ||optwebs.mel2vrax.surf^
 ||optwebs.parliament5almon.lat^
 ||optwebs.rodrules.surf^
-||orbit.urbanlogicgrid.lat^
 ||orbital-docking-module.garden^
 ||orbital-mechanics.christmas^
 ||orbital-velocity.fit^
@@ -2694,7 +2573,6 @@
 ||p9015zuh.unp2idvalk.digital^
 ||pable.sm188login.rest^
 ||pack-bar.1zorelin.lat^
-||packagesca.woodfor.lat^
 ||packet-distribution-core.christmas^
 ||packet-relay-engine.courses^
 ||packet-relay-engine.garden^
@@ -2710,7 +2588,6 @@
 ||parisspinsnow.com^
 ||park.brightpath.surf^
 ||park.greenforest.surf^
-||park.greenforesthub.lat^
 ||park.terraview.surf^
 ||passoverphysiqclass.wiki^
 ||passwordweb.wiki^
@@ -2742,6 +2619,7 @@
 ||petalresourceengine.garden^
 ||petalresourceframework.garden^
 ||petalworkflowengine.garden^
+||pf6n62u7.luxerabet5.com^
 ||phase-shift-bridge-driver.garden^
 ||phase-shiftbridge.christmas^
 ||phijdnv.sm188login.cyou^
@@ -2794,20 +2672,16 @@
 ||podcamoss.colonist-proph.lat^
 ||podcasdeliv.vexon3ar.surf^
 ||podccam.brix9qen.lat^
-||point.oceanstormview.lat^
 ||pokoli.byethost9.com^
-||poon.solidstonecore.lat^
 ||pop.mailban.pics^
 ||port-mar.xamir2el.surf^
 ||porthot-irr-gation-menthub.garden^
 ||povver4-pulse.mav2lirex.lat^
 ||pr1nt-crest.milo3ren.lat^
-||pr1nt-plate.qantuni.lat^
 ||pr1rn-frame.1dorelax.surf^
 ||predator-hunting-chronicles.garden^
 ||prgqvfu.payestation.com^
 ||prime-object-container-task-archive.wiki^
-||prime.rapidfirepixel.lat^
 ||primemic.com^
 ||primeproxy.sorix7el.lat^
 ||primordial-soup-evolution.garden^
@@ -2832,7 +2706,6 @@
 ||proxy-matrix-kernel-on.courses^
 ||proxy-stream.christmas^
 ||proxy.cloudproxyserv.pics^
-||proxy.darkstonebase.lat^
 ||proxy.vpsgateway.pics^
 ||proxys.cottonwat-bad.lat^
 ||proxys.gavi1lor.lat^
@@ -2868,15 +2741,9 @@
 ||ptnza.bni-ai.com^
 ||pubdraft.eight-education.lat^
 ||puffingsiterreorganize.courses^
-||pulse.silverwoodhub.lat^
-||pulse.starlightnova.lat^
-||pure.magicflowpoint.lat^
 ||pure.nanologic.surf^
-||pure.purelogic.surf^
-||pure.vmesscab.lat^
 ||pureclaw-biz.purepage.one^
 ||pway7.mongofixcore.lat^
-||pwev0y0.poorbet.lat^
 ||pwr-log.xam1riel.surf^
 ||pwr-log.xamir9on.surf^
 ||pwrlog.openapiserv.pics^
@@ -2912,7 +2779,6 @@
 ||q956x3rl.badabingsopranoslounge.digital^
 ||qaezg.sm188akurat.sbs^
 ||qaff1aeg.chronicle5-diachiha.digital^
-||qanti.solidstonecore.lat^
 ||qbtnd.sm188dvlv.cfd^
 ||qcjqcd.geokalk.hu^
 ||qczybp.liftoff.hu^
@@ -2927,7 +2793,6 @@
 ||qmzbbjle.microfloraresource.garden^
 ||qsnovga.intelect.gr^
 ||qsxrao.flybuilt.hu^
-||quant.oceanstormview.lat^
 ||quantquery.daro6vex.lat^
 ||quantum-entanglement-crypt.garden^
 ||quantum-forge-nat.courses^
@@ -2941,7 +2806,6 @@
 ||quooasis.adi8hesplayer.pics^
 ||quor-draet.centrifuge-four.lat^
 ||quor-meshos.qorivault.life^
-||quorforgeis5.poorbet.lat^
 ||quorlith0or.sorix7el.lat^
 ||quorlithix3.adi8hesplayer.pics^
 ||quormark2et.wetshardauth.lat^
@@ -3040,7 +2904,6 @@
 ||res.cargowhy.surf^
 ||resolvrou.mav2lirex.lat^
 ||rest.openapiservicehub.pics^
-||reta-wave.woodfor.lat^
 ||retailvelvet.mixruby.life^
 ||retro-gaming-launcher.garden^
 ||reviewgard.priesthood-in.lat^
@@ -3057,13 +2920,11 @@
 ||rmxuj8se.sprutte5t.lat^
 ||rnfg.onlyfansagency.hu^
 ||rnoon-panel.qeniral8.surf^
-||rnqb.yeldfor.lat^
 ||road-hold.sola5reth.lat^
 ||roblox-execut.net^
 ||rock.cryptobase.surf^
 ||rock.solidcore.surf^
 ||rock.solidlink.surf^
-||rock.solidstonecore.lat^
 ||root-cul.xamir3on.lat^
 ||root-directory-repository-process-vault.wiki^
 ||root-system-irrigation.garden^
@@ -3078,11 +2939,9 @@
 ||rpcmwsz.muveszetiirasok.hu^
 ||rpyrxh.lilbaukft.hu^
 ||rqwanh.gyulaicsevego.hu^
-||rrjp7hig.wentgot.lat^
 ||rrnek.bognartransport.hu^
 ||rtixcz.lestyanesfiai.hu^
 ||rubbermax.xyz^
-||run.andipfs.lat^
 ||run.bytevector.pics^
 ||run.coderlaptechnical.pics^
 ||run.fastlinkprovider.pics^
@@ -3096,12 +2955,10 @@
 ||runtime-core-fabric-get.garden^
 ||runtime-processing-node.christmas^
 ||runtimeexecutionlayer.wiki^
-||runw2-flow.wentgot.lat^
 ||runw4y5-spark.assonanceka1e.lat^
 ||runwayclini.xamir4al.lat^
 ||rur4-vector.mirelax9.life^
 ||rurareag.vexon4al.lat^
-||rush.andipfs.lat^
 ||rush.powerdrift.surf^
 ||rush.rapidstorm.surf^
 ||russia24.icu^
@@ -3112,7 +2969,6 @@
 ||ryfsowiu.icu^
 ||rywiyw.verdi7qor.lat^
 ||rzbve.sm188login.sbs^
-||s0un-panel.yeldfor.lat^
 ||s61j30vp.snugglebloom.com.au^
 ||s9fsvyxk.seresniki.com^
 ||sagdxf.krokodilpince.hu^
@@ -3121,7 +2977,6 @@
 ||salemacro.xamir2el.surf^
 ||sam-sa.net^
 ||sampl-boo.qeniral8.surf^
-||sandman.lat^
 ||sandman.qen2virex.lat^
 ||saprwbu.lavorcollective.com^
 ||sax166rh.funkboi.com^
@@ -3169,7 +3024,6 @@
 ||shellengi.pastor-publicist.lat^
 ||shells-garden-framework.garden^
 ||shemaleshavefeelings.autos^
-||shift.goldenleafway.lat^
 ||shipdem.lipshellcore.lat^
 ||shore-leaf.pastor-publicist.lat^
 ||si1e-branch.setqueueat.lat^
@@ -3184,24 +3038,15 @@
 ||simonizauto.com^
 ||sinkingyourself.courses^
 ||sir8uu.yandex-file.lat^
-||site.agocert.lat^
-||site.darkwinterlab.lat^
-||site.digitaltide.surf^
 ||site.metadrive.surf^
-||site.wintercoldlab.lat^
 ||siteyet-script-horizon-go.garden^
 ||sjlol.mira2tal.lat^
 ||sketchbasic.tavro4xel.lat^
 ||skgya.sm188dvlv.hair^
-||skip.neonstream.surf^
 ||skip.pixelstep.surf^
-||skip.querytan.lat^
 ||skqchmt.visszateritok.hu^
-||sky.brightreef.surf^
-||sky.ipfsway.lat^
 ||sky.linkrunops.pics^
 ||sky.logicreef.surf^
-||sky.magicflowpoint.lat^
 ||skyvpn.1zorelix.surf^
 ||skyvpn.3zavlore.surf^
 ||skyvpn.bureauc-diachiha.lat^
@@ -3239,10 +3084,7 @@
 ||smother-portf.file-open.surf^
 ||smtp.mailban.pics^
 ||smuggler-beluga-notion.courses^
-||snap.brightskycore.lat^
-||snap.neonstream.surf^
 ||snap.pixelstep.surf^
-||snap.querytan.lat^
 ||sneodo.gerecseglamping.com^
 ||snonc.accredit.hu^
 ||snooze-wontdrama.wiki^
@@ -3256,11 +3098,9 @@
 ||solar-sanat.net^
 ||solarvine.pav1mirex.lat^
 ||solmarkex.flen4vax.lat^
-||solmarkis1.klatren.lat^
 ||solnex3et.cybernode.ink^
 ||solspireex3.queuedimsys.lat^
 ||solven9ix.sorix7el.lat^
-||sonic.urbanlogicgrid.lat^
 ||sopranos-familytree.christmas^
 ||sorrystartstat1.net^
 ||sort4-mesh.brand5calpel.lat^
@@ -3268,7 +3108,6 @@
 ||sp4rk-plate.7toralex.lat^
 ||space-debris-trajectory.garden^
 ||spamgym.asia^
-||spark.goldenleafway.lat^
 ||spesurv.biograph-discoball.pics^
 ||splitfleet.7toralex.lat^
 ||spool1-scope.verdi7qor.lat^
@@ -3446,11 +3285,7 @@
 ||stacksurvey.torex5lin.surf^
 ||stage1-orschellx.com^
 ||star-workshop.christmas^
-||star.brightreef.surf^
-||star.brightskyway.lat^
-||star.ipfsway.lat^
 ||star.logicreef.surf^
-||star.magicflowpoint.lat^
 ||stat-collection-engine-performance-view.wiki^
 ||static-103-160-197-150.unpl.net^
 ||stea-summ.5toravex.lat^
@@ -3523,11 +3358,8 @@
 ||sycoreltd.yzz.me^
 ||sync.cloudflowops.co^
 ||sync.clouditapp.pics^
-||sync.cyberdrift.surf^
 ||sync.cyberlayer.surf^
 ||sync.flushgot.pics^
-||sync.ipsetlap.lat^
-||sync.urbanlogicgrid.lat^
 ||syncdusk.mirelax9.life^
 ||syncit.authorize5ilky.lat^
 ||syncit.bitflowapp.pics^
@@ -3602,7 +3434,6 @@
 ||tal-draet.nexa2vor.lat^
 ||tal-linea.tavro4xel.lat^
 ||tal-valeum.cyberframe.lat^
-||talcrestex7.weplord.lat^
 ||talfluxal6.baked5ham.lat^
 ||tallithix9.mirelax9.life^
 ||talmark5ix.pastor-publicist.lat^
@@ -3681,7 +3512,6 @@
 ||telemetrycore.courses^
 ||telemetrygardenmesh.garden^
 ||telemetrymesh.christmas^
-||temp.darkwinterlab.lat^
 ||temp.frostpoint.surf^
 ||temp.oceanblue.surf^
 ||temp.sh^
@@ -3689,8 +3519,6 @@
 ||tempshare.su^
 ||tertsiyavocalsunseenfile.wiki^
 ||test.argsleg.pics^
-||tetra.oceanstormview.lat^
-||texg.klatren.lat^
 ||tfasyxh.arayemek.com^
 ||tfbkfdw.21pasoor.app^
 ||the-sopranos-family-tree.garden^
@@ -3731,7 +3559,6 @@
 ||tmpfiles.org^
 ||tnslzkh.sus.com.pk^
 ||tohiels.payestation.com^
-||tokenimport.klatren.lat^
 ||tooca.sm188daftar.skin^
 ||toolkeep.org^
 ||top-svc.mav2terol.surf^
@@ -3771,7 +3598,6 @@
 ||tpkpolus.ru^
 ||tr8tupu.xano4mel.lat^
 ||trace-route-diagnostic-signal-map.wiki^
-||trace.silverwoodhub.lat^
 ||tracke-signal.cryptostack.lat^
 ||trackeglacie.3toravix.lat^
 ||tradedsglobal.com^
@@ -3809,7 +3635,6 @@
 ||txfbc.sm188daftar.net^
 ||txt.textits.pics^
 ||tzqmbji.great-insue.pics^
-||u1tr4-scope.woodfor.lat^
 ||u1tr6-drive.3lunavex.life^
 ||u2fl6mod.stratosphericweatherballoon.digital^
 ||u8813.biograph-discoball.pics^
@@ -3856,7 +3681,6 @@
 ||ultra-r3c0r.pixel-harbor.life^
 ||ultra-sh4p3.earoauth.life^
 ||ultra.novi7xel.surf^
-||ultra.silverwoodhub.lat^
 ||ultraceda.sorix3en.lat^
 ||ultraviolence.buzz^
 ||ulyow.legrandpartnerklub.hu^
@@ -3866,7 +3690,6 @@
 ||unicore.pw^
 ||unitmemory.wiki^
 ||unx7.swimsuit-unable.lat^
-||upd.wintercoldlab.lat^
 ||updatedserver.shop^
 ||updatedserverrr.io^
 ||uq449.pavi1lor.lat^
@@ -3874,7 +3697,6 @@
 ||urban-graffiti-crew.garden^
 ||urban-rel.expo5ejouer.lat^
 ||url.fastlinkprovider.pics^
-||urwiban.wentgot.lat^
 ||usfltzp.anadoluslot.bet^
 ||usoiuv.gyorsanhaz.hu^
 ||usr-grp.4dorexal.surf^
@@ -3919,7 +3741,6 @@
 ||v0cal-hold.narrownessoutri8ht.pics^
 ||v0lt-sync.dbuswet.surf^
 ||v1si-sync.kernelgrid.ink^
-||v1vid-sync.qantuni.lat^
 ||v28e.assonanceka1e.lat^
 ||v9rvls59.stack-matrix.digital^
 ||vacuum-tube-amplifier.garden^
@@ -3940,11 +3761,9 @@
 ||vel-lineum.nexa2vor.lat^
 ||vel-nexa.pav9mirel.lat^
 ||vel-nexon.7toralex.lat^
-||vel-nexon.wentgot.lat^
 ||vel-tideal.currencysn0ut.pics^
 ||velmeshix.cyberframe.lat^
 ||velmeshos.eight-education.lat^
-||velvenor4.weplord.lat^
 ||velvet-frame.vexon6ar.lat^
 ||velvetcalm.5toravex.lat^
 ||velvetstream.mirelax9.life^
@@ -3955,17 +3774,12 @@
 ||vgkjld.gulyaskriszti.hu^
 ||vhfla.budapesthandmade.hu^
 ||vhngezbf.pleasuredome.hu^
-||vibe.agilelid.lat^
-||vibe.quantumwave.surf^
 ||vibe.urbanpulse.surf^
 ||vidacaninapet.com^
 ||video-files-24.cfd^
 ||videosparrow.cloudmesh.lat^
 ||view.brightreef.surf^
-||view.brightskyway.lat^
-||view.ipfsway.lat^
 ||view.logicreef.surf^
-||view.magicflowpoint.lat^
 ||vinespr.mav2lorix.lat^
 ||vintage-blueprint-vault.garden^
 ||vintage-telemetry-receiver.garden^
@@ -4025,7 +3839,6 @@
 ||vormeshex7.pavi1lor.lat^
 ||vornexal5.logicbyte.lat^
 ||vorro.vigaf.hu^
-||vortex.starlightnova.lat^
 ||vortide7en.qen8vorel.lat^
 ||vorvaleon3.sorix7en.surf^
 ||voyagefroz.messy-zamai.pics^
@@ -4067,13 +3880,10 @@
 ||vpufr.westinvesteuropa.hu^
 ||vrifp.bergertetokft.hu^
 ||vrml.frostmirelens.life^
-||vs2uc.wentgot.lat^
 ||vsif6dio.animalspintroll-xerography.digital^
 ||vt40b8nw.badabingsopranoslounge.digital^
 ||vumobeb.bakhtazmaeii.com^
-||vuufaahx.ass-ecuadorian.digital^
 ||vuvwlz.fluss.hu^
-||vvagon-index.poorbet.lat^
 ||vvh3el-crest.cloudvector.ink^
 ||vwhn.brix9qen.lat^
 ||vxbe.qen9varol.lat^
@@ -4084,7 +3894,6 @@
 ||wamemd.logicstack.ink^
 ||warmdock.priesthood-in.lat^
 ||warmhar.mixzipcore64.lat^
-||wave.goldenleafway.lat^
 ||wayradigitalmusic.com^
 ||wdplqn.liltkereskedohaz.hu^
 ||we.love.servers.at.ioflood.net^
@@ -4159,7 +3968,6 @@
 ||wild-folder-routing-path.garden^
 ||wild.brightpath.surf^
 ||wild.greenforest.surf^
-||wild.greenforesthub.lat^
 ||wild.terraview.surf^
 ||wilder-flow-work-lmsystem.garden^
 ||wildfloraanalyticshub.garden^
@@ -4184,7 +3992,6 @@
 ||wind.oceanblue.surf^
 ||wind.winterpeak.surf^
 ||windharbor.1zarelin.lat^
-||wing.brightskyway.lat^
 ||winter-pulse.christmas^
 ||wintercoupon.pavo8rex.lat^
 ||wintersubtle.1zorelin.lat^
@@ -4203,15 +4010,12 @@
 ||wmail.dsdmpu.gov.za^
 ||wolfcri.tavro6xel.lat^
 ||wood-switch.p7ickmuch.lat^
-||wood-zone.weplord.lat^
 ||wood.brightpath.surf^
 ||wood.greenforest.surf^
-||wood.greenforesthub.lat^
 ||wood.terraview.surf^
 ||woodcora.devmatrix.lat^
 ||workerruntime.taro5lin.lat^
 ||wornod.qen2virex.lat^
-||wq278yz.qantuni.lat^
 ||wrhorqww.gothiccathedralblueprint.digital^
 ||wrjfn.wlwyb.com^
 ||ws09ax4h.limous-nitout.digital^
@@ -4231,7 +4035,6 @@
 ||x0o600dr.clamshellkarakulchaalumina.digital^
 ||x2jjzvnd.dichvuff.com^
 ||x3o11wkp.signal-bridge.digital^
-||x7abhl.weplord.lat^
 ||x8drf7ed.audioattenuatorschematic.digital^
 ||x8jh7qqg.die-reformer.digital^
 ||x9hs.rataj-vertky.lat^
@@ -4284,7 +4087,6 @@
 ||ydcpmjs.303-bet.xyz^
 ||ydqgwej.kortalanmuveszet.hu^
 ||yeqxnp.pavi1lor.lat^
-||yhrjk4yd.qantuni.lat^
 ||yhyrxap.bahisbey90.com^
 ||yjkjr.westinvesteuropa.hu^
 ||ykdeqf.gyorsotthont.hu^
@@ -4306,28 +4108,21 @@
 ||ywrav.slotmacau188ab.sbs^
 ||yywyvtur.hor1inka-lonely.digital^
 ||yz8pj.di7ectkoshevoy.lat^
-||yzhf.qantuni.lat^
 ||yznfo.slotmacau188q.hair^
 ||z07gqmv.mirelax9.life^
 ||z9sb13jt.cloud-beacon.digital^
 ||zcrop.bernoe.hu^
 ||zealpraxis.com^
 ||zeiqv2hk.subfossiloakchronology.digital^
-||zen-venor.klatren.lat^
 ||zenfluxos.sola5reth.lat^
 ||zenline1al.pixel-harbor.life^
 ||zenline2ar.currencysn0ut.pics^
 ||zenlineon3.pixel-harbor.life^
-||zeno.goldenleafway.lat^
 ||zeno.nanologic.surf^
 ||zeno.purelogic.surf^
-||zeno.vmesscab.lat^
 ||zenspirea.byerottin8.lat^
 ||zentide8on.flen4vax.lat^
 ||zentideis4.priesthood-in.lat^
-||zeta.agilelid.lat^
-||zeta.quantumwave.surf^
-||zeta.starlightnova.lat^
 ||zeta.urbanpulse.surf^
 ||zfjlna0p.qorivault.life^
 ||zfkzwhk.bakhtazmaeii.com^
@@ -4369,12 +4164,10 @@
 ||zjhbvqq.wlwyb.com^
 ||znbsrq.kovacsago.com^
 ||zntck.sm188dvlv.cfd^
-||zone.darkwinterlab.lat^
 ||zone.frostpoint.surf^
 ||zone.oceanblue.surf^
 ||zone.winterpeak.surf^
 ||zoneday-green-house-oper-center.garden^
-||zoom.brightskycore.lat^
 ||zoom.web-interviews.live^
 ||zoominviteeees.de^
 ||zphaxvq.technologiaiviz.hu^
