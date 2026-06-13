@@ -2,8 +2,8 @@
 # Description: SSH and service brute-force attacker IPs (opendbl.net)
 # Homepage: https://github.com/weightlessit/dns-threat-feeds
 # License: MIT
-# Last modified: 2026-06-13 13:51:02 UTC
-# Total entrys: 523
+# Last modified: 2026-06-13 19:19:39 UTC
+# Total entrys: 525
 #
 # Auto-generated -- do not edit manually.
 # FortiGate external threat feed format (one entry per line).
@@ -83,6 +83,7 @@
 121.123.141.251
 121.123.141.252
 121.128.173.237
+121.185.89.74
 121.40.84.38
 121.43.134.236
 123.59.232.173
@@ -146,7 +147,9 @@
 171.231.192.102
 171.231.193.84
 171.231.194.157
+171.231.194.224
 171.231.195.165
+171.231.197.106
 171.231.198.137
 171.231.198.152
 171.243.148.154
@@ -528,6 +531,5 @@
 95.182.81.25
 95.182.82.132
 95.47.246.223
-95.85.245.51
 96.126.188.55
 98.49.178.206
