@@ -2,8 +2,8 @@
 ! Description: Indicators of compromise (domain-based) from abuse.ch ThreatFox covering C2 and payload delivery
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-06-15 20:51:28 UTC
-! Total rules: 29894
+! Last modified: 2026-06-16 03:37:37 UTC
+! Total rules: 29867
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -71,7 +71,6 @@
 ||0i2th72t.system-horizon.digital^
 ||0jubd61o.thornwick.digital^
 ||0k.fl1ntrelay.ru^
-||0k.softc0re.ru^
 ||0kt.one^
 ||0l833z7h.ironbark.digital^
 ||0live-vvork.olive4parcel.coupons^
@@ -370,7 +369,6 @@
 ||2887k.stormf0rm.ru^
 ||28bet.games^
 ||28l94n0x.astra1r0pac.ru^
-||28p.frostn0de.ru^
 ||28ri3ljq.zabanenglishanari.xyz^
 ||28s9b6no.riherino.com^
 ||29dpwljsel2h4tv.3utilities.com^
@@ -475,7 +473,6 @@
 ||2uho5jqk.heh0vli8ht.ru^
 ||2v42nbtg.deliainaturner.digital^
 ||2v5d82bf.quartzsketch.ru^
-||2v6tz.skyf0rm.ru^
 ||2v8m6p00f1mdib5f.org^
 ||2vmkhs7s.riherino.com^
 ||2w5pvupy.c2rv5uating.ru^
@@ -694,7 +691,6 @@
 ||4controller.ru^
 ||4cr9o29p.darkf0rm.ru^
 ||4ct1ve-point.klatren.lat^
-||4d.skyf0rm.ru^
 ||4d3snjw5.degenjudges.digital^
 ||4dapt3-node.pavlore9.surf^
 ||4dbpuw.majegastrue.work^
@@ -900,7 +896,6 @@
 ||5pr0-span.wetshardauth.lat^
 ||5pru3-trail.sorix3en.lat^
 ||5pruce-hold.bytegrid.lat^
-||5qjh.frostn0de.ru^
 ||5qtw3lvf.repe2t5tuffy.ru^
 ||5qynbyjl4u6vbtnmpokslaxaknyicdvty7vn2qgxmaty3lb7wwxpkbid.onion^
 ||5rfgvs2q.digimatrix.digital^
@@ -1449,7 +1444,6 @@
 ||9r6xw7w2.poker-online.bet^
 ||9rdg.windl1ne.ru^
 ||9rehfapi.airport-clar.lat^
-||9rg.c0pperknit.ru^
 ||9rtfhxav.nanovo5kull.pics^
 ||9s.rainf0rm.ru^
 ||9sct2.sp1nterpad.ru^
@@ -1630,6 +1624,7 @@
 ||abkslgo.com^
 ||abledom.net^
 ||abmjl.bertifolia.hu^
+||abmkzgbs.sakhtemandade.shop^
 ||abnerdantas.com^
 ||abnewszamanpaper28.za.com^
 ||abo3li-50042.portmap.host^
@@ -3107,7 +3102,6 @@
 ||awqiq4uh.amber-weld.ru^
 ||awrfq7pjydfp3hwbsun6ltxrrzths5ztgxj7i7ybx7twjrdvzvxkgwad.onion^
 ||awxdzoz.ru^
-||awy.sp-1-nterpad.ru^
 ||ax88.day^
 ||ax88vn01.com^
 ||axiom.go0dsc1ence.ru^
@@ -3128,7 +3122,6 @@
 ||axon.nerv0u5radic.ru^
 ||axwq1.sorix7el.lat^
 ||axxaimx.net^
-||ay.rainst0rm.ru^
 ||aybpharmaceutical.com^
 ||ayhanedition.site^
 ||ayidhh-48261.portmap.host^
@@ -3203,7 +3196,6 @@
 ||b5fdl2mw.hor1inka-lonely.digital^
 ||b5ozofvc.amberflume.ru^
 ||b5rr7a.prong8tatsky.coupons^
-||b6.frostn0de.ru^
 ||b67lmb9hy15mg5.xyz^
 ||b6n2.picketcore.ru^
 ||b7.cl0udtrace.ru^
@@ -4285,7 +4277,6 @@
 ||bpjbgfk.ru^
 ||bpjqffr.net^
 ||bptoken.lol^
-||bq.c0pperknit.ru^
 ||bq99ksyi.unseen-zorenka.digital^
 ||bqdrzbyq.cn^
 ||bqm57dpz.betgit.casino^
@@ -4311,7 +4302,6 @@
 ||brandbuilder.hu^
 ||branding.kusherp.com^
 ||brandnumarketing.co.uk^
-||brands.khaitara.com^
 ||branivon.com^
 ||brasserieontarioaube.com^
 ||bratiyanetwork.lol^
@@ -4516,7 +4506,6 @@
 ||buzqer.v-1-nexettle.ru^
 ||buzzing-basement.de^
 ||buzzwellcatering.com^
-||bv251.skyf0rm.ru^
 ||bvabf.budapesthandmade.hu^
 ||bvcdkm.feszt360.hu^
 ||bvki6.fogtangent.ru^
@@ -4606,7 +4595,6 @@
 ||c0x99c0r.alsulmicpa.com^
 ||c1.msft-config-service.com^
 ||c1.yourbigbro.shop^
-||c12.softc0re.ru^
 ||c168-bm.com^
 ||c168-c168a.com^
 ||c168-c168d.com^
@@ -5239,7 +5227,6 @@
 ||civicvehicl.scriptmesh.ink^
 ||civiliq.cyou^
 ||cjeooce.technologiaiviz.hu^
-||cjiu4.skyf0rm.ru^
 ||cjj0aler.f0refraterni5.ru^
 ||cjjt9vzq.icewounded.digital^
 ||cjliegelfoundation.org^
@@ -5559,7 +5546,6 @@
 ||code.coderlaptechnical.pics^
 ||code.hybclient.com^
 ||code.picket-warp.ru^
-||code.rainst0rm.ru^
 ||codeecleaning.com.au^
 ||codeframe.wiki^
 ||codeinecrazy.xyz^
@@ -5790,7 +5776,6 @@
 ||copierondemand.com^
 ||copiousinfotech.com^
 ||copiousinfotech.copiousconsult.com^
-||copper.jaxmorrow.ru^
 ||copper.windl1nk.ru^
 ||copperbeacon.top^
 ||copperhorizon.top^
@@ -5891,7 +5876,6 @@
 ||cpanel.beverlyhillmanor.com^
 ||cpanel.clinchstar.com^
 ||cpanel.houston-familyoffice.com^
-||cpanel.hypnotherapy-training.co.nz^
 ||cpanel.prestigefinancialrebuilders.com^
 ||cpanel.retirevillage.com^
 ||cpanel.sbkollel.org^
@@ -5901,6 +5885,7 @@
 ||cpc188.org^
 ||cpcalendars.beverlyhillmanor.com^
 ||cpcalendars.chinabandy.org^
+||cpclyyro.hugugtejarat4.xyz^
 ||cpcontacts.20-102-99-149.cprapid.com^
 ||cpcontacts.beverlyhillmanor.com^
 ||cpcontacts.centrocirugiaplastica.com^
@@ -5971,7 +5956,6 @@
 ||crackfood.space^
 ||crackle.a8arichum2n.ru^
 ||crackle.fl1ntrelay.ru^
-||crackle.quartznibble.ru^
 ||cradle.fl0wmortar.ru^
 ||craftbase.stonecraft.coupons^
 ||craftglobal.establish-lads.surf^
@@ -6133,6 +6117,7 @@
 ||culling-posture-on-folder.courses^
 ||culturebold.rosevale.garden^
 ||cummingtonite.lol^
+||cunozylb.sanjeshvaandazegiri.shop^
 ||cupaesfd.com^
 ||cupangbiru007.xyz^
 ||cupom.prgss.dev^
@@ -6181,6 +6166,7 @@
 ||cwwviitu.hugugmadani3.xyz^
 ||cwxsiqo.net^
 ||cwzbp.wlwyb.com^
+||cx2b8w38.anodaz.vip^
 ||cxafljx.com^
 ||cxaxqwe.sm188login.cfd^
 ||cxcbr.brandbuilder.hu^
@@ -6266,7 +6252,6 @@
 ||d3c0de-scope.xamir3on.lat^
 ||d3h7.picket-core.ru^
 ||d3k.hush-zigzag.ru^
-||d3l.quartznibble.ru^
 ||d3tool.com^
 ||d3vci1ep.dep2rtmen0va.ru^
 ||d3yac2xw.network-vector.digital^
@@ -6528,6 +6513,7 @@
 ||db9.fur5hst0the.ru^
 ||dbdideasturisticas.com^
 ||dbdndfs.artisourlifestyle.com^
+||dbhmpap.shansline.com^
 ||dbinst.1zorelix.surf^
 ||dbinst.3zavlore.surf^
 ||dbinst.bureauc-diachiha.lat^
@@ -6720,7 +6706,6 @@
 ||delta.longwave5hot.surf^
 ||delta.nexo5mir.lat^
 ||delta.novi7xel.surf^
-||delta.quartznibble.ru^
 ||delta.re5onwi1ling.ru^
 ||delta.silverwoodhub.lat^
 ||delta.sn1rlpatch.ru^
@@ -6766,7 +6751,6 @@
 ||dentalux202.ydns.eu^
 ||dentalux202bk.ydns.eu^
 ||dentmt.us^
-||denvergaragedoor.repair^
 ||dep.expertcs.au^
 ||dep.msalifenterprise.net^
 ||dep.rapidphonebuyer.co.uk^
@@ -7722,8 +7706,6 @@
 ||ederh.za.com^
 ||edex.dev^
 ||edfwndp0.chloroquineser.com^
-||edg.dusapp.com.br^
-||edg.fatherchrismas.com^
 ||edg3d.io^
 ||edge-99.vertjardin.coupons^
 ||edge-bloom-platform.garden^
@@ -8441,6 +8423,7 @@
 ||eyqlyo.gerecseglamping.hu^
 ||eyzfh.ksfogszabalyozas.hu^
 ||ez04d.rainsh1eld.ru^
+||ez92gghl.ravanshenasinovin.xyz^
 ||ezekwlx.ru^
 ||ezinsurance318.com^
 ||ezmmd.vrtigo.hu^
@@ -8652,6 +8635,7 @@
 ||fbnmoon.top^
 ||fbnmoon.world^
 ||fbnmoon.xyz^
+||fbvxbuzt.questionsmotor.xyz^
 ||fc.yahoos.live^
 ||fc042d5bfecb1da4d2821c28c3a3b754.5df12747c755c71bd07c59710b1567bf.traefik.default^
 ||fcbxn.nova7frame.life^
@@ -9326,7 +9310,6 @@
 ||frost.frostpoint.surf^
 ||frost.oceanblue.surf^
 ||frost.posixuse.lat^
-||frost.stormc0de.ru^
 ||frost.sunsh1ne.ru^
 ||frost.winterpeak.surf^
 ||frost.winterstormhub.lat^
@@ -9376,7 +9359,6 @@
 ||fsuiepb.com^
 ||fswqsjdd.betxane.com^
 ||fsyyouth.com^
-||ft.rainst0rm.ru^
 ||ft4borxw.questionstest.xyz^
 ||ftduk.com^
 ||ftgrpgf.com^
@@ -10348,6 +10330,7 @@
 ||goldstarport.qivorpaknode.garden^
 ||goldunitpath5.silicongateway.garden^
 ||goldunitpath5.zenithdockunit.garden^
+||golkqcqa.psgnewsiran.com^
 ||gologpoint.com^
 ||golpev.ha1fmakin8.ru^
 ||golscorp.com^
@@ -11010,7 +10993,6 @@
 ||hazesenpai67-61821.portmap.host^
 ||hazmiz.g2un7makeup.ru^
 ||hazydvs.surf^
-||hazystripe2004.shop^
 ||hb999.comp0ser5kid.ru^
 ||hblnew.ecompk.com^
 ||hbmuxmh.ru^
@@ -11184,6 +11166,7 @@
 ||hiamego-36241.portmap.host^
 ||hiamego-47630.portmap.host^
 ||hibrax.cl2ddstr1ve.ru^
+||hibwmmbn.shartbandi.games^
 ||hidatt.cyou^
 ||hiddenplanetlab.top^
 ||hiddenscan.elusive16soot.coupons^
@@ -11508,7 +11491,6 @@
 ||hpxnwxb.com^
 ||hpxqt.accredit.hu^
 ||hpymslf.com^
-||hq5s.softc0re.ru^
 ||hqcmiiiu.cloud-orbit.digital^
 ||hqej69yf.v0xenharvest.ru^
 ||hqmathp.bet888starzz.com^
@@ -11731,7 +11713,6 @@
 ||i0zaakp5.monotheism-sled.digital^
 ||i1i1jlwa.mistysh1eld.ru^
 ||i40.f1atte5tudies.ru^
-||i4nau.quartznibble.ru^
 ||i4sw7fe8.script-matrix.digital^
 ||i5p9x6fdqkhioba.top^
 ||i6.fur5hst0the.ru^
@@ -11885,6 +11866,7 @@
 ||ihsfmzs.ru^
 ||ihtfqktk.holiday-matrix.christmas^
 ||ihycerf.net^
+||ihypqyrn.sadreislam.xyz^
 ||ihyrunu.net^
 ||ii.hammamessaouira.com^
 ||ii.picketwarp.ru^
@@ -13234,6 +13216,7 @@
 ||khaled-salah.com^
 ||khantym.cyou^
 ||khbilua706wrezbf.org^
+||khfujqd.shartbandifootballkade.online^
 ||khkjhjkhjkhjkhkjkj.com^
 ||khndao.x50wheel.bet^
 ||khom5v7vmc2nomkze64dsbyenn3wlxkewg6dbsvt5sujl2rmrtfy4oid.onion^
@@ -13242,7 +13225,6 @@
 ||khyggfe.com^
 ||ki2wz263.grivense7v2nt.ru^
 ||kibkncd.com^
-||kibu.jaxmorrow.ru^
 ||kichlanalivee.com^
 ||kick.andipfs.lat^
 ||kick.boldfirestep.lat^
@@ -13647,7 +13629,6 @@
 ||l4tt1c-index.greenbloom.garden^
 ||l6lv36qw.estradaannivers.digital^
 ||l6ms.flo5renth.garden^
-||l6vzy.sp-1-nterpad.ru^
 ||l6y96jmj.ravanshenasisaeedi.xyz^
 ||l7jn1e9j.unseen-zorenka.digital^
 ||l7wgh93czcwqhlyt.org^
@@ -14405,7 +14386,6 @@
 ||look.darkwinterlab.lat^
 ||lookheat.nightvision.coupons^
 ||lookhostunit.karo3view.surf^
-||loom.quartz-nibble.ru^
 ||loop.0ctave5pairi.ru^
 ||loop.looprim.pics^
 ||loop.picketwarp.ru^
@@ -14452,6 +14432,7 @@
 ||loxbem.m0pin8mute.ru^
 ||loxme7.r1dsheet5et.ru^
 ||lp.rainhadosconsorcios.com.br^
+||lp4hvt2f.ravanshenakhti.shop^
 ||lpabx9f.ch2rredm0urn.ru^
 ||lpdbiol.com^
 ||lpdd.co.za^
@@ -14487,7 +14468,6 @@
 ||lsvvpb8t.drinktide.digital^
 ||lta.hbway.com.au^
 ||lta.msalifenterprise.net^
-||ltaw.thrumblex.ru^
 ||ltewn.welovevent.com^
 ||ltksaxq.com^
 ||ltmot.visszateritok.net^
@@ -15568,6 +15548,7 @@
 ||maxintora.com^
 ||maxstatesus.org^
 ||maxtwight.info^
+||maxvicsh.sanjeshravani.shop^
 ||maxwin338login.com^
 ||maxxingcoin.digital^
 ||maxxingonsol.xyz^
@@ -16412,6 +16393,7 @@
 ||mstopsai.com^
 ||mswukdp.com^
 ||mszpkxdh.script-bridge.digital^
+||mszrd.mabanieslami2.xyz^
 ||mt27u19t.com^
 ||mta-251.70.ou2in.in^
 ||mta-sts.mail.opets.com^
@@ -17394,7 +17376,6 @@
 ||nova.ipsetlap.lat^
 ||nova.nightf0rm.ru^
 ||nova.powertechlink.lat^
-||nova.quartz-nibble.ru^
 ||nova.rewardwallet.coupons^
 ||nova.smshero.ai^
 ||nova.storml1ght.ru^
@@ -17534,6 +17515,7 @@
 ||nvms.miraibotnet.su^
 ||nvoaagent.com^
 ||nvxgxz.gulyaskriszti.hu^
+||nvxwrvxi.tasisathosseini.shop^
 ||nw3tvo7k.audioattenuatorschematic.digital^
 ||nwcdf.bohochal.hu^
 ||nwdzgly.ninjafruitcubes.bet^
@@ -17867,7 +17849,6 @@
 ||oly.emiraride.com^
 ||oly.megaexdistribuidora.com.br^
 ||om-engineering.co.in^
-||om0o.stormc0de.ru^
 ||omarinjakuzzii.com^
 ||omaxtrans.com^
 ||omeade.2k3phuchau.christmas^
@@ -17876,7 +17857,6 @@
 ||omega.fo0lrati0n.ru^
 ||omega.silentl1ne.ru^
 ||omega.sn1pbarrel.ru^
-||omega.sp-1-nterpad.ru^
 ||omega.stonel1nk.ru^
 ||omg.itsjasonborn.today^
 ||omgmarites.com^
@@ -18705,7 +18685,6 @@
 ||pgczmwd.com^
 ||pgiyflj.com^
 ||pgo.chadasvendas.com^
-||pgo.dusapp.com.br^
 ||pgo.fatherchrismas.com^
 ||pgo.hearchrisnow.com^
 ||pgouqzx.ru^
@@ -19251,7 +19230,6 @@
 ||poxzxin.cyou^
 ||poygon-notifications.cfd^
 ||poygon-notifications.click^
-||pp5.frostn0de.ru^
 ||ppek.hushcopper.ru^
 ||pphundt.icu^
 ||ppinacon.za.com^
@@ -20234,7 +20212,6 @@
 ||r1ch3-watch.indulgence5crimp.surf^
 ||r1dge2-stream.grove5s.garden^
 ||r1iugua4.cloud-meridian.digital^
-||r1n.quartz-nibble.ru^
 ||r1v6tqom.ku6chni8ht.ru^
 ||r26pytag.ama1gamb1ast.digital^
 ||r27xerh8.bohem1apred0m.ru^
@@ -20277,7 +20254,6 @@
 ||r8cgf6ux.luxerabet100.com^
 ||r8jg3f99.padelconstruct.hu^
 ||r8m.bramble-age.ru^
-||r9.rainst0rm.ru^
 ||r9chy91i.unseen-zorenka.digital^
 ||ra6pw4r3.rainshield.ru^
 ||ra7tel.digital^
@@ -20287,7 +20263,6 @@
 ||rabonaabet.com^
 ||race-fuel.gl.at.ply.gg^
 ||rachelsvineyardkc.org^
-||racket.c0pperknit.ru^
 ||racswera.online^
 ||radiant7path.orbitmeshunit.garden^
 ||radiantpath9.marinergridhub.garden^
@@ -22019,6 +21994,7 @@
 ||shellsig.demon5tratpripek.surf^
 ||shenyac.cyou^
 ||shesays.business^
+||shfbucmg.tarikhravannovin.shop^
 ||shgaxiz.volleyball.bet^
 ||shgh.junkmancitric.icu^
 ||shield.cl0udriver.ru^
@@ -22040,7 +22016,6 @@
 ||shift.ravelmint.ru^
 ||shift.sn1rlpatch.ru^
 ||shift.taro5lin.surf^
-||shift.thrumblex.ru^
 ||shiftpoint.fastlane.coupons^
 ||shiga-hagukumikai.com^
 ||shikaido.net^
@@ -22220,6 +22195,8 @@
 ||sinq-biyou.com^
 ||sinte.cl^
 ||sio4040.com^
+||sip.hanyasm188.top^
+||sip.rzrrent.com^
 ||sip.xybcaap.my.id^
 ||siper.smartvault.com.ng^
 ||sippinservice.com^
@@ -22236,8 +22213,6 @@
 ||sirxmiy.com^
 ||sisspas.com^
 ||sistemablackatz.com^
-||sit.dusapp.com.br^
-||sit.fatherchrismas.com^
 ||site-builder.icu^
 ||site-view-0.build-solid.work^
 ||site-view-1.job-ready.work^
@@ -23894,7 +23869,6 @@
 ||t0uo8kf9.basketballiran.com^
 ||t0up.top^
 ||t0veek.brisk7dento.coupons^
-||t0w.jaxmorrow.ru^
 ||t1de7-node.nikolaiit.work^
 ||t1mbdy5s.script-vault.digital^
 ||t2.shakesnap.net^
@@ -24439,7 +24413,6 @@
 ||throneback.xyz^
 ||throt.ddnsgeek.com^
 ||throt2.gleeze.com^
-||thrumble.quartz-nibble.ru^
 ||ths.cricket-physio.com^
 ||ths.jhotpot.com.bd^
 ||ths.kievteplo.kiev.ua^
@@ -24552,6 +24525,7 @@
 ||tlrrbcc.net^
 ||tlsradc.net^
 ||tlwixed.ru^
+||tmajnhws.sazebetonarme.xyz^
 ||tmbuczf.net^
 ||tmccszp.net^
 ||tmegramapps.com^
@@ -24787,7 +24761,6 @@
 ||trace-route-diagnostic-signal-map.wiki^
 ||trace-y21-alpha.nauticbase.cfd^
 ||trace.archiv-checkered.surf^
-||trace.c0pperknit.ru^
 ||trace.fl-1-ntrelay.ru^
 ||trace.fumb1eim2ge.ru^
 ||trace.his5isappe2r.ru^
@@ -25079,6 +25052,7 @@
 ||tufqib.dur2tionjuda5.ru^
 ||tufxew.a8ent5ing.ru^
 ||tugovc.gesol.hu^
+||tuivp.ecologyardakani.xyz^
 ||tujfim.bobi1dece4.ru^
 ||tujpen.bramblezip.ru^
 ||tukwp.bni-ai.com^
@@ -25602,7 +25576,6 @@
 ||uqhjqliqb4shjkmd.frostapi.com^
 ||uqjahm83.g0dnau8hty.ru^
 ||uqknomxs.karbordriyaziyat.xyz^
-||uqnp.jaxmorrow.ru^
 ||ur89t27d.com^
 ||urban-botany-station.garden^
 ||urban-data-point.urbanridge.ru^
@@ -25648,6 +25621,8 @@
 ||us06net.com^
 ||us2meetingpoint.tirex.sbs^
 ||us4v29jaz9cousy.top^
+||usa.glamisrents.com^
+||usa.goturbo88.top^
 ||usacpkd.ru^
 ||usadigitizer.com^
 ||usadota.com^
@@ -26064,6 +26039,7 @@
 ||vazqer.a8ent5ing.ru^
 ||vazqhwad.sadreislam.xyz^
 ||vb0.za.com^
+||vb6axq3r.testdrivepaye3.com^
 ||vbb24wmu.lumenbit.digital^
 ||vbhgv.info^
 ||vbits.open-system-infra-logic-base.wiki^
@@ -26079,6 +26055,7 @@
 ||vdbkti.ispilates.hu^
 ||vdbto19wogzwezu.info^
 ||vdchddh.penaltibazi.com^
+||vdigvuaz.prozhedownload.com^
 ||vdljitxt.hugugtatbigi.xyz^
 ||vdlk32.peta1un.garden^
 ||vdr-us.lol^
@@ -26808,7 +26785,6 @@
 ||warp.hushcopper.ru^
 ||warp.j1nxbuckle.ru^
 ||warp.sk2tear0und.ru^
-||warp.thrumblex.ru^
 ||warsaw-shleprx-aaae.info^
 ||wartajaya.com^
 ||warteeth.com^
@@ -28778,7 +28754,6 @@
 ||xiwfut.f1atte5tudies.ru^
 ||xixixisad-37873.portmap.host^
 ||xixot69291-44565.portmap.host^
-||xiyp5.sp-1-nterpad.ru^
 ||xiyuenet.com^
 ||xjayj.cloudsh1ft.ru^
 ||xjfgepy.com^
@@ -28925,7 +28900,6 @@
 ||xswqyg.xano4mel.lat^
 ||xt.fl-0-wmortar.ru^
 ||xtfgmay.net^
-||xthz.softc0re.ru^
 ||xtktlprb.rial.bet^
 ||xtq8.flen4vax.lat^
 ||xtr.awansm188.top^
@@ -29050,7 +29024,6 @@
 ||y9jsk67vga4hw300.org^
 ||y9z9.t0ppleseed.ru^
 ||y9zqm.m1stycliff.ru^
-||ya.thrumblex.ru^
 ||ya15z70c.die-reformer.digital^
 ||yabmmkny.r2nkteh2.ru^
 ||yadlmge.net^
