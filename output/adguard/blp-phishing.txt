@@ -2,8 +2,8 @@
 ! Description: Phishing domains from The Block List Project (AdGuard format)
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-06-22 11:47:47 UTC
-! Total rules: 184535
+! Last modified: 2026-06-22 16:49:55 UTC
+! Total rules: 184536
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -100005,6 +100005,7 @@
 ||uk-appleid.com^
 ||uk-appleidservice.com^
 ||uk-bnk.com^
+||uk-dpd-parcelmovex.sbs^
 ||uk-paypal.net^
 ||uk-refund-support.com^
 ||uk-restore.com^
