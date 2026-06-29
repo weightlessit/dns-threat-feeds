@@ -2,8 +2,8 @@
 ! Description: Malware distribution domains from abuse.ch URLhaus (hosts-file format, updated every 5 minutes)
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-06-29 10:48:09 UTC
-! Total rules: 380
+! Last modified: 2026-06-29 15:39:09 UTC
+! Total rules: 402
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -25,6 +25,7 @@
 ||9pkiisod.jetbet1.pro^
 ||aaronart.com^
 ||abdulahad.net^
+||acc.jiangsujiaxue.com^
 ||acms.saleseos.com^
 ||admin.byte.in.ua^
 ||admin.gestroom.it^
@@ -38,7 +39,6 @@
 ||app.appzcvb.com^
 ||archivoscrosoft.com^
 ||areyouready.co.za^
-||ashahaarmans.nl^
 ||atasapka.com.tr^
 ||atom.freehosting.dev^
 ||audicontadores.com^
@@ -52,6 +52,7 @@
 ||blessdayservices.org^
 ||blogs.sokun.jp^
 ||bmdcompany.com^
+||bombayonline.in^
 ||book.rollingvideogames.com^
 ||bridgeroad.maverickpreviews.com^
 ||brightworks.cz^
@@ -59,12 +60,14 @@
 ||bvaco.com^
 ||c0yc77zn.blackjackonlineplay83.com^
 ||c2uwzjf8.blackjackonlineplay83.com^
+||cat.dashabi.in^
 ||cat.xiaojiji.nl^
 ||cat.xiaoshabi.nl^
 ||catbaparadisehotel.com.vn^
 ||ccczqxl6.blackjackonlineplay83.com^
 ||cd5p7l7t.xbetone.com^
 ||cdaonline.com.ar^
+||cdn.file6.goodid.com^
 ||celebratingseniors.net^
 ||chat-server.maverickpreviews.com^
 ||checkfivem.com^
@@ -72,6 +75,7 @@
 ||chinaapper.com^
 ||chiptune.com^
 ||christophercheung.com^
+||chuguadventures.co.tz^
 ||chungminhtaichinhsaigon.net^
 ||ck0ny34p.1xprobet.app^
 ||cl.ssouy.com^
@@ -94,6 +98,7 @@
 ||damiancollier.com^
 ||data.yhydl.com^
 ||dcrun.co.uk^
+||dcwblida.dz^
 ||deagroup-ks.com^
 ||delp-heizungsbau.de^
 ||derekludlow.com^
@@ -112,6 +117,7 @@
 ||donkeytourscroatia.com^
 ||down.54nb.com^
 ||down.fwqlt.com^
+||down.pcclear.com^
 ||down.qqfarmer.com.cn^
 ||download.caihong.com^
 ||download.doumaibiji.cn^
@@ -127,7 +133,8 @@
 ||dweixin.cn^
 ||e.perspolis.pro^
 ||easybrand.vn^
-||embedone.com^
+||electri.billregulator.com^
+||elisans.novayonetim.com^
 ||en.taichuan.com^
 ||encalabrino.life^
 ||epanpano.com^
@@ -153,18 +160,20 @@
 ||fz.tiansys.cn^
 ||gabyagozetim.com^
 ||gaiadeqi.com^
+||galerisenimutiara.com^
 ||gboutros.howto.rocks^
 ||genddos.st^
-||gestionycobranzas.com^
 ||globalbank.us^
 ||gmyaxgk8.yekshart.app^
 ||grantexx.com^
 ||greenf.alexion.rs^
 ||grupomcperu.com^
 ||gsx.life^
+||gutando.com^
 ||h663gbdv.ahkam.xyz^
 ||hasalltalent.com^
 ||hitman-pro.ru^
+||hitstation.nl^
 ||hseda.com^
 ||htfll3q5.1x303.casino^
 ||huz6wkqi.mokatebatedari.xyz^
@@ -180,6 +189,7 @@
 ||jawaratekno.com^
 ||jenniferloeffler.com^
 ||jessespridecharters.com^
+||jlwz.cn^
 ||joyeriatauro.com^
 ||js.byxly.eu.cc^
 ||jyothishmathi.in^
@@ -200,17 +210,20 @@
 ||lindnerelektroanlagen.de^
 ||local-update.com^
 ||lomejordesalamanca.es^
+||luizmatoso.com.br^
 ||m.jkoa.co.kr^
-||m.meta-dm.com^
 ||maidforyou1985.com^
 ||mamigummy.com^
 ||meetvideogoogle.com^
 ||metrics.gocloudmaps.com^
 ||mitreart.com^
+||mogimall.com^
 ||moshatech.com^
+||mosselnet.co.za^
 ||muaklekcoop.com^
 ||muledo.com^
 ||mundocarnes.cl^
+||n.vs108.com^
 ||ncxps.com^
 ||new.quranushaiqer.org.sa^
 ||nightmare-cheats.pw^
@@ -223,11 +236,12 @@
 ||obzs81jf.fagaheestedlali.xyz^
 ||ojang.pe.kr^
 ||okhan.net^
+||oknoplastik.sk^
 ||onfiltre.com.tr^
 ||p3.zbjimg.com^
 ||palharesinformatica.com.br^
+||pay.aqiu6.com^
 ||pcupd.com^
-||pid.fly160.com^
 ||planetariumobil.ro^
 ||plasteredplayn.com^
 ||postelnini.mk^
@@ -266,6 +280,7 @@
 ||shaderm.com^
 ||shahamanatme.com^
 ||shop.mediasova.ru^
+||shqdown.ggzuhao.com^
 ||sk-comtel.com^
 ||smart.abuse.st^
 ||smartermail.host^
@@ -273,11 +288,9 @@
 ||softcatalog.ru^
 ||solar-sanat.net^
 ||spasopro.at^
-||spgint.com^
 ||spoar.org.in^
 ||ss70wuy0.jarayemaleyhamval.xyz^
 ||static.249.223.175.5.nextregister.eu^
-||static.ilclock.com^
 ||static.topxgun.com^
 ||static.youdm.cn^
 ||stdown.dinju.com^
@@ -297,6 +310,7 @@
 ||tecunonline.com^
 ||tehnomag.rs^
 ||temirtau-adm.ru^
+||tengfeidn.cn^
 ||test.peperoncinochepassione.it^
 ||theholidayroads.com^
 ||thementordirectory.com^
@@ -314,6 +328,7 @@
 ||tuasesoriadigital.es^
 ||twu-hwt.org^
 ||un1rw11q4u.com^
+||uni.site.je^
 ||upaicdn.xinmei365.com^
 ||upchemicals.co.in^
 ||update.cg100iii.com^
@@ -340,6 +355,7 @@
 ||www.astenterprises.com.pk^
 ||www.automobile-bk.de^
 ||www.backupallfresh2030.com^
+||www.basefile.click^
 ||www.benshamcentre.co.uk^
 ||www.blackhattoolz.com^
 ||www.bratusferramentas.grupomoltz.com.br^
@@ -348,6 +364,8 @@
 ||www.crazywickedaddiction.com^
 ||www.cutting-edge.in^
 ||www.first-security-verden.de^
+||www.hostingcloud.science^
+||www.hseda.com^
 ||www.intelligradeeducation.vicentecisnerospub.com^
 ||www.jozefinskiatelje.si^
 ||www.konsor.ru^
@@ -357,6 +375,7 @@
 ||www.myvcart.com^
 ||www.namuvpn.com^
 ||www.nccommunication.be^
+||www.newkey.co.kr^
 ||www.notbak.com^
 ||www.ojang.pe.kr^
 ||www.okhan.net^
@@ -369,6 +388,7 @@
 ||www.silver-hubdachwohnwagen.de^
 ||www.ss-01.com^
 ||www.starcountry.net^
+||www.steamrub.com^
 ||www.support-data.com^
 ||www.tdejb.com^
 ||www.tecunonline.com^
@@ -376,6 +396,7 @@
 ||www.vuelaviajero.com^
 ||www.website.mypetapp.co.za^
 ||www.websitedesigningindia.biz^
+||www.xn--on3b15m2lco2u.com^
 ||www.zamilgroups.com^
 ||www.zhikey.com^
 ||xenon.studio^
@@ -383,6 +404,7 @@
 ||xshop.com.tr^
 ||xuezha.net^
 ||youtransfer.net^
+||zamilgroups.com^
 ||zenglobalenerji.com^
 ||zhigao5191.com^
 ||zycdjz.com^
