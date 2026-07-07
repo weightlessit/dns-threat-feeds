@@ -2,12 +2,13 @@
 # Description: SANS DShield top attacking subnets, optimized for firewall ingestion -- uses IP range format (opendbl.net)
 # Homepage: https://github.com/weightlessit/dns-threat-feeds
 # License: MIT
-# Last modified: 2026-07-07 09:34:55 UTC
+# Last modified: 2026-07-07 14:22:38 UTC
 # Total entrys: 20
 #
 # Auto-generated -- do not edit manually.
 # FortiGate external threat feed format (one entry per line).
 #
+100.29.192.0-100.29.192.255
 147.185.132.0-147.185.132.255
 167.94.145.0-167.94.145.255
 185.242.226.0-185.242.226.255
@@ -17,7 +18,6 @@
 216.180.246.0-216.180.246.255
 216.25.89.0-216.25.89.255
 43.228.157.0-43.228.157.255
-45.142.154.0-45.142.154.255
 45.148.10.0-45.148.10.255
 45.198.224.0-45.198.224.255
 45.205.1.0-45.205.1.255
