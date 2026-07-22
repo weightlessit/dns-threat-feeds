@@ -2,8 +2,8 @@
 ! Description: Malware distribution domains from abuse.ch URLhaus (hosts-file format, updated every 5 minutes)
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-07-22 02:09:47 UTC
-! Total rules: 479
+! Last modified: 2026-07-22 08:21:02 UTC
+! Total rules: 481
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -23,7 +23,6 @@
 ||7wzfqmf9.behtarin-site-shartbandi.com^
 ||8iuwoa4l.of-tencent.com^
 ||a6du2gsx.fit2leadconference.com^
-||abdulahad.net^
 ||acc.jiangsujiaxue.com^
 ||acms.saleseos.com^
 ||admin.byte.in.ua^
@@ -75,6 +74,7 @@
 ||cat.xiaoshabi.nl^
 ||catbaparadisehotel.com.vn^
 ||cdaonline.com.ar^
+||cdn.file6.goodid.com^
 ||cehamilton.com^
 ||celebratingseniors.net^
 ||cglp.cleantruckchecksac.com^
@@ -83,6 +83,9 @@
 ||chinaapper.com^
 ||chiptune.com^
 ||christophercheung.com^
+||chrome-desktop.net^
+||chrome-windows.ru^
+||chrome.browserapp.ru^
 ||chuguadventures.co.tz^
 ||cl.ssouy.com^
 ||cloud.pearlpeel.com^
@@ -129,6 +132,7 @@
 ||down.54nb.com^
 ||down.fwqlt.com^
 ||down.pcclear.com^
+||down.qqfarmer.com.cn^
 ||down.unicron-cdn.click^
 ||download.caihong.com^
 ||download.doumaibiji.cn^
@@ -185,6 +189,7 @@
 ||gbgl.kafekarachi.com^
 ||gboutros.howto.rocks^
 ||genddos.st^
+||gestionycobranzas.com^
 ||giwl.highkickstkd.com^
 ||gjwc.kalientestore.com^
 ||glmm.colg1.org^
@@ -232,7 +237,6 @@
 ||kavacanada.ca^
 ||kenwillzltd.com^
 ||khavar.com^
-||khoancatbetong89.vn^
 ||kimyen.net^
 ||kits.frog.tw^
 ||kkid.hightidesuffolk.com^
@@ -258,7 +262,6 @@
 ||lvcrn.monicarobles.org^
 ||lxlwn.nextbahis.one^
 ||m.jkoa.co.kr^
-||magnusworkspace.com^
 ||maidforyou1985.com^
 ||manurso.aigroupfood.com^
 ||meetvideogoogle.com^
@@ -278,7 +281,6 @@
 ||ndpyt.mechanic-on-site.com^
 ||nodemetrics9095.com^
 ||noithaticon.vn^
-||nusatoyota.co.id^
 ||ny.lshdw.cc^
 ||o24o.ru^
 ||ojang.pe.kr^
@@ -289,7 +291,6 @@
 ||oqtr.haleywoodportfolio.com^
 ||ovzdi.jetbet.download^
 ||p3.zbjimg.com^
-||palharesinformatica.com.br^
 ||pay.aqiu6.com^
 ||pcupd.com^
 ||peachcity.si^
@@ -321,6 +322,7 @@
 ||royalindiancurryclub.com^
 ||rxquickpay.com^
 ||ryr4q9kj.playantwatch.com^
+||s3-python.cc^
 ||sablayan.seasonshotelmindoro.com^
 ||samiksha.com.sg^
 ||scainseto.com.br^
@@ -344,9 +346,11 @@
 ||softcatalog.ru^
 ||solar-sanat.net^
 ||spgint.com^
+||static.ilclock.com^
 ||static.topxgun.com^
 ||static.youdm.cn^
 ||stdown.dinju.com^
+||steam66.cn^
 ||stonecradle.com^
 ||streammobs.com^
 ||studiogioeli.it^
@@ -432,7 +436,6 @@
 ||www.ezpz.link^
 ||www.first-security-verden.de^
 ||www.hostingcloud.science^
-||www.hseda.com^
 ||www.intelligradeeducation.vicentecisnerospub.com^
 ||www.jozefinskiatelje.si^
 ||www.kenwillzltd.com^
@@ -445,7 +448,6 @@
 ||www.nccommunication.be^
 ||www.newkey.co.kr^
 ||www.notbak.com^
-||www.ojang.pe.kr^
 ||www.okhan.net^
 ||www.reifenquick.de^
 ||www.saf-oil.ru^
