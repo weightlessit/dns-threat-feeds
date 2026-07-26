@@ -2,8 +2,8 @@
 ! Description: Malware distribution domains from abuse.ch URLhaus (hosts-file format, updated every 5 minutes)
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-07-26 08:19:52 UTC
-! Total rules: 347
+! Last modified: 2026-07-26 13:10:22 UTC
+! Total rules: 355
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -42,7 +42,6 @@
 ||bmdcompany.com^
 ||bnet-api.playm8ru.win^
 ||bnet.playm8ru.win^
-||bombayonline.in^
 ||book.rollingvideogames.com^
 ||bore.pub^
 ||bridgeroad.maverickpreviews.com^
@@ -54,13 +53,13 @@
 ||cat.xiaoshabi.nl^
 ||catbaparadisehotel.com.vn^
 ||cdaonline.com.ar^
+||cdn.file6.goodid.com^
 ||celebratingseniors.net^
 ||chat-server.maverickpreviews.com^
 ||checkfivem.com^
 ||chinaapper.com^
 ||chiptune.com^
 ||christophercheung.com^
-||chrome-windows.ru^
 ||chuguadventures.co.tz^
 ||cl.ssouy.com^
 ||cloud.pearlpeel.com^
@@ -107,8 +106,9 @@
 ||download.kaobeitu.com^
 ||download.pdf00.cn^
 ||download.pdf00.com^
+||download.suxiazai.com^
 ||dowonline.ru^
-||dreamwatchevent.com^
+||dreamapp.xyz^
 ||dusttv.com^
 ||dynga.pl^
 ||electri.billregulator.com^
@@ -118,6 +118,7 @@
 ||endpoint.project0.cc^
 ||epanpano.com^
 ||evangroup.ru^
+||fairgroovetr.blog^
 ||fakers.co.jp^
 ||farschid.de^
 ||fd.v2downf.shop^
@@ -181,12 +182,16 @@
 ||m.jkoa.co.kr^
 ||m.meta-dm.com^
 ||maidforyou1985.com^
+||mail.fairgroovetr.blog^
+||mail.rarewingvm.blog^
 ||meetvideogoogle.com^
 ||metrics.gocloudmaps.com^
 ||miriamgualda.com.br^
 ||mitreart.com^
 ||mogimall.com^
+||molemole.my.id^
 ||mosselnet.co.za^
+||msfconfig.icu^
 ||muaklekcoop.com^
 ||mundocarnes.cl^
 ||mx9x.com^
@@ -198,7 +203,6 @@
 ||o24o.ru^
 ||ojang.pe.kr^
 ||okhan.net^
-||oknoplastik.sk^
 ||onfiltre.com.tr^
 ||p3.zbjimg.com^
 ||packetget.com^
@@ -209,6 +213,7 @@
 ||planetariumobil.ro^
 ||plasteredplayn.com^
 ||postelnini.mk^
+||powershell-storage.vg^
 ||preciosasjoyitas.com.mx^
 ||public.demo.securecloudsandbox.com^
 ||purmed.ro^
@@ -216,6 +221,7 @@
 ||qiniuyunxz.yxflzs.com^
 ||qv.co.ke^
 ||ramirex.ro^
+||rarewingvm.blog^
 ||rdm.91yunma.cn^
 ||reauthenticator.com^
 ||records.dennisign.se^
@@ -245,6 +251,7 @@
 ||siaasesoria.com.mx^
 ||sk-comtel.com^
 ||smartermail.host^
+||soft.110route.com^
 ||softcatalog.ru^
 ||softwarecdn.net^
 ||solar-sanat.net^
@@ -259,12 +266,12 @@
 ||support.clz.kr^
 ||sutterpoint.com^
 ||svirtual.sanviatorperu.edu.pe^
-||swiftfusion.tech^
 ||sydneyaffordablecremations.com.au^
 ||talentrecruitments.com^
 ||tangentwaves.com^
 ||tanscarattorneys.co.tz^
 ||tapestryoftruth.com^
+||tecunonline.com^
 ||tehnomag.rs^
 ||temirtau-adm.ru^
 ||tengfeidn.cn^
@@ -276,7 +283,7 @@
 ||thtp2.volamngayxua.net^
 ||tiacreation.club^
 ||toolshare.com.tr^
-||top8onlinegame.com^
+||tractor.trees4sale.net^
 ||transparenciacanaa.com.br^
 ||trtmyanmar.com^
 ||tuasesoriadigital.es^
@@ -347,6 +354,7 @@
 ||www.website.mypetapp.co.za^
 ||www.xn--on3b15m2lco2u.com^
 ||www.zamilgroups.com^
+||www.zhikey.com^
 ||xenon.studio^
 ||xshop.com.tr^
 ||youtransfer.net^
