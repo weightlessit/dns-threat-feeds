@@ -2,8 +2,8 @@
 ! Description: Malware distribution domains from abuse.ch URLhaus (hosts-file format, updated every 5 minutes)
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-07-28 02:05:13 UTC
-! Total rules: 369
+! Last modified: 2026-07-28 08:26:21 UTC
+! Total rules: 346
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -16,10 +16,8 @@
 ||admin.byte.in.ua^
 ||admin.gestroom.it^
 ||aethersyncmatrix5.lol^
-||aftelecom.com.br^
 ||airtickts.com^
 ||alarmline.com.br^
-||alineeleuterio.com.br^
 ||allendaltonproduction.com^
 ||allendostmen.com^
 ||alternativas.ru^
@@ -63,8 +61,8 @@
 ||chinaapper.com^
 ||chiptune.com^
 ||christophercheung.com^
+||chrome-windows.ru^
 ||chuguadventures.co.tz^
-||cl.ssouy.com^
 ||cleenfoecleen22.com^
 ||clubdetiroelpicarcho.com^
 ||cn.unionlever.com^
@@ -80,11 +78,11 @@
 ||crystalpvp.ru^
 ||cs.go.kg^
 ||customcreationsmaine.com^
+||cuttingedgefencing.ca^
 ||d.14yaa.com^
 ||d.wanyouxi7.com^
 ||damiancollier.com^
 ||data.yhydl.com^
-||dcrun.co.uk^
 ||dcwblida.dz^
 ||deagroup-ks.com^
 ||deliverymailreport.co.za^
@@ -95,7 +93,6 @@
 ||divvanews.com^
 ||dl.1003b.56a.com^
 ||dl.dzqzd.com^
-||dl.natgo.cn^
 ||doc.e-statements.app^
 ||donkeytourscroatia.com^
 ||down.54nb.com^
@@ -113,12 +110,9 @@
 ||dreamapp.xyz^
 ||dreamwatchevent.com^
 ||dsgagfsahkfsahfjs.shop^
-||dusttv.com^
 ||dynga.pl^
-||electri.billregulator.com^
 ||elisans.novayonetim.com^
 ||embedone.com^
-||en.taichuan.com^
 ||endpoint.project0.cc^
 ||epanpano.com^
 ||evangroup.ru^
@@ -133,9 +127,7 @@
 ||filerit.com^
 ||first-security-verden.de^
 ||flyingmutts.com^
-||fmrio.com^
 ||fukt.link^
-||fullstacknir.com^
 ||furystaff.tech^
 ||fz.tiansys.cn^
 ||gabyagozetim.com^
@@ -158,19 +150,18 @@
 ||igra123.com^
 ||ijexgroup.com.br^
 ||indusenterprises.co^
-||ircftp.net^
-||isiore.com.co^
 ||itssprout.com^
+||ixirgroup.com^
 ||jawaratekno.com^
 ||jenniferloeffler.com^
 ||jessespridecharters.com^
-||jlwz.cn^
 ||joyeriatauro.com^
 ||js.byxly.eu.cc^
 ||jyothishmathi.in^
 ||kavacanada.ca^
 ||kenwillzltd.com^
 ||khavar.com^
+||khoancatbetong89.vn^
 ||kimyen.net^
 ||kits.frog.tw^
 ||kokorostore.it^
@@ -197,7 +188,6 @@
 ||mitreart.com^
 ||mogimall.com^
 ||molemole.my.id^
-||mosselnet.co.za^
 ||msfconfig.icu^
 ||muaklekcoop.com^
 ||mundocarnes.cl^
@@ -211,7 +201,6 @@
 ||ojang.pe.kr^
 ||okhan.net^
 ||oknoplastik.sk^
-||onfiltre.com.tr^
 ||outpost.co.ke^
 ||p3.zbjimg.com^
 ||palharesinformatica.com.br^
@@ -225,7 +214,6 @@
 ||public.demo.securecloudsandbox.com^
 ||purmed.ro^
 ||pvsa.gxfugy.cn^
-||qiniuyunxz.yxflzs.com^
 ||qv.co.ke^
 ||ramirex.ro^
 ||rarewingvm.blog^
@@ -259,11 +247,9 @@
 ||sg123.net^
 ||shop.mediasova.ru^
 ||shqdown.ggzuhao.com^
-||siaasesoria.com.mx^
 ||sk-comtel.com^
 ||smartermail.host^
 ||smoking-hot.net^
-||soft.110route.com^
 ||softcatalog.ru^
 ||solar-sanat.net^
 ||spgint.com^
@@ -271,7 +257,6 @@
 ||static.topxgun.com^
 ||static.youdm.cn^
 ||stdown.dinju.com^
-||stonecradle.com^
 ||streammobs.com^
 ||studiogioeli.it^
 ||sunix-technology.com^
@@ -290,7 +275,6 @@
 ||temirtau-adm.ru^
 ||tengfeidn.cn^
 ||tenis-team-km.com^
-||test.peperoncinochepassione.it^
 ||theholidayroads.com^
 ||themaintechnician.us^
 ||thementordirectory.com^
@@ -320,16 +304,12 @@
 ||vizyonuniversitesi.web.tr^
 ||vjy888.com^
 ||vrajras.com^
-||website.mypetapp.co.za^
 ||widexenmexico.com.mx^
 ||windomstatetheater.com^
 ||wittenhorst.eu^
 ||wqok85qtq.net^
-||www.ardguisser.com^
 ||www.astenterprises.com.pk^
-||www.automobile-bk.de^
 ||www.backupallfresh2030.com^
-||www.benshamcentre.co.uk^
 ||www.blackhattoolz.com^
 ||www.bratusferramentas.grupomoltz.com.br^
 ||www.chenwangqiao.com^
@@ -344,14 +324,11 @@
 ||www.jozefinskiatelje.si^
 ||www.kenwillzltd.com^
 ||www.khavar.com^
-||www.konsor.ru^
 ||www.medises.co.kr^
 ||www.myvcart.com^
 ||www.namuvpn.com^
 ||www.nccommunication.be^
 ||www.newkey.co.kr^
-||www.notbak.com^
-||www.ojang.pe.kr^
 ||www.okhan.net^
 ||www.reifenquick.de^
 ||www.saf-oil.ru^
@@ -361,7 +338,6 @@
 ||www.springhillmontessori.com^
 ||www.ss-01.com^
 ||www.starcountry.net^
-||www.steamrub.com^
 ||www.support-data.com^
 ||www.tdejb.com^
 ||www.tecunonline.com^
@@ -372,6 +348,7 @@
 ||www.zamilgroups.com^
 ||www.zhikey.com^
 ||xenon.studio^
+||xn--yh4bx88a.com^
 ||xshop.com.tr^
 ||youtransfer.net^
 ||zamilgroups.com^
