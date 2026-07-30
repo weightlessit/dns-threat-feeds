@@ -2,21 +2,18 @@
 ! Description: Malware distribution domains from abuse.ch URLhaus (hosts-file format, updated every 5 minutes)
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-07-29 19:07:40 UTC
-! Total rules: 375
+! Last modified: 2026-07-30 01:57:57 UTC
+! Total rules: 382
 !
 ! Auto-generated -- do not edit manually.
 !
 ||0022a601.pphost.net^
 ||123.ywxww.net^
 ||1717.1000uc.com^
-||abdulahad.net^
 ||acc.jiangsujiaxue.com^
-||accesstelematics.com^
 ||acms.saleseos.com^
 ||admin.byte.in.ua^
 ||admin.gestroom.it^
-||aethersyncmatrix5.lol^
 ||aftelecom.com.br^
 ||airtickts.com^
 ||alarmline.com.br^
@@ -32,7 +29,6 @@
 ||atasapka.com.tr^
 ||atom.freehosting.dev^
 ||audicontadores.com^
-||auth-clo-id.cc^
 ||awarenessexhibition.com^
 ||babydiapersinturkey.com^
 ||backupso.com^
@@ -58,6 +54,7 @@
 ||cat.xiaoshabi.nl^
 ||catbaparadisehotel.com.vn^
 ||cdaonline.com.ar^
+||cdnorigin.net^
 ||celebratingseniors.net^
 ||chat-server.maverickpreviews.com^
 ||checkfivem.com^
@@ -66,8 +63,10 @@
 ||christophercheung.com^
 ||chrome-windows.ru^
 ||chuguadventures.co.tz^
+||cl.ssouy.com^
 ||clubdetiroelpicarcho.com^
 ||cn.unionlever.com^
+||cnc.strikec2.wtf^
 ||co-emas.com^
 ||compuserviceonline.com.br^
 ||continentalgroup.net.in^
@@ -76,9 +75,9 @@
 ||cpofficial.com^
 ||creativevoltage.com^
 ||crimefreesoftware.com^
-||cryptefilea.infy.click^
 ||crystalpvp.ru^
 ||cs.go.kg^
+||curlservice.com^
 ||customcreationsmaine.com^
 ||cuttingedgefencing.ca^
 ||d.14yaa.com^
@@ -103,7 +102,6 @@
 ||down.54nb.com^
 ||down.fwqlt.com^
 ||down.pcclear.com^
-||down.qqfarmer.com.cn^
 ||download.caihong.com^
 ||download.doumaibiji.cn^
 ||download.haozip.com^
@@ -128,7 +126,7 @@
 ||fakers.co.jp^
 ||farschid.de^
 ||fd.v2downf.shop^
-||femboykisser.sbs^
+||femboy.center^
 ||fesold.com^
 ||file.blackint3.com^
 ||file.uhsea.com^
@@ -149,13 +147,14 @@
 ||gboutros.howto.rocks^
 ||genddos.st^
 ||gestionycobranzas.com^
-||gestroom.it^
 ||globalbank.us^
 ||grantexx.com^
 ||greenf.alexion.rs^
 ||grupomcperu.com^
 ||gutando.com^
+||hackers.krd^
 ||hasalltalent.com^
+||heavyhorses.com^
 ||heroestales.com^
 ||hindustanagency.com^
 ||hitman-pro.ru^
@@ -179,6 +178,7 @@
 ||js.byxly.eu.cc^
 ||jyothishmathi.in^
 ||kavacanada.ca^
+||kemaxglobalshippings.com^
 ||kenwillzltd.com^
 ||khavar.com^
 ||kimyen.net^
@@ -199,8 +199,6 @@
 ||mail.fairgroovetr.blog^
 ||mail.rarewingvm.blog^
 ||malaysianpastrybakery.org^
-||mamabearcoffee.com^
-||mandarin.net.au^
 ||meetvideogoogle.com^
 ||metrics.gocloudmaps.com^
 ||miriamgualda.com.br^
@@ -212,11 +210,18 @@
 ||mx9x.com^
 ||n.vs108.com^
 ||ncxps.com^
+||nfeletronica.sevendocumentos.vip^
 ||nigg.tashirpizza.su^
+||nobleshadebu.pro^
 ||noithaticon.vn^
+||nusatoyota.co.id^
 ||ny.lshdw.cc^
 ||o24o.ru^
 ||ojang.pe.kr^
+||oknoplastik.sk^
+||onfiltre.com.tr^
+||opencode.ai^
+||orienttaxtile.com^
 ||outpost.co.ke^
 ||p3.zbjimg.com^
 ||palharesinformatica.com.br^
@@ -225,7 +230,6 @@
 ||peachcity.si^
 ||planetariumobil.ro^
 ||plasteredplayn.com^
-||pos.nittosupport.ca^
 ||postelnini.mk^
 ||preciosasjoyitas.com.mx^
 ||pstbn.dev^
@@ -248,7 +252,6 @@
 ||rheddh.com^
 ||riderspin.com^
 ||robertrowe.com^
-||roblox-xeno.net^
 ||royalindiancurryclub.com^
 ||rxquickpay.com^
 ||s3o65awrf56.net^
@@ -287,7 +290,6 @@
 ||support.clz.kr^
 ||sutterpoint.com^
 ||svirtual.sanviatorperu.edu.pe^
-||swiftfusion.tech^
 ||sydneyaffordablecremations.com.au^
 ||talentrecruitments.com^
 ||tangentwaves.com^
@@ -307,16 +309,19 @@
 ||tiacreation.club^
 ||toolshare.com.tr^
 ||top8onlinegame.com^
+||tpkpolus.ru^
 ||tractor.trees4sale.net^
 ||transparenciacanaa.com.br^
 ||trtmyanmar.com^
 ||tuasesoriadigital.es^
 ||twu-hwt.org^
-||uafsoftware.in^
+||ufavalkplus.com^
 ||un1rw11q4u.com^
 ||upchemicals.co.in^
 ||update.cg100iii.com^
 ||vcc-library.uk^
+||vdsina.vg^
+||venom.rotero.vc^
 ||versaclean.com.br^
 ||veryboys.com^
 ||vgd.vg^
@@ -326,12 +331,15 @@
 ||vizyonuniversitesi.com.tr^
 ||vizyonuniversitesi.web.tr^
 ||vjy888.com^
+||vmwrvtools.com^
 ||vrajras.com^
 ||website.mypetapp.co.za^
+||widexenmexico.com.mx^
 ||windomstatetheater.com^
 ||wittenhorst.eu^
 ||wqok85qtq.net^
 ||www.ardguisser.com^
+||www.astenterprises.com.pk^
 ||www.automobile-bk.de^
 ||www.backupallfresh2030.com^
 ||www.benshamcentre.co.uk^
@@ -366,7 +374,6 @@
 ||www.springhillmontessori.com^
 ||www.ss-01.com^
 ||www.starcountry.net^
-||www.steamrub.com^
 ||www.support-data.com^
 ||www.tecunonline.com^
 ||www.test.peperoncinochepassione.it^
