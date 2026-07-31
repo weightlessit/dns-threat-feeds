@@ -2,8 +2,8 @@
 ! Description: Malware distribution domains from abuse.ch URLhaus (hosts-file format, updated every 5 minutes)
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-07-31 02:23:03 UTC
-! Total rules: 381
+! Last modified: 2026-07-31 08:42:48 UTC
+! Total rules: 380
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -11,13 +11,11 @@
 ||123.ywxww.net^
 ||1717.1000uc.com^
 ||abdulahad.net^
-||abitcoinbull.com^
 ||acc.jiangsujiaxue.com^
 ||acms.saleseos.com^
 ||admin.byte.in.ua^
 ||admin.gestroom.it^
 ||aftelecom.com.br^
-||airtickts.com^
 ||alarmline.com.br^
 ||alineeleuterio.com.br^
 ||allendaltonproduction.com^
@@ -49,11 +47,13 @@
 ||broadwalkindia.com^
 ||bvaco.com^
 ||cambodiatouristservice.com^
+||casinodas.com^
 ||cat.dashabi.in^
 ||cat.xiaojiji.nl^
 ||cat.xiaoshabi.nl^
 ||catbaparadisehotel.com.vn^
 ||cdaonline.com.ar^
+||cdn.file6.goodid.com^
 ||cdnorigin.net^
 ||celebratingseniors.net^
 ||chat-server.maverickpreviews.com^
@@ -64,6 +64,7 @@
 ||chuguadventures.co.tz^
 ||cl.ssouy.com^
 ||cloud.pearlpeel.com^
+||cloudimagehostingupdatesrealted.yzz.me^
 ||clubdetiroelpicarcho.com^
 ||cn.unionlever.com^
 ||cnc.strikec2.wtf^
@@ -72,9 +73,10 @@
 ||continentalgroup.net.in^
 ||coralasargetia.ro^
 ||corporacioncrf.com^
+||cosmeticapampa.com.ar^
 ||cpofficial.com^
 ||creativevoltage.com^
-||crimefreesoftware.com^
+||cresvin.com^
 ||crystalpvp.ru^
 ||cs.go.kg^
 ||curlservice.com^
@@ -100,7 +102,6 @@
 ||down.54nb.com^
 ||down.fwqlt.com^
 ||down.pcclear.com^
-||down.qqfarmer.com.cn^
 ||download.caihong.com^
 ||download.doumaibiji.cn^
 ||download.haozip.com^
@@ -112,13 +113,13 @@
 ||dreamwatchevent.com^
 ||dusttv.com^
 ||dynga.pl^
-||electri.billregulator.com^
 ||elisans.novayonetim.com^
 ||embedone.com^
 ||en.taichuan.com^
 ||endpoint.project0.cc^
 ||epanpano.com^
 ||evangroup.ru^
+||excursiionline.ro^
 ||fairgroovetr.blog^
 ||fakers.co.jp^
 ||farschid.de^
@@ -126,6 +127,7 @@
 ||femboy.center^
 ||fesold.com^
 ||file.blackint3.com^
+||file.uhsea.com^
 ||filerit.com^
 ||filmchill.net^
 ||first-security-verden.de^
@@ -138,11 +140,9 @@
 ||furystaff.tech^
 ||fz.tiansys.cn^
 ||gabyagozetim.com^
-||galerisenimutiara.com^
 ||gboutros.howto.rocks^
 ||genddos.st^
 ||gestionycobranzas.com^
-||gestroom.it^
 ||globalbank.us^
 ||googletagamnager.com^
 ||grantexx.com^
@@ -158,6 +158,7 @@
 ||hitstation.nl^
 ||hobobot.net^
 ||hseda.com^
+||htdentshop.com^
 ||icoffeecloud.com^
 ||ignetwork.us^
 ||igra123.com^
@@ -167,6 +168,7 @@
 ||ircftp.net^
 ||isiore.com.co^
 ||itssprout.com^
+||ixirgroup.com^
 ||jawaratekno.com^
 ||jenniferloeffler.com^
 ||jessespridecharters.com^
@@ -182,9 +184,9 @@
 ||kits.frog.tw^
 ||kokorostore.it^
 ||konsor.ru^
+||lahoreshoes.com^
 ||landonirwin.com^
 ||lawfirm.paperbirdtech.com^
-||lb.nigsv.com^
 ||libss.0x504.com^
 ||lindnerelektroanlagen.de^
 ||local-update.com^
@@ -195,11 +197,11 @@
 ||m.meta-dm.com^
 ||maidforyou1985.com^
 ||mail.fairgroovetr.blog^
+||main.lahoreshoes.com^
 ||mandarin.net.au^
 ||meetvideogoogle.com^
 ||metrics.gocloudmaps.com^
 ||miriamgualda.com.br^
-||mitreart.com^
 ||mogimall.com^
 ||muaklekcoop.com^
 ||mundocarnes.cl^
@@ -210,22 +212,21 @@
 ||nigg.tashirpizza.su^
 ||nobleshadebu.pro^
 ||noithaticon.vn^
-||nusatoyota.co.id^
 ||ny.lshdw.cc^
 ||o24o.ru^
 ||ojang.pe.kr^
 ||oknoplastik.sk^
 ||onfiltre.com.tr^
 ||orienttaxtile.com^
-||outpost.co.ke^
 ||p3.zbjimg.com^
 ||palharesinformatica.com.br^
 ||panel.b2brouter-secure.com^
 ||pay.aqiu6.com^
-||pcupd.com^
 ||peachcity.si^
+||physicsbyfiziks.org^
 ||planetariumobil.ro^
 ||plasteredplayn.com^
+||pos.nittosupport.ca^
 ||postelnini.mk^
 ||preciosasjoyitas.com.mx^
 ||public.demo.securecloudsandbox.com^
@@ -234,7 +235,7 @@
 ||qiniuyunxz.yxflzs.com^
 ||qv.co.ke^
 ||ramirex.ro^
-||rarewingvm.blog^
+||rathodsoftware.in^
 ||rdm.91yunma.cn^
 ||reauthenticator.com^
 ||records.dennisign.se^
@@ -275,12 +276,10 @@
 ||softcatalog.ru^
 ||spgint.com^
 ||ssc.nexajs.com^
-||static.ilclock.com^
 ||static.topxgun.com^
 ||static.youdm.cn^
 ||stdown.dinju.com^
 ||stonecradle.com^
-||streammobs.com^
 ||studiogioeli.it^
 ||sunix-technology.com^
 ||support.clz.kr^
@@ -288,8 +287,8 @@
 ||svirtual.sanviatorperu.edu.pe^
 ||swiftfusion.tech^
 ||sydneyaffordablecremations.com.au^
+||tabak.hr^
 ||talentrecruitments.com^
-||tangentwaves.com^
 ||tanscarattorneys.co.tz^
 ||tapestryoftruth.com^
 ||tecunonline.com^
@@ -307,17 +306,17 @@
 ||toolshare.com.tr^
 ||top8onlinegame.com^
 ||tpkpolus.ru^
-||tractor.trees4sale.net^
 ||transparenciacanaa.com.br^
 ||trtmyanmar.com^
 ||tuasesoriadigital.es^
-||twu-hwt.org^
 ||ufavalkplus.com^
 ||un1rw11q4u.com^
 ||upaicdn.xinmei365.com^
 ||upchemicals.co.in^
 ||update.cg100iii.com^
 ||uploadloop.com^
+||v-k.com.ua^
+||vektorex.com^
 ||venom.rotero.vc^
 ||versaclean.com.br^
 ||veryboys.com^
@@ -333,7 +332,6 @@
 ||website.mypetapp.co.za^
 ||widexenmexico.com.mx^
 ||windomstatetheater.com^
-||wittenhorst.eu^
 ||wqok85qtq.net^
 ||www.ardguisser.com^
 ||www.astenterprises.com.pk^
@@ -371,6 +369,7 @@
 ||www.springhillmontessori.com^
 ||www.ss-01.com^
 ||www.starcountry.net^
+||www.steamrub.com^
 ||www.support-data.com^
 ||www.tdejb.com^
 ||www.tecunonline.com^
