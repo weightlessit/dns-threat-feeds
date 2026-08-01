@@ -2,8 +2,8 @@
 ! Description: Malware distribution domains from abuse.ch URLhaus (hosts-file format, updated every 5 minutes)
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-08-01 02:24:03 UTC
-! Total rules: 365
+! Last modified: 2026-08-01 08:13:05 UTC
+! Total rules: 369
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -16,6 +16,7 @@
 ||admin.byte.in.ua^
 ||admin.gestroom.it^
 ||aftelecom.com.br^
+||aidlifempowerment.com^
 ||airtickts.com^
 ||alarmline.com.br^
 ||alineeleuterio.com.br^
@@ -67,13 +68,13 @@
 ||clubdetiroelpicarcho.com^
 ||cn.unionlever.com^
 ||co-emas.com^
+||compuserviceonline.com.br^
 ||continentalgroup.net.in^
 ||coralasargetia.ro^
 ||corporacioncrf.com^
 ||cosmeticapampa.com.ar^
 ||cpofficial.com^
 ||creativevoltage.com^
-||cresvin.com^
 ||crimefreesoftware.com^
 ||crystalpvp.ru^
 ||cs.go.kg^
@@ -90,7 +91,6 @@
 ||dezcom.com^
 ||disk.accord1key.cn^
 ||divvanews.com^
-||dl.1003b.56a.com^
 ||dl.dzqzd.com^
 ||dl.natgo.cn^
 ||doc.e-statements.app^
@@ -110,7 +110,6 @@
 ||dreamwatchevent.com^
 ||dusttv.com^
 ||dynga.pl^
-||ebullientlife.in^
 ||electri.billregulator.com^
 ||elisans.novayonetim.com^
 ||embedone.com^
@@ -118,6 +117,7 @@
 ||endpoint.project0.cc^
 ||epanpano.com^
 ||evangroup.ru^
+||explorer.vg^
 ||fakers.co.jp^
 ||farschid.de^
 ||fd.v2downf.shop^
@@ -130,6 +130,7 @@
 ||flyingmutts.com^
 ||fmrio.com^
 ||fukt.link^
+||fullstacknir.com^
 ||furystaff.tech^
 ||fz.tiansys.cn^
 ||gabyagozetim.com^
@@ -154,14 +155,16 @@
 ||hobobot.net^
 ||hseda.com^
 ||htdentshop.com^
-||humasjatim.id^
 ||icoffeecloud.com^
 ||ignetwork.us^
 ||igra123.com^
 ||ijexgroup.com.br^
 ||ikincielesyaciankara.com.tr^
+||indusenterprises.co^
 ||ircftp.net^
 ||itssprout.com^
+||ixirgroup.com^
+||jawaratekno.com^
 ||jenniferloeffler.com^
 ||jessespridecharters.com^
 ||jlwz.cn^
@@ -186,14 +189,13 @@
 ||m.jkoa.co.kr^
 ||m.meta-dm.com^
 ||maidforyou1985.com^
-||mamabearcoffee.com^
 ||mandarin.net.au^
-||medica-me.com^
 ||meetvideogoogle.com^
 ||metrics.gocloudmaps.com^
 ||miriamgualda.com.br^
 ||mitreart.com^
 ||mogimall.com^
+||msedge.vg^
 ||muaklekcoop.com^
 ||muledo.com^
 ||mundocarnes.cl^
@@ -217,7 +219,10 @@
 ||pcupd.com^
 ||pdf-bro.lat^
 ||peachcity.si^
+||pfatrivandrum.org^
+||planetariumobil.ro^
 ||postelnini.mk^
+||powershell-storage.vg^
 ||preciosasjoyitas.com.mx^
 ||public.demo.securecloudsandbox.com^
 ||purmed.ro^
@@ -233,7 +238,6 @@
 ||reifenquick.de^
 ||reservphotoinstay.one^
 ||reservphotoinstaynow.shop^
-||reutilizemais.co.mz^
 ||rheddh.com^
 ||riderspin.com^
 ||robertrowe.com^
@@ -263,7 +267,6 @@
 ||soft.110route.com^
 ||softcatalog.ru^
 ||spgint.com^
-||static.ilclock.com^
 ||static.topxgun.com^
 ||static.youdm.cn^
 ||stdown.dinju.com^
@@ -304,7 +307,6 @@
 ||uploadloop.com^
 ||v-k.com.ua^
 ||vcc-library.uk^
-||vektorex.com^
 ||versaclean.com.br^
 ||veryboys.com^
 ||vgd.vg^
@@ -333,6 +335,7 @@
 ||www.dra.com.ve^
 ||www.drgenov.com^
 ||www.first-security-verden.de^
+||www.gestroom.it^
 ||www.hostingcloud.science^
 ||www.hseda.com^
 ||www.intelligradeeducation.vicentecisnerospub.com^
@@ -355,6 +358,7 @@
 ||www.springhillmontessori.com^
 ||www.ss-01.com^
 ||www.starcountry.net^
+||www.steamrub.com^
 ||www.support-data.com^
 ||www.tdejb.com^
 ||www.tecunonline.com^
