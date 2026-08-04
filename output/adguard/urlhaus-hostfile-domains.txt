@@ -2,12 +2,13 @@
 ! Description: Malware distribution domains from abuse.ch URLhaus (hosts-file format, updated every 5 minutes)
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-08-04 02:03:38 UTC
-! Total rules: 366
+! Last modified: 2026-08-04 08:29:48 UTC
+! Total rules: 365
 !
 ! Auto-generated -- do not edit manually.
 !
 ||0022a601.pphost.net^
+||123.ywxww.net^
 ||1717.1000uc.com^
 ||abdulahad.net^
 ||acc.jiangsujiaxue.com^
@@ -44,6 +45,7 @@
 ||book.rollingvideogames.com^
 ||bridgeroad.maverickpreviews.com^
 ||brightworks.cz^
+||broadwalkindia.com^
 ||bvaco.com^
 ||c2.strikec2.wtf^
 ||cambodiatouristservice.com^
@@ -112,7 +114,6 @@
 ||electri.billregulator.com^
 ||elisans.novayonetim.com^
 ||embedone.com^
-||en.taichuan.com^
 ||endpoint.project0.cc^
 ||epanpano.com^
 ||evangroup.ru^
@@ -148,7 +149,6 @@
 ||hindustanagency.com^
 ||hitman-pro.ru^
 ||hitstation.nl^
-||hobobot.net^
 ||hseda.com^
 ||htdentshop.com^
 ||icoffeecloud.com^
@@ -156,11 +156,9 @@
 ||igra123.com^
 ||ijexgroup.com.br^
 ||ikincielesyaciankara.com.tr^
-||indusenterprises.co^
 ||ircftp.net^
 ||isiore.com.co^
 ||itssprout.com^
-||ixirgroup.com^
 ||jawaratekno.com^
 ||jenniferloeffler.com^
 ||jessespridecharters.com^
@@ -178,11 +176,12 @@
 ||lawfirm.paperbirdtech.com^
 ||letsgobok.com^
 ||libss.0x504.com^
+||lindnerelektroanlagen.de^
 ||local-update.com^
 ||lomejordesalamanca.es^
 ||luizmatoso.com.br^
-||lumacrea.com^
 ||m.jkoa.co.kr^
+||m.meta-dm.com^
 ||maidforyou1985.com^
 ||mandarin.net.au^
 ||meetvideogoogle.com^
@@ -201,10 +200,8 @@
 ||ncxps.com^
 ||nf.boletos-notas.com^
 ||noithaticon.vn^
-||nusatoyota.co.id^
 ||ny.lshdw.cc^
 ||o24o.ru^
-||oim.doganltd.com.tr^
 ||ojang.pe.kr^
 ||oknoplastik.sk^
 ||onfiltre.com.tr^
@@ -212,8 +209,8 @@
 ||p3.zbjimg.com^
 ||palharesinformatica.com.br^
 ||panel.b2brouter-secure.com^
+||pay.aqiu6.com^
 ||pcupd.com^
-||peachcity.si^
 ||pfatrivandrum.org^
 ||planetariumobil.ro^
 ||postelnini.mk^
@@ -333,6 +330,7 @@
 ||www.dra.com.ve^
 ||www.drgenov.com^
 ||www.first-security-verden.de^
+||www.gestroom.it^
 ||www.hostingcloud.science^
 ||www.hseda.com^
 ||www.intelligradeeducation.vicentecisnerospub.com^
@@ -343,6 +341,7 @@
 ||www.medises.co.kr^
 ||www.myvcart.com^
 ||www.namuvpn.com^
+||www.nccommunication.be^
 ||www.newkey.co.kr^
 ||www.notbak.com^
 ||www.ojang.pe.kr^
