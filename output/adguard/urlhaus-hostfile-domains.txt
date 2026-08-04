@@ -2,17 +2,19 @@
 ! Description: Malware distribution domains from abuse.ch URLhaus (hosts-file format, updated every 5 minutes)
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-08-04 14:00:01 UTC
-! Total rules: 369
+! Last modified: 2026-08-04 19:25:20 UTC
+! Total rules: 366
 !
 ! Auto-generated -- do not edit manually.
 !
 ||0022a601.pphost.net^
 ||123.ywxww.net^
 ||1717.1000uc.com^
+||176.65.148.145.ptr.pfcloud.network^
 ||abdulahad.net^
 ||acc.jiangsujiaxue.com^
 ||acms.saleseos.com^
+||actualiza-red5g.app^
 ||admin.byte.in.ua^
 ||admin.gestroom.it^
 ||aftelecom.com.br^
@@ -32,12 +34,12 @@
 ||audicontadores.com^
 ||awarenessexhibition.com^
 ||backupso.com^
-||beak.in^
 ||beoauto.alexion.rs^
 ||bito.com.pk^
 ||blankeyeo.com^
 ||blessdayservices.org^
 ||blogs.sokun.jp^
+||bmdcompany.com^
 ||bnet-api.playm8ru.win^
 ||bnet.playm8ru.win^
 ||bombayonline.in^
@@ -53,7 +55,6 @@
 ||cat.xiaoshabi.nl^
 ||catbaparadisehotel.com.vn^
 ||cdaonline.com.ar^
-||cdn.file6.goodid.com^
 ||celebratingseniors.net^
 ||chat-server.maverickpreviews.com^
 ||checkfivem.com^
@@ -122,7 +123,6 @@
 ||fesold.com^
 ||file.blackint3.com^
 ||file.tugou.com.co^
-||file.uhsea.com^
 ||filerit.com^
 ||first-security-verden.de^
 ||flyingmutts.com^
@@ -136,6 +136,7 @@
 ||gboutros.howto.rocks^
 ||genddos.st^
 ||gestionycobranzas.com^
+||gestroom.it^
 ||globalbank.us^
 ||googletagamnager.com^
 ||grantexx.com^
@@ -182,7 +183,6 @@
 ||lomejordesalamanca.es^
 ||lomiva.vu^
 ||luizmatoso.com.br^
-||lumacrea.com^
 ||m.jkoa.co.kr^
 ||m.meta-dm.com^
 ||maidforyou1985.com^
@@ -218,6 +218,7 @@
 ||pfatrivandrum.org^
 ||planetariumobil.ro^
 ||postelnini.mk^
+||preciosasjoyitas.com.mx^
 ||public.demo.securecloudsandbox.com^
 ||purmed.ro^
 ||pvsa.gxfugy.cn^
@@ -238,11 +239,9 @@
 ||robertrowe.com^
 ||royalindiancurryclub.com^
 ||rxquickpay.com^
-||s3o65awrf56.net^
 ||sablayan.seasonshotelmindoro.com^
 ||safeuploadz.com^
 ||samiksha.com.sg^
-||savannahadventureslimited.com^
 ||scainseto.com.br^
 ||scanbot.me^
 ||scoala1gherla.ro^
@@ -319,7 +318,6 @@
 ||widexenmexico.com.mx^
 ||windomstatetheater.com^
 ||wittenhorst.eu^
-||wqok85qtq.net^
 ||www.ardguisser.com^
 ||www.astenterprises.com.pk^
 ||www.automobile-bk.de^
@@ -349,7 +347,6 @@
 ||www.newkey.co.kr^
 ||www.notbak.com^
 ||www.ojang.pe.kr^
-||www.rbcfort.com^
 ||www.reifenquick.de^
 ||www.saf-oil.ru^
 ||www.salonmarketing.ca^
