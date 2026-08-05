@@ -2,8 +2,8 @@
 ! Description: Malware distribution domains from abuse.ch URLhaus (hosts-file format, updated every 5 minutes)
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-08-05 02:02:41 UTC
-! Total rules: 365
+! Last modified: 2026-08-05 08:29:45 UTC
+! Total rules: 381
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -13,7 +13,6 @@
 ||176.65.148.145.ptr.pfcloud.network^
 ||176.65.149.168.ptr.pfcloud.network^
 ||45.135.194.70.ptr.pfcloud.network^
-||6ak-tehnik.si^
 ||abdulahad.net^
 ||acc.jiangsujiaxue.com^
 ||acms.saleseos.com^
@@ -29,7 +28,10 @@
 ||allendaltonproduction.com^
 ||allendostmen.com^
 ||alternativas.ru^
+||americanmanchester.org^
+||antleds.com^
 ||app.appzcvb.com^
+||archivoscrosoft.com^
 ||areyouready.co.za^
 ||arromaseis.com.tr^
 ||atasapka.com.tr^
@@ -54,6 +56,7 @@
 ||bvaco.com^
 ||c2.strikec2.wtf^
 ||cambodiatouristservice.com^
+||cashblaq.fit^
 ||cat.dashabi.in^
 ||cat.xiaojiji.nl^
 ||cat.xiaoshabi.nl^
@@ -69,7 +72,6 @@
 ||cl.ssouy.com^
 ||cloud.pearlpeel.com^
 ||clubdetiroelpicarcho.com^
-||cn.unionlever.com^
 ||co-emas.com^
 ||compuserviceonline.com.br^
 ||continentalgroup.net.in^
@@ -93,8 +95,9 @@
 ||delp-heizungsbau.de^
 ||dexios.co.za^
 ||dezcom.com^
-||disk.accord1key.cn^
+||directdownloadl.ink^
 ||divvanews.com^
+||dl.1003b.56a.com^
 ||dl.dzqzd.com^
 ||dl.natgo.cn^
 ||dn-pdflite.lat^
@@ -110,6 +113,7 @@
 ||download.kaobeitu.com^
 ||download.pdf00.cn^
 ||download.pdf00.com^
+||download.suxiazai.com^
 ||dowonline.ru^
 ||dreamwatchevent.com^
 ||dusttv.com^
@@ -121,6 +125,7 @@
 ||en.taichuan.com^
 ||endpoint.project0.cc^
 ||enter-pverif-code.info^
+||epanpano.com^
 ||evangroup.ru^
 ||fakers.co.jp^
 ||farschid.de^
@@ -141,9 +146,11 @@
 ||galerisenimutiara.com^
 ||gboutros.howto.rocks^
 ||genddos.st^
+||gestionycobranzas.com^
 ||gestroom.it^
 ||globalbank.us^
 ||googletagamnager.com^
+||grantexx.com^
 ||greenf.alexion.rs^
 ||grupomcperu.com^
 ||gutando.com^
@@ -153,6 +160,7 @@
 ||hitman-pro.ru^
 ||hitstation.nl^
 ||hjha.ao^
+||hobobot.net^
 ||hseda.com^
 ||htdentshop.com^
 ||icoffeecloud.com^
@@ -165,7 +173,6 @@
 ||isiore.com.co^
 ||itssprout.com^
 ||ixirgroup.com^
-||jawaratekno.com^
 ||jenniferloeffler.com^
 ||jessespridecharters.com^
 ||jlwz.cn^
@@ -186,6 +193,7 @@
 ||lomejordesalamanca.es^
 ||lomiva.vu^
 ||luizmatoso.com.br^
+||lumacrea.com^
 ||m.jkoa.co.kr^
 ||m.meta-dm.com^
 ||maidforyou1985.com^
@@ -208,7 +216,9 @@
 ||nusatoyota.co.id^
 ||ny.lshdw.cc^
 ||o24o.ru^
+||oim.doganltd.com.tr^
 ||ojang.pe.kr^
+||oknoplastik.sk^
 ||onfiltre.com.tr^
 ||outpost.co.ke^
 ||p3.zbjimg.com^
@@ -253,7 +263,6 @@
 ||seismophonic.com^
 ||semencepourlavie.org^
 ||separadordecc.com^
-||seputartuban.com^
 ||sg123.net^
 ||shipminttracking.net^
 ||shop.mediasova.ru^
@@ -263,10 +272,11 @@
 ||skript.club^
 ||smartermail.host^
 ||smoking-hot.net^
+||soap2dayfree.top^
 ||soft.110route.com^
 ||softcatalog.ru^
+||solar-sanat.net^
 ||spgint.com^
-||static.ilclock.com^
 ||static.topxgun.com^
 ||static.youdm.cn^
 ||stdown.dinju.com^
@@ -276,6 +286,7 @@
 ||support.clz.kr^
 ||sutterpoint.com^
 ||svirtual.sanviatorperu.edu.pe^
+||swiftfusion.tech^
 ||sydneyaffordablecremations.com.au^
 ||talentrecruitments.com^
 ||tangentwaves.com^
@@ -293,6 +304,7 @@
 ||theoremaoliveoil.com^
 ||thtp2.volamngayxua.net^
 ||tiacreation.club^
+||tlmtravelstours.com^
 ||toolshare.com.tr^
 ||top8onlinegame.com^
 ||transparenciacanaa.com.br^
@@ -300,9 +312,11 @@
 ||tuasesoriadigital.es^
 ||twu-hwt.org^
 ||un1rw11q4u.com^
+||universami.ge^
 ||upaicdn.xinmei365.com^
 ||upchemicals.co.in^
 ||update.cg100iii.com^
+||us.wind0ws.net^
 ||vcc-library.uk^
 ||versaclean.com.br^
 ||veryboys.com^
@@ -354,6 +368,7 @@
 ||www.springhillmontessori.com^
 ||www.ss-01.com^
 ||www.starcountry.net^
+||www.steamrub.com^
 ||www.support-data.com^
 ||www.tdejb.com^
 ||www.tecunonline.com^
@@ -364,6 +379,7 @@
 ||www.zamilgroups.com^
 ||www.zhikey.com^
 ||xenon.studio^
+||xiazaixitong8.com^
 ||xn--yh4bx88a.com^
 ||xshop.com.tr^
 ||yd.lyjt.cc^
