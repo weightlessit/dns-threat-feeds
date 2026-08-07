@@ -2,8 +2,8 @@
 ! Description: Indicators of compromise (domain-based) from abuse.ch ThreatFox covering C2 and payload delivery
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-08-07 18:48:53 UTC
-! Total rules: 36361
+! Last modified: 2026-08-07 19:41:11 UTC
+! Total rules: 36366
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -4635,6 +4635,7 @@
 ||blzaeagent.com^
 ||bm8ue2oq.abcdbro.com^
 ||bmazlky.ru^
+||bmcmdwj.eng-brain-defender.com^
 ||bmgiyyf.net^
 ||bmguom.weisfeedbacksurvey.com^
 ||bmiwzfg.net^
@@ -5983,7 +5984,6 @@
 ||checkillume.pro-standard.work^
 ||checkinguscapgo.com^
 ||checkmarx.zone^
-||checkmysec.it^
 ||checknode.censure47contr.coupons^
 ||checkphoto-bookin.com^
 ||checkpointviewzen.com^
@@ -6417,6 +6417,7 @@
 ||clusteroasi.wentgot.lat^
 ||clwoce8k.runtime-atlas.digital^
 ||clwpuvknw.mumsdebtservice.co.uk^
+||clxurg.eng--bpzone.com^
 ||clysselw.betkaka.bet^
 ||cm-88.com^
 ||cm88-km.com^
@@ -9613,10 +9614,13 @@
 ||enfejar2.com^
 ||enfejarland.com^
 ||enfejwin.com^
+||eng--bpzone.com^
 ||eng-bettinggods.com^
 ||eng-brain-defender.com^
 ||eng-lotterymaximizer.com^
 ||engageandretainllc.com^
+||engbpzone.com^
+||engcognisurge.com^
 ||engelabeslami.xyz^
 ||engelberger-anwaelte.ch^
 ||engine-block-tabel-stream-key.wiki^
@@ -13565,6 +13569,7 @@
 ||hn40pz.milo3ren.lat^
 ||hn8ah9qr.pdfteach.ir^
 ||hnainyw.ninjafruitcubes.bet^
+||hnbowps.eng--cognisurge.com^
 ||hngbkm.wifewithabudget.com^
 ||hngfbgfbfb.cyou^
 ||hnhdl.hazaratbet.bet^
