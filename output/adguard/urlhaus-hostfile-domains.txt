@@ -2,8 +2,8 @@
 ! Description: Malware distribution domains from abuse.ch URLhaus (hosts-file format, updated every 5 minutes)
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-08-08 13:30:39 UTC
-! Total rules: 382
+! Last modified: 2026-08-08 18:30:32 UTC
+! Total rules: 393
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -25,6 +25,7 @@
 ||allendostmen.com^
 ||alternativas.ru^
 ||americanmanchester.org^
+||antleds.com^
 ||app.appzcvb.com^
 ||arcade.cleverpondky.com^
 ||archivoscrosoft.com^
@@ -34,7 +35,9 @@
 ||atom.freehosting.dev^
 ||audicontadores.com^
 ||awarenessexhibition.com^
+||backup.tkspr1v.com^
 ||backupso.com^
+||baltos.online^
 ||bauble.cleverpondky.com^
 ||beak.in^
 ||beoauto.alexion.rs^
@@ -49,7 +52,6 @@
 ||book.rollingvideogames.com^
 ||bridgeroad.maverickpreviews.com^
 ||brightworks.cz^
-||broadwalkindia.com^
 ||bvaco.com^
 ||cambodiatouristservice.com^
 ||cat.dashabi.in^
@@ -103,6 +105,7 @@
 ||down.fwqlt.com^
 ||down.pcclear.com^
 ||down.qqfarmer.com.cn^
+||download.caihong.com^
 ||download.doumaibiji.cn^
 ||download.haozip.com^
 ||download.kaobeitu.com^
@@ -128,6 +131,7 @@
 ||ferncurrent14.com^
 ||fesold.com^
 ||file.blackint3.com^
+||file.uhsea.com^
 ||filerit.com^
 ||first-security-verden.de^
 ||flyingmutts.com^
@@ -139,6 +143,8 @@
 ||gabyagozetim.com^
 ||galerisenimutiara.com^
 ||gboutros.howto.rocks^
+||genddos.st^
+||geo-foundation.vg^
 ||gestionycobranzas.com^
 ||gestroom.it^
 ||globalbank.us^
@@ -155,7 +161,6 @@
 ||hitstation.nl^
 ||hobobot.net^
 ||hseda.com^
-||htdentshop.com^
 ||icoffeecloud.com^
 ||ignetwork.us^
 ||igra123.com^
@@ -164,7 +169,8 @@
 ||ircftp.net^
 ||isiore.com.co^
 ||itssprout.com^
-||jawaratekno.com^
+||ixirgroup.com^
+||jam.cleverpondky.com^
 ||jenniferloeffler.com^
 ||jessespridecharters.com^
 ||jlwz.cn^
@@ -180,6 +186,7 @@
 ||lawfirm.paperbirdtech.com^
 ||lenotecadiarqua.it^
 ||lindnerelektroanlagen.de^
+||load.dstat.top^
 ||local-update.com^
 ||lomejordesalamanca.es^
 ||luizmatoso.com.br^
@@ -188,9 +195,11 @@
 ||m.meta-dm.com^
 ||maidforyou1985.com^
 ||mail.silverrockay.pro^
+||mail.springnetpm.pro^
 ||mail.windycreekbc.pro^
 ||mail.zanyyewuh.pro^
 ||mailglobalsbg.com^
+||mailify.cc^
 ||mandarin.net.au^
 ||meetvideogoogle.com^
 ||meridia.rs^
@@ -212,6 +221,7 @@
 ||ojang.pe.kr^
 ||oknoplastik.sk^
 ||onfiltre.com.tr^
+||oregano.brightleafrv.com^
 ||orienttaxtile.com^
 ||outpost.co.ke^
 ||p3.zbjimg.com^
@@ -269,22 +279,24 @@
 ||sk-comtel.com^
 ||skript.club^
 ||smartermail.host^
+||smartsummitlo.pro^
 ||smoking-hot.net^
 ||sochibeer.ru^
 ||soft.110route.com^
 ||solar-sanat.net^
 ||spgint.com^
+||springnetpm.pro^
+||ssh.microc2.lol^
 ||static.ilclock.com^
 ||static.topxgun.com^
 ||static.youdm.cn^
-||stdown.dinju.com^
+||streammobs.com^
 ||studiogioeli.it^
 ||sumiko.vu^
 ||sunix-technology.com^
 ||support.clz.kr^
 ||sutterpoint.com^
 ||svirtual.sanviatorperu.edu.pe^
-||swiftfusion.tech^
 ||sydneyaffordablecremations.com.au^
 ||talentrecruitments.com^
 ||tangentwaves.com^
@@ -305,7 +317,6 @@
 ||timestampasa.howto.rocks^
 ||toolshare.com.tr^
 ||top8onlinegame.com^
-||tpp.om-stock.com^
 ||transparenciacanaa.com.br^
 ||trtmyanmar.com^
 ||tuasesoriadigital.es^
@@ -313,6 +324,7 @@
 ||upchemicals.co.in^
 ||update.cg100iii.com^
 ||us.wind0ws.net^
+||utensil.cleverpondky.com^
 ||vcc-library.uk^
 ||versaclean.com.br^
 ||veryboys.com^
@@ -328,7 +340,6 @@
 ||widexenmexico.com.mx^
 ||windomstatetheater.com^
 ||windycreekbc.pro^
-||wittenhorst.eu^
 ||wqok85qtq.net^
 ||www.ardguisser.com^
 ||www.astenterprises.com.pk^
