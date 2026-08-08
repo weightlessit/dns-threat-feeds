@@ -2,8 +2,8 @@
 ! Description: Malware distribution domains from abuse.ch URLhaus (hosts-file format, updated every 5 minutes)
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-08-08 12:37:31 UTC
-! Total rules: 375
+! Last modified: 2026-08-08 13:30:39 UTC
+! Total rules: 382
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -26,6 +26,7 @@
 ||alternativas.ru^
 ||americanmanchester.org^
 ||app.appzcvb.com^
+||arcade.cleverpondky.com^
 ||archivoscrosoft.com^
 ||areyouready.co.za^
 ||arromaseis.com.tr^
@@ -34,6 +35,7 @@
 ||audicontadores.com^
 ||awarenessexhibition.com^
 ||backupso.com^
+||bauble.cleverpondky.com^
 ||beak.in^
 ||beoauto.alexion.rs^
 ||bito.com.pk^
@@ -71,6 +73,7 @@
 ||comumvidros.com.br^
 ||continentalgroup.net.in^
 ||coralasargetia.ro^
+||coralwebqe.help^
 ||corporacioncrf.com^
 ||cpc188.day^
 ||cpofficial.com^
@@ -86,12 +89,12 @@
 ||dcrun.co.uk^
 ||dcwblida.dz^
 ||deagroup-ks.com^
+||deliverymailreport.co.za^
 ||delp-heizungsbau.de^
 ||dexios.co.za^
 ||dezcom.com^
 ||disk.accord1key.cn^
 ||divvanews.com^
-||dl.1003b.56a.com^
 ||dl.dzqzd.com^
 ||dl.natgo.cn^
 ||doc.e-statements.app^
@@ -184,6 +187,9 @@
 ||m.jkoa.co.kr^
 ||m.meta-dm.com^
 ||maidforyou1985.com^
+||mail.silverrockay.pro^
+||mail.windycreekbc.pro^
+||mail.zanyyewuh.pro^
 ||mailglobalsbg.com^
 ||mandarin.net.au^
 ||meetvideogoogle.com^
@@ -203,7 +209,6 @@
 ||nusatoyota.co.id^
 ||ny.lshdw.cc^
 ||o24o.ru^
-||oim.doganltd.com.tr^
 ||ojang.pe.kr^
 ||oknoplastik.sk^
 ||onfiltre.com.tr^
@@ -260,6 +265,7 @@
 ||shipminttracking.net^
 ||shqdown.ggzuhao.com^
 ||siaasesoria.com.mx^
+||silverrockay.pro^
 ||sk-comtel.com^
 ||skript.club^
 ||smartermail.host^
@@ -304,7 +310,6 @@
 ||trtmyanmar.com^
 ||tuasesoriadigital.es^
 ||twu-hwt.org^
-||upaicdn.xinmei365.com^
 ||upchemicals.co.in^
 ||update.cg100iii.com^
 ||us.wind0ws.net^
@@ -322,6 +327,7 @@
 ||website.mypetapp.co.za^
 ||widexenmexico.com.mx^
 ||windomstatetheater.com^
+||windycreekbc.pro^
 ||wittenhorst.eu^
 ||wqok85qtq.net^
 ||www.ardguisser.com^
@@ -378,6 +384,7 @@
 ||yakult-hk.com^
 ||youtransfer.net^
 ||zamilgroups.com^
+||zanyyewuh.pro^
 ||zenglobalenerji.com^
 ||zhigao5191.com^
 ||zoredaye.com^
