@@ -2,8 +2,8 @@
 ! Description: Malware distribution domains from abuse.ch URLhaus (hosts-file format, updated every 5 minutes)
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-08-09 06:47:42 UTC
-! Total rules: 388
+! Last modified: 2026-08-09 07:41:58 UTC
+! Total rules: 384
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -96,12 +96,10 @@
 ||dezcom.com^
 ||disk.accord1key.cn^
 ||divvanews.com^
-||dl.1003b.56a.com^
 ||dl.dzqzd.com^
 ||dl.natgo.cn^
 ||doc.e-statements.app^
 ||donkeytourscroatia.com^
-||down.54nb.com^
 ||down.fwqlt.com^
 ||down.pcclear.com^
 ||down.qqfarmer.com.cn^
@@ -111,7 +109,6 @@
 ||download.kaobeitu.com^
 ||download.pdf00.cn^
 ||download.pdf00.com^
-||download.suxiazai.com^
 ||dreamwatchevent.com^
 ||durakutihs.com^
 ||dusttv.com^
@@ -281,7 +278,6 @@
 ||spgint.com^
 ||springnetpm.pro^
 ||ssh.microc2.lol^
-||static.ilclock.com^
 ||static.topxgun.com^
 ||static.youdm.cn^
 ||stdown.dinju.com^
