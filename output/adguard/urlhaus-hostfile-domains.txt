@@ -2,8 +2,8 @@
 ! Description: Malware distribution domains from abuse.ch URLhaus (hosts-file format, updated every 5 minutes)
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-08-09 19:18:07 UTC
-! Total rules: 377
+! Last modified: 2026-08-10 01:20:10 UTC
+! Total rules: 372
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -28,7 +28,6 @@
 ||arcade.cleverpondky.com^
 ||archivoscrosoft.com^
 ||areyouready.co.za^
-||arromaseis.com.tr^
 ||atasapka.com.tr^
 ||atom.freehosting.dev^
 ||audicontadores.com^
@@ -65,7 +64,6 @@
 ||chiptune.com^
 ||chrome-windows.ru^
 ||chuguadventures.co.tz^
-||cl.ssouy.com^
 ||cloud.pearlpeel.com^
 ||clubdetiroelpicarcho.com^
 ||cn.unionlever.com^
@@ -77,15 +75,15 @@
 ||corporacioncrf.com^
 ||cpc188.day^
 ||cpofficial.com^
-||cqylt.net^
 ||creativevoltage.com^
-||cryptomeshforge5.lol^
 ||crystalpvp.ru^
 ||cs.go.kg^
 ||d.14yaa.com^
 ||d.wanyouxi7.com^
 ||damiancollier.com^
 ||data.yhydl.com^
+||dcrun.co.uk^
+||dcwblida.dz^
 ||deagroup-ks.com^
 ||deliverymailreport.co.za^
 ||delp-heizungsbau.de^
@@ -93,7 +91,6 @@
 ||dezcom.com^
 ||disk.accord1key.cn^
 ||divvanews.com^
-||dl.1003b.56a.com^
 ||dl.dzqzd.com^
 ||dl.natgo.cn^
 ||doc.e-statements.app^
@@ -114,20 +111,17 @@
 ||dusttv.com^
 ||dynga.pl^
 ||eclipsebible.com^
-||effectively32.infinityfree.me^
 ||electri.billregulator.com^
 ||elisans.novayonetim.com^
 ||embedone.com^
 ||en.taichuan.com^
 ||endpoint.project0.cc^
 ||epanpano.com^
+||fairth.dev^
 ||fakers.co.jp^
 ||farschid.de^
 ||fd.v2downf.shop^
-||ferncurrent14.com^
-||fesold.com^
 ||file.blackint3.com^
-||file.uhsea.com^
 ||filerit.com^
 ||first-security-verden.de^
 ||flyingmutts.com^
@@ -141,6 +135,7 @@
 ||gboutros.howto.rocks^
 ||genddos.st^
 ||gestionycobranzas.com^
+||gestroom.it^
 ||globalbank.us^
 ||golvteametvarberg.se^
 ||greenf.alexion.rs^
@@ -159,7 +154,6 @@
 ||ignetwork.us^
 ||igra123.com^
 ||ikincielesyaciankara.com.tr^
-||indusenterprises.co^
 ||ircftp.net^
 ||isiore.com.co^
 ||itssprout.com^
@@ -179,10 +173,12 @@
 ||landonirwin.com^
 ||lawfirm.paperbirdtech.com^
 ||lenotecadiarqua.it^
+||lindnerelektroanlagen.de^
 ||load.dstat.top^
 ||local-update.com^
 ||lomejordesalamanca.es^
 ||luizmatoso.com.br^
+||lumacrea.com^
 ||m.jkoa.co.kr^
 ||m.meta-dm.com^
 ||maidforyou1985.com^
@@ -190,9 +186,7 @@
 ||mail.springnetpm.pro^
 ||mail.windycreekbc.pro^
 ||mail.zanyyewuh.pro^
-||mailglobalsbg.com^
 ||mandarin.net.au^
-||meridia.rs^
 ||meteorclient.shop^
 ||metrics.gocloudmaps.com^
 ||miriamgualda.com.br^
@@ -206,10 +200,10 @@
 ||n.vs108.com^
 ||ncxps.com^
 ||noithaticon.vn^
+||nusatoyota.co.id^
 ||ny.lshdw.cc^
 ||o24o.ru^
 ||ojang.pe.kr^
-||oknoplastik.sk^
 ||onfiltre.com.tr^
 ||oregano.brightleafrv.com^
 ||outpost.co.ke^
@@ -239,11 +233,9 @@
 ||reutilizemais.co.mz^
 ||rheddh.com^
 ||riderspin.com^
-||rippled.cleverpondky.com^
 ||robertrowe.com^
 ||royalindiancurryclub.com^
 ||rxquickpay.com^
-||ryanborn.net^
 ||s3o65awrf56.net^
 ||sablayan.seasonshotelmindoro.com^
 ||safeuploadz.com^
@@ -310,7 +302,7 @@
 ||triflackcom.com^
 ||trtmyanmar.com^
 ||tuasesoriadigital.es^
-||upaicdn.xinmei365.com^
+||twu-hwt.org^
 ||upchemicals.co.in^
 ||update.cg100iii.com^
 ||us.wind0ws.net^
@@ -321,8 +313,9 @@
 ||vgd.vg^
 ||vincentdemiero.com^
 ||visam.info^
+||vizyonuniversitesi.com.tr^
+||vizyonuniversitesi.web.tr^
 ||vrajras.com^
-||wealthishealth.free.je^
 ||website.mypetapp.co.za^
 ||widexenmexico.com.mx^
 ||windomstatetheater.com^
@@ -343,7 +336,9 @@
 ||www.dra.com.ve^
 ||www.drgenov.com^
 ||www.first-security-verden.de^
+||www.gestroom.it^
 ||www.hostingcloud.science^
+||www.hqsblog.com^
 ||www.hseda.com^
 ||www.intelligradeeducation.vicentecisnerospub.com^
 ||www.jozefinskiatelje.si^
@@ -368,6 +363,7 @@
 ||www.starcountry.net^
 ||www.support-data.com^
 ||www.tdejb.com^
+||www.tecunonline.com^
 ||www.test.peperoncinochepassione.it^
 ||www.vuelaviajero.com^
 ||www.website.mypetapp.co.za^
@@ -382,5 +378,4 @@
 ||zamilgroups.com^
 ||zanyyewuh.pro^
 ||zenglobalenerji.com^
-||zhigao5191.com^
 ||zycdjz.com^
