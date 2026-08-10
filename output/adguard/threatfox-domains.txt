@@ -2,8 +2,8 @@
 ! Description: Indicators of compromise (domain-based) from abuse.ch ThreatFox covering C2 and payload delivery
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-08-10 12:57:04 UTC
-! Total rules: 35985
+! Last modified: 2026-08-10 14:19:20 UTC
+! Total rules: 35996
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -107,6 +107,7 @@
 ||0rgan3-port.gabard-viewed.surf^
 ||0ri1ior3.powershart.com^
 ||0rlxki7g.bordbett10.com^
+||0rwgfz6h.finkfamilyautomotive.com^
 ||0saw15fk.activereading.xyz^
 ||0sjbo.mira2tal.lat^
 ||0snofqmc.megaparikade.com^
@@ -6903,6 +6904,7 @@
 ||cpuprosmgr.mav7voren.pics^
 ||cpuprosmgr.radio-technic.lat^
 ||cpuprosmgr.technodesupply.pics^
+||cpvmfg.com^
 ||cpvt.bet120.games^
 ||cpysndcd.prozhecart.com^
 ||cqbl.thechildrencomefirst.org^
@@ -9461,9 +9463,12 @@
 ||en-us-goldaligns.com^
 ||en-us-herpafend.com^
 ||en-us-ignitraa.com^
+||en-us-odizen.com^
 ||en-us-pegasus.com^
 ||en-us-plantsulin.com^
 ||en-us-slimsounds.com^
+||en-us-slimsplits.com^
+||en-us-slimsplitsmethod.com^
 ||en-us-us-lipogummy.com^
 ||en-us-us-metabodrop.com^
 ||en-us-us-prostadefend.com^
@@ -10677,7 +10682,6 @@
 ||fjkgqdqgqetybhhwjue.lergothelabel.com^
 ||fjndaui.com^
 ||fjndvnei.btyek.site^
-||fjolml5b.dursamurai.digital^
 ||fjord305.offer6orchard.coupons^
 ||fjqantqo.winter-pulse.christmas^
 ||fjtdm.sm188wing.cyou^
@@ -11014,6 +11018,7 @@
 ||foxfinancas.com^
 ||foxo8ujn.prozhe.net^
 ||foxultra.mira4then.bet^
+||foxybridge.ch^
 ||foylgex.sm188login.cyou^
 ||fpaqjul.bahiscom2023.online^
 ||fpbgrevs.betpublic.casino^
@@ -12278,6 +12283,7 @@
 ||go237.com^
 ||go5z.my^
 ||go6.my^
+||go78tteu.eng-nitrilean.com^
 ||go88qc.com^
 ||goalharvest.digital^
 ||goansgsr.shop^
@@ -16038,6 +16044,7 @@
 ||kinarshikix.com^
 ||kindergarten.schmiechen.de^
 ||kinderplow.com^
+||kindjurt.myddns.me^
 ||kindred.center^
 ||kindredmanitowoc.com^
 ||kineticnode.icu^
@@ -16444,6 +16451,7 @@
 ||kwkcywosewayyeym.xyz^
 ||kwmgicksuuwiaosk.xyz^
 ||kwmukeusiykcaigq.xyz^
+||kwoeju.en-us-slimsplitsmethod.com^
 ||kwoptitn.restaurantguideaarhus.com^
 ||kworker.eth.limo^
 ||kworker.eth.link^
@@ -17188,6 +17196,7 @@
 ||lla.fixsm188.top^
 ||llajqhq.ru^
 ||llar.jadoou.boats^
+||llasvij.en-us-odizen.com^
 ||llc-image-ico.click^
 ||llcuj.virtuvespasaule.lv^
 ||llegando09328.ydns.eu^
@@ -21054,6 +21063,7 @@
 ||nyakvcev.bunos.bet^
 ||nycefmonline.com^
 ||nyenf.kmmits.com^
+||nyerki.en-us-slimsplits.com^
 ||nygyrowillmar.com^
 ||nyitbg.thebutlerspantrykitchenandhome.com^
 ||nykaa.cloud^
@@ -21464,6 +21474,7 @@
 ||onarbeni.com^
 ||onari-aikido.com^
 ||onaroll.be^
+||onboard.radiantfluxstudio.com^
 ||oncolonb.cyou^
 ||ondgegtt.bekabet.casino^
 ||one-pager.noamvolk-studio.co.il^
@@ -32514,6 +32525,7 @@
 ||wenfengas68.com^
 ||wentianskw168.com^
 ||wepoc.co^
+||weqtrjme.eng-usa-digestistart.com^
 ||werbetafel68.ch^
 ||werel.balazsotthonepites.hu^
 ||wertexnew.com^
@@ -35413,7 +35425,6 @@
 ||z08omixf.mrbet90.com^
 ||z0pub8f7.marc90bet.com^
 ||z15e6bey.nextbahis.poker^
-||z1asu4ve.dursamurai.digital^
 ||z1lmg5dds3x0lx6n.org^
 ||z26ub6kjh7u7vb13.org^
 ||z2b75lk7xf6kme3zfvlmdmpwiaansnkcuhsojd23dgub5md24fhogcyd.onion^
