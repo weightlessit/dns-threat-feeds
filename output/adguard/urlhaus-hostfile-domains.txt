@@ -2,16 +2,18 @@
 ! Description: Malware distribution domains from abuse.ch URLhaus (hosts-file format, updated every 5 minutes)
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-08-10 14:19:19 UTC
-! Total rules: 378
+! Last modified: 2026-08-10 18:50:55 UTC
+! Total rules: 387
 !
 ! Auto-generated -- do not edit manually.
 !
 ||0022a601.pphost.net^
 ||123.ywxww.net^
 ||1717.1000uc.com^
+||abdulahad.net^
 ||acc.jiangsujiaxue.com^
 ||acms.saleseos.com^
+||acrilicoporto.pt^
 ||admin.byte.in.ua^
 ||admin.gestroom.it^
 ||aftelecom.com.br^
@@ -32,10 +34,12 @@
 ||audicontadores.com^
 ||autoclinic.autos^
 ||awarenessexhibition.com^
+||babaszepsegverseny.hu^
 ||backup.tkspr1v.com^
 ||backupso.com^
 ||baltos.online^
 ||bauble.cleverpondky.com^
+||beak.in^
 ||beoauto.alexion.rs^
 ||bito.com.pk^
 ||blankeyeo.com^
@@ -71,13 +75,13 @@
 ||compuserviceonline.com.br^
 ||continentalgroup.net.in^
 ||coralwebqe.help^
-||corporacioncrf.com^
 ||cpc188.day^
 ||cpofficial.com^
 ||cqylt.net^
 ||creativevoltage.com^
 ||crystalpvp.ru^
 ||cs.go.kg^
+||ctsfactory.com^
 ||d.14yaa.com^
 ||d.wanyouxi7.com^
 ||damiancollier.com^
@@ -114,7 +118,6 @@
 ||ebullientlife.in^
 ||electri.billregulator.com^
 ||elisans.novayonetim.com^
-||elmejorlocal.com.co^
 ||embedone.com^
 ||en.taichuan.com^
 ||endpoint.project0.cc^
@@ -123,40 +126,44 @@
 ||farschid.de^
 ||fd.v2downf.shop^
 ||file.blackint3.com^
-||file.uhsea.com^
 ||filerit.com^
 ||first-security-verden.de^
 ||flyingmutts.com^
 ||fmrio.com^
-||foundationforwomenshealth.com^
 ||fukt.link^
 ||fullstacknir.com^
 ||furystaff.tech^
 ||fz.tiansys.cn^
 ||gabyagozetim.com^
+||galerisenimutiara.com^
 ||genddos.st^
 ||gestionycobranzas.com^
 ||gestroom.it^
 ||globalbank.us^
 ||golvteametvarberg.se^
+||grantexx.com^
 ||greenf.alexion.rs^
 ||grupohenry1.com^
 ||grupomcperu.com^
 ||gutando.com^
 ||hasalltalent.com^
 ||heroestales.com^
-||hewadexchange.com^
 ||hindustanagency.com^
 ||hitman-pro.ru^
 ||hitstation.nl^
 ||hobobot.net^
 ||hseda.com^
+||htdentshop.com^
 ||icoffeecloud.com^
 ||ignetwork.us^
 ||igra123.com^
 ||ikincielesyaciankara.com.tr^
+||iloveboats.st^
+||indusenterprises.co^
 ||ircftp.net^
+||isiore.com.co^
 ||itssprout.com^
+||ixirgroup.com^
 ||jam.cleverpondky.com^
 ||jawaratekno.com^
 ||jenniferloeffler.com^
@@ -170,6 +177,7 @@
 ||kits.frog.tw^
 ||kokorostore.it^
 ||konsor.ru^
+||laborpartyjo.com^
 ||landonirwin.com^
 ||lawfirm.paperbirdtech.com^
 ||lenotecadiarqua.it^
@@ -177,9 +185,11 @@
 ||local-update.com^
 ||lomejordesalamanca.es^
 ||luizmatoso.com.br^
+||lumacrea.com^
 ||m.jkoa.co.kr^
 ||m.meta-dm.com^
 ||maidforyou1985.com^
+||mail.quietsurfwi.help^
 ||mail.silverrockay.pro^
 ||mail.springnetpm.pro^
 ||mail.windycreekbc.pro^
@@ -203,15 +213,15 @@
 ||o24o.ru^
 ||ojang.pe.kr^
 ||oknoplastik.sk^
-||onfiltre.com.tr^
 ||oregano.brightleafrv.com^
 ||outpost.co.ke^
 ||p3.zbjimg.com^
 ||palharesinformatica.com.br^
+||pay.aqiu6.com^
 ||pcupd.com^
 ||pfatrivandrum.org^
+||physicsbyfiziks.org^
 ||planetariumobil.ro^
-||plenia.pt^
 ||postelnini.mk^
 ||preciosasjoyitas.com.mx^
 ||privrawmirai.privnetwork.tech^
@@ -219,9 +229,10 @@
 ||purmed.ro^
 ||pvsa.gxfugy.cn^
 ||qiniuyunxz.yxflzs.com^
+||quietsurfwi.help^
 ||qv.co.ke^
 ||ramirex.ro^
-||raqmnh.com^
+||rathodsoftware.in^
 ||rcf.co.mz^
 ||rdm.91yunma.cn^
 ||reauthenticator.com^
@@ -258,6 +269,7 @@
 ||siaasesoria.com.mx^
 ||silverrockay.pro^
 ||sk-comtel.com^
+||skolazasisanjepasa.com^
 ||smartermail.host^
 ||smartsummitlo.pro^
 ||smoking-hot.net^
@@ -273,7 +285,6 @@
 ||stdown.dinju.com^
 ||streammobs.com^
 ||studiogioeli.it^
-||sudariocontabilidade.com.br^
 ||sumiko.vu^
 ||sunix-technology.com^
 ||support.clz.kr^
@@ -298,7 +309,6 @@
 ||theoremaoliveoil.com^
 ||thtp2.volamngayxua.net^
 ||tiacreation.club^
-||timestampasa.howto.rocks^
 ||toolshare.com.tr^
 ||top8onlinegame.com^
 ||tpp.om-stock.com^
@@ -382,6 +392,5 @@
 ||youtransfer.net^
 ||zamilgroups.com^
 ||zanyyewuh.pro^
-||zenglobalenerji.com^
 ||zhigao5191.com^
 ||zycdjz.com^
