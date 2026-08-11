@@ -2,8 +2,8 @@
 ! Description: Malware distribution domains from abuse.ch URLhaus (hosts-file format, updated every 5 minutes)
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-08-11 18:56:00 UTC
-! Total rules: 359
+! Last modified: 2026-08-11 19:59:08 UTC
+! Total rules: 357
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -94,6 +94,7 @@
 ||down.54nb.com^
 ||down.fwqlt.com^
 ||down.pcclear.com^
+||down.qqfarmer.com.cn^
 ||download.caihong.com^
 ||download.doumaibiji.cn^
 ||download.haozip.com^
@@ -105,7 +106,6 @@
 ||duct-master.com^
 ||dusttv.com^
 ||dynga.pl^
-||easycryptos.org^
 ||electri.billregulator.com^
 ||elisans.novayonetim.com^
 ||embedone.com^
@@ -147,10 +147,10 @@
 ||igra123.com^
 ||ikincielesyaciankara.com.tr^
 ||iloveboats.st^
-||indusenterprises.co^
 ||ircftp.net^
 ||isiore.com.co^
 ||itssprout.com^
+||ixirgroup.com^
 ||jawaratekno.com^
 ||jenniferloeffler.com^
 ||jessespridecharters.com^
@@ -174,14 +174,12 @@
 ||m.meta-dm.com^
 ||maidforyou1985.com^
 ||mail.quietsurfwi.help^
-||mandarin.net.au^
 ||meteorclient.shop^
 ||metrics.gocloudmaps.com^
 ||miriamgualda.com.br^
 ||mitreart.com^
 ||mogimall.com^
 ||muaklekcoop.com^
-||mukabar.co.mz^
 ||muledo.com^
 ||mundocarnes.cl^
 ||mx9x.com^
@@ -200,6 +198,7 @@
 ||palharesinformatica.com.br^
 ||parquelosencinos.cl^
 ||pay.aqiu6.com^
+||pcupd.com^
 ||pfatrivandrum.org^
 ||planetariumobil.ro^
 ||postelnini.mk^
@@ -356,7 +355,6 @@
 ||www.website.mypetapp.co.za^
 ||www.xn--on3b15m2lco2u.com^
 ||www.zamilgroups.com^
-||www.zhikey.com^
 ||xenon.studio^
 ||xn--yh4bx88a.com^
 ||xshop.com.tr^
