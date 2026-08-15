@@ -2,8 +2,8 @@
 ! Description: Malware distribution domains from abuse.ch URLhaus (hosts-file format, updated every 5 minutes)
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-08-15 00:57:29 UTC
-! Total rules: 368
+! Last modified: 2026-08-15 02:13:50 UTC
+! Total rules: 366
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -28,7 +28,6 @@
 ||atom.freehosting.dev^
 ||audicontadores.com^
 ||awarenessexhibition.com^
-||backupso.com^
 ||beak.in^
 ||beoauto.alexion.rs^
 ||bito.com.pk^
@@ -50,7 +49,6 @@
 ||cat.xiaoshabi.nl^
 ||catbaparadisehotel.com.vn^
 ||cdaonline.com.ar^
-||cdn.file6.goodid.com^
 ||celebratingseniors.net^
 ||chat-server.maverickpreviews.com^
 ||cheatclients.com^
@@ -59,12 +57,12 @@
 ||chiptune.com^
 ||chrome-windows.ru^
 ||chuguadventures.co.tz^
+||cl.ssouy.com^
 ||cloud.pearlpeel.com^
 ||clubdetiroelpicarcho.com^
 ||cn.unionlever.com^
 ||co-emas.com^
 ||compuserviceonline.com.br^
-||continentalgroup.net.in^
 ||corporacioncrf.com^
 ||cpc188.day^
 ||cpofficial.com^
@@ -194,6 +192,7 @@
 ||noithaticon.vn^
 ||nusatoyota.co.id^
 ||ny.lshdw.cc^
+||oim.doganltd.com.tr^
 ||ojang.pe.kr^
 ||oknoplastik.sk^
 ||onfiltre.com.tr^
@@ -333,7 +332,6 @@
 ||www.gestroom.it^
 ||www.hostingcloud.science^
 ||www.hqsblog.com^
-||www.hseda.com^
 ||www.intelligradeeducation.vicentecisnerospub.com^
 ||www.jozefinskiatelje.si^
 ||www.kenwillzltd.com^
