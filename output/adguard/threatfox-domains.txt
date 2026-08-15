@@ -2,8 +2,8 @@
 ! Description: Indicators of compromise (domain-based) from abuse.ch ThreatFox covering C2 and payload delivery
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-08-15 12:27:56 UTC
-! Total rules: 34619
+! Last modified: 2026-08-15 13:08:56 UTC
+! Total rules: 34617
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -5003,6 +5003,7 @@
 ||bundlfilter.so6lavern.garden^
 ||bunesaria.com^
 ||bungee-fit.ch^
+||bungeefly.ch^
 ||bunntyca.icu^
 ||bunnycraft.online^
 ||burb-34671.portmap.host^
@@ -24336,7 +24337,6 @@
 ||rn3asur-spool.coraprimat0sis.bet^
 ||rnad.flowerqueensgirls.com^
 ||rnang0-rnix.mango6courier.coupons^
-||rnatr1x-vvay.matrix8piano.coupons^
 ||rnd.exposedbotnets.ru^
 ||rne.beras1.com^
 ||rne.sm188auto.top^
@@ -25791,7 +25791,6 @@
 ||signal-processing-core.christmas^
 ||signal-routing-framework.christmas^
 ||signal-vault.digital^
-||signal.matrix8piano.coupons^
 ||signalenzy.mav2lirex.lat^
 ||signalwarden.icu^
 ||signalwestport.cryptovoxelsync.garden^
@@ -34107,7 +34106,6 @@
 ||z3ebwqw0.seering5outh.digital^
 ||z3n7a.blueg78rework.coupons^
 ||z3n7a.mango6courier.coupons^
-||z3n7a.matrix8piano.coupons^
 ||z3n7a.reporter9speck.coupons^
 ||z4fwpj6c.podkaraultempera.digital^
 ||z52rumys.customhomebuildersplainfield.com^
