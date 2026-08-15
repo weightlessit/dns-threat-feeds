@@ -2,8 +2,8 @@
 ! Description: Spam and scam domains used in forum-based attacks from StopForumSpam
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-08-15 07:08:29 UTC
-! Total rules: 75101
+! Last modified: 2026-08-15 12:28:02 UTC
+! Total rules: 75102
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -55365,6 +55365,7 @@
 ||query.healthcheck.click^
 ||query.hikely.click^
 ||query.meettravel.click^
+||query.meettravellersrest.click^
 ||query.meetturnon.click^
 ||query.ninjatransfers.click^
 ||query.quickreply.click^
