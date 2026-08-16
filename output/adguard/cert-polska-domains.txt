@@ -2,8 +2,8 @@
 ! Description: Malicious domains from the Polish national CERT (NASK)
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-08-16 18:51:32 UTC
-! Total rules: 137277
+! Last modified: 2026-08-16 19:10:53 UTC
+! Total rules: 137315
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -1445,6 +1445,7 @@
 ||3678lpo.top^
 ||36851790.xyz^
 ||36855790.xyz^
+||368fz.lg8ems.top^
 ||36gjfjgodfjoigfdjiog.site^
 ||3715hxe.top^
 ||372498.lat^
@@ -6570,6 +6571,10 @@
 ||aldi-us.geminicart.shop^
 ||aldi-us.glyphmart.shop^
 ||aldi-us.gordkilgoods.shop^
+||aldi-us.grocercorner.shop^
+||aldi-us.grocerfresh.shop^
+||aldi-us.grocerpantry.shop^
+||aldi-us.grocershelf.shop^
 ||aldi-us.hantashop.shop^
 ||aldi-us.hepatomart.shop^
 ||aldi-us.hhvshop.shop^
@@ -6661,6 +6666,7 @@
 ||aldi.homerio.shop^
 ||aldi.housevo.shop^
 ||aldi.ilanor.shop^
+||aldi.jelvito.shop^
 ||aldi.jenlora.shop^
 ||aldi.joybuyus.shop^
 ||aldi.jynlor.shop^
@@ -6799,6 +6805,7 @@
 ||aldideals.isdrel.shop^
 ||aldideals.itemport.shop^
 ||aldideals.jorqav.shop^
+||aldideals.jorqel.shop^
 ||aldideals.kelvado.shop^
 ||aldideals.korexi.shop^
 ||aldideals.lavdri.shop^
@@ -6822,12 +6829,15 @@
 ||aldideals.orchardgrocer.shop^
 ||aldideals.orchardmart.shop^
 ||aldideals.orchardstock.shop^
+||aldideals.orqiva.shop^
 ||aldideals.osvrel.shop^
+||aldideals.ovqero.shop^
 ||aldideals.ovskel.shop^
 ||aldideals.palsor.shop^
 ||aldideals.peldaro.shop^
 ||aldideals.plainzone.shop^
 ||aldideals.pradek.shop^
+||aldideals.qalivo.shop^
 ||aldideals.qalsor.shop^
 ||aldideals.quartzmart.shop^
 ||aldideals.quartzpantry.shop^
@@ -6865,8 +6875,16 @@
 ||aldideals.zermavo.shop^
 ||aldidiscountsonline.com^
 ||aldiesshop.com^
+||aldieu.alcorintobuy.shop^
+||aldieu.ardelintobuy.shop^
+||aldieu.bylorextobuy.shop^
+||aldieu.cenvirotobuy.shop^
+||aldieu.cerolantobuy.shop^
 ||aldieu.chefeuro.shop^
 ||aldieu.com^
+||aldieu.delvirotobuy.shop^
+||aldieu.dunoraltobuy.shop^
+||aldieu.dyverintobuy.shop^
 ||aldieu.fenalucart.shop^
 ||aldieu.gemanucart.shop^
 ||aldieu.gulenvcart.shop^
@@ -6931,13 +6949,17 @@
 ||aldimart.esqari.shop^
 ||aldimart.fendri.shop^
 ||aldimart.fradil.shop^
+||aldimart.freshboardhouse.shop^
 ||aldimart.freshhallway.shop^
 ||aldimart.freshharvestway.shop^
+||aldimart.freshmarkethouse.shop^
 ||aldimart.frosel.shop^
 ||aldimart.fynsek.shop^
 ||aldimart.galdri.shop^
 ||aldimart.gasken.shop^
 ||aldimart.glenhampantry.shop^
+||aldimart.grocerhallway.shop^
+||aldimart.grocerharvestway.shop^
 ||aldimart.harnel.shop^
 ||aldimart.harnqo.shop^
 ||aldimart.haverleygrocer.shop^
@@ -7146,8 +7168,11 @@
 ||aldius.mewsmart.shop^
 ||aldius.moxpantry.shop^
 ||aldius.ovryx.shop^
+||aldius.oxelin.shop^
 ||aldius.pikcart.shop^
 ||aldius.pipgoods.shop^
+||aldius.prynel.shop^
+||aldius.pyvara.shop^
 ||aldius.roakbasket.shop^
 ||aldius.roilpantry.shop^
 ||aldius.splaygoods.shop^
@@ -25058,6 +25083,7 @@
 ||bangalorcallgirls.com^
 ||bangbangjp.com^
 ||bangdeba.idrivenglobal.com^
+||banghy.com^
 ||bangkokbeergarden.com^
 ||bangkokmaid.com^
 ||banglatigers.ae^
@@ -33938,7 +33964,6 @@
 ||chishuirk.com^
 ||chisuduodong.com^
 ||chitiaffet.rest^
-||chittrearo.rest^
 ||chiudsoffo.rest^
 ||chiurfomen.cyou^
 ||chiurrinfo.cyou^
@@ -34826,6 +34851,7 @@
 ||clicksudtv.com^
 ||clicpin.click^
 ||clienspartners.com^
+||client-my.cam^
 ||client-services.shop^
 ||client.317349-ftx.com^
 ||client.475238-cb.com^
@@ -36278,6 +36304,7 @@
 ||corabea.com^
 ||corailrendif-fr.live^
 ||corailrendif.live^
+||coral-duffle.shop^
 ||coralcump.com^
 ||coralflowdex-ai.com^
 ||coralflowdex.com^
@@ -45686,6 +45713,7 @@
 ||escnintranet.com^
 ||escobarandsonstrading.com^
 ||escogengra.cyou^
+||escogsesse.shop^
 ||esconcalci.autos^
 ||escondidoweekly.com^
 ||escorgulon.rest^
@@ -49868,6 +49896,7 @@
 ||fisio0-officia23.sbs^
 ||fisio0-soluta60.sbs^
 ||fisio0-vel74.sbs^
+||fisio0-vitae75.sbs^
 ||fisio1-ea51.sbs^
 ||fisio1-et34.sbs^
 ||fisio1-magnam62.sbs^
@@ -57713,6 +57742,7 @@
 ||helmorixy-app.pro^
 ||helmorixy-nl.live^
 ||helmorixytrade.com^
+||helmorixytrade.net^
 ||helmsleyhome.eu^
 ||heloisebrault.shop^
 ||help-bitcwv.dansopschool.nl^
@@ -58338,6 +58368,7 @@
 ||hljhrly.com^
 ||hljreasf.click^
 ||hljwg.com^
+||hllomophobias.info^
 ||hlmdc.com^
 ||hlopsha173.sbs^
 ||hlopzlotawkzaa.sbs^
@@ -64017,6 +64048,7 @@
 ||jcwjs.com^
 ||jd-runsa.club^
 ||jd-sportsgb.club^
+||jd.d2qlig.cfd^
 ||jd6050427.wixstudio.com^
 ||jdbzfwre.shop^
 ||jdcpz.com^
@@ -66076,6 +66108,7 @@
 ||karldiscount-eu.shop^
 ||karldufrenot.com^
 ||karlimi.com^
+||karllagerfcldsell.com^
 ||karllagerfeld.beer^
 ||karllagerfeld.vip^
 ||karloutletfr.com^
@@ -75231,7 +75264,6 @@
 ||moja-paczka.oimane.icu^
 ||moja-paczka.oineam.icu^
 ||moja-paczka.oiqqhe.icu^
-||moja-paczka.okliyzniu.cfd^
 ||moja-paczka.omnaeth.shop^
 ||moja-paczka.ooklale.icu^
 ||moja-paczka.poname.icu^
@@ -79965,6 +79997,7 @@
 ||o1-11lopx1ya89.f5dcxq.sbs^
 ||o1-1lxp01-v3-fe91.gf6tys.lat^
 ||o1-1x-movi7.ax7tjc.cfd^
+||o1-lx-fe29.bd7dzn.qpon^
 ||o105pl.convertri.com^
 ||o107l1llx-mo24.k5kxhb.sbs^
 ||o107lllxpl-yuyf.kn5qrm.top^
@@ -80005,6 +80038,7 @@
 ||o1ot11xp1mod-zs2x.m3tvan.sbs^
 ||o1otl1p1-v988.b4ycfn.top^
 ||o1ottl-lxpl9pgww-pub.kn5qrm.top^
+||o1ox-tku3.bd7dzn.qpon^
 ||o1p2x9d.lol^
 ||o1ty-x5op1ntf-mo11.c1xuua.top^
 ||o1x-l11plpub-dw23.ef1yqe.casa^
@@ -81529,7 +81563,6 @@
 ||ol-xpaczka.flockzlot24.cyou^
 ||ol-xpaczka.fogdarzloti24.cfd^
 ||ol-xpaczka.frictio247a3.my.id^
-||ol-xpaczka.fskoopqo23.sbs^
 ||ol-xpaczka.gghdsdghy356.cfd^
 ||ol-xpaczka.hdsryjbgt765.cfd^
 ||ol-xpaczka.hjgo4so3.cfd^
@@ -92996,6 +93029,7 @@
 ||polfundai.com^
 ||polgoupquantre.com^
 ||polgowreadyq.com^
+||polgrin.shop^
 ||polhomefurni.shop^
 ||policabri.cyou^
 ||policappoma.cyou^
@@ -94750,7 +94784,6 @@
 ||prodexadorixprimetrade.com^
 ||prodis.lol^
 ||prodiversayvalik.com^
-||prodochodplx9.xyz^
 ||prodok1002.best^
 ||produall.johncottingham.com^
 ||productiv.digital^
@@ -97850,6 +97883,7 @@
 ||rabatt-bonus.de^
 ||rabatt-center.de^
 ||rabatt-corner.de^
+||rabatt-hunter.de^
 ||rabatt-service.de^
 ||rabatt-tipps.de^
 ||rabatt-total.de^
@@ -97953,6 +97987,7 @@
 ||radiant-quake.com^
 ||radiant-repair.com^
 ||radiant-scraper.com^
+||radiant-shelter-mkcxft.flywp.xyz^
 ||radiant-skills.com^
 ||radiant-sprout.com^
 ||radiant-wallet.com^
@@ -99122,6 +99157,7 @@
 ||relocation.tools^
 ||relongturkiye.com^
 ||reltimeevent.site^
+||reltravo.com^
 ||relucspurg.cyou^
 ||relvadont.org^
 ||relvarita.world^
@@ -100470,6 +100506,7 @@
 ||rinsareint.cyou^
 ||rinsasmogl.rest^
 ||rinseripra.cyou^
+||rinsespeda.rest^
 ||rinsesviol.rest^
 ||rinsoleggi.cyou^
 ||rinsucypre.rest^
@@ -105484,6 +105521,7 @@
 ||shoparvo.shop^
 ||shopatkshipbox.com^
 ||shopavento.shop^
+||shopbargainmarket.shop^
 ||shopboswell.live^
 ||shopbrook.shop^
 ||shopcalm.shop^
@@ -115898,7 +115936,6 @@
 ||textunusual.cfd^
 ||textur001.com^
 ||textwithai.com^
-||texxt.schakelpuntbrabant.info^
 ||teymzzzb.shop^
 ||teyptnmc.icu^
 ||teyrmetra.site^
@@ -117196,7 +117233,6 @@
 ||thrivcanna.cyou^
 ||thrive-guardford.fyi^
 ||thriveaspiration.com^
-||thriveaspire.com^
 ||thriveautomation.net^
 ||thriveclaritypath.com^
 ||thriveexplore.com^
@@ -122332,6 +122368,7 @@
 ||v5n7k9.lat^
 ||v5p.podatgov.com^
 ||v5pk8n.icu^
+||v5q.lg8ems.top^
 ||v6-oqr.fit^
 ||v6-oqr.site^
 ||v67gf3hcw80s.xyz^
@@ -126820,6 +126857,7 @@
 ||vjqfq.com^
 ||vjryic.com^
 ||vjspanner.com^
+||vjzxdhai.shop^
 ||vkbejrfom.com^
 ||vkbjhlkyv.top^
 ||vkirtioitr.site^
