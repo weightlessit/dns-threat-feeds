@@ -2,8 +2,8 @@
 ! Description: Indicators of compromise (domain-based) from abuse.ch ThreatFox covering C2 and payload delivery
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-08-15 19:11:32 UTC
-! Total rules: 35690
+! Last modified: 2026-08-16 01:00:36 UTC
+! Total rules: 35657
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -133,7 +133,6 @@
 ||0zfu07h8.audioattenuatorschematic.digital^
 ||0zhx0obs.mustlovedogsmobilegrooming.com^
 ||0zrbstse.tiptop-shops.com^
-||1.cloud-safe.cfd^
 ||1.habladourf.top^
 ||1.kurama.ltd^
 ||1.outofsitechicago.com^
@@ -232,6 +231,7 @@
 ||1cxzkjf3.krautodetailing.com^
 ||1djqvowq.iaap2019.com^
 ||1e2sdyr4.honardartarikh.xyz^
+||1e2wdyj0.eng-usa-goldalign.com^
 ||1eriimge.consultingsolutionsjp.com^
 ||1ex763rkufgzrbhp.org^
 ||1f.mobile007.click^
@@ -329,7 +329,6 @@
 ||1zlu7sit.lltreeremoval.com^
 ||1ztyjh2vgszna2a4.org^
 ||1zuu6gbtn0w4199f.org^
-||2.cloud-safe.cfd^
 ||2000tiendasd1.com.co^
 ||2026.futbol^
 ||2026.zwaansails.nl^
@@ -507,6 +506,7 @@
 ||2z0nkkls.lumenbit.digital^
 ||2zjyp0pj.borschokf2dd.digital^
 ||2zm9lhlg.groeschelcompany.com^
+||2zslmvx8.theslimsplitsmethod.us^
 ||3-acc-domain.ru^
 ||303-bet.xyz^
 ||303.audio^
@@ -1095,6 +1095,7 @@
 ||7cj04th6.shartland.com^
 ||7controller.online^
 ||7controller.ru^
+||7cz5jg6k.enus-goldalign.com^
 ||7d6da0ri.axee.net^
 ||7dml.netstack.lat^
 ||7e4kctpk.orbitaldockingmodule.digital^
@@ -1172,7 +1173,6 @@
 ||7xqmvqlqtn5sjr3.top^
 ||7xqmvqlqtn5sjr3.webhop.me^
 ||7xv8nzfg.josephmichaelnh.com^
-||7yj72fkc.mint2layer.digital^
 ||7ykwhvxv.austeritymorg.digital^
 ||7zcef54a.eng-usa-goldalign.com^
 ||8.tcp.vip.cpolar.cn^
@@ -2497,7 +2497,6 @@
 ||antidote.ie^
 ||antigravity.study^
 ||antiq-telegraphyproduct.wiki^
-||antivirusscan.net^
 ||antlermotel.com.au^
 ||antoineruiz.it^
 ||antongandon.club^
@@ -2785,7 +2784,6 @@
 ||app.malcare.me^
 ||app.miloyannopoulos.com^
 ||app.obwhatsappdownload.com^
-||app.perk9parcel.coupons^
 ||app.physiolpo1icy.lat^
 ||app.pushonline.online^
 ||app.qq8893.com^
@@ -2869,7 +2867,6 @@
 ||appsrchcli.surgeon-snoot.lat^
 ||appujqrcbzsmxdjcs.greatcarprofessionalwindowtint.net^
 ||aprendoencasa.org^
-||aprendoya.com.py^
 ||aprooval-htel-gestionhelps.com^
 ||aproperprincessbows.com^
 ||apstudio-arch.pl^
@@ -4122,11 +4119,9 @@
 ||bet365persian.com^
 ||bet888win.info^
 ||bet88cf.com^
-||bet88hs.com^
 ||bet88nr.com^
 ||bet88tm.com^
 ||beta-cine-med.com^
-||beta-node.deal4harbor.coupons^
 ||beta.betway071.com^
 ||beta.casino-fascin.surf^
 ||beta.cyberdrift.surf^
@@ -5712,7 +5707,6 @@
 ||cdn-102.undraftedsuction.cfd^
 ||cdn-1415.brightcanvas.digital^
 ||cdn-2faclov.sbs^
-||cdn-303-web.flash5saver.coupons^
 ||cdn-b12.nifty4locker.coupons^
 ||cdn-b9.bleuforet.coupons^
 ||cdn-clodflare-fotns.cfd^
@@ -5726,7 +5720,6 @@
 ||cdn-server.beer^
 ||cdn-server.click^
 ||cdn-speed.beer^
-||cdn-sss.click^
 ||cdn-telemetry-relaynn.online^
 ||cdn-yethounds.beer^
 ||cdn.api-middle-connect.com^
@@ -6324,7 +6317,6 @@
 ||cloud-save-image.sbs^
 ||cloud-scn.info^
 ||cloud-sphere.digital^
-||cloud-st1.perk9parcel.coupons^
 ||cloud-stack-run-base.co^
 ||cloud-svc.site^
 ||cloud-sync-engine.christmas^
@@ -7979,7 +7971,6 @@
 ||dev.coderlap.pics^
 ||dev.cridfpentathlonmoderne.fr^
 ||dev.esteghlal.news^
-||dev.flash5saver.coupons^
 ||dev.ghcoop.vn^
 ||dev.holidaysm188.top^
 ||dev.masihsm188.top^
@@ -8177,7 +8168,6 @@
 ||dirb.bahigo90bet.com^
 ||dirdurr.eu^
 ||direct-access-point.vertjardin.coupons^
-||direct-web-client.perk9parcel.coupons^
 ||direwolf3ddtab5anvhulcelauvoxu2a7l264hqs6vtxtgrqsjfvodid.onion^
 ||direwolf66s5zealav7azcyqeipiswecvvnapyuby3dek473kyqfucad.onion^
 ||direwolfcdkv5whaz2spehizdg22jsuf5aeje4asmetpbt6ri4jnd4qd.onion^
@@ -8727,6 +8717,7 @@
 ||dsszzi.linkpc.net^
 ||dstech.net^
 ||dsthypsv.winter-pulse.christmas^
+||dt6wrsv7.en-usa-sightfresh.com^
 ||dtafamily.com^
 ||dtc.aasscc.how^
 ||dtc.cebolinhaburger.com^
@@ -8931,7 +8922,6 @@
 ||e365aac901114d3db00d42b59e56a037-cn-hangzhou.alicloudapi.com^
 ||e3giv37r.pokerpars.poker^
 ||e3grmgyn.drubenginecologo.com^
-||e3ys4ixz.mint2layer.digital^
 ||e40nbbpq.winmastersbetiran.com^
 ||e43hciingepfdx74bsmy3z537tkumjvkzk2lpp6ixvsblwdgnsda.arweave.net^
 ||e4hvx2nsjqekcpf5.org^
@@ -9040,7 +9030,6 @@
 ||eco-system-track.freshhill.ru^
 ||ecoborr.com.br^
 ||ecoeoeoakwswwsaq.xyz^
-||ecofetes.com^
 ||ecofla.com^
 ||ecokgyweeqwgosoy.xyz^
 ||ecole-surf-hendaye.fr^
@@ -9580,7 +9569,6 @@
 ||end-now.org^
 ||endcrahn7zfn58n8.org^
 ||endlessai.io^
-||endlessgrumbler.cc^
 ||endlesssummer-pools.com^
 ||endormo.com^
 ||endpoint.project0.cc^
@@ -11320,7 +11308,6 @@
 ||ftp.fibrasanchez.com^
 ||ftp.fundacionpiaz.org^
 ||ftp.gebzekamlok.com^
-||ftp.henfruit.ro^
 ||ftp.hivimer.com^
 ||ftp.holzbrenzii.com^
 ||ftp.lodenrandmarines.com^
@@ -11777,8 +11764,6 @@
 ||gbhij.vilagom.hu^
 ||gbij.betbuf90.com^
 ||gbntwgmi.boro2.bet^
-||gbo.alpinematters.com^
-||gbo.gadgetwalabd.com^
 ||gbowm.cannatural.cz^
 ||gbqlwrat.prozhecart.com^
 ||gbrdqbb.bunos.bet^
@@ -12251,7 +12236,6 @@
 ||global-infra-logic-get-hash.wiki^
 ||global-infra-node-date-hash.wiki^
 ||global-research.space^
-||global-site-check.bonus3basket.coupons^
 ||global-sync-srv.orbit6crate.coupons^
 ||globalantitheft.com^
 ||globalbusinessclubs.com^
@@ -12503,10 +12487,8 @@
 ||gopher.id^
 ||gopleac.art^
 ||gor.aasscc.how^
-||gor.alpinematters.com^
 ||gor.cardiffphysio.com^
 ||gor.cebolinhaburger.com^
-||gor.gadgetwalabd.com^
 ||gor.it-bd.com^
 ||goraccounting.com^
 ||gordian-knot.no-ip.info^
@@ -13472,8 +13454,6 @@
 ||hijosdelasestrellas.cl^
 ||hijtec.com^
 ||hikanzu.com^
-||hil.alpinematters.com^
-||hil.gadgetwalabd.com^
 ||hilacbatoriaaa.cc^
 ||hilactosa.com^
 ||hill-forge.cloak-custody.pics^
@@ -13560,6 +13540,7 @@
 ||hms.xybcaap.my.id^
 ||hmskuzk.get-thyrafemmebalance.com^
 ||hmwrabs.btyek.cfd^
+||hmwtez6m.getbraindefender.us^
 ||hn40pz.milo3ren.lat^
 ||hn8ah9qr.pdfteach.ir^
 ||hnainyw.ninjafruitcubes.bet^
@@ -15145,6 +15126,7 @@
 ||jbwjdp.rial.bet^
 ||jbyap.sm188login.cyou^
 ||jc5eb1c5.radioshartbandi.chat^
+||jcagence.com^
 ||jcdestinostravel.com^
 ||jcdlhks8.node-pulse.digital^
 ||jchcx.lakatoshaz.hu^
@@ -15372,6 +15354,8 @@
 ||jobsindeep.com^
 ||jobworkny.com^
 ||jodhpurtaxiservice.co.in^
+||joe.10001slot.org^
+||joe.sm188dadu.top^
 ||joellecool.com^
 ||joerass.icu^
 ||jofcostadelsol.com^
@@ -15582,8 +15566,6 @@
 ||jvtu4ew.notice-ohlamon.surf^
 ||jvuqdwzk.aamothership.com^
 ||jvvd7wco.greenestreetchurch.com^
-||jvz.alpinematters.com^
-||jvz.gadgetwalabd.com^
 ||jw27s0al.site-takhtenard-sharti-betland.com^
 ||jwfckz.onlineshart.com^
 ||jwm4245f.schleer.hu^
@@ -16429,6 +16411,7 @@
 ||kusahaber.com^
 ||kuwwcojw.hugugmadani6.xyz^
 ||kuyquso.akharinbama.ir^
+||kv73gaf5.get-goldalign.com^
 ||kvdex.accredit.hu^
 ||kvetkoms.smallshopsandwhatknot.com^
 ||kvid5obz.awakepathog.digital^
@@ -16824,6 +16807,7 @@
 ||leanstartup.it^
 ||leap7pathgate.quantumbitlink.bet^
 ||leappoploaderinstantly.monster^
+||learning-objects.ch^
 ||learnnextpagecore.monster^
 ||learnpageflowhub.monster^
 ||learnzonepagehub.monster^
@@ -17753,7 +17737,6 @@
 ||m-designbuild.com^
 ||m-f168.com^
 ||m-firma.lat^
-||m-link.bonus3basket.coupons^
 ||m-u88.com^
 ||m.58wincom.shop^
 ||m.acrobat.lat^
@@ -18107,7 +18090,6 @@
 ||maismadeshop.com^
 ||maisonwidad.com^
 ||majestichospitality.com^
-||majin-54074.portmap.host^
 ||major-pur.adi8hesplayer.pics^
 ||majorconstructionmpv.com^
 ||majorwager.com^
@@ -19349,7 +19331,6 @@
 ||mmyeukskiwwyumug.xyz^
 ||mn.manicottiearring.cfd^
 ||mnainnovations.com^
-||mndivorcemediator.com^
 ||mndtrprcs.com^
 ||mnejbrs.volleyball.vin^
 ||mnepohui.sbs^
@@ -20125,7 +20106,6 @@
 ||navalc.cyou^
 ||navamusicstore.com^
 ||navigatorshub.com^
-||navigocanada.ca^
 ||navj.blackriverlawn.com^
 ||nawkvml.oxiidbet.com^
 ||naya.leetodev.me^
@@ -20926,7 +20906,6 @@
 ||ns-cyber-server.sbs^
 ||ns-server-isdjs-icons.sbs^
 ||ns-server-jscdn.beer^
-||ns1.bonus3basket.coupons^
 ||ns1.cacheflow.top^
 ||ns1.deepsekapi.cn^
 ||ns1.jane2010.filegear-sg.me^
@@ -23253,10 +23232,6 @@
 ||primebuilderswallc.com^
 ||primecareheart.co.ke^
 ||primecarelearningcenter.com^
-||primedatahost1.lol^
-||primedatahost2.lol^
-||primedatahost3.lol^
-||primedatahost4.lol^
 ||primeglow2unit.mistbriar.garden^
 ||primeglowunit.zenithflowgrid.garden^
 ||primehireinc.in^
@@ -23670,7 +23645,6 @@
 ||pussycoins.lol^
 ||put.cargomanbd.com^
 ||put.elythia.online^
-||puump.live^
 ||puygyxc6.parspoker90.com^
 ||pv0onuvi.habbofutbol.com^
 ||pva.cargomanbd.com^
@@ -25014,6 +24988,7 @@
 ||rijqlqe.keyslimdrops-com.com^
 ||rijschool-geduld.nl^
 ||rika90.bet^
+||rilzg1u6.shop-sightfresh.com^
 ||rim-k11-outer.polar-axis.cfd^
 ||rim.looprim.pics^
 ||rimsonspharma.com^
@@ -25668,7 +25643,6 @@
 ||s2s942l0.modernsignal.digital^
 ||s3-microservice-updatehub.cc^
 ||s3-python.cc^
-||s3.amber9stash.coupons^
 ||s35umghu.basketballiran.bet^
 ||s3qrni26.bcgamefarsi.com^
 ||s3unirpm.bet90land.com^
@@ -26100,11 +26074,9 @@
 ||sdkymow.amoozeshtagipour.shop^
 ||sdlclrs.akhlageslami.xyz^
 ||sdlpsajdioasjd-60039.portmap.host^
-||sdn-cloudflare-js-botstrup.cfd^
 ||sdn-cloudflare-js-botstrup.click^
 ||sdn-cloudflare-js-css.cfd^
 ||sdn-cloudflare-js-css.click^
-||sdn-cloudflare-js.click^
 ||sdn-inapi-server.sbs^
 ||sdnssmdf-js.beer^
 ||sdnstatistic.com^
@@ -29970,7 +29942,6 @@
 ||trexontunral.contabilfacil.sbs^
 ||tri-media.com^
 ||tri-spectra.com^
-||tri2s-sh7es.com^
 ||triage-test.evilpony.win^
 ||tribalpath.nomadsuppurat.ru^
 ||tribalsaltdealer.com^
@@ -30718,7 +30689,6 @@
 ||updatcloud.us^
 ||update-check.com^
 ||update-microsoft-data.services^
-||update-system-srv.flash5saver.coupons^
 ||update-treix.com^
 ||update-trellix.com^
 ||update.bloxstealer.xyz^
@@ -31098,7 +31068,6 @@
 ||v2.artiminds.com^
 ||v2.asadoreltolmo.com^
 ||v2.barefootblonde.com^
-||v2.bet88hs.com^
 ||v2.bikeboom.info^
 ||v2.borneorhinoalliance.org^
 ||v2.braniffpages.com^
@@ -31153,7 +31122,6 @@
 ||v3.artiminds.com^
 ||v3.asadoreltolmo.com^
 ||v3.barefootblonde.com^
-||v3.bet88hs.com^
 ||v3.bikeboom.info^
 ||v3.borneorhinoalliance.org^
 ||v3.braniffpages.com^
@@ -32967,7 +32935,6 @@
 ||wpsmart.app^
 ||wpt-8gek.162-215-130-152.cpanel.site.oligoflora.com.br^
 ||wpteamcdn.beer^
-||wptest.click^
 ||wptraining.cloudware.ng^
 ||wpuadmin.shop^
 ||wpvz.boroo.bet^
