@@ -2,8 +2,8 @@
 ! Description: Malware distribution domains from abuse.ch URLhaus (hosts-file format, updated every 5 minutes)
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-08-18 02:14:31 UTC
-! Total rules: 344
+! Last modified: 2026-08-18 06:34:57 UTC
+! Total rules: 352
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -23,6 +23,7 @@
 ||allendostmen.com^
 ||alternativas.ru^
 ||app.appzcvb.com^
+||app.faster-cdn-hk.click^
 ||areyouready.co.za^
 ||atasapka.com.tr^
 ||atom.freehosting.dev^
@@ -41,6 +42,7 @@
 ||book.rollingvideogames.com^
 ||bridgeroad.maverickpreviews.com^
 ||brightworks.cz^
+||bserail.com^
 ||bvaco.com^
 ||cambodiatouristservice.com^
 ||cat.dashabi.in^
@@ -82,6 +84,7 @@
 ||dezcom.com^
 ||disk.accord1key.cn^
 ||divvanews.com^
+||dl.1003b.56a.com^
 ||dl.dzqzd.com^
 ||dl.faster-cdn-hk.click^
 ||dl.natgo.cn^
@@ -90,6 +93,7 @@
 ||down.54nb.com^
 ||down.fwqlt.com^
 ||down.pcclear.com^
+||down.qqfarmer.com.cn^
 ||download.caihong.com^
 ||download.doumaibiji.cn^
 ||download.haozip.com^
@@ -123,8 +127,8 @@
 ||gabyagozetim.com^
 ||galerisenimutiara.com^
 ||game.dualuoilocphu.com^
-||garogradba.mk^
 ||genddos.st^
+||gestroom.it^
 ||globalbank.us^
 ||grapemundo.com^
 ||greenf.alexion.rs^
@@ -135,15 +139,16 @@
 ||hitstation.nl^
 ||hobobot.net^
 ||hseda.com^
+||htdentshop.com^
 ||icoffeecloud.com^
 ||ignetwork.us^
 ||igra123.com^
+||ijbfi.pk^
 ||ikincielesyaciankara.com.tr^
 ||ircftp.net^
 ||isiore.com.co^
 ||itssprout.com^
 ||ixirgroup.com^
-||jawaratekno.com^
 ||jenniferloeffler.com^
 ||jessespridecharters.com^
 ||jlwz.cn^
@@ -182,6 +187,7 @@
 ||noithaticon.vn^
 ||nusatoyota.co.id^
 ||ny.lshdw.cc^
+||ojang.pe.kr^
 ||oknoplastik.sk^
 ||onfiltre.com.tr^
 ||outpost.co.ke^
@@ -194,11 +200,9 @@
 ||planetariumobil.ro^
 ||postelnini.mk^
 ||preciosasjoyitas.com.mx^
-||prtsscr.com^
 ||public.demo.securecloudsandbox.com^
 ||purbalinggamandiri.com^
 ||pvsa.gxfugy.cn^
-||qiniuyunxz.yxflzs.com^
 ||qv.co.ke^
 ||ramirex.ro^
 ||rcf.co.mz^
@@ -253,13 +257,13 @@
 ||support.clz.kr^
 ||sutterpoint.com^
 ||svirtual.sanviatorperu.edu.pe^
+||swiftfusion.tech^
 ||sydneyaffordablecremations.com.au^
 ||talentrecruitments.com^
 ||tangentwaves.com^
 ||tanscarattorneys.co.tz^
 ||tapestryoftruth.com^
 ||tarkioweb.com^
-||tecunonline.com^
 ||tehnomag.rs^
 ||tengfeidn.cn^
 ||tenis-team-km.com^
@@ -274,6 +278,7 @@
 ||timelevel12.com^
 ||toolshare.com.tr^
 ||top8onlinegame.com^
+||tpp.om-stock.com^
 ||transparenciacanaa.com.br^
 ||trtmyanmar.com^
 ||upaicdn.xinmei365.com^
@@ -309,6 +314,7 @@
 ||www.cutting-edge.in^
 ||www.drgenov.com^
 ||www.first-security-verden.de^
+||www.gestroom.it^
 ||www.hostingcloud.science^
 ||www.hqsblog.com^
 ||www.hseda.com^
@@ -319,11 +325,13 @@
 ||www.knockknock.top^
 ||www.konsor.ru^
 ||www.medises.co.kr^
+||www.mixierealty.com^
 ||www.myvcart.com^
 ||www.namuvpn.com^
 ||www.nccommunication.be^
 ||www.newkey.co.kr^
 ||www.notbak.com^
+||www.ojang.pe.kr^
 ||www.reifenquick.de^
 ||www.saf-oil.ru^
 ||www.salonmarketing.ca^
