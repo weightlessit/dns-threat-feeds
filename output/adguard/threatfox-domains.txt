@@ -2,8 +2,8 @@
 ! Description: Indicators of compromise (domain-based) from abuse.ch ThreatFox covering C2 and payload delivery
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-08-20 19:12:44 UTC
-! Total rules: 37151
+! Last modified: 2026-08-21 01:01:29 UTC
+! Total rules: 37186
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -89,7 +89,6 @@
 ||0jubd61o.thornwick.digital^
 ||0ksjitt3.hanovereyephotography.com^
 ||0kt.one^
-||0l833z7h.ironbark.digital^
 ||0lq2f3fa.yekbetiran.com^
 ||0lt9m77b.roundtheclockcare.net^
 ||0maiqxb32q8va1yc.org^
@@ -771,6 +770,7 @@
 ||4u9vid0x0qdcp6kg.org^
 ||4uc7neco.abcdbro.com^
 ||4v96patx.vajename.xyz^
+||4vhdn6ve.cognigenpluss.com^
 ||4vudiyf9hkm5t5x0.org^
 ||4vvkeuy6.bet120xpro.com^
 ||4vxdasln.brand5calpel.lat^
@@ -2655,6 +2655,7 @@
 ||apartmandestne.cz^
 ||apartmanmallorca.sk^
 ||apartments-review2138768.sbs^
+||apartments-review261634860.sbs^
 ||apartments-review261679200.sbs^
 ||apartments-vrfy5123.sbs^
 ||apbohorses.com^
@@ -4677,7 +4678,6 @@
 ||bkn-extrnets.com^
 ||bkng-updt.com^
 ||bkns-connecs.com^
-||bkns-extrans.com^
 ||bkns-partns.com^
 ||bkns-prrtner.com^
 ||bkns-prtner.com^
@@ -5383,6 +5383,7 @@
 ||burhaniglassalluminium.com^
 ||burignon.ch^
 ||burministr5123.icu^
+||burn-burnblend.com^
 ||burn-flow.com^
 ||burn.sram-wear.surf^
 ||burn.wildfirelake.lat^
@@ -5558,6 +5559,7 @@
 ||c00l53nm.libertytokan.com^
 ||c02az6tr.lakeweb.digital^
 ||c0de-line.pavi1xen.bet^
+||c0jcfjcz.eloncod.com^
 ||c0x99c0r.alsulmicpa.com^
 ||c0yc77zn.blackjackonlineplay83.com^
 ||c168-bm.com^
@@ -6271,6 +6273,7 @@
 ||cheeseloversmenu.com^
 ||cheeshomireciple.com^
 ||cheeshoumreciple.com^
+||chefvoyage.com^
 ||chekbrow.beer^
 ||cheloks.pro^
 ||chelseamobiletyrefitting.co.uk^
@@ -6891,6 +6894,8 @@
 ||coffeeincup.monster^
 ||cogni-path.net^
 ||cogniclearplus.com^
+||cogniclyr.com^
+||cognigenpluss.com^
 ||cogniserge.us^
 ||cognisurgeusa.com^
 ||cogv.bet90forward.win^
@@ -7817,6 +7822,7 @@
 ||danneventhire.com.au^
 ||danslamalledesillwie.com^
 ||dansstudioworldclass.is^
+||dantilock.com^
 ||dantora.fun^
 ||danvicsafetysolutions.com.ng^
 ||dao-etherfi.xyz^
@@ -8010,6 +8016,7 @@
 ||db1mbt6f1x50an2u.org^
 ||db7orl54.bet120xpro.com^
 ||dbabrakes.my^
+||dbagroup.cl^
 ||dbdndfs.artisourlifestyle.com^
 ||dbeasxyp.derbi.football^
 ||dbellos.com^
@@ -9411,6 +9418,8 @@
 ||ecgkwwikwumookeu.xyz^
 ||echaefer.com^
 ||echelette.ch^
+||echo--free.com^
+||echo-fre.com^
 ||echo-pr.co.uk^
 ||echo-sync.sorix7en.surf^
 ||echo-xen-us.com^
@@ -9787,6 +9796,7 @@
 ||elo.canamrent.com^
 ||elo.dvlv88.top^
 ||eloakoa.crownconnectpk.com^
+||eloncod.com^
 ||eloncoins.fun^
 ||elontoken.lol^
 ||elopharma.com.br^
@@ -11519,6 +11529,7 @@
 ||forcevision.hu^
 ||forcrash-classnet.christmas^
 ||fordankaraservisi.com^
+||forecast-chaos.com^
 ||forefern.pixelnode.lat^
 ||forehia.shop^
 ||foresightedtech.com^
@@ -11884,6 +11895,7 @@
 ||fulusus.com^
 ||fuluz.akonyvelod.hu^
 ||fun88kyc.com^
+||funbelievableplay.com^
 ||funblue.xyz^
 ||funcasinospain.com^
 ||fundacioanaribot.org^
@@ -14662,6 +14674,7 @@
 ||i0gxyl9q.betaffiliate.marketing^
 ||i0wrocb4.bet90forward.win^
 ||i0zaakp5.monotheism-sled.digital^
+||i1i374tc.echo-fre.com^
 ||i1s4s2bo.disnakerkopjambikota.com^
 ||i1zec9op.us-en-us-neuroxen.com^
 ||i365pptc.lion1bet.com^
@@ -15026,6 +15039,7 @@
 ||immobiliarepassoni.it^
 ||immodev.fr^
 ||immoplus-bern.ch^
+||immorein-wyne.ch^
 ||immortal-service.cc^
 ||imnx.bet303.site^
 ||imobilityes.cabvlliahermosa.com.mx^
@@ -15156,6 +15170,7 @@
 ||inhlpdz.trysynaptigen.com^
 ||inicial-avocats.fr^
 ||iniziativa-da-las-alps.ch^
+||iniziativadalasalps.ch^
 ||injuryarbitration.drdatasaver.com^
 ||inkbossstudios.com^
 ||inkumbrella.com^
@@ -15481,6 +15496,7 @@
 ||isgilan.com^
 ||isgsofgey.com^
 ||ishevmrr.herbertrutt.work^
+||isl4eo0i.echo--free.com^
 ||islandepstain.cc^
 ||islandsongchoir.ca^
 ||isleuthhound.com^
@@ -16137,7 +16153,6 @@
 ||js-mirror.com^
 ||js-server.beer^
 ||js-shop.my^
-||js.byxly.eu.cc^
 ||js.galmabuna.com^
 ||js0qnoh0.alphasync.digital^
 ||js5po212.kaarenorge.com^
@@ -19875,7 +19890,6 @@
 ||mhvigyc.aaudizen.com^
 ||mhyp.bahigo90bet.com^
 ||mi5t-cache.2zavlore.surf^
-||mi8r8dc4.ironbark.digital^
 ||mi9h8uf4.ironrock.digital^
 ||mia-u.pl^
 ||miakz.com^
@@ -20769,7 +20783,6 @@
 ||my-electrum.at^
 ||my-glida.co.il^
 ||my-googlemeeting.com^
-||my-service.eu.cc^
 ||my.thispc.net^
 ||myaddon.be^
 ||mybananamoneygrammafon.com^
@@ -20869,6 +20882,7 @@
 ||mzwum.wilhelmglobal.com^
 ||mzzetrvqf.jadoou.space^
 ||n00bventures.com^
+||n058152033245.netvigator.com^
 ||n0de-stream.grov9mira.lat^
 ||n0df7.kernelgrid.ink^
 ||n0sasahqstdjb67a.frostapi.com^
@@ -21734,6 +21748,7 @@
 ||northwestingeneralbuildingsolutions.com^
 ||nortideis9.plsqlnew.surf^
 ||nortspec.poorbet.lat^
+||noscalpelvasectomy.com^
 ||nosebudcoin.lat^
 ||nosebudsol.lol^
 ||nosja.aiteszt.com^
@@ -22345,6 +22360,7 @@
 ||oltumuretoursandsafaris.com^
 ||oltxiw5v.eng-neuroxen.com^
 ||oluyelemercyfoundation.org^
+||olviro.ch^
 ||olvo42131.world^
 ||olx777.xyz^
 ||olxcasinogames.com^
@@ -22770,6 +22786,7 @@
 ||ostlomtophamchese.com^
 ||ostrajkostamenkovic.edu.rs^
 ||ostseeblick-schoenhagen.de^
+||osuna.ch^
 ||ot2k.mav3torel.surf^
 ||otarires.ch^
 ||otb-content.com^
@@ -22871,6 +22888,7 @@
 ||owuymoaeegmemqku.xyz^
 ||owwgcmucysswyuky.xyz^
 ||owxoxg4v.jetbetkade.com^
+||owxqk8og.dantilock.com^
 ||owyiewwkgqcaugkm.xyz^
 ||owyisimcwuikgwss.xyz^
 ||owywioyuowqaoocg.xyz^
@@ -25605,6 +25623,7 @@
 ||rbcroyalbank-homesd.info^
 ||rbcroyalbank-homese.info^
 ||rbdncyyrpu.club^
+||rblxgivex.com^
 ||rbnz.hairbyniki.com^
 ||rbqsvbo.fidoubet.com^
 ||rbrkej.liberty--token.com^
@@ -26316,6 +26335,7 @@
 ||rooj.fr^
 ||room-v5-dark.curva-flux.cfd^
 ||roostersden.org^
+||root-cherry.com^
 ||root-cul.xamir3on.lat^
 ||root-directory-repository-process-vault.wiki^
 ||root-hub.foersteron.work^
@@ -27216,6 +27236,7 @@
 ||sculpturetown.uk^
 ||scuoladellamela.ch^
 ||scuoladiequitazionemicheletto.it^
+||scuolatao.ch^
 ||scvnivk.sabaad724.bet^
 ||sd-fk.com^
 ||sd9arw2r.flos-strip.digital^
@@ -27269,6 +27290,7 @@
 ||seasoem.cyou^
 ||season-flarenetwork.xyz^
 ||season7-ethena.finance^
+||seat-aviation.com^
 ||seathekeys.co^
 ||seatskids.com^
 ||seaukokksccciqcg.xyz^
@@ -28634,6 +28656,7 @@
 ||souls-entire-defined-routes.trycloudflare.com^
 ||souls-of-wildlife.ch^
 ||soultrainds.com^
+||sound-obstacle.com^
 ||soundbuildinginspections.com.au^
 ||soundbyte1.co.za^
 ||soundclosed.bookuni.lat^
@@ -29670,6 +29693,7 @@
 ||survivaltraits.com^
 ||susancbennett.lat^
 ||susichems.com^
+||susieleeforcongress.com^
 ||sutf.kafekarachi.com^
 ||suvc.backgammon.download^
 ||suvjqi.liberty-token.org^
@@ -30877,6 +30901,7 @@
 ||tlbwfid.3toravix.lat^
 ||tllts.com^
 ||tlmevyemf.jadoou.lat^
+||tlvg.ch^
 ||tlwyot.laketappsboatcompany.com^
 ||tmajnhws.sazebetonarme.xyz^
 ||tmegramapps.com^
@@ -32371,6 +32396,7 @@
 ||v0hkpadr04mbz5lkearqa.com^
 ||v0lt-sync.dbuswet.surf^
 ||v1.yhelwah.net^
+||v19k5zdn.cogniclyr.com^
 ||v1l1cn91.therodeoroundup.com^
 ||v1mv41yoj46qhq9y.org^
 ||v1rsowak.xbetone.com^
@@ -32751,6 +32777,7 @@
 ||verlata.it^
 ||verlfusercapa.com^
 ||vermoegen-mit-plan.de^
+||verokase.xyz^
 ||veronicamishaan.com^
 ||versionpi81.icu^
 ||vertbaum9view.exmeshlogic.garden^
@@ -33093,6 +33120,13 @@
 ||vm-list.8dorexin.surf^
 ||vmax66.club^
 ||vmgs.autumnleavestreeremovalct.com^
+||vmi3003111.contaboserver.net^
+||vmi3228488.contaboserver.net^
+||vmi3462151.contaboserver.net^
+||vmi3467394.contaboserver.net^
+||vmi3469820.contaboserver.net^
+||vmi3474446.contaboserver.net^
+||vmi3474645.contaboserver.net^
 ||vmidxev.troythebrickmason.com^
 ||vmiyjlp.brain--defender.com^
 ||vmjkew.thelibertytoken.net^
@@ -36932,6 +36966,7 @@
 ||zlcv.bossynailspa.com^
 ||zldtgwwp.brj-contracting.com^
 ||zleishitestttg.store^
+||zlhmp377.burn-burnblend.com^
 ||zlhoth.moqua8k.com^
 ||zljjjfgr.cyou^
 ||zloapobikahy23.bond^
