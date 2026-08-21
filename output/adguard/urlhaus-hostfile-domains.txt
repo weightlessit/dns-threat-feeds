@@ -2,15 +2,14 @@
 ! Description: Malware distribution domains from abuse.ch URLhaus (hosts-file format, updated every 5 minutes)
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-08-21 07:27:25 UTC
-! Total rules: 403
+! Last modified: 2026-08-21 12:36:45 UTC
+! Total rules: 391
 !
 ! Auto-generated -- do not edit manually.
 !
 ||0022a601.pphost.net^
 ||123.ywxww.net^
 ||1717.1000uc.com^
-||abdulahad.net^
 ||acc.jiangsujiaxue.com^
 ||acms.saleseos.com^
 ||admin.byte.in.ua^
@@ -60,7 +59,6 @@
 ||cat.xiaoshabi.nl^
 ||catbaparadisehotel.com.vn^
 ||cdaonline.com.ar^
-||cdn.file6.goodid.com^
 ||celebratingseniors.net^
 ||chat-server.maverickpreviews.com^
 ||cheatclients.com^
@@ -72,7 +70,6 @@
 ||cl.ssouy.com^
 ||cloud.pearlpeel.com^
 ||clubdetiroelpicarcho.com^
-||cn.unionlever.com^
 ||co-emas.com^
 ||coconutoficial.com.br^
 ||colibrik.com^
@@ -94,13 +91,11 @@
 ||dcrun.co.uk^
 ||dcwblida.dz^
 ||deagroup-ks.com^
-||deliverymailreport.co.za^
 ||delp-heizungsbau.de^
 ||dexios.co.za^
 ||dezcom.com^
 ||disk.accord1key.cn^
 ||divvanews.com^
-||dl.1003b.56a.com^
 ||dl.dzqzd.com^
 ||dl.myresult.co.za^
 ||dl.natgo.cn^
@@ -111,7 +106,6 @@
 ||down.54nb.com^
 ||down.fwqlt.com^
 ||down.pcclear.com^
-||down.qqfarmer.com.cn^
 ||download.caihong.com^
 ||download.doumaibiji.cn^
 ||download.haozip.com^
@@ -130,13 +124,11 @@
 ||en.taichuan.com^
 ||endpoint.project0.cc^
 ||epanpano.com^
-||everycarebd.com^
 ||fakers.co.jp^
 ||farschid.de^
 ||fd.v2downf.shop^
 ||fdrv.beeyuskincare.co.nz^
 ||file.blackint3.com^
-||file.uhsea.com^
 ||filerit.com^
 ||first-security-verden.de^
 ||firstratezim.com^
@@ -154,7 +146,6 @@
 ||genddos.st^
 ||globalbank.us^
 ||grantexx.com^
-||grapemundo.com^
 ||greenf.alexion.rs^
 ||grupomcperu.com^
 ||gutando.com^
@@ -162,26 +153,22 @@
 ||helnivo.vu^
 ||hitman-pro.ru^
 ||hitstation.nl^
-||hobobot.net^
 ||hseda.com^
-||htdentshop.com^
 ||hypercorevector5.lol^
 ||icoffeecloud.com^
 ||ignetwork.us^
 ||igra123.com^
 ||ikincielesyaciankara.com.tr^
-||indusenterprises.co^
 ||ircftp.net^
 ||isiore.com.co^
 ||itsmystik.com^
 ||itssprout.com^
-||ixirgroup.com^
-||jawaratekno.com^
 ||jenniferloeffler.com^
 ||jessespridecharters.com^
 ||jlwz.cn^
 ||joyeriatauro.com^
 ||kavacanada.ca^
+||kee126.com^
 ||kenwillzltd.com^
 ||khavar.com^
 ||kimyen.net^
@@ -222,7 +209,6 @@
 ||noithaticon.vn^
 ||nusatoyota.co.id^
 ||ny.lshdw.cc^
-||oim.doganltd.com.tr^
 ||ojang.pe.kr^
 ||oknoplastik.sk^
 ||one-graup.com^
@@ -291,11 +277,11 @@
 ||solar-sanat.net^
 ||somostask.co^
 ||spgint.com^
+||static.ilclock.com^
 ||static.topxgun.com^
 ||static.youdm.cn^
 ||stdown.dinju.com^
 ||studiogioeli.it^
-||suavasua.vn^
 ||sunix-technology.com^
 ||support.clz.kr^
 ||sutterpoint.com^
@@ -310,6 +296,7 @@
 ||tarkioweb.com^
 ||tattinamecheap.com^
 ||teakivo.com^
+||tecunonline.com^
 ||tehnomag.rs^
 ||tengfeidn.cn^
 ||tenis-team-km.com^
@@ -328,11 +315,13 @@
 ||trtmyanmar.com^
 ||twitch.tj^
 ||twu-hwt.org^
+||upaicdn.xinmei365.com^
 ||upchemicals.co.in^
 ||update.cg100iii.com^
 ||us.wind0ws.net^
 ||vcc-library.uk^
 ||verifyidentify.com^
+||versaclean.com.br^
 ||veryboys.com^
 ||vgd.vg^
 ||vibecoders.vip^
@@ -346,6 +335,7 @@
 ||widexenmexico.com.mx^
 ||windomstatetheater.com^
 ||winds11.site^
+||wittenhorst.eu^
 ||wqok85qtq.net^
 ||www-connect-secure-wellcfargo.sekolahkejarpaket.com^
 ||www.2goelectricity.cloud^
@@ -356,7 +346,6 @@
 ||www.backupallfresh2030.com^
 ||www.benshamcentre.co.uk^
 ||www.blackhattoolz.com^
-||www.bratusferramentas.grupomoltz.com.br^
 ||www.chenwangqiao.com^
 ||www.controliumbt.com^
 ||www.crazywickedaddiction.com^
@@ -370,7 +359,6 @@
 ||www.jozefinskiatelje.si^
 ||www.justturtle.com^
 ||www.kenwillzltd.com^
-||www.khavar.com^
 ||www.knockknock.top^
 ||www.konsor.ru^
 ||www.medises.co.kr^
