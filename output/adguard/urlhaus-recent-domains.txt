@@ -2,8 +2,8 @@
 ! Description: Domains extracted from recently reported malicious URLs tracked by abuse.ch URLhaus
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-08-22 12:29:22 UTC
-! Total rules: 617
+! Last modified: 2026-08-22 13:10:34 UTC
+! Total rules: 619
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -160,6 +160,7 @@
 ||dusk-omit-epic.xyz^
 ||earlnotgray.xyz^
 ||earltoll-snap.xyz^
+||eccmice.com^
 ||eclipsebible.com^
 ||edisonmanotas.free.nf^
 ||effectively32.infinityfree.me^
@@ -186,6 +187,7 @@
 ||firstratezim.com^
 ||fishwallhand.xyz^
 ||fkoqonr2vgbsw7qu.public.blob.vercel-storage.com^
+||flicargo.com^
 ||flooriscoveringworld.com^
 ||flux-heldsham.xyz^
 ||foe-flawmire.xyz^
