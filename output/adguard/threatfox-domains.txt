@@ -2,8 +2,8 @@
 ! Description: Indicators of compromise (domain-based) from abuse.ch ThreatFox covering C2 and payload delivery
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-08-22 18:53:55 UTC
-! Total rules: 36018
+! Last modified: 2026-08-22 19:15:46 UTC
+! Total rules: 36020
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -9787,6 +9787,7 @@
 ||eng--neuroxen.com^
 ||eng--prostavaive.com^
 ||eng--sightfresh.com^
+||eng--theeloncode.com^
 ||eng--thyrafemmebalance.com^
 ||eng--tinnitrol.com^
 ||eng--us-echoxen.com^
@@ -16793,6 +16794,7 @@
 ||kzsbavb.visszateritok.hu^
 ||kzsf.concretewestgj.com^
 ||kztxtnj.pastiadajalan.pro^
+||kzvek799.eng--theeloncode.com^
 ||kzwvrleb.irrigation-monitoring-system.garden^
 ||l04de9-span.closer1ook.garden^
 ||l1.topayapp.org^
@@ -26648,6 +26650,7 @@
 ||segfortecorretoradeseguros.com^
 ||segiayiwqamcgygg.xyz^
 ||segmoqquwkyymgqk.xyz^
+||segolab.ch^
 ||segurityopen12.mysynology.net^
 ||sehrservices.org^
 ||sei.brslot.net^
@@ -33211,7 +33214,6 @@
 ||willowgazette.top^
 ||willynop9821.icu^
 ||win-sys-health.com^
-||win-system-update.me^
 ||win.prowebsite.live^
 ||win.softwincli.pics^
 ||win.spaceshlp.com^
