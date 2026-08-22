@@ -2,8 +2,8 @@
 ! Description: Indicators of compromise (domain-based) from abuse.ch ThreatFox covering C2 and payload delivery
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-08-22 13:10:34 UTC
-! Total rules: 36059
+! Last modified: 2026-08-22 18:22:12 UTC
+! Total rules: 36015
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -200,7 +200,6 @@
 ||16kg9xzz3yt30xc4.org^
 ||16z4okne.seering5outh.digital^
 ||176.65.148.212.ptr.pfcloud.network^
-||176.65.148.52.ptr.pfcloud.network^
 ||176.65.149.124.ptr.pfcloud.network^
 ||17eqwy30.takhtenard.app^
 ||17prosnowmeprona.za.com^
@@ -582,6 +581,7 @@
 ||3controller.online^
 ||3controller.ru^
 ||3dfkb2ls19wa5.xyz^
+||3dtraining.fr^
 ||3e30omav.velorix.life^
 ||3ed27xfd.libertytokan.com^
 ||3ed5lh-ip-178-214-244-87.tunnelmole.net^
@@ -851,7 +851,6 @@
 ||58winz.bio^
 ||59k3ql4x.akhlagvaahkam.xyz^
 ||59qxatd0.gtacauto.com^
-||59xgjeq2.hexalink.digital^
 ||5a3s97ps.fitprotracker-campaign.com^
 ||5anhw90hg140825oa.cfd^
 ||5aovmzuq.phomaivietnameserestaurant.com^
@@ -1335,6 +1334,7 @@
 ||8rvi.noopcup.surf^
 ||8sbpcmz3.stgsolar.hu^
 ||8t4ow8gc.azmoonhayeravani.shop^
+||8tc662a7.eng-homepowershield.com^
 ||8tdv3jg9.proxy-harbor.digital^
 ||8tk8.net^
 ||8u88xbeq.pinbahiskade.com^
@@ -1463,6 +1463,7 @@
 ||9qmp3bl9.6oclocktrain.com^
 ||9qwtel99joddrzzu.org^
 ||9qzzbixt.crystalforge.digital^
+||9r28j8f6.lckd.store^
 ||9r6xw7w2.poker-online.bet^
 ||9rehfapi.airport-clar.lat^
 ||9rtfhxav.nanovo5kull.pics^
@@ -2307,17 +2308,6 @@
 ||alpharecwyan0e.westcalm.surf^
 ||alphasolarsystems.ch^
 ||alphawhi-a6rof.nordfreak.surf^
-||alphazero-endscape.cc^
-||alphazero1-endscape.cc^
-||alphazero10-endscape.cc^
-||alphazero2-endscape.cc^
-||alphazero3-endscape.cc^
-||alphazero4-endscape.cc^
-||alphazero5-endscape.cc^
-||alphazero6-endscape.cc^
-||alphazero7-endscape.cc^
-||alphazero8-endscape.cc^
-||alphazero9-endscape.cc^
 ||alpinehc.au^
 ||alps.exchange^
 ||alpspccare.com^
@@ -2653,16 +2643,6 @@
 ||api-ext.bixbitemarketing.com^
 ||api-imager-host.beer^
 ||api-metrics-6258.com^
-||api-microservice-us1.com^
-||api-microservice-us10.com^
-||api-microservice-us2.com^
-||api-microservice-us3.com^
-||api-microservice-us4.com^
-||api-microservice-us5.com^
-||api-microservice-us6.com^
-||api-microservice-us7.com^
-||api-microservice-us8.com^
-||api-microservice-us9.com^
 ||api-r8-remote.fluido-v.cfd^
 ||api-secured.tari8lax.surf^
 ||api-server-cdn.sbs^
@@ -3352,6 +3332,7 @@
 ||aufstellungstage.ch^
 ||auftragskiller.eu^
 ||augcigegkwegqwqk.xyz^
+||augenarzt-huttwil.ch^
 ||augenzentrum-huttwil.ch^
 ||augenzentrum-willisau.ch^
 ||augmentedrealityindonesia.com^
@@ -3931,7 +3912,6 @@
 ||baseopenwald.mivorpulsegate.garden^
 ||baseopenwald.qivorpaknode.garden^
 ||basepiip9911.icu^
-||baseportion.inherentrecip.ru^
 ||basetrove.net^
 ||bashe4aec32kr6zbifwd5x6xgjsmhg4tbowrbx4pneqhc5mqooyifpid.onion^
 ||bashed52orwi7qoyvmcfkdnuaogta4inpojfd6cthzkp4qpsq64ux4ad.onion^
@@ -4585,7 +4565,6 @@
 ||bkn-extrnets.com^
 ||bkng-updt.com^
 ||bkns-prrtner.com^
-||bkns-prtner.com^
 ||bkqno.serious-substance.surf^
 ||bkrsqb.usen-echoxen.com^
 ||bkscndclou.beer^
@@ -4921,7 +4900,6 @@
 ||bossinternationalstudies.com^
 ||bostarpack.com^
 ||bostoncollege.za.com^
-||bot.1756520.xyz^
 ||bot.cdnlivechatinc.com^
 ||bot.cricket-physio.com^
 ||bot.jhotpot.com.bd^
@@ -5067,7 +5045,6 @@
 ||brettcoin.life^
 ||brevikssk.se^
 ||breville.id^
-||brewshield.brannysuppress.ru^
 ||brexcavatingllc.com^
 ||brezo.live^
 ||brezxcchec.com^
@@ -5494,6 +5471,7 @@
 ||c557zanx.1xhot.xyz^
 ||c56qm35r.proxy-orbit.digital^
 ||c56xjoz.represent-skittish.lat^
+||c5xxg0v3.eng-flashburnn.com^
 ||c5ylbfsw.packet-vector.digital^
 ||c6e051x9.khudrukrantingmanic.digital^
 ||c6fm5c0sspdgs8vw.org^
@@ -6127,7 +6105,6 @@
 ||checkout.lat^
 ||checkphoto-bookin.com^
 ||checkpointviewzen.com^
-||checktone.auditsounder.ru^
 ||checkyourproperties.com^
 ||cheeseloversmenu.com^
 ||cheeshomireciple.com^
@@ -6808,7 +6785,6 @@
 ||communicationfirewall-security.cc^
 ||comocerditos.com^
 ||comp-vine.greenbloom.garden^
-||compactvillage.koreansmall.ru^
 ||compagnie-et-autres.com^
 ||companycatalogue.co.uk^
 ||companyfever.co.uk^
@@ -7042,7 +7018,6 @@
 ||coreaxisit.com^
 ||corebilling.com^
 ||corecontent.no^
-||coreformula.inherentrecip.ru^
 ||corehostunit.pulsarspin.bet^
 ||corehostunit.quantumbitlink.bet^
 ||corehostunit5.ferrumgateweb.garden^
@@ -7240,7 +7215,6 @@
 ||crispy-rusty.com^
 ||crispychickencutlets.digital^
 ||crit-pimetri.buzz^
-||critical-service.cc^
 ||criticalbiomass.hu^
 ||criticalmineralreserve.lol^
 ||criticarepharmaceuticals.com^
@@ -7399,7 +7373,6 @@
 ||current99.com^
 ||currentdate.top^
 ||currentme.top^
-||cursednetwork.ru^
 ||cursor.li^
 ||curtlaw.ba^
 ||curveyield.online^
@@ -8478,7 +8451,6 @@
 ||dlrd.foersteron.work^
 ||dltoitures.be^
 ||dltruek.com^
-||dltucra.com^
 ||dlvk.nextbahis.one^
 ||dlwkpdf.swirlscinnamonrolls.com^
 ||dlylkjaji.jetboro.fun^
@@ -9716,6 +9688,7 @@
 ||en-en-synaptign.com^
 ||en-en-us-biobooster.com^
 ||en-en-us-geniusbrainsignal.com^
+||en-en-us-zensulin.com^
 ||en-eng-geniusbrainsignal.com^
 ||en-eng-glucotrustbites.com^
 ||en-flashbrn.com^
@@ -9839,7 +9812,9 @@
 ||eng-eng-menbalancepro.com^
 ||eng-eng-slimsounds.com^
 ||eng-eng-us-lipovive.com^
+||eng-flashburnn.com^
 ||eng-gutdrops.us^
+||eng-homepowershield.com^
 ||eng-lotterymaximizer.com^
 ||eng-prozenith-us.com^
 ||eng-sightfresh-us.com^
@@ -9847,6 +9822,7 @@
 ||eng-sleep-lean.us^
 ||eng-stakecasino.com^
 ||eng-sugarmute.us^
+||eng-thebrain-song.us^
 ||eng-us-us-sugarmute.com^
 ||eng-usa--goldalign.com^
 ||eng-usa-bpzone.com^
@@ -12540,17 +12516,6 @@
 ||globalpadelpartners.com^
 ||globalprosresearch.org^
 ||globalprotection.services^
-||globalsnn-new.cc^
-||globalsnn1-new.cc^
-||globalsnn10-new.cc^
-||globalsnn2-new.cc^
-||globalsnn3-new.cc^
-||globalsnn4-new.cc^
-||globalsnn5-new.cc^
-||globalsnn6-new.cc^
-||globalsnn7-new.cc^
-||globalsnn8-new.cc^
-||globalsnn9-new.cc^
 ||globalsstat.com^
 ||globalsstat.org^
 ||globalstone.ch^
@@ -12896,7 +12861,6 @@
 ||gragem.openstern.yachts^
 ||grahammarsh.com.au^
 ||graim8.maren.rest^
-||graincontrol.brannysuppress.ru^
 ||grainmeshnode.silicapathsys.garden^
 ||grajnalm.site-asli-bedon-filter-1xbet.com^
 ||grammarnerds.com^
@@ -14445,7 +14409,6 @@
 ||idev101.com^
 ||idevicedoctorz.com^
 ||idk-terapevt.serveo.net^
-||idk123456789012-51385.portmap.host^
 ||idlmwh.shop-echoxen.us^
 ||idonialuxe.com^
 ||idos.lat^
@@ -14734,7 +14697,6 @@
 ||incolora.org^
 ||incomelabai.com^
 ||incpress.com^
-||indeanapolice.cc^
 ||indebud.hu^
 ||indeeyah.org^
 ||index-dock.coraprimat0sis.bet^
@@ -14829,7 +14791,6 @@
 ||inlovememory.com^
 ||inmjycz.olabahiskayit.com^
 ||innagris.com^
-||innaterecipe.inherentrecip.ru^
 ||inndesa.com.br^
 ||inner-api.help^
 ||innerazur.sali8mor.bet^
@@ -15690,7 +15651,6 @@
 ||johnstott.org^
 ||johntyler.com^
 ||johnwilliamsa-50921.portmap.host^
-||joieshk7.hexalink.digital^
 ||join-nw09web.com^
 ||joiningmeetingfrt.xyz^
 ||joinmeshsite.deno2link.surf^
@@ -17083,6 +17043,7 @@
 ||lcinform.fr^
 ||lcizmbo.tinybet.bio^
 ||lckcdnjs.beer^
+||lckd.store^
 ||lcloud-suportecom.help^
 ||lcontrols10.ru^
 ||lcontrols2.online^
@@ -17113,7 +17074,6 @@
 ||ldtdyke.allnaparts.com^
 ||ldture.com^
 ||ldtwsfb.quiltlegacy.net^
-||ldveriz.com^
 ||ldwv.bestnailsalonmedford.com^
 ||ldyjmzcr05iw7m7d.org^
 ||le-petit-diable.ch^
@@ -17460,7 +17420,6 @@
 ||littlehousetees.com^
 ||littleitalypizzafortwashington.com^
 ||littlelandrd.com^
-||littlemarket.koreansmall.ru^
 ||littlemissclothing.com^
 ||littleolange.com^
 ||littleshutterhomes.com^
@@ -18428,7 +18387,6 @@
 ||mallorca.myftp.org^
 ||maloke.pro^
 ||maloneyr.cyou^
-||maltguard.brannysuppress.ru^
 ||malware.29dsasprosnowmeprona.za.com^
 ||malware.90phutiu.cc^
 ||malware.91p.livebytexscore.com^
@@ -18764,7 +18722,6 @@
 ||mapmeshsite.grov6tela.bet^
 ||mapphostunit.felo7zone.surf^
 ||maps-i.cloud^
-||mapseeker.exploratsinyuk.ru^
 ||maqspray.cl^
 ||maquillagepermanentbordelaisbystephanie.fr^
 ||maqwuegsiayquqem.xyz^
@@ -19509,7 +19466,6 @@
 ||minhphusteel.vn^
 ||minicraft.world^
 ||minihostunit.sporesyncnode.garden^
-||minihouse.koreansmall.ru^
 ||miningworker1-33706.portmap.host^
 ||minisa.be^
 ||ministat.shop^
@@ -20490,6 +20446,7 @@
 ||natureoasisdesign.garden^
 ||naturheilpraxis-azo.ch^
 ||naturhouse.ch^
+||naturiel.ch^
 ||naturopathe-a-paris.fr^
 ||natuurlijkheidi.nl^
 ||natwest-homesa.info^
@@ -23154,6 +23111,7 @@
 ||pituf.vigaf.hu^
 ||piumondo.com^
 ||piva1zox.digital^
+||pivotpoint.ch^
 ||pix.nexs.com.bd^
 ||pix.ssffaa18.xyz^
 ||pixel-dixel.buzz^
@@ -23559,7 +23517,6 @@
 ||pousadacampinas.com.br^
 ||poussin.ch^
 ||pouulacmu.phogoldencow.com^
-||povermnebrat.ru^
 ||povuns.shop-synaptigen.com^
 ||povver4-pulse.mav2lirex.lat^
 ||power-bran.jumping5table.surf^
@@ -27954,7 +27911,6 @@
 ||soundbyte1.co.za^
 ||soundclosed.bookuni.lat^
 ||soundlovlr.ru^
-||soundreview.auditsounder.ru^
 ||soup-tone.pro^
 ||soupack.handker-unicamer.surf^
 ||soupart.ch^
@@ -31965,7 +31921,6 @@
 ||verify-auth-cloud.com^
 ||verify-slack.com^
 ||verifyaiinitiative.com^
-||verifyecho.auditsounder.ru^
 ||verifyhumanbot.com^
 ||verifyrecapcha.info^
 ||verinfagora.com^
@@ -32608,6 +32563,7 @@
 ||vuwvp.drdavidzweiback.com^
 ||vuxusie8.za.com^
 ||vuxxtdqp.signalfrontier.top^
+||vva5dqlz.en-en-us-zensulin.com^
 ||vvagon-index.poorbet.lat^
 ||vvagyu.xyz^
 ||vvcbgf.spareing.com^
@@ -34877,6 +34833,7 @@
 ||xr2vok4wlfbjb4g2.org^
 ||xrafxsq.thefenceguysinc.com^
 ||xray-gifts.com^
+||xraydbdr.eng-thebrain-song.us^
 ||xrb3ppl3.akharinbama.ir^
 ||xre.blogdospesados.com.br^
 ||xre.shurimaster.com^
@@ -34909,7 +34866,6 @@
 ||xsulr962.mruh.store^
 ||xsutsu.jamjahani2026.football^
 ||xsvowum.opticamarcopolo.com^
-||xswdeu.za.com^
 ||xswip44buigglwh5.org^
 ||xswqyg.xano4mel.lat^
 ||xt19c0ua.casinomhub.bet^
