@@ -2,8 +2,8 @@
 ! Description: Malware distribution domains from abuse.ch URLhaus (hosts-file format, updated every 5 minutes)
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-08-22 07:11:10 UTC
-! Total rules: 383
+! Last modified: 2026-08-22 12:29:22 UTC
+! Total rules: 388
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -60,7 +60,6 @@
 ||checkfivem.com^
 ||chinaapper.com^
 ||chiptune.com^
-||chrome-windows.ru^
 ||chuguadventures.co.tz^
 ||cl.ssouy.com^
 ||cloud.pearlpeel.com^
@@ -85,6 +84,7 @@
 ||dcrun.co.uk^
 ||dcwblida.dz^
 ||deagroup-ks.com^
+||deliverymailreport.co.za^
 ||delp-heizungsbau.de^
 ||dexios.co.za^
 ||dezcom.com^
@@ -120,12 +120,12 @@
 ||en.taichuan.com^
 ||endpoint.project0.cc^
 ||epanpano.com^
-||faceit-anti-cheat.com^
 ||fakers.co.jp^
 ||farschid.de^
 ||fd.v2downf.shop^
 ||fdrv.beeyuskincare.co.nz^
 ||file.blackint3.com^
+||file.uhsea.com^
 ||filerit.com^
 ||first-security-verden.de^
 ||flooriscoveringworld.com^
@@ -142,7 +142,6 @@
 ||genddos.st^
 ||gestroom.it^
 ||globalbank.us^
-||gobiotechpestcontrol.com^
 ||grantexx.com^
 ||greenf.alexion.rs^
 ||grupomcperu.com^
@@ -195,7 +194,9 @@
 ||mkconstructions.net^
 ||mnurlogistics.az^
 ||mogimall.com^
+||mon-blanc-03.cfd^
 ||mon-blanc-04.cfd^
+||msedge.vg^
 ||muaklekcoop.com^
 ||muledo.com^
 ||multisavcx.xyz^
@@ -221,6 +222,7 @@
 ||pic.li^
 ||planetariumobil.ro^
 ||postelnini.mk^
+||practisingcertificateprotection.com^
 ||preciosasjoyitas.com.mx^
 ||profitable-pink-0y9btnew-dpk6vqe6eheo.edgeone.dev^
 ||public.demo.securecloudsandbox.com^
@@ -284,7 +286,7 @@
 ||sutterpoint.com^
 ||svirtual.sanviatorperu.edu.pe^
 ||swanrecovery.com^
-||taizi.fdstat.vip^
+||swiftfusion.tech^
 ||talentrecruitments.com^
 ||tangentwaves.com^
 ||tanscarattorneys.co.tz^
@@ -306,6 +308,7 @@
 ||tiacreation.club^
 ||toolshare.com.tr^
 ||top8onlinegame.com^
+||tpp.om-stock.com^
 ||transparenciacanaa.com.br^
 ||trtmyanmar.com^
 ||twitch.tj^
@@ -328,6 +331,7 @@
 ||website.mypetapp.co.za^
 ||widexenmexico.com.mx^
 ||windomstatetheater.com^
+||winds11.site^
 ||wittenhorst.eu^
 ||wqok85qtq.net^
 ||www-connect-secure-wellcfargo.sekolahkejarpaket.com^
@@ -345,6 +349,7 @@
 ||www.cutting-edge.in^
 ||www.drgenov.com^
 ||www.first-security-verden.de^
+||www.gestroom.it^
 ||www.hostingcloud.science^
 ||www.hqsblog.com^
 ||www.hseda.com^
