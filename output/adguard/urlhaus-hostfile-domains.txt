@@ -2,8 +2,8 @@
 ! Description: Malware distribution domains from abuse.ch URLhaus (hosts-file format, updated every 5 minutes)
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-08-23 19:13:27 UTC
-! Total rules: 369
+! Last modified: 2026-08-24 00:59:42 UTC
+! Total rules: 357
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -11,7 +11,6 @@
 ||123.ywxww.net^
 ||1717.1000uc.com^
 ||1h.vuregyy1.ru^
-||abdulahad.net^
 ||acc.jiangsujiaxue.com^
 ||acms.saleseos.com^
 ||admin.byte.in.ua^
@@ -24,7 +23,6 @@
 ||alternativas.ru^
 ||app.appzcvb.com^
 ||areyouready.co.za^
-||asiaengrs.com^
 ||atasapka.com.tr^
 ||atom.freehosting.dev^
 ||audicontadores.com^
@@ -32,7 +30,6 @@
 ||awarenessexhibition.com^
 ||backupso.com^
 ||balanced-red-emhnkdfj-dp7g2kvqxx8n.edgeone.dev^
-||beak.in^
 ||bito.com.pk^
 ||blankeyeo.com^
 ||blessdayservices.org^
@@ -53,6 +50,7 @@
 ||cat.xiaoshabi.nl^
 ||catbaparadisehotel.com.vn^
 ||cdaonline.com.ar^
+||cdn.file6.goodid.com^
 ||celebratingseniors.net^
 ||chat-server.maverickpreviews.com^
 ||cheatclients.com^
@@ -67,7 +65,6 @@
 ||cn.unionlever.com^
 ||co-emas.com^
 ||coconutoficial.com.br^
-||colibrik.com^
 ||compuserviceonline.com.br^
 ||continentalgroup.net.in^
 ||coralasargetia.ro^
@@ -89,11 +86,11 @@
 ||dezcom.com^
 ||disk.accord1key.cn^
 ||divvanews.com^
-||dl.1003b.56a.com^
 ||dl.dzqzd.com^
 ||dl.natgo.cn^
 ||doc.e-statements.app^
 ||donkeytourscroatia.com^
+||down.54nb.com^
 ||down.fwqlt.com^
 ||down.pcclear.com^
 ||down.qqfarmer.com.cn^
@@ -112,7 +109,6 @@
 ||eccmice.com^
 ||electri.billregulator.com^
 ||elisans.novayonetim.com^
-||embedone.com^
 ||en.taichuan.com^
 ||endpoint.project0.cc^
 ||epanpano.com^
@@ -135,7 +131,6 @@
 ||gabyagozetim.com^
 ||gaiadeqi.com^
 ||galerisenimutiara.com^
-||genddos.st^
 ||gestroom.it^
 ||globalbank.us^
 ||grantexx.com^
@@ -151,11 +146,9 @@
 ||ignetwork.us^
 ||igra123.com^
 ||ikincielesyaciankara.com.tr^
-||indusenterprises.co^
 ||ircftp.net^
 ||isiore.com.co^
 ||itssprout.com^
-||ixirgroup.com^
 ||jawaratekno.com^
 ||jenniferloeffler.com^
 ||jessespridecharters.com^
@@ -169,7 +162,6 @@
 ||kokorostore.it^
 ||konsor.ru^
 ||kramersmarionnettes.com^
-||krem.mesoptik.com^
 ||landonirwin.com^
 ||lawfirm.paperbirdtech.com^
 ||lindnerelektroanlagen.de^
@@ -177,19 +169,16 @@
 ||lomejordesalamanca.es^
 ||lomeqpe.com^
 ||luizmatoso.com.br^
-||lumacrea.com^
 ||luxcar-24.com^
 ||m.jkoa.co.kr^
 ||m.meta-dm.com^
 ||maidforyou1985.com^
-||metrics.gocloudmaps.com^
 ||miriamgualda.com.br^
 ||mitreart.com^
 ||mkconstructions.net^
 ||mnurlogistics.az^
 ||mogimall.com^
 ||mon-blanc-03.cfd^
-||mon-blanc-04.cfd^
 ||muaklekcoop.com^
 ||muledo.com^
 ||mundocarnes.cl^
@@ -199,12 +188,10 @@
 ||n.vs108.com^
 ||ncxps.com^
 ||noithaticon.vn^
-||nusatoyota.co.id^
 ||ny.lshdw.cc^
 ||ojang.pe.kr^
 ||oknoplastik.sk^
 ||onfiltre.com.tr^
-||onlypackaging.grupoinde.com^
 ||outpost.co.ke^
 ||p3.zbjimg.com^
 ||palharesinformatica.com.br^
@@ -218,7 +205,6 @@
 ||preciosasjoyitas.com.mx^
 ||profitable-pink-0y9btnew-dpk6vqe6eheo.edgeone.dev^
 ||public.demo.securecloudsandbox.com^
-||pulgarinrealtor.com^
 ||pvsa.gxfugy.cn^
 ||qiniuyunxz.yxflzs.com^
 ||qv.co.ke^
@@ -265,8 +251,9 @@
 ||solar-sanat.net^
 ||somostask.co^
 ||spgint.com^
-||static.ilclock.com^
 ||static.topxgun.com^
+||static.youdm.cn^
+||stdown.dinju.com^
 ||streammobs.com^
 ||studiogioeli.it^
 ||support.clz.kr^
@@ -303,8 +290,8 @@
 ||upchemicals.co.in^
 ||update.cg100iii.com^
 ||us.wind0ws.net^
-||v-k.com.ua^
 ||vcc-library.uk^
+||verification-process.com^
 ||versaclean.com.br^
 ||veryboys.com^
 ||vgd.vg^
@@ -333,6 +320,7 @@
 ||www.cutting-edge.in^
 ||www.drgenov.com^
 ||www.first-security-verden.de^
+||www.gestroom.it^
 ||www.hostingcloud.science^
 ||www.hqsblog.com^
 ||www.hseda.com^
