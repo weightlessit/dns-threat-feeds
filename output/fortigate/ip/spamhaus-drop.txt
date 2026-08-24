@@ -2,7 +2,7 @@
 # Description: Spamhaus Don't Route Or Peer list -- hijacked IP ranges (EDROP has been merged into this list)
 # Homepage: https://github.com/weightlessit/dns-threat-feeds
 # License: MIT
-# Last modified: 2026-08-24 13:36:14 UTC
+# Last modified: 2026-08-24 18:34:00 UTC
 # Total entrys: 1701
 #
 # Auto-generated -- do not edit manually.
@@ -331,7 +331,6 @@
 150.22.128.0/17
 150.242.120.0/22
 150.25.0.0/16
-150.40.96.0/19
 151.131.0.0/16
 151.217.128.0/17
 151.243.109.0/24
@@ -573,6 +572,7 @@
 185.255.192.0/22
 185.255.20.0/22
 185.30.168.0/22
+185.34.147.0/24
 185.36.80.0/24
 185.36.81.0/24
 185.36.82.0/23
