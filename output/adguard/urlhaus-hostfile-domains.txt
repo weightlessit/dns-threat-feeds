@@ -2,8 +2,8 @@
 ! Description: Malware distribution domains from abuse.ch URLhaus (hosts-file format, updated every 5 minutes)
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-08-25 13:33:12 UTC
-! Total rules: 353
+! Last modified: 2026-08-25 18:33:30 UTC
+! Total rules: 357
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -11,6 +11,8 @@
 ||123.ywxww.net^
 ||1717.1000uc.com^
 ||1h.vuregyy1.ru^
+||1h.xeteloi4.ru^
+||abdulahad.net^
 ||acc.jiangsujiaxue.com^
 ||acms.saleseos.com^
 ||admin.byte.in.ua^
@@ -22,7 +24,9 @@
 ||allendostmen.com^
 ||alternativas.ru^
 ||app.appzcvb.com^
+||architekten-schreiner.de^
 ||areyouready.co.za^
+||asiaengrs.com^
 ||atasapka.com.tr^
 ||atom.freehosting.dev^
 ||audicontadores.com^
@@ -47,6 +51,7 @@
 ||cat.xiaojiji.nl^
 ||cat.xiaoshabi.nl^
 ||catbaparadisehotel.com.vn^
+||ccoffice.site^
 ||cdaonline.com.ar^
 ||celebratingseniors.net^
 ||chat-server.maverickpreviews.com^
@@ -54,13 +59,13 @@
 ||checkfivem.com^
 ||chiptune.com^
 ||chuguadventures.co.tz^
-||cl.ssouy.com^
 ||cloud.pearlpeel.com^
 ||cloudsenterprise26.com^
 ||clubdetiroelpicarcho.com^
 ||cn.unionlever.com^
 ||co-emas.com^
 ||coconutoficial.com.br^
+||codeassociates.co.ke^
 ||compuserviceonline.com.br^
 ||continentalgroup.net.in^
 ||coralasargetia.ro^
@@ -121,10 +126,12 @@
 ||fukt.link^
 ||fullstacknir.com^
 ||funneldiy.com^
+||furystaff.tech^
 ||fz.tiansys.cn^
 ||gabyagozetim.com^
 ||gaiadeqi.com^
 ||galerisenimutiara.com^
+||gestroom.it^
 ||globalbank.us^
 ||grantexx.com^
 ||grupomcperu.com^
@@ -134,7 +141,6 @@
 ||hitstation.nl^
 ||hobobot.net^
 ||hseda.com^
-||htdentshop.com^
 ||icoffeecloud.com^
 ||ignetwork.us^
 ||igra123.com^
@@ -143,9 +149,7 @@
 ||indusenterprises.co^
 ||ircftp.net^
 ||isiore.com.co^
-||ita-airwaysva.com^
 ||itssprout.com^
-||ixirgroup.com^
 ||jawaratekno.com^
 ||jenniferloeffler.com^
 ||jessespridecharters.com^
@@ -156,15 +160,16 @@
 ||kimyen.net^
 ||kits.frog.tw^
 ||kokorostore.it^
+||kolpa.lol^
 ||konsor.ru^
 ||kramersmarionnettes.com^
 ||landonirwin.com^
 ||lawfirm.paperbirdtech.com^
+||lindnerelektroanlagen.de^
 ||local-update.com^
 ||lomejordesalamanca.es^
 ||lomeqpe.com^
 ||luizmatoso.com.br^
-||lumacrea.com^
 ||luxcar-24.com^
 ||m.jkoa.co.kr^
 ||m.meta-dm.com^
@@ -174,7 +179,6 @@
 ||mitreart.com^
 ||mkconstructions.net^
 ||mogimall.com^
-||msgrouppolicy.vg^
 ||muaklekcoop.com^
 ||muledo.com^
 ||mundocarnes.cl^
@@ -196,8 +200,8 @@
 ||pcupd.com^
 ||pic.li^
 ||planetariumobil.ro^
+||plutotvshow.biz^
 ||postelnini.mk^
-||powershell-storage.vg^
 ||practisingcertificateprotection.com^
 ||preciosasjoyitas.com.mx^
 ||profitable-pink-0y9btnew-dpk6vqe6eheo.edgeone.dev^
@@ -206,7 +210,6 @@
 ||qiniuyunxz.yxflzs.com^
 ||qv.co.ke^
 ||ramirex.ro^
-||rcf.co.mz^
 ||rdm.91yunma.cn^
 ||reauthenticator.com^
 ||records.dennisign.se^
@@ -241,7 +244,6 @@
 ||signageinsignia.co.za^
 ||sk-comtel.com^
 ||smartermail.host^
-||smileshiplogistics.com^
 ||smsechodata.cc^
 ||sochibeer.ru^
 ||soft.110route.com^
@@ -276,6 +278,7 @@
 ||theoremaoliveoil.com^
 ||thtp2.volamngayxua.net^
 ||tiacreation.club^
+||ticpc8a.com^
 ||toolshare.com.tr^
 ||top8onlinegame.com^
 ||tpp.om-stock.com^
@@ -283,6 +286,7 @@
 ||triapfog.com^
 ||trtmyanmar.com^
 ||twitch.tj^
+||twu-hwt.org^
 ||upaicdn.xinmei365.com^
 ||upchemicals.co.in^
 ||update.cg100iii.com^
@@ -316,6 +320,7 @@
 ||www.cutting-edge.in^
 ||www.drgenov.com^
 ||www.first-security-verden.de^
+||www.gestroom.it^
 ||www.hostingcloud.science^
 ||www.hqsblog.com^
 ||www.hseda.com^
@@ -356,7 +361,6 @@
 ||yakult-hk.com^
 ||youtransfer.net^
 ||zamilgroups.com^
-||zcalton.com^
 ||zenglobalenerji.com^
 ||zhigao5191.com^
 ||zycdjz.com^
