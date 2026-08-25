@@ -2,8 +2,8 @@
 ! Description: Domains extracted from recently reported malicious URLs tracked by abuse.ch URLhaus
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-08-25 06:38:25 UTC
-! Total rules: 370
+! Last modified: 2026-08-25 07:29:03 UTC
+! Total rules: 399
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -54,6 +54,7 @@
 ||canta-cn.com^
 ||cashblaq.fit^
 ||casinodas.com^
+||ccoffice.site^
 ||cdnorigin.net^
 ||cheatclients.com^
 ||chrome-windows.ru^
@@ -84,24 +85,50 @@
 ||cxxz.co.za^
 ||da607p7qeops0oicos803a4s665bsxdcb.oast.pro^
 ||da607p7qeops0oicos803z5jxuyazd9cf.oast.pro^
+||da607p7qeops0oicos804bot8jyjgg5yq.oast.pro^
+||da607p7qeops0oicos804chynhqo78j4i.oast.pro^
 ||da607p7qeops0oicos80563k3418nwt3a.oast.pro^
+||da607p7qeops0oicos8058a7ziuzrata1.oast.pro^
 ||da607p7qeops0oicos807o8rf1z9w6dtw.oast.pro^
+||da607p7qeops0oicos8086a6gfgzm7xoz.oast.pro^
+||da607p7qeops0oicos808w8r7kca44pay.oast.pro^
+||da607p7qeops0oicos808yaut4niq8oz3.oast.pro^
+||da607p7qeops0oicos80askwo7guquoh3.oast.pro^
 ||da607p7qeops0oicos80bcnn9sqy8tcrp.oast.pro^
+||da607p7qeops0oicos80bmbjdzbp1qe9s.oast.pro^
+||da607p7qeops0oicos80bzem68iq33tbr.oast.pro^
 ||da607p7qeops0oicos80csyqn3qr34bng.oast.pro^
+||da607p7qeops0oicos80d9qq4buyop4gd.oast.pro^
+||da607p7qeops0oicos80ei7a7rw16fu77.oast.pro^
+||da607p7qeops0oicos80fhfkfssk5nopg.oast.pro^
+||da607p7qeops0oicos80h15akkwbs1gzz.oast.pro^
+||da607p7qeops0oicos80i1t6m931jzn5x.oast.pro^
+||da607p7qeops0oicos80imkj8fj845rzf.oast.pro^
+||da607p7qeops0oicos80jkgmq6xux78ep.oast.pro^
+||da607p7qeops0oicos80k7jqi759gsfs7.oast.pro^
+||da607p7qeops0oicos80kb76oz16futjt.oast.pro^
 ||da607p7qeops0oicos80kghtf8aundm5w.oast.pro^
 ||da607p7qeops0oicos80m79ahhsf7tato.oast.pro^
 ||da607p7qeops0oicos80mf6ex4bct8mq7.oast.pro^
 ||da607p7qeops0oicos80mgwf6po4sdzdx.oast.pro^
 ||da607p7qeops0oicos80oohdbtg6cxatn.oast.pro^
 ||da607p7qeops0oicos80op5q3wteyqiqs.oast.pro^
+||da607p7qeops0oicos80p8myxf1z1xy37.oast.pro^
 ||da607p7qeops0oicos80pgbe49rhqe6zm.oast.pro^
 ||da607p7qeops0oicos80qj6rk51m5os5b.oast.pro^
+||da607p7qeops0oicos80qxoynjdjeqzzi.oast.pro^
 ||da607p7qeops0oicos80ruty19gsspa3j.oast.pro^
+||da607p7qeops0oicos80rxcaqdweaei85.oast.pro^
+||da607p7qeops0oicos80su3hdjwqh7k7g.oast.pro^
 ||da607p7qeops0oicos80u7zugihj9iuei.oast.pro^
+||da607p7qeops0oicos80ufwb5jraf5o7z.oast.pro^
 ||da607p7qeops0oicos80wae4nzzbg1fpw.oast.pro^
 ||da607p7qeops0oicos80whspapbtb55bf.oast.pro^
 ||da607p7qeops0oicos80wrfem8nncpm6k.oast.pro^
+||da607p7qeops0oicos80wyd4nngqhcr5b.oast.pro^
 ||da607p7qeops0oicos80yyk1xp4wk7n6u.oast.pro^
+||da607p7qeops0oicos80zdoqyj354qpgc.oast.pro^
+||da607p7qeops0oicos80ziid7cccxfxjm.oast.pro^
 ||daleeby.com^
 ||dasberlinerhotel.com^
 ||deliozmabrano.site.je^
@@ -311,6 +338,7 @@
 ||sunix-technology.com^
 ||suppliers.lovestoblog.com^
 ||swanrecovery.com^
+||sxetnavelelaio.com^
 ||sysupdate.online^
 ||tampareroofing.com^
 ||tantralegacy.com^
@@ -376,4 +404,5 @@
 ||yakult-hk.com^
 ||yd.lyjt.cc^
 ||zanyyewuh.pro^
+||zcalton.com^
 ||zoredaye.com^
