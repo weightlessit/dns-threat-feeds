@@ -2,8 +2,8 @@
 ! Description: Malware distribution domains from abuse.ch URLhaus (hosts-file format, updated every 5 minutes)
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-08-27 06:55:05 UTC
-! Total rules: 382
+! Last modified: 2026-08-27 18:01:03 UTC
+! Total rules: 394
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -29,6 +29,7 @@
 ||app.appzcvb.com^
 ||app.static-file.lol^
 ||architekten-schreiner.de^
+||archivoscrosoft.com^
 ||areyouready.co.za^
 ||asdsocial.pt^
 ||atasapka.com.tr^
@@ -38,6 +39,7 @@
 ||awarenessexhibition.com^
 ||backupso.com^
 ||balanced-red-emhnkdfj-dp7g2kvqxx8n.edgeone.dev^
+||beak.in^
 ||bito.com.pk^
 ||blankeyeo.com^
 ||blessdayservices.org^
@@ -51,6 +53,7 @@
 ||bserail.com^
 ||bvaco.com^
 ||cambodiatouristservice.com^
+||casasmediterraneas.com^
 ||cat.dashabi.in^
 ||cat.xiaojiji.nl^
 ||cat.xiaoshabi.nl^
@@ -64,6 +67,7 @@
 ||chiptune.com^
 ||chuguadventures.co.tz^
 ||cl.ssouy.com^
+||cloud.calltop.com.br^
 ||cloud.pearlpeel.com^
 ||clubdetiroelpicarcho.com^
 ||cn.unionlever.com^
@@ -76,6 +80,7 @@
 ||cpc188.day^
 ||cpofficial.com^
 ||crazy2cdn.com^
+||creativevoltage.com^
 ||crystalpvp.ru^
 ||cs.go.kg^
 ||cta.edu.pe^
@@ -116,13 +121,13 @@
 ||electri.billregulator.com^
 ||elisans.novayonetim.com^
 ||embedone.com^
-||en.taichuan.com^
 ||endpoint.project0.cc^
 ||epanpano.com^
-||eventourarte.cl^
 ||fakers.co.jp^
 ||farschid.de^
 ||fd.v2downf.shop^
+||fdstat.vip^
+||femade.co.uk^
 ||file.blackint3.com^
 ||file.uhsea.com^
 ||filerit.com^
@@ -137,12 +142,14 @@
 ||fullstacknir.com^
 ||funneldiy.com^
 ||furystaff.tech^
-||fz.tiansys.cn^
 ||gabyagozetim.com^
 ||gaiadeqi.com^
 ||galerisenimutiara.com^
+||gestionycobranzas.com^
+||gestroom.it^
 ||ghanioilandgas.com^
 ||globalbank.us^
+||graficaminascard.com.br^
 ||grantexx.com^
 ||grupomcperu.com^
 ||gutando.com^
@@ -151,7 +158,6 @@
 ||hitstation.nl^
 ||hobobot.net^
 ||hseda.com^
-||htdentshop.com^
 ||icoffeecloud.com^
 ||idylliccreations.net^
 ||ignetwork.us^
@@ -165,6 +171,7 @@
 ||isiore.com.co^
 ||itssprout.com^
 ||ixirgroup.com^
+||jawaratekno.com^
 ||jenniferloeffler.com^
 ||jessespridecharters.com^
 ||jlwz.cn^
@@ -178,6 +185,7 @@
 ||konsor.ru^
 ||kramersmarionnettes.com^
 ||landonirwin.com^
+||laofa.kaoaaapc.cc^
 ||lavos.life^
 ||lawfirm.paperbirdtech.com^
 ||lindnerelektroanlagen.de^
@@ -186,8 +194,7 @@
 ||lomejordesalamanca.es^
 ||lomeqpe.com^
 ||luizmatoso.com.br^
-||lumacrea.com^
-||luxcar-24.com^
+||luminouspower.com.pk^
 ||m.jkoa.co.kr^
 ||m.meta-dm.com^
 ||maidforyou1985.com^
@@ -208,6 +215,7 @@
 ||n.vs108.com^
 ||ncxps.com^
 ||noithaticon.vn^
+||nusatoyota.co.id^
 ||nw.almfwb.com^
 ||ny.lshdw.cc^
 ||ojang.pe.kr^
@@ -224,11 +232,11 @@
 ||planetariumobil.ro^
 ||plutotvshow.biz^
 ||postelnini.mk^
-||powershell-storage.vg^
 ||practisingcertificateprotection.com^
 ||preciosasjoyitas.com.mx^
 ||profitable-pink-0y9btnew-dpk6vqe6eheo.edgeone.dev^
 ||public.demo.securecloudsandbox.com^
+||pulgarinrealtor.com^
 ||pvsa.gxfugy.cn^
 ||qiniuyunxz.yxflzs.com^
 ||qv.co.ke^
@@ -250,6 +258,7 @@
 ||rxquickpay.com^
 ||ryanborn.net^
 ||safe-pdf-viewer.lat^
+||safeifm.com^
 ||safeuploadz.com^
 ||sales.ifree.page^
 ||samiksha.com.sg^
@@ -265,8 +274,8 @@
 ||separadordecc.com^
 ||sg123.net^
 ||shqdown.ggzuhao.com^
-||siaasesoria.com.mx^
 ||signageinsignia.co.za^
+||sixmexicos.com^
 ||sk-comtel.com^
 ||smartermail.host^
 ||smileshiplogistics.com^
@@ -279,6 +288,7 @@
 ||static.topxgun.com^
 ||static.youdm.cn^
 ||stdown.dinju.com^
+||streammobs.com^
 ||studiogioeli.it^
 ||support.clz.kr^
 ||sutterpoint.com^
@@ -309,6 +319,7 @@
 ||transparenciacanaa.com.br^
 ||trtmyanmar.com^
 ||twu-hwt.org^
+||universalmobility.pro^
 ||upaicdn.xinmei365.com^
 ||upchemicals.co.in^
 ||update.cg100iii.com^
@@ -324,6 +335,7 @@
 ||vizyonuniversitesi.web.tr^
 ||vrajras.com^
 ||wappingerbicornshaps.com^
+||webcstore.pw^
 ||website.mypetapp.co.za^
 ||widexenmexico.com.mx^
 ||windomstatetheater.com^
@@ -343,11 +355,12 @@
 ||www.cutting-edge.in^
 ||www.drgenov.com^
 ||www.first-security-verden.de^
-||www.gestroom.it^
+||www.hostingcloud.science^
 ||www.hqsblog.com^
 ||www.hseda.com^
 ||www.intelligradeeducation.vicentecisnerospub.com^
 ||www.jozefinskiatelje.si^
+||www.kaoaaapc.cc^
 ||www.kenwillzltd.com^
 ||www.knockknock.top^
 ||www.konsor.ru^
@@ -385,7 +398,6 @@
 ||youtransfer.net^
 ||zamilgroups.com^
 ||zcalton.com^
-||zenglobalenerji.com^
 ||zhigao5191.com^
 ||zhimaly.com^
 ||zycdjz.com^
