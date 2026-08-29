@@ -2,8 +2,8 @@
 ! Description: Malware distribution domains from abuse.ch URLhaus (hosts-file format, updated every 5 minutes)
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-08-29 01:44:36 UTC
-! Total rules: 403
+! Last modified: 2026-08-29 12:11:09 UTC
+! Total rules: 395
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -15,13 +15,11 @@
 ||1h.xeteloi4.ru^
 ||acc.jiangsujiaxue.com^
 ||acms.saleseos.com^
-||adctanzania.co.tz^
 ||addurltogoogle.com^
 ||admin.byte.in.ua^
 ||admin.gestroom.it^
 ||aftelecom.com.br^
 ||airtickts.com^
-||alahlam.sa^
 ||alarmline.com.br^
 ||alineeleuterio.com.br^
 ||allendostmen.com^
@@ -39,6 +37,7 @@
 ||backupso.com^
 ||balanced-red-emhnkdfj-dp7g2kvqxx8n.edgeone.dev^
 ||baomma.kmmiiaaa.com^
+||beak.in^
 ||bito.com.pk^
 ||blankeyeo.com^
 ||blessdayservices.org^
@@ -47,7 +46,6 @@
 ||bnet-api.playm8ru.win^
 ||bnet.playm8ru.win^
 ||book.rollingvideogames.com^
-||booking.captcha-message-extranet.com^
 ||bridgeroad.maverickpreviews.com^
 ||brightworks.cz^
 ||bserail.com^
@@ -65,7 +63,6 @@
 ||checkfivem.com^
 ||chiptune.com^
 ||chuguadventures.co.tz^
-||cl.ssouy.com^
 ||cloud.calltop.com.br^
 ||cloud.pearlpeel.com^
 ||clubdetiroelpicarcho.com^
@@ -80,7 +77,6 @@
 ||cpc188.day^
 ||cpofficial.com^
 ||crazy2cdn.com^
-||creativevoltage.com^
 ||cryptovectorhub1.lol^
 ||crystalpvp.ru^
 ||cs.go.kg^
@@ -100,7 +96,6 @@
 ||disk.accord1key.cn^
 ||divvanews.com^
 ||dl.1003b.56a.com^
-||dl.dzqzd.com^
 ||dl.natgo.cn^
 ||doc.e-statements.app^
 ||donkeytourscroatia.com^
@@ -134,6 +129,7 @@
 ||fd.v2downf.shop^
 ||femade.co.uk^
 ||file.blackint3.com^
+||file.uhsea.com^
 ||filerit.com^
 ||first-security-verden.de^
 ||flicargo.com^
@@ -143,16 +139,15 @@
 ||fullstacknir.com^
 ||funneldiy.com^
 ||furystaff.tech^
-||fz.tiansys.cn^
 ||gabyagozetim.com^
 ||gaiadeqi.com^
 ||galerisenimutiara.com^
 ||gd.ozzhlb.net^
+||gestionycobranzas.com^
 ||gestroom.it^
 ||ghanioilandgas.com^
 ||github-software.su^
 ||globalbank.us^
-||gobiotechpestcontrol.com^
 ||google-meet-verification.icu^
 ||goxlr.io^
 ||goxlrutility.net^
@@ -165,6 +160,7 @@
 ||hitstation.nl^
 ||hobobot.net^
 ||hseda.com^
+||htdentshop.com^
 ||hypercorevector4.lol^
 ||icoffeecloud.com^
 ||ignetwork.us^
@@ -177,13 +173,13 @@
 ||isiore.com.co^
 ||itssprout.com^
 ||ixirgroup.com^
-||jawaratekno.com^
 ||jenniferloeffler.com^
 ||jessespridecharters.com^
 ||jlwz.cn^
 ||joyeriatauro.com^
 ||kavacanada.ca^
 ||kenwillzltd.com^
+||khavar.com^
 ||killurself1337-cdn.doxbin.mom^
 ||kimyen.net^
 ||kits.frog.tw^
@@ -221,7 +217,6 @@
 ||munihuacho.gob.pe^
 ||mx9x.com^
 ||mysura.it^
-||n.vs108.com^
 ||ncxps.com^
 ||noithaticon.vn^
 ||nusatoyota.co.id^
@@ -234,14 +229,11 @@
 ||p3.zbjimg.com^
 ||packmate.in^
 ||palharesinformatica.com.br^
-||pay.aqiu6.com^
 ||pcupd.com^
 ||pic.li^
 ||planetariumobil.ro^
-||plutotvshow.biz^
 ||postelnini.mk^
 ||practisingcertificateprotection.com^
-||preciosasjoyitas.com.mx^
 ||profitable-pink-0y9btnew-dpk6vqe6eheo.edgeone.dev^
 ||public.demo.securecloudsandbox.com^
 ||pulgarinrealtor.com^
@@ -258,6 +250,7 @@
 ||refaccionesalma.com.mx^
 ||reifenquick.de^
 ||reservphotoinstay.one^
+||reservphotoinstaynow.shop^
 ||reutilizemais.co.mz^
 ||rheddh.com^
 ||riderspin.com^
@@ -287,17 +280,15 @@
 ||sk-comtel.com^
 ||smartermail.host^
 ||smarthomy.cl^
-||smsechodata.cc^
 ||sochibeer.ru^
 ||soft-update.dev^
-||soft.110route.com^
 ||solar-sanat.net^
 ||somostask.co^
 ||spgint.com^
+||static.ilclock.com^
 ||static.topxgun.com^
 ||static.youdm.cn^
 ||stdown.dinju.com^
-||streammobs.com^
 ||studiogioeli.it^
 ||support.clz.kr^
 ||sutterpoint.com^
@@ -308,7 +299,6 @@
 ||tanscarattorneys.co.tz^
 ||tapestryoftruth.com^
 ||tarkioweb.com^
-||tattinamecheap.com^
 ||tecunonline.com^
 ||tehnomag.rs^
 ||telemetryloop.net^
@@ -366,6 +356,7 @@
 ||www.drgenov.com^
 ||www.eleganceclub.xyz^
 ||www.first-security-verden.de^
+||www.gestroom.it^
 ||www.hostingcloud.science^
 ||www.hqsblog.com^
 ||www.hseda.com^
@@ -373,6 +364,7 @@
 ||www.jozefinskiatelje.si^
 ||www.kaoaaapc.cc^
 ||www.kenwillzltd.com^
+||www.khavar.com^
 ||www.kmmiiaaa.com^
 ||www.knockknock.top^
 ||www.konsor.ru^
@@ -384,6 +376,7 @@
 ||www.newkey.co.kr^
 ||www.notbak.com^
 ||www.ojang.pe.kr^
+||www.pointtohealth.com^
 ||www.reifenquick.de^
 ||www.saf-oil.ru^
 ||www.salonmarketing.ca^
@@ -400,7 +393,6 @@
 ||www.website.mypetapp.co.za^
 ||www.xn--on3b15m2lco2u.com^
 ||www.zamilgroups.com^
-||www.zhikey.com^
 ||xenon.studio^
 ||xn--yh4bx88a.com^
 ||xshop.com.tr^
