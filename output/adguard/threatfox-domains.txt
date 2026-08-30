@@ -2,8 +2,8 @@
 ! Description: Indicators of compromise (domain-based) from abuse.ch ThreatFox covering C2 and payload delivery
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-08-30 11:07:00 UTC
-! Total rules: 34345
+! Last modified: 2026-08-30 15:56:10 UTC
+! Total rules: 34347
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -498,6 +498,7 @@
 ||2tfq28mb.stack-matrix.digital^
 ||2u5vvnoh.microservice-pulse.digital^
 ||2u8gqrbysl53oo50.org^
+||2uehzspm.prosta-fense.org^
 ||2v42nbtg.deliainaturner.digital^
 ||2v8m6p00f1mdib5f.org^
 ||2vmkhs7s.riherino.com^
@@ -1208,6 +1209,7 @@
 ||7xv8nzfg.josephmichaelnh.com^
 ||7y6rr2oawf63yf2zjdidijun7p6gtjqye7b44vqyvilva3or324k3kad.onion^
 ||7ykwhvxv.austeritymorg.digital^
+||7ytwphx3.purabst.com^
 ||7zcef54a.eng-usa-goldalign.com^
 ||8.tcp.vip.cpolar.cn^
 ||800kc64u.chromepepsi.digital^
@@ -1224,6 +1226,7 @@
 ||8407yzrd.ama1gamb1ast.digital^
 ||84mucdco.sketchetch.net^
 ||84p8umwajq02c14b.org^
+||84pa4isp.retinaclearofficials.com^
 ||855e6v1la8ngbep.top^
 ||859wyr.porukau8ar.lat^
 ||85ot.years-very.lat^
@@ -1422,7 +1425,6 @@
 ||9c10grb3.monopolisgame.com^
 ||9c8joror.melbetir.app^
 ||9c93qxj2vi020426nw.cfd^
-||9cxnwc3a.mozillacola.digital^
 ||9dzz.despot-unfolded.surf^
 ||9ecs80cc.skybit.digital^
 ||9edpkf5o.powershart.com^
@@ -2980,7 +2982,6 @@
 ||artemretouching.com^
 ||artesc.org^
 ||artgramasintetica.com.br^
-||arthconsultancy.com^
 ||arthuratelier.com^
 ||artisan-advertising.cc^
 ||artisourlifestyle.com^
@@ -5817,7 +5818,6 @@
 ||chaibugroup.com^
 ||challenge-refernow.com^
 ||chalx.live^
-||chamkzw.cyou^
 ||chammaautosales.com^
 ||champag-mannered.digital^
 ||championships-peoples-point-cassette.trycloudflare.com^
@@ -8107,7 +8107,6 @@
 ||dmong.io^
 ||dmrhew.prozenith-pinksalt.com^
 ||dmsbdgroup.com^
-||dmv2ddsm.mozillacola.digital^
 ||dmvrpmedia.com^
 ||dmwncnnnp.defamogadas.xyz^
 ||dnailsgulfbreeze.com^
@@ -9687,6 +9686,7 @@
 ||epy.elythia.online^
 ||epy.nexs.com.bd^
 ||epy.ssffaa18.xyz^
+||eq7rkug7.shop-alphastreamplus.us^
 ||eqaksoicusiasqim.xyz^
 ||eqauckeqymiqcsqa.xyz^
 ||eqaucwwiqikuowei.xyz^
@@ -10318,7 +10318,6 @@
 ||fd.gstats-api-contact.cc^
 ||fd4widp1.usa-slimsounds.com^
 ||fd5rjt9slozca7la.org^
-||fdasfsd-51675.portmap.host^
 ||fdfb.io^
 ||fdgxxt.kpmarketing.hu^
 ||fdktfbbn.jam-jahani.com^
@@ -13166,6 +13165,7 @@
 ||hemorrhoid-daydark.wiki^
 ||hen.yourbodybydesign.me^
 ||henaux.de^
+||hendersonlawjax.net^
 ||hengxin588.com^
 ||henima.ir^
 ||hennemann.lol^
@@ -14071,7 +14071,6 @@
 ||igsx.closedfistllc.com^
 ||igxpbym.enus-goldalign.com^
 ||igyom.technologiaiviz.hu^
-||ihcoghbj.cortexforge.digital^
 ||ihlnvrv.abcdbro.com^
 ||ihmqfsm.arabicbet.casino^
 ||ihnx.footbalpersian.ir^
@@ -15877,7 +15876,6 @@
 ||kinikar.pro^
 ||kinnaurdelights.in^
 ||kinugort.ru^
-||kinyqxr.cyou^
 ||kiomccassamkccys.xyz^
 ||kioswaskwsqyscac.xyz^
 ||kiouc.visszateritok.hu^
@@ -16531,6 +16529,7 @@
 ||lbmoderndesigns.com^
 ||lbpbgqz.keyslims.com^
 ||lbs.xybcaap.my.id^
+||lbsa.nova-dev.ch^
 ||lbsco.co.uk^
 ||lbsmduw.certifiedairbalanceinlosangelesca.com^
 ||lbsv.logiccascade.top^
@@ -21789,7 +21788,6 @@
 ||pas.firesupport.com^
 ||pas.fixsm188.top^
 ||pas.sm188star.top^
-||pasbdyi.cyou^
 ||pascal.casino^
 ||pashtu.cyou^
 ||pashtuns-study-rose-hip.digital^
@@ -23007,6 +23005,7 @@
 ||prosetoothbrush.xyz^
 ||proslotgacor.com^
 ||proslotsmachines.com^
+||prosta-fense.org^
 ||prostarcompany.com^
 ||prostavive.us^
 ||prostavve.com^
@@ -23220,6 +23219,7 @@
 ||puppysol.lol^
 ||puqrhdze.onjabet1.com^
 ||pura--boost.us^
+||purabst.com^
 ||purchaseesim.com^
 ||purchaseorder.ydns.eu^
 ||purchcoin.lol^
@@ -23900,7 +23900,6 @@
 ||r0.erloro.com^
 ||r066m9wa.eng-cardio-slim-tea.com^
 ||r0ad-hold.di7ectkoshevoy.lat^
-||r0e3fpkc.operafanta.digital^
 ||r0hgwsx0.kkslot777.asia^
 ||r0ot-line.veget-growing.garden^
 ||r0ot-vault.sendrat.bet^
@@ -24449,6 +24448,7 @@
 ||retainedsite.com^
 ||retainerquick.col7ecapture.surf^
 ||retard.oceanic-node.su^
+||retinaclearofficials.com^
 ||retinar.com.au^
 ||retireliketom.com^
 ||retro-gaming-launcher.garden^
@@ -26029,6 +26029,8 @@
 ||shop-aeroslim.us^
 ||shop-aizenpower.us^
 ||shop-alphaboostpro.us^
+||shop-alphastreamplus.us^
+||shop-alphasurge.us^
 ||shop-cognisurge.com^
 ||shop-digestistart.com^
 ||shop-digestistart.us^
@@ -27000,7 +27002,6 @@
 ||sppartamax.com^
 ||sppocbl.hitsforge.com^
 ||spproc.com^
-||sprayboothspecialists.com^
 ||sprayfoaminsulate.com^
 ||spreader.grabber.cy^
 ||springfieldsummerhoops.com^
@@ -32129,6 +32130,7 @@
 ||woodcora.devmatrix.lat^
 ||woodenproduct.com.ua^
 ||woodfez.biz^
+||woodfield.global^
 ||woolstem.xyz^
 ||woolvilli.com^
 ||worcestertherapygroup.co.uk^
@@ -33829,7 +33831,6 @@
 ||z1lmg5dds3x0lx6n.org^
 ||z26ub6kjh7u7vb13.org^
 ||z2b75lk7xf6kme3zfvlmdmpwiaansnkcuhsojd23dgub5md24fhogcyd.onion^
-||z2wx6ccc.cortexforge.digital^
 ||z3ebwqw0.seering5outh.digital^
 ||z3u99l6p.en-us-en-nervealive.com^
 ||z4fwpj6c.podkaraultempera.digital^
@@ -34328,6 +34329,7 @@
 ||zyiirlrr.tarikhravannovin.shop^
 ||zyiwsis.betfire90.bet^
 ||zync-stream.com^
+||zyo61rgc.shop-alphasurge.us^
 ||zyp.ssffaa3.xyz^
 ||zyp.swadeshcomputer.com^
 ||zypi5dbf.en-us-us-metabodrop.com^
