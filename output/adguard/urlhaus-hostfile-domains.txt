@@ -2,8 +2,8 @@
 ! Description: Malware distribution domains from abuse.ch URLhaus (hosts-file format, updated every 5 minutes)
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-09-02 10:28:59 UTC
-! Total rules: 384
+! Last modified: 2026-09-02 15:52:43 UTC
+! Total rules: 386
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -44,7 +44,6 @@
 ||beak.in^
 ||bito.com.pk^
 ||blankeyeo.com^
-||blessdayservices.org^
 ||blogs.sokun.jp^
 ||bmdcompany.com^
 ||bnet-api.playm8ru.win^
@@ -60,7 +59,6 @@
 ||cat.xiaojiji.nl^
 ||cat.xiaoshabi.nl^
 ||catbaparadisehotel.com.vn^
-||cdn.file6.goodid.com^
 ||celebratingseniors.net^
 ||chat-server.maverickpreviews.com^
 ||cheatclients.com^
@@ -116,6 +114,7 @@
 ||download.suxiazai.com^
 ||download.tfyxzai.com^
 ||dreamwatchevent.com^
+||dreemix.com^
 ||duct-master.com^
 ||dynga.pl^
 ||electri.billregulator.com^
@@ -142,7 +141,6 @@
 ||galerisenimutiara.com^
 ||geoxsecurity.ro^
 ||gestionycobranzas.com^
-||gestroom.it^
 ||globalbank.us^
 ||goododeqvip.com^
 ||grantexx.com^
@@ -162,10 +160,12 @@
 ||igra123.com^
 ||ikincielesyaciankara.com.tr^
 ||impectorinternational.com^
+||indusenterprises.co^
 ||ircftp.net^
 ||isiore.com.co^
 ||itssprout.com^
 ||ixirgroup.com^
+||jawaratekno.com^
 ||jenniferloeffler.com^
 ||jessespridecharters.com^
 ||jlwz.cn^
@@ -174,6 +174,7 @@
 ||kenwillzltd.com^
 ||khavar.com^
 ||kimyen.net^
+||kis.marketing^
 ||kits.frog.tw^
 ||kokorostore.it^
 ||konsor.ru^
@@ -209,19 +210,20 @@
 ||noithaticon.vn^
 ||nusatoyota.co.id^
 ||ny.lshdw.cc^
+||odinclient.dev^
 ||ojang.pe.kr^
 ||oknoplastik.sk^
 ||onfiltre.com.tr^
 ||outpost.co.ke^
 ||p3.zbjimg.com^
 ||palharesinformatica.com.br^
+||pay.aqiu6.com^
 ||pcupd.com^
 ||pfatrivandrum.org^
 ||pic.li^
 ||pingu.business^
 ||pingu.ltd^
 ||planetariumobil.ro^
-||plutotvshow.biz^
 ||porterneuman.mx^
 ||postelnini.mk^
 ||practisingcertificateprotection.com^
@@ -254,7 +256,6 @@
 ||sales.ifree.page^
 ||samiksha.com.sg^
 ||satinmaple4.com^
-||scainseto.com.br^
 ||scanbot.me^
 ||scoala1gherla.ro^
 ||scrroeder.com^
@@ -286,7 +287,6 @@
 ||support.clz.kr^
 ||sutterpoint.com^
 ||svirtual.sanviatorperu.edu.pe^
-||swiftfusion.tech^
 ||tangentwaves.com^
 ||tanscarattorneys.co.tz^
 ||tapestryoftruth.com^
@@ -307,6 +307,7 @@
 ||toolshare.com.tr^
 ||top8onlinegame.com^
 ||topmark-tuitioncentre.co.uk^
+||tpp.om-stock.com^
 ||tr.zhzy999.net^
 ||transparenciacanaa.com.br^
 ||trtmyanmar.com^
@@ -364,6 +365,7 @@
 ||www.nccommunication.be^
 ||www.newkey.co.kr^
 ||www.notbak.com^
+||www.ojang.pe.kr^
 ||www.pingu.surf^
 ||www.pointtohealth.com^
 ||www.reifenquick.de^
