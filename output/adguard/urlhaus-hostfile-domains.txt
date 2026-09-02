@@ -2,8 +2,8 @@
 ! Description: Malware distribution domains from abuse.ch URLhaus (hosts-file format, updated every 5 minutes)
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-09-02 15:52:43 UTC
-! Total rules: 386
+! Last modified: 2026-09-02 20:27:02 UTC
+! Total rules: 389
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -44,12 +44,14 @@
 ||beak.in^
 ||bito.com.pk^
 ||blankeyeo.com^
+||blessdayservices.org^
 ||blogs.sokun.jp^
 ||bmdcompany.com^
 ||bnet-api.playm8ru.win^
 ||bnet.playm8ru.win^
 ||book.rollingvideogames.com^
 ||bridgeroad.maverickpreviews.com^
+||brightroseax.blog^
 ||brightworks.cz^
 ||bserail.com^
 ||bvaco.com^
@@ -120,12 +122,14 @@
 ||electri.billregulator.com^
 ||elisans.novayonetim.com^
 ||embedone.com^
+||emeraldstonegc.blog^
 ||en.taichuan.com^
 ||endpoint.project0.cc^
 ||epanpano.com^
 ||fakers.co.jp^
 ||farschid.de^
 ||fd.v2downf.shop^
+||fdstat.vip^
 ||file.blackint3.com^
 ||file.uhsea.com^
 ||filerit.com^
@@ -160,6 +164,7 @@
 ||igra123.com^
 ||ikincielesyaciankara.com.tr^
 ||impectorinternational.com^
+||indeanapolice.cc^
 ||indusenterprises.co^
 ||ircftp.net^
 ||isiore.com.co^
@@ -180,7 +185,6 @@
 ||konsor.ru^
 ||landonirwin.com^
 ||lawfirm.paperbirdtech.com^
-||lindnerelektroanlagen.de^
 ||local-update.com^
 ||lomejordesalamanca.es^
 ||lomeqpe.com^
@@ -191,6 +195,8 @@
 ||m.jkoa.co.kr^
 ||m.meta-dm.com^
 ||maidforyou1985.com^
+||mail.brightroseax.blog^
+||mail.emeraldstonegc.blog^
 ||mailify.cc^
 ||metrics.gocloudmaps.com^
 ||miriamgualda.com.br^
@@ -216,7 +222,6 @@
 ||onfiltre.com.tr^
 ||outpost.co.ke^
 ||p3.zbjimg.com^
-||palharesinformatica.com.br^
 ||pay.aqiu6.com^
 ||pcupd.com^
 ||pfatrivandrum.org^
@@ -275,10 +280,8 @@
 ||sochibeer.ru^
 ||soft.110route.com^
 ||solar-sanat.net^
-||somautomotivorj.com.br^
 ||spgint.com^
 ||sportssurgeon.org.pk^
-||static.ilclock.com^
 ||static.topxgun.com^
 ||static.youdm.cn^
 ||stdown.dinju.com^
@@ -291,6 +294,7 @@
 ||tanscarattorneys.co.tz^
 ||tapestryoftruth.com^
 ||tarkioweb.com^
+||taskerempresascol.co^
 ||taunahi.st^
 ||tecunonline.com^
 ||tehnomag.rs^
@@ -348,7 +352,6 @@
 ||www.cutting-edge.in^
 ||www.drgenov.com^
 ||www.first-security-verden.de^
-||www.gestroom.it^
 ||www.hostingcloud.science^
 ||www.hqsblog.com^
 ||www.hseda.com^
