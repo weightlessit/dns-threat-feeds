@@ -2,8 +2,8 @@
 ! Description: Domains extracted from recently reported malicious URLs tracked by abuse.ch URLhaus
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-09-04 02:36:58 UTC
-! Total rules: 436
+! Last modified: 2026-09-04 10:26:56 UTC
+! Total rules: 440
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -62,17 +62,20 @@
 ||brightwatch.mypi.co^
 ||bserail.com^
 ||bulkdevices.com^
+||bvaco.com^
 ||c2.11179669.cloud^
 ||canta-cn.com^
 ||casasmediterraneas.com^
 ||cashblaq.fit^
 ||ccoffice.site^
 ||cheatclients.com^
+||chiroartist.com^
 ||chrome-windows.ru^
 ||citrusmangos.ct.ws^
 ||cla.stingold.com^
 ||click.vectorlabs.com^
 ||cloud.calltop.com.br^
+||cloudeliveryenterprise.com^
 ||cloudenterprise26.com^
 ||cloudsenterprise26.com^
 ||coconutoficial.com.br^
@@ -262,6 +265,7 @@
 ||media-aviation.run.place^
 ||medicosantiagomarrero.com^
 ||meeting.supply-reflection.shop^
+||megawrzuta.pl^
 ||meissner.ae^
 ||meridia.rs^
 ||meteorclient.shop^

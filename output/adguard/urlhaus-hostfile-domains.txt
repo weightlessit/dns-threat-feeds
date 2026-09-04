@@ -2,8 +2,8 @@
 ! Description: Malware distribution domains from abuse.ch URLhaus (hosts-file format, updated every 5 minutes)
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-09-04 02:36:57 UTC
-! Total rules: 384
+! Last modified: 2026-09-04 10:26:55 UTC
+! Total rules: 383
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -11,11 +11,13 @@
 ||0following.com^
 ||123.ywxww.net^
 ||1717.1000uc.com^
+||198348.gl^
 ||1h.vuregyy1.ru^
 ||1h.xeteloi4.ru^
 ||3.zhzy999.net3.zhzy999.net^
 ||3.zhzy999.net^
 ||31.128.173.853.zhzy999.net31.128.173.853.zhzy999.net^
+||3brosstore.com^
 ||999.34c9f78b4ef541baac4a6e84d4f832a7.lol^
 ||abonent-app.ru^
 ||acc.jiangsujiaxue.com^
@@ -32,6 +34,7 @@
 ||allendostmen.com^
 ||alphapicaficagency.com^
 ||alphasaling.site^
+||altamoorgoods.com^
 ||alternativas.ru^
 ||app.appzcvb.com^
 ||archivoscrosoft.com^
@@ -48,6 +51,7 @@
 ||bito.com.pk^
 ||blankeyeo.com^
 ||blessdayservices.org^
+||blit.co.za^
 ||blogs.sokun.jp^
 ||bmdcompany.com^
 ||bnet-api.playm8ru.win^
@@ -65,12 +69,11 @@
 ||cat.xiaoshabi.nl^
 ||catbaparadisehotel.com.vn^
 ||cdaonline.com.ar^
-||cdn.file6.goodid.com^
 ||celebratingseniors.net^
 ||chat-server.maverickpreviews.com^
-||cheatclients.com^
 ||checkfivem.com^
 ||chiptune.com^
+||chiroartist.com^
 ||chuguadventures.co.tz^
 ||cl.ssouy.com^
 ||cloud.pearlpeel.com^
@@ -110,8 +113,6 @@
 ||down.54nb.com^
 ||down.fwqlt.com^
 ||down.pcclear.com^
-||down.qqfarmer.com.cn^
-||download.caihong.com^
 ||download.doumaibiji.cn^
 ||download.haozip.com^
 ||download.kaobeitu.com^
@@ -134,7 +135,6 @@
 ||fd.v2downf.shop^
 ||fern-plume.com^
 ||file.blackint3.com^
-||file.uhsea.com^
 ||filerit.com^
 ||first-security-verden.de^
 ||flyingmutts.com^
@@ -142,11 +142,11 @@
 ||fukt.link^
 ||fullstacknir.com^
 ||funneldiy.com^
-||fz.tiansys.cn^
 ||gaiadeqi.com^
 ||galerisenimutiara.com^
 ||geoxsecurity.ro^
 ||gestionycobranzas.com^
+||gestroom.it^
 ||globalbank.us^
 ||grantexx.com^
 ||grupomcperu.com^
@@ -183,17 +183,15 @@
 ||konsor.ru^
 ||landonirwin.com^
 ||lawfirm.paperbirdtech.com^
-||lindnerelektroanlagen.de^
 ||local-update.com^
 ||lomejordesalamanca.es^
 ||luizmatoso.com.br^
-||lumacrea.com^
 ||luminouspower.com.pk^
-||m.jkoa.co.kr^
 ||m.meta-dm.com^
 ||maidforyou1985.com^
 ||mail.brightroseax.blog^
 ||mail.emeraldstonegc.blog^
+||metrics.gocloudmaps.com^
 ||miriamgualda.com.br^
 ||mitreart.com^
 ||mkconstructions.net^
@@ -201,6 +199,7 @@
 ||mogimall.com^
 ||mrsweaterltd.com^
 ||muaklekcoop.com^
+||muledo.com^
 ||munihuacho.gob.pe^
 ||mx9x.com^
 ||mysura.it^
@@ -208,6 +207,7 @@
 ||ncxps.com^
 ||node-slate.com^
 ||noithaticon.vn^
+||northernvirginiaeyeassociates.com^
 ||nusatoyota.co.id^
 ||ny.lshdw.cc^
 ||odinclient.dev^
@@ -218,7 +218,6 @@
 ||outpost.co.ke^
 ||p3.zbjimg.com^
 ||palharesinformatica.com.br^
-||pay.aqiu6.com^
 ||pcupd.com^
 ||pedianow.org^
 ||pfatrivandrum.org^
@@ -286,7 +285,6 @@
 ||support.clz.kr^
 ||sutterpoint.com^
 ||svirtual.sanviatorperu.edu.pe^
-||swiftfusion.tech^
 ||tangentwaves.com^
 ||tanscarattorneys.co.tz^
 ||tapestryoftruth.com^
@@ -309,7 +307,6 @@
 ||toolshare.com.tr^
 ||top8onlinegame.com^
 ||topmark-tuitioncentre.co.uk^
-||tpp.om-stock.com^
 ||tr.zhzy999.net^
 ||transparenciacanaa.com.br^
 ||trtmyanmar.com^
@@ -350,6 +347,7 @@
 ||www.cutting-edge.in^
 ||www.drgenov.com^
 ||www.first-security-verden.de^
+||www.gestroom.it^
 ||www.hostingcloud.science^
 ||www.hqsblog.com^
 ||www.hseda.com^
@@ -361,6 +359,7 @@
 ||www.medises.co.kr^
 ||www.myvcart.com^
 ||www.namuvpn.com^
+||www.nccommunication.be^
 ||www.newkey.co.kr^
 ||www.notbak.com^
 ||www.ojang.pe.kr^
