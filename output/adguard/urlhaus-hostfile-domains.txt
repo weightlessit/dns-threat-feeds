@@ -2,8 +2,8 @@
 ! Description: Malware distribution domains from abuse.ch URLhaus (hosts-file format, updated every 5 minutes)
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-09-04 15:39:35 UTC
-! Total rules: 387
+! Last modified: 2026-09-04 20:11:43 UTC
+! Total rules: 389
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -16,11 +16,11 @@
 ||3.zhzy999.net3.zhzy999.net^
 ||3.zhzy999.net^
 ||31.128.173.853.zhzy999.net31.128.173.853.zhzy999.net^
-||3brosstore.com^
 ||999.34c9f78b4ef541baac4a6e84d4f832a7.lol^
 ||abonent-app.ru^
 ||acc.jiangsujiaxue.com^
 ||acms.saleseos.com^
+||addurltogoogle.com^
 ||admin.byte.in.ua^
 ||admin.gestroom.it^
 ||aetherone.su^
@@ -48,7 +48,6 @@
 ||bito.com.pk^
 ||blankeyeo.com^
 ||blessdayservices.org^
-||blit.co.za^
 ||blogs.sokun.jp^
 ||bmdcompany.com^
 ||bnet-api.playm8ru.win^
@@ -67,6 +66,7 @@
 ||cat.xiaoshabi.nl^
 ||catbaparadisehotel.com.vn^
 ||cdaonline.com.ar^
+||cdn.file6.goodid.com^
 ||celebratingseniors.net^
 ||chat-server.maverickpreviews.com^
 ||checkfivem.com^
@@ -87,6 +87,7 @@
 ||cpc188.day^
 ||cpofficial.com^
 ||crystalpvp.ru^
+||cs.go.kg^
 ||cyclograph.xyz^
 ||d.14yaa.com^
 ||d.wanyouxi7.com^
@@ -97,25 +98,27 @@
 ||deagroup-ks.com^
 ||deliverymailreport.co.za^
 ||delp-heizungsbau.de^
+||deoriatimes.com^
 ||dexios.co.za^
 ||dezcom.com^
 ||dfd.zhzy999.net^
-||disk.accord1key.cn^
 ||divvanews.com^
 ||dl.1003b.56a.com^
 ||dl.dzqzd.com^
 ||dl.natgo.cn^
 ||doc.e-statements.app^
 ||donkeytourscroatia.com^
-||down.54nb.com^
 ||down.fwqlt.com^
 ||down.pcclear.com^
+||down.qqfarmer.com.cn^
+||download.caihong.com^
 ||download.doumaibiji.cn^
 ||download.haozip.com^
 ||download.kaobeitu.com^
 ||download.pdf00.cn^
 ||download.pdf00.com^
 ||download.suxiazai.com^
+||download.tfyxzai.com^
 ||dreamwatchevent.com^
 ||dreemix.com^
 ||duct-master.com^
@@ -141,11 +144,11 @@
 ||fukt.link^
 ||fullstacknir.com^
 ||funneldiy.com^
+||fz.tiansys.cn^
 ||gaiadeqi.com^
 ||galerisenimutiara.com^
 ||geoxsecurity.ro^
 ||gestionycobranzas.com^
-||gestroom.it^
 ||globalbank.us^
 ||grantexx.com^
 ||grupomcperu.com^
@@ -209,7 +212,6 @@
 ||ncxps.com^
 ||node-slate.com^
 ||noithaticon.vn^
-||northernvirginiaeyeassociates.com^
 ||nusatoyota.co.id^
 ||ny.lshdw.cc^
 ||odinclient.dev^
@@ -222,6 +224,7 @@
 ||palharesinformatica.com.br^
 ||pay.aqiu6.com^
 ||pcupd.com^
+||pedianow.org^
 ||pfatrivandrum.org^
 ||pic.li^
 ||pingu.business^
@@ -287,7 +290,6 @@
 ||support.clz.kr^
 ||sutterpoint.com^
 ||svirtual.sanviatorperu.edu.pe^
-||take-care.africa^
 ||tangentwaves.com^
 ||tanscarattorneys.co.tz^
 ||tapestryoftruth.com^
