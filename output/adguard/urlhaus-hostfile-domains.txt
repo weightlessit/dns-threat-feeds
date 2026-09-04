@@ -2,8 +2,8 @@
 ! Description: Malware distribution domains from abuse.ch URLhaus (hosts-file format, updated every 5 minutes)
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-09-03 20:25:35 UTC
-! Total rules: 382
+! Last modified: 2026-09-04 02:36:57 UTC
+! Total rules: 384
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -11,11 +11,12 @@
 ||0following.com^
 ||123.ywxww.net^
 ||1717.1000uc.com^
-||198348.gl^
 ||1h.vuregyy1.ru^
+||1h.xeteloi4.ru^
 ||3.zhzy999.net3.zhzy999.net^
 ||3.zhzy999.net^
 ||31.128.173.853.zhzy999.net31.128.173.853.zhzy999.net^
+||999.34c9f78b4ef541baac4a6e84d4f832a7.lol^
 ||abonent-app.ru^
 ||acc.jiangsujiaxue.com^
 ||acms.saleseos.com^
@@ -42,7 +43,6 @@
 ||b2b.jewmailer.net^
 ||backupso.com^
 ||balanced-red-emhnkdfj-dp7g2kvqxx8n.edgeone.dev^
-||beacon.ltdglobal.co.uk^
 ||beak.in^
 ||benotrobot.online^
 ||bito.com.pk^
@@ -65,6 +65,7 @@
 ||cat.xiaoshabi.nl^
 ||catbaparadisehotel.com.vn^
 ||cdaonline.com.ar^
+||cdn.file6.goodid.com^
 ||celebratingseniors.net^
 ||chat-server.maverickpreviews.com^
 ||cheatclients.com^
@@ -77,15 +78,16 @@
 ||cn.unionlever.com^
 ||co-emas.com^
 ||coconutoficial.com.br^
+||communication-hub.vg^
 ||compuserviceonline.com.br^
 ||continentalgroup.net.in^
 ||coolairesgroup.com^
 ||coralasargetia.ro^
 ||cpc188.day^
 ||cpofficial.com^
-||crazy2cdn.com^
 ||crystalpvp.ru^
 ||cs.go.kg^
+||cyclograph.xyz^
 ||d.14yaa.com^
 ||d.wanyouxi7.com^
 ||damiancollier.com^
@@ -93,7 +95,6 @@
 ||dcrun.co.uk^
 ||dcwblida.dz^
 ||deagroup-ks.com^
-||delii.icu^
 ||deliverymailreport.co.za^
 ||delp-heizungsbau.de^
 ||dexios.co.za^
@@ -110,7 +111,6 @@
 ||down.fwqlt.com^
 ||down.pcclear.com^
 ||down.qqfarmer.com.cn^
-||download-sougou.com.cn^
 ||download.caihong.com^
 ||download.doumaibiji.cn^
 ||download.haozip.com^
@@ -118,7 +118,6 @@
 ||download.pdf00.cn^
 ||download.pdf00.com^
 ||download.suxiazai.com^
-||download.tfyxzai.com^
 ||dreamwatchevent.com^
 ||dreemix.com^
 ||duct-master.com^
@@ -130,14 +129,14 @@
 ||en.taichuan.com^
 ||endpoint.project0.cc^
 ||epanpano.com^
-||eventourarte.cl^
 ||fakers.co.jp^
 ||farschid.de^
 ||fd.v2downf.shop^
+||fern-plume.com^
 ||file.blackint3.com^
+||file.uhsea.com^
 ||filerit.com^
 ||first-security-verden.de^
-||flint-32.com^
 ||flyingmutts.com^
 ||fmrio.com^
 ||fukt.link^
@@ -148,28 +147,29 @@
 ||galerisenimutiara.com^
 ||geoxsecurity.ro^
 ||gestionycobranzas.com^
-||gestroom.it^
 ||globalbank.us^
 ||grantexx.com^
 ||grupomcperu.com^
 ||gutando.com^
+||haiiiihello.top^
 ||harmeetmotors.com^
 ||hasalltalent.com^
 ||hitman-pro.ru^
 ||hitstation.nl^
 ||hobobot.net^
+||hseda.com^
 ||htdentshop.com^
 ||icoffeecloud.com^
 ||ignetwork.us^
 ||igra123.com^
 ||ikincielesyaciankara.com.tr^
 ||impectorinternational.com^
-||indeanapolice.cc^
 ||indusenterprises.co^
+||infocardphoto.info^
 ||ircftp.net^
 ||isiore.com.co^
 ||itssprout.com^
-||ixirgroup.com^
+||jawaratekno.com^
 ||jenniferloeffler.com^
 ||jessespridecharters.com^
 ||jlwz.cn^
@@ -187,12 +187,13 @@
 ||local-update.com^
 ||lomejordesalamanca.es^
 ||luizmatoso.com.br^
+||lumacrea.com^
 ||luminouspower.com.pk^
+||m.jkoa.co.kr^
 ||m.meta-dm.com^
 ||maidforyou1985.com^
 ||mail.brightroseax.blog^
 ||mail.emeraldstonegc.blog^
-||metrics.gocloudmaps.com^
 ||miriamgualda.com.br^
 ||mitreart.com^
 ||mkconstructions.net^
@@ -205,6 +206,7 @@
 ||mysura.it^
 ||n.vs108.com^
 ||ncxps.com^
+||node-slate.com^
 ||noithaticon.vn^
 ||nusatoyota.co.id^
 ||ny.lshdw.cc^
@@ -253,7 +255,6 @@
 ||safeuploadz.com^
 ||sales.ifree.page^
 ||samiksha.com.sg^
-||satinmaple4.com^
 ||scainseto.com.br^
 ||scanbot.me^
 ||scoala1gherla.ro^
@@ -276,6 +277,7 @@
 ||soft.110route.com^
 ||solar-sanat.net^
 ||spgint.com^
+||static.ilclock.com^
 ||static.topxgun.com^
 ||static.youdm.cn^
 ||stdown.dinju.com^
@@ -303,6 +305,7 @@
 ||theservice4u.com^
 ||thtp2.volamngayxua.net^
 ||tiacreation.club^
+||togethers.tv^
 ||toolshare.com.tr^
 ||top8onlinegame.com^
 ||topmark-tuitioncentre.co.uk^
@@ -312,6 +315,7 @@
 ||trtmyanmar.com^
 ||tuiskr.com^
 ||twitch.tj^
+||twu-hwt.org^
 ||upaicdn.xinmei365.com^
 ||upchemicals.co.in^
 ||update.cg100iii.com^
@@ -355,10 +359,8 @@
 ||www.khavar.com^
 ||www.konsor.ru^
 ||www.medises.co.kr^
-||www.movy.bz^
 ||www.myvcart.com^
 ||www.namuvpn.com^
-||www.nccommunication.be^
 ||www.newkey.co.kr^
 ||www.notbak.com^
 ||www.ojang.pe.kr^
