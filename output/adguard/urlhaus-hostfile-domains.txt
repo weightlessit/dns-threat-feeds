@@ -2,8 +2,8 @@
 ! Description: Malware distribution domains from abuse.ch URLhaus (hosts-file format, updated every 5 minutes)
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-09-07 17:07:08 UTC
-! Total rules: 361
+! Last modified: 2026-09-07 21:02:55 UTC
+! Total rules: 371
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -14,6 +14,7 @@
 ||1717.1000uc.com^
 ||198348.gl^
 ||1h.vuregyy1.ru^
+||1h.xeteloi4.ru^
 ||acc.jiangsujiaxue.com^
 ||acms.saleseos.com^
 ||addurltogoogle.com^
@@ -34,6 +35,8 @@
 ||atasapka.com.tr^
 ||atom.freehosting.dev^
 ||audicontadores.com^
+||aura.tcplegit.space^
+||b2b.jewmailer.net^
 ||backupso.com^
 ||balanced-red-emhnkdfj-dp7g2kvqxx8n.edgeone.dev^
 ||beak.in^
@@ -45,6 +48,7 @@
 ||bnet-api.playm8ru.win^
 ||bnet.playm8ru.win^
 ||book.rollingvideogames.com^
+||booking.captcha-message-extranet.com^
 ||bridgeroad.maverickpreviews.com^
 ||brightworks.cz^
 ||bserail.com^
@@ -58,7 +62,6 @@
 ||celebratingseniors.net^
 ||chat-server.maverickpreviews.com^
 ||checkfivem.com^
-||chiptune.com^
 ||chiroartist.com^
 ||chuguadventures.co.tz^
 ||cl.ssouy.com^
@@ -88,6 +91,7 @@
 ||delp-heizungsbau.de^
 ||dexios.co.za^
 ||dezcom.com^
+||dinamikakargo.com^
 ||disk.accord1key.cn^
 ||divvanews.com^
 ||dl.1003b.56a.com^
@@ -99,12 +103,14 @@
 ||down.54nb.com^
 ||down.fwqlt.com^
 ||down.pcclear.com^
+||down.qqfarmer.com.cn^
 ||download.caihong.com^
 ||download.doumaibiji.cn^
 ||download.haozip.com^
 ||download.kaobeitu.com^
 ||download.pdf00.cn^
 ||download.pdf00.com^
+||download.suxiazai.com^
 ||dreamwatchevent.com^
 ||dreemix.com^
 ||duct-master.com^
@@ -112,15 +118,14 @@
 ||electri.billregulator.com^
 ||elisans.novayonetim.com^
 ||embedone.com^
+||en.taichuan.com^
 ||endpoint.project0.cc^
 ||envs.sh^
 ||epanpano.com^
 ||fakers.co.jp^
 ||farschid.de^
 ||fd.v2downf.shop^
-||fdstat.vip^
 ||file.blackint3.com^
-||file.uhsea.com^
 ||filerit.com^
 ||first-security-verden.de^
 ||flyingmutts.com^
@@ -132,6 +137,7 @@
 ||galerisenimutiara.com^
 ||geoxsecurity.ro^
 ||gestionycobranzas.com^
+||gestroom.it^
 ||globalbank.us^
 ||grantexx.com^
 ||grupomcperu.com^
@@ -142,14 +148,17 @@
 ||hitstation.nl^
 ||hobobot.net^
 ||hseda.com^
+||htdentshop.com^
 ||icoffeecloud.com^
 ||ignetwork.us^
 ||igra123.com^
 ||ikincielesyaciankara.com.tr^
+||iloveboats.st^
 ||impectorinternational.com^
 ||indusenterprises.co^
 ||ircftp.net^
 ||itssprout.com^
+||jawaratekno.com^
 ||jenniferloeffler.com^
 ||jessespridecharters.com^
 ||jlwz.cn^
@@ -163,15 +172,15 @@
 ||konsor.ru^
 ||landonirwin.com^
 ||lawfirm.paperbirdtech.com^
+||lindnerelektroanlagen.de^
 ||local-update.com^
 ||lomejordesalamanca.es^
 ||luizmatoso.com.br^
-||lumacrea.com^
 ||luminouspower.com.pk^
 ||m.jkoa.co.kr^
 ||m.meta-dm.com^
 ||maidforyou1985.com^
-||mailify.cc^
+||mail.quietsurfwi.help^
 ||malupieng.com.br^
 ||metrics.gocloudmaps.com^
 ||miriamgualda.com.br^
@@ -194,7 +203,6 @@
 ||ojang.pe.kr^
 ||oknoplastik.sk^
 ||one-graup.com^
-||onfiltre.com.tr^
 ||outpost.co.ke^
 ||p3.zbjimg.com^
 ||palharesinformatica.com.br^
@@ -213,6 +221,7 @@
 ||public.demo.securecloudsandbox.com^
 ||pvsa.gxfugy.cn^
 ||qiniuyunxz.yxflzs.com^
+||quietsurfwi.help^
 ||qv.co.ke^
 ||rabbitfuns.su^
 ||ramirex.ro^
@@ -283,7 +292,6 @@
 ||theservice4u.com^
 ||thtp2.volamngayxua.net^
 ||tiacreation.club^
-||ticpc8a.com^
 ||toolshare.com.tr^
 ||top8onlinegame.com^
 ||topmark-tuitioncentre.co.uk^
@@ -326,9 +334,11 @@
 ||www.cutting-edge.in^
 ||www.drgenov.com^
 ||www.first-security-verden.de^
+||www.gestroom.it^
 ||www.hostingcloud.science^
 ||www.hqsblog.com^
 ||www.hseda.com^
+||www.iloveboats.st^
 ||www.intelligradeeducation.vicentecisnerospub.com^
 ||www.jozefinskiatelje.si^
 ||www.kenwillzltd.com^
