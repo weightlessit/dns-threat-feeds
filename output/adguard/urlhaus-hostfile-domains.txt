@@ -2,8 +2,8 @@
 ! Description: Malware distribution domains from abuse.ch URLhaus (hosts-file format, updated every 5 minutes)
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-09-07 02:32:41 UTC
-! Total rules: 380
+! Last modified: 2026-09-07 11:25:06 UTC
+! Total rules: 359
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -14,17 +14,11 @@
 ||1717.1000uc.com^
 ||198348.gl^
 ||1h.vuregyy1.ru^
-||1h.xeteloi4.ru^
-||3.zhzy999.net3.zhzy999.net^
-||3.zhzy999.net^
-||31.128.173.853.zhzy999.net31.128.173.853.zhzy999.net^
-||abonent-app.ru^
 ||acc.jiangsujiaxue.com^
 ||acms.saleseos.com^
 ||addurltogoogle.com^
 ||admin.byte.in.ua^
 ||admin.gestroom.it^
-||adps.pro^
 ||aftelecom.com.br^
 ||aidlifempowerment.com^
 ||airtickts.com^
@@ -33,7 +27,6 @@
 ||allendostmen.com^
 ||alphapicaficagency.com^
 ||alphasaling.site^
-||altamoorgoods.com^
 ||alternativas.ru^
 ||app.appzcvb.com^
 ||archivoscrosoft.com^
@@ -41,10 +34,10 @@
 ||atasapka.com.tr^
 ||atom.freehosting.dev^
 ||audicontadores.com^
-||authgen.deals^
-||awarenessexhibition.com^
+||b2b.jewmailer.net^
 ||backupso.com^
 ||balanced-red-emhnkdfj-dp7g2kvqxx8n.edgeone.dev^
+||beak.in^
 ||bito.com.pk^
 ||blankeyeo.com^
 ||blessdayservices.org^
@@ -57,7 +50,6 @@
 ||bridgeroad.maverickpreviews.com^
 ||brightworks.cz^
 ||bserail.com^
-||bvaco.com^
 ||cambodiatouristservice.com^
 ||casasmediterraneas.com^
 ||cat.dashabi.in^
@@ -85,6 +77,7 @@
 ||cpofficial.com^
 ||crystalpvp.ru^
 ||cs.go.kg^
+||cu.srijanajha.com.np^
 ||curlservice.com^
 ||d.14yaa.com^
 ||d.wanyouxi7.com^
@@ -97,7 +90,6 @@
 ||delp-heizungsbau.de^
 ||dexios.co.za^
 ||dezcom.com^
-||dfd.zhzy999.net^
 ||disk.accord1key.cn^
 ||divvanews.com^
 ||dl.1003b.56a.com^
@@ -109,8 +101,6 @@
 ||down.54nb.com^
 ||down.fwqlt.com^
 ||down.pcclear.com^
-||down.qqfarmer.com.cn^
-||download.caihong.com^
 ||download.doumaibiji.cn^
 ||download.haozip.com^
 ||download.kaobeitu.com^
@@ -132,19 +122,17 @@
 ||farschid.de^
 ||fd.v2downf.shop^
 ||file.blackint3.com^
-||file.uhsea.com^
 ||filerit.com^
 ||first-security-verden.de^
 ||flyingmutts.com^
 ||fmrio.com^
 ||fukt.link^
 ||fullstacknir.com^
-||funneldiy.com^
-||fz.tiansys.cn^
 ||gaiadeqi.com^
 ||galerisenimutiara.com^
 ||geoxsecurity.ro^
 ||gestionycobranzas.com^
+||gestroom.it^
 ||globalbank.us^
 ||grantexx.com^
 ||grupomcperu.com^
@@ -155,17 +143,14 @@
 ||hitstation.nl^
 ||hobobot.net^
 ||hseda.com^
-||htdentshop.com^
 ||icoffeecloud.com^
 ||ignetwork.us^
 ||igra123.com^
-||ikincielesyaciankara.com.tr^
 ||impectorinternational.com^
 ||indusenterprises.co^
 ||ircftp.net^
 ||isiore.com.co^
 ||itssprout.com^
-||jawaratekno.com^
 ||jenniferloeffler.com^
 ||jessespridecharters.com^
 ||jlwz.cn^
@@ -187,13 +172,13 @@
 ||m.meta-dm.com^
 ||maidforyou1985.com^
 ||mailify.cc^
+||metrics.gocloudmaps.com^
 ||miriamgualda.com.br^
 ||mitreart.com^
 ||mkconstructions.net^
 ||mnurlogistics.az^
 ||mogimall.com^
 ||mrsweaterltd.com^
-||msedge.vg^
 ||muaklekcoop.com^
 ||muledo.com^
 ||multiplay.at^
@@ -214,8 +199,6 @@
 ||palharesinformatica.com.br^
 ||pay.aqiu6.com^
 ||pcupd.com^
-||pdf-editore.com^
-||pdfmun.software^
 ||pedianow.org^
 ||pfatrivandrum.org^
 ||pic.li^
@@ -266,14 +249,11 @@
 ||shqdown.ggzuhao.com^
 ||siaasesoria.com.mx^
 ||signageinsignia.co.za^
-||signaturenib.rest^
 ||sk-comtel.com^
 ||smartermail.host^
 ||sochibeer.ru^
 ||soft.110route.com^
-||solar-sanat.net^
 ||spgint.com^
-||static.ilclock.com^
 ||static.topxgun.com^
 ||static.youdm.cn^
 ||stdown.dinju.com^
@@ -282,11 +262,10 @@
 ||support.clz.kr^
 ||sutterpoint.com^
 ||svirtual.sanviatorperu.edu.pe^
-||taizi.fdstat.vip^
+||swiftfusion.tech^
 ||tangentwaves.com^
 ||tanscarattorneys.co.tz^
 ||tapestryoftruth.com^
-||tarkioweb.com^
 ||taunahi.st^
 ||tecunonline.com^
 ||tehnomag.rs^
@@ -306,6 +285,7 @@
 ||topmark-tuitioncentre.co.uk^
 ||tpp.om-stock.com^
 ||tr.zhzy999.net^
+||traderhype.com^
 ||transparenciacanaa.com.br^
 ||trtmyanmar.com^
 ||twitch.tj^
@@ -323,7 +303,6 @@
 ||vizyonuniversitesi.com.tr^
 ||vizyonuniversitesi.web.tr^
 ||vrajras.com^
-||w.zhzy999.net^
 ||waveplus.mediabyte.be^
 ||website.mypetapp.co.za^
 ||widexenmexico.com.mx^
