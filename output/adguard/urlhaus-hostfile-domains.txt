@@ -2,8 +2,8 @@
 ! Description: Malware distribution domains from abuse.ch URLhaus (hosts-file format, updated every 5 minutes)
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-09-07 11:25:06 UTC
-! Total rules: 359
+! Last modified: 2026-09-07 17:07:08 UTC
+! Total rules: 361
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -34,7 +34,6 @@
 ||atasapka.com.tr^
 ||atom.freehosting.dev^
 ||audicontadores.com^
-||b2b.jewmailer.net^
 ||backupso.com^
 ||balanced-red-emhnkdfj-dp7g2kvqxx8n.edgeone.dev^
 ||beak.in^
@@ -46,7 +45,6 @@
 ||bnet-api.playm8ru.win^
 ||bnet.playm8ru.win^
 ||book.rollingvideogames.com^
-||booking.captcha-message-extranet.com^
 ||bridgeroad.maverickpreviews.com^
 ||brightworks.cz^
 ||bserail.com^
@@ -101,12 +99,12 @@
 ||down.54nb.com^
 ||down.fwqlt.com^
 ||down.pcclear.com^
+||download.caihong.com^
 ||download.doumaibiji.cn^
 ||download.haozip.com^
 ||download.kaobeitu.com^
 ||download.pdf00.cn^
 ||download.pdf00.com^
-||download.suxiazai.com^
 ||dreamwatchevent.com^
 ||dreemix.com^
 ||duct-master.com^
@@ -114,25 +112,26 @@
 ||electri.billregulator.com^
 ||elisans.novayonetim.com^
 ||embedone.com^
-||en.taichuan.com^
 ||endpoint.project0.cc^
 ||envs.sh^
 ||epanpano.com^
 ||fakers.co.jp^
 ||farschid.de^
 ||fd.v2downf.shop^
+||fdstat.vip^
 ||file.blackint3.com^
+||file.uhsea.com^
 ||filerit.com^
 ||first-security-verden.de^
 ||flyingmutts.com^
 ||fmrio.com^
 ||fukt.link^
 ||fullstacknir.com^
+||fz.tiansys.cn^
 ||gaiadeqi.com^
 ||galerisenimutiara.com^
 ||geoxsecurity.ro^
 ||gestionycobranzas.com^
-||gestroom.it^
 ||globalbank.us^
 ||grantexx.com^
 ||grupomcperu.com^
@@ -146,10 +145,10 @@
 ||icoffeecloud.com^
 ||ignetwork.us^
 ||igra123.com^
+||ikincielesyaciankara.com.tr^
 ||impectorinternational.com^
 ||indusenterprises.co^
 ||ircftp.net^
-||isiore.com.co^
 ||itssprout.com^
 ||jenniferloeffler.com^
 ||jessespridecharters.com^
@@ -167,11 +166,13 @@
 ||local-update.com^
 ||lomejordesalamanca.es^
 ||luizmatoso.com.br^
+||lumacrea.com^
 ||luminouspower.com.pk^
 ||m.jkoa.co.kr^
 ||m.meta-dm.com^
 ||maidforyou1985.com^
 ||mailify.cc^
+||malupieng.com.br^
 ||metrics.gocloudmaps.com^
 ||miriamgualda.com.br^
 ||mitreart.com^
@@ -212,9 +213,9 @@
 ||public.demo.securecloudsandbox.com^
 ||pvsa.gxfugy.cn^
 ||qiniuyunxz.yxflzs.com^
+||qv.co.ke^
 ||rabbitfuns.su^
 ||ramirex.ro^
-||rcf.co.mz^
 ||rdm.91yunma.cn^
 ||reauthenticator.com^
 ||records.dennisign.se^
@@ -230,6 +231,7 @@
 ||royalindiancurryclub.com^
 ||rxquickpay.com^
 ||sablayan.seasonshotelmindoro.com^
+||safeifm.com^
 ||sales.ifree.page^
 ||samiksha.com.sg^
 ||scainseto.com.br^
@@ -254,6 +256,7 @@
 ||sochibeer.ru^
 ||soft.110route.com^
 ||spgint.com^
+||static.ilclock.com^
 ||static.topxgun.com^
 ||static.youdm.cn^
 ||stdown.dinju.com^
@@ -280,12 +283,11 @@
 ||theservice4u.com^
 ||thtp2.volamngayxua.net^
 ||tiacreation.club^
+||ticpc8a.com^
 ||toolshare.com.tr^
 ||top8onlinegame.com^
 ||topmark-tuitioncentre.co.uk^
 ||tpp.om-stock.com^
-||tr.zhzy999.net^
-||traderhype.com^
 ||transparenciacanaa.com.br^
 ||trtmyanmar.com^
 ||twitch.tj^
@@ -304,6 +306,7 @@
 ||vizyonuniversitesi.web.tr^
 ||vrajras.com^
 ||waveplus.mediabyte.be^
+||webcstore.pw^
 ||website.mypetapp.co.za^
 ||widexenmexico.com.mx^
 ||windomstatetheater.com^
@@ -323,7 +326,6 @@
 ||www.cutting-edge.in^
 ||www.drgenov.com^
 ||www.first-security-verden.de^
-||www.gestroom.it^
 ||www.hostingcloud.science^
 ||www.hqsblog.com^
 ||www.hseda.com^

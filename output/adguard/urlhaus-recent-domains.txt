@@ -2,8 +2,8 @@
 ! Description: Domains extracted from recently reported malicious URLs tracked by abuse.ch URLhaus
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-09-07 11:25:07 UTC
-! Total rules: 414
+! Last modified: 2026-09-07 17:07:09 UTC
+! Total rules: 415
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -27,6 +27,7 @@
 ||alphasaling.site^
 ||amparolarsonpw.com^
 ||andrewtreks.com^
+||api.cdn22.net^
 ||api.mineblack.lol^
 ||app.faster-cdn-hk.click^
 ||app.static-file.lol^
