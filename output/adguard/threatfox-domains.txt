@@ -2,8 +2,8 @@
 ! Description: Indicators of compromise (domain-based) from abuse.ch ThreatFox covering C2 and payload delivery
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-09-08 10:29:56 UTC
-! Total rules: 35355
+! Last modified: 2026-09-08 15:54:14 UTC
+! Total rules: 35361
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -518,6 +518,7 @@
 ||2t1ridv.logicbyte.lat^
 ||2t8cpyvwbhcze.app^
 ||2tfq28mb.stack-matrix.digital^
+||2tkoflhf.berlin-knights.com^
 ||2u5vvnoh.microservice-pulse.digital^
 ||2u8gqrbysl53oo50.org^
 ||2uehzspm.prosta-fense.org^
@@ -1371,6 +1372,7 @@
 ||8n2r77nt.app888starz.download^
 ||8n6qkl83.havenchurchraleigh.com^
 ||8o8xcdx1.rockapp.digital^
+||8ocr1m20.usa-puraboost.us^
 ||8oes4jec.betfakade.com^
 ||8oimtzfy.us-trumpgoldenbadge.com^
 ||8omeu821.1xpin.casino^
@@ -1779,6 +1781,7 @@
 ||accrenpi813.icu^
 ||ace90bet.cash^
 ||ace90bet1.bet^
+||aceattendance.com^
 ||acecleanersreno.com^
 ||acehostunit.so8laven.bet^
 ||aceitarconvitevip.com^
@@ -4069,6 +4072,7 @@
 ||berger.bio^
 ||beritaslotonline.com^
 ||berlin-brillen.com^
+||berlin-knights.com^
 ||berlinc.net^
 ||berlof.shop^
 ||bermanlawrsk.com^
@@ -4696,6 +4700,7 @@
 ||bob.msalifenterprise.net^
 ||bob.sm188dadu.top^
 ||bob.sm188daftar.mom^
+||bobatouch.com^
 ||bobbysu.life^
 ||bobbyvpizzeria.com^
 ||bobik.cfd^
@@ -5561,6 +5566,7 @@
 ||capitalpluspltd.com^
 ||capitalscope.news^
 ||capriana.do^
+||capsurlavenir.com^
 ||captainpepe.org^
 ||captcha-cds.cfd^
 ||captcha-cds.click^
@@ -6414,6 +6420,7 @@
 ||cloudmeshsite.nebulaflux.bet^
 ||cloudnewupdate.us^
 ||cloudo4meetup.com^
+||cloudprotectsoftware.cfd^
 ||cloudpuput.com^
 ||cloudruntime.christmas^
 ||cloudruntime.courses^
@@ -9292,6 +9299,7 @@
 ||ejecen.com^
 ||ejevanjc.info^
 ||ejjfjm2l.vip1xbet.net^
+||ejneqdj9.lvsc.net^
 ||ejnztsw.morlies.com^
 ||ejvphud.ua^
 ||ejxygs.hopesgarden.org^
@@ -9483,7 +9491,6 @@
 ||email.spicensweet.com^
 ||email.turanklinik.com^
 ||email.utukuva.net^
-||email.vlxx-xxnn.com^
 ||email.vnsexdam.net^
 ||email.webtechcorp.co.uk^
 ||email.webuyoldhomes.co^
@@ -9506,7 +9513,6 @@
 ||emdnfl2fv32jhssxcbxlo6dzg2at4d7qbw2md6inz63qzdfgyln5cwyd.onion^
 ||emeenakshi.org^
 ||emeetconfex.com^
-||emensk.za.com^
 ||emeraldcityms.com^
 ||emeraldyachtship.com^
 ||emergencyrestoration.pro^
@@ -11860,7 +11866,6 @@
 ||gate.turanklinik.com^
 ||gate.urbanflowbase.lat^
 ||gate.utukuva.net^
-||gate.vlxx-xxnn.com^
 ||gate.vnsexdam.net^
 ||gate.voyagezone.click^
 ||gate.webtechcorp.co.uk^
@@ -15385,6 +15390,7 @@
 ||jeremitulsads.com^
 ||jeremysafron.com^
 ||jereqk.rochandmadeholiday.com^
+||jerichohair.com^
 ||jerryshvac.com^
 ||jerusalem.androiddebugbridge.su^
 ||jespers.com.mt^
@@ -17696,6 +17702,7 @@
 ||lol42647-37621.portmap.host^
 ||lol42647-45750.portmap.host^
 ||lolosport.it^
+||lomaazul.com^
 ||lombaidi.lol^
 ||lombardisantachiara.info^
 ||lomtophamchese.com^
@@ -17734,6 +17741,7 @@
 ||loqira.com^
 ||lora-marbre.com^
 ||lordyy-30333.portmap.host^
+||lorenzboulosgroup.com^
 ||lorex7in.digital^
 ||los16zn2.celebritiesadda.com^
 ||losangelesdailynews.net^
@@ -17952,6 +17960,7 @@
 ||lvlywwa.overlokcu.com^
 ||lvppjubyy.barkerautoms.com^
 ||lvr1xtam.habbofutbol.com^
+||lvsc.net^
 ||lvsn8zv8.zen--sulin.com^
 ||lvt.vip1xbet.net^
 ||lvtimaax.usoleamoozesh.xyz^
@@ -18246,7 +18255,6 @@
 ||mail9.spicensweet.com^
 ||mail9.turanklinik.com^
 ||mail9.utukuva.net^
-||mail9.vlxx-xxnn.com^
 ||mail9.vnsexdam.net^
 ||mail9.webtechcorp.co.uk^
 ||mail9.webuyoldhomes.co^
@@ -18311,7 +18319,6 @@
 ||mails.spicensweet.com^
 ||mails.turanklinik.com^
 ||mails.utukuva.net^
-||mails.vlxx-xxnn.com^
 ||mails.vnsexdam.net^
 ||mails.webtechcorp.co.uk^
 ||mails.webuyoldhomes.co^
@@ -18532,7 +18539,6 @@
 ||malware.utopiamusic.com^
 ||malware.utukuva.net^
 ||malware.videoclubzaanstreeknoord.nl^
-||malware.vlxx-xxnn.com^
 ||malware.vnsexdam.net^
 ||malware.webtechcorp.co.uk^
 ||malware.webuyoldhomes.co^
@@ -18720,6 +18726,7 @@
 ||marmiorobicl.it^
 ||marmoteilefinance.com^
 ||maroc-hotel.com^
+||marooncloister.info^
 ||marqueq.lol^
 ||marquettedetailing.com^
 ||mars8-path.pavi1xen.bet^
@@ -19052,6 +19059,7 @@
 ||melt8pathgate.chaevodh0t.bet^
 ||melt9logicway.fluxunitzone.bet^
 ||meltmeshsite.voda4flux.surf^
+||memaiagent.cfd^
 ||memap.me^
 ||memarat.com^
 ||memeliquid.lol^
@@ -19791,6 +19799,7 @@
 ||mortilostart.com^
 ||mosaic-haven.com^
 ||mosaique-ingenierie.com^
+||moscow-never-sleep.com^
 ||moskuiopa.com^
 ||mospyqp.ninjafruiet.casino^
 ||moss-froggaee.space^
@@ -20133,7 +20142,6 @@
 ||mx5.spicensweet.com^
 ||mx5.turanklinik.com^
 ||mx5.utukuva.net^
-||mx5.vlxx-xxnn.com^
 ||mx5.vnsexdam.net^
 ||mx5.webtechcorp.co.uk^
 ||mx5.webuyoldhomes.co^
@@ -20275,7 +20283,6 @@
 ||n8n-docs.sbs^
 ||n8n69sm2.bcgameiran.net^
 ||n8o4p1xp.proxy-horizon.digital^
-||n8swqwfk.colitishatred.digital^
 ||n8t62ep9.stack-orbit.digital^
 ||n8toji7qc96.com^
 ||n9bv1oq5.proxy-orbit.digital^
@@ -20680,7 +20687,6 @@
 ||newmail.spicensweet.com^
 ||newmail.turanklinik.com^
 ||newmail.utukuva.net^
-||newmail.vlxx-xxnn.com^
 ||newmail.vnsexdam.net^
 ||newmail.webtechcorp.co.uk^
 ||newmail.webuyoldhomes.co^
@@ -21406,6 +21412,7 @@
 ||o6k7lcz5.shartbazi.net^
 ||o7-organic.com^
 ||o7se9wfy.stack-matrix.digital^
+||o7tyz0a3.pura--boost.us^
 ||o7ve5wvj.cognigen-plus.net^
 ||o82lzdzb.networkatlas.top^
 ||o8w2orhn.1bahis.app^
@@ -22816,7 +22823,6 @@
 ||phishing.two-i.com^
 ||phishing.www.cathedrale-images.com^
 ||phishing.xoilacane.live^
-||phishing.xoilacbeng.tv^
 ||phishing.xoilacks.tv^
 ||phishing.xoilackvb.cc^
 ||phishing.xoilaczzzze.tv^
@@ -24623,6 +24629,7 @@
 ||r1dge2-stream.grove5s.garden^
 ||r1iugua4.cloud-meridian.digital^
 ||r1l.me^
+||r22mgsv1.bobatouch.com^
 ||r26pytag.ama1gamb1ast.digital^
 ||r2ahpyt9.us-en-us-heroup.com^
 ||r2qz0qa2.poker-online.bet^
@@ -27418,7 +27425,6 @@
 ||smtp1.spicensweet.com^
 ||smtp1.turanklinik.com^
 ||smtp1.utukuva.net^
-||smtp1.vlxx-xxnn.com^
 ||smtp1.vnsexdam.net^
 ||smtp1.webtechcorp.co.uk^
 ||smtp1.webuyoldhomes.co^
@@ -27517,11 +27523,11 @@
 ||sniper.spicensweet.com^
 ||sniper.turanklinik.com^
 ||sniper.utukuva.net^
-||sniper.vlxx-xxnn.com^
 ||sniper.vnsexdam.net^
 ||sniper.webtechcorp.co.uk^
 ||sniper.webuyoldhomes.co^
 ||sniper.win78bet1.net^
+||snippet.host^
 ||sniwkcay.slimsplits.com^
 ||snmg.bahigo90bet.com^
 ||snnfsk.ushealthlaboratories.com^
@@ -30096,7 +30102,6 @@
 ||tqmwc.com^
 ||tqsfd610rahywd34.org^
 ||tquejdp5g289wfn7.org^
-||tquq11g4.colitishatred.digital^
 ||tr-chance.shop^
 ||tr-official.shop^
 ||tr4il7-watch.lunave5.garden^
@@ -32476,6 +32481,7 @@
 ||wateronlydries.com^
 ||waterqualityorganization.org^
 ||watfordsecurity.co.uk^
+||watsiia.top^
 ||watt2taskhub.fast7link.surf^
 ||watt2taskhub.vexa7lorn.bet^
 ||wave.bela6qit.lat^
@@ -33385,8 +33391,6 @@
 ||www.crysaltimedubaibackup1.com^
 ||www.crysaltimedubaibackup2.com^
 ||www.cutoffwheelsrus.com^
-||www.dajinylf1.top^
-||www.dajinylf3.top^
 ||www.dakarcocktail.com^
 ||www.damatostudiolegale.it^
 ||www.danafiles.com^
@@ -34112,6 +34116,7 @@
 ||xnkjsqgz.pishbini90bet.bet^
 ||xnkqvxs.bet365iran.com^
 ||xnkxowc.venusbetyek.com^
+||xnodt0fv.lorenzboulosgroup.com^
 ||xnshgwgf.bingobet.bingo^
 ||xnsvmbfqc.housinghelper.co.uk^
 ||xntwroz.melbetkade.com^
@@ -34302,6 +34307,7 @@
 ||xyxpi.sm188dvlv.cfd^
 ||xyzsm188.top^
 ||xz1aa7xc.royalshart.bet^
+||xz783f49.lomaazul.com^
 ||xzcgtffdlmn.cc^
 ||xzcgtffdlmn.cn^
 ||xzdi55gfty1htxws.org^
