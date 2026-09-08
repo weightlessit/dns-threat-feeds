@@ -2,8 +2,8 @@
 ! Description: Malware distribution domains from abuse.ch URLhaus (hosts-file format, updated every 5 minutes)
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-09-08 15:54:14 UTC
-! Total rules: 385
+! Last modified: 2026-09-08 20:37:47 UTC
+! Total rules: 375
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -54,7 +54,6 @@
 ||bnet-api.playm8ru.win^
 ||bnet.playm8ru.win^
 ||book.rollingvideogames.com^
-||booking.captcha-message-extranet.com^
 ||bridgeroad.maverickpreviews.com^
 ||brightworks.cz^
 ||bserail.com^
@@ -87,7 +86,6 @@
 ||cs.go.kg^
 ||cu.srijanajha.com.np^
 ||curlservice.com^
-||d.14yaa.com^
 ||d.wanyouxi7.com^
 ||damiancollier.com^
 ||data.yhydl.com^
@@ -120,12 +118,10 @@
 ||download.pdf00.com^
 ||download.suxiazai.com^
 ||dreamwatchevent.com^
-||dreemix.com^
 ||duct-master.com^
 ||dynga.pl^
 ||electri.billregulator.com^
 ||elisans.novayonetim.com^
-||embedone.com^
 ||en.taichuan.com^
 ||endpoint.project0.cc^
 ||envs.sh^
@@ -158,15 +154,14 @@
 ||hitstation.nl^
 ||hobobot.net^
 ||hseda.com^
-||htdentshop.com^
 ||icoffeecloud.com^
 ||ignetwork.us^
 ||igra123.com^
 ||ikincielesyaciankara.com.tr^
 ||iloveboats.st^
 ||impectorinternational.com^
-||indusenterprises.co^
 ||ircftp.net^
+||isiore.com.co^
 ||itssprout.com^
 ||jawaratekno.com^
 ||jenniferloeffler.com^
@@ -181,11 +176,9 @@
 ||konsor.ru^
 ||landonirwin.com^
 ||lawfirm.paperbirdtech.com^
-||lindnerelektroanlagen.de^
 ||local-update.com^
 ||lomejordesalamanca.es^
 ||luizmatoso.com.br^
-||lumacrea.com^
 ||luminouspower.com.pk^
 ||m.jkoa.co.kr^
 ||m.meta-dm.com^
@@ -211,7 +204,6 @@
 ||ojang.pe.kr^
 ||oknoplastik.sk^
 ||onfiltre.com.tr^
-||opalcraftsmp.com^
 ||outpost.co.ke^
 ||p3.zbjimg.com^
 ||palharesinformatica.com.br^
@@ -226,6 +218,7 @@
 ||planetariumobil.ro^
 ||plutotvshow.biz^
 ||postelnini.mk^
+||practisingcertificateprotection.com^
 ||preciosasjoyitas.com.mx^
 ||profitable-pink-0y9btnew-dpk6vqe6eheo.edgeone.dev^
 ||public.demo.securecloudsandbox.com^
@@ -275,9 +268,7 @@
 ||signaturenib.rest^
 ||sk-comtel.com^
 ||smartermail.host^
-||sochibeer.ru^
 ||soft.110route.com^
-||solar-sanat.net^
 ||spgint.com^
 ||static.topxgun.com^
 ||static.youdm.cn^
@@ -292,6 +283,7 @@
 ||tanscarattorneys.co.tz^
 ||tapestryoftruth.com^
 ||taunahi.st^
+||techbud.ro^
 ||tecunonline.com^
 ||tehnomag.rs^
 ||teleabonent.ru^
@@ -302,7 +294,6 @@
 ||themaintechnician.us^
 ||thementordirectory.com^
 ||theoremaoliveoil.com^
-||theservice4u.com^
 ||thtp2.volamngayxua.net^
 ||tiacreation.club^
 ||toolshare.com.tr^
@@ -318,7 +309,6 @@
 ||upchemicals.co.in^
 ||update.cg100iii.com^
 ||us.wind0ws.net^
-||vcc-library.uk^
 ||versaclean.com.br^
 ||veryboys.com^
 ||vgd.vg^
