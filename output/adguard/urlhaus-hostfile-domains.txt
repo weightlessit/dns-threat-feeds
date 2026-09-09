@@ -2,14 +2,13 @@
 ! Description: Malware distribution domains from abuse.ch URLhaus (hosts-file format, updated every 5 minutes)
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-09-08 20:37:47 UTC
-! Total rules: 375
+! Last modified: 2026-09-09 02:45:28 UTC
+! Total rules: 379
 !
 ! Auto-generated -- do not edit manually.
 !
 ||0022a601.pphost.net^
 ||0following.com^
-||0rder-ver1f2345.com^
 ||123.ywxww.net^
 ||1717.1000uc.com^
 ||198348.gl^
@@ -36,6 +35,7 @@
 ||api.cdn22.net^
 ||app.appzcvb.com^
 ||archivoscrosoft.com^
+||archway.cozyvistany.com^
 ||areyouready.co.za^
 ||atasapka.com.tr^
 ||atom.freehosting.dev^
@@ -45,7 +45,6 @@
 ||b2b.jewmailer.net^
 ||backupso.com^
 ||balanced-red-emhnkdfj-dp7g2kvqxx8n.edgeone.dev^
-||beak.in^
 ||bito.com.pk^
 ||blankeyeo.com^
 ||blessdayservices.org^
@@ -64,6 +63,7 @@
 ||cat.xiaoshabi.nl^
 ||catbaparadisehotel.com.vn^
 ||cdaonline.com.ar^
+||cdn.file6.goodid.com^
 ||celebratingseniors.net^
 ||chat-server.maverickpreviews.com^
 ||checkfivem.com^
@@ -81,11 +81,10 @@
 ||coolairesgroup.com^
 ||coralasargetia.ro^
 ||cpc188.day^
-||cpofficial.com^
 ||crystalpvp.ru^
 ||cs.go.kg^
 ||cu.srijanajha.com.np^
-||curlservice.com^
+||d.14yaa.com^
 ||d.wanyouxi7.com^
 ||damiancollier.com^
 ||data.yhydl.com^
@@ -103,7 +102,6 @@
 ||dl.1003b.56a.com^
 ||dl.dzqzd.com^
 ||dl.natgo.cn^
-||dl1.claudflare-gateway.net^
 ||doc.e-statements.app^
 ||donkeytourscroatia.com^
 ||down.54nb.com^
@@ -153,7 +151,7 @@
 ||hitman-pro.ru^
 ||hitstation.nl^
 ||hobobot.net^
-||hseda.com^
+||htdentshop.com^
 ||icoffeecloud.com^
 ||ignetwork.us^
 ||igra123.com^
@@ -176,6 +174,8 @@
 ||konsor.ru^
 ||landonirwin.com^
 ||lawfirm.paperbirdtech.com^
+||liikepalvelu.com^
+||lindnerelektroanlagen.de^
 ||local-update.com^
 ||lomejordesalamanca.es^
 ||luizmatoso.com.br^
@@ -204,6 +204,7 @@
 ||ojang.pe.kr^
 ||oknoplastik.sk^
 ||onfiltre.com.tr^
+||opalcraftsmp.com^
 ||outpost.co.ke^
 ||p3.zbjimg.com^
 ||palharesinformatica.com.br^
@@ -239,9 +240,9 @@
 ||reservphotoinstaynow.shop^
 ||reutilizemais.co.mz^
 ||rheddh.com^
-||riderspin.com^
 ||robertrowe.com^
 ||royalindiancurryclub.com^
+||rubburizee.es^
 ||rxquickpay.com^
 ||sablayan.seasonshotelmindoro.com^
 ||safeifm.com^
@@ -250,6 +251,7 @@
 ||scainseto.com.br^
 ||scanbot.me^
 ||scoala1gherla.ro^
+||scooter.cozyvistany.com^
 ||screenconnect.pro^
 ||scrroeder.com^
 ||sdufkghdfshds.cfd^
@@ -268,8 +270,11 @@
 ||signaturenib.rest^
 ||sk-comtel.com^
 ||smartermail.host^
+||snowproject.lol^
 ||soft.110route.com^
+||spa-com.com^
 ||spgint.com^
+||static.ilclock.com^
 ||static.topxgun.com^
 ||static.youdm.cn^
 ||stdown.dinju.com^
@@ -283,7 +288,6 @@
 ||tanscarattorneys.co.tz^
 ||tapestryoftruth.com^
 ||taunahi.st^
-||techbud.ro^
 ||tecunonline.com^
 ||tehnomag.rs^
 ||teleabonent.ru^
@@ -318,7 +322,6 @@
 ||vizyonuniversitesi.web.tr^
 ||vrajras.com^
 ||w.zhzy999.net^
-||waveplus.mediabyte.be^
 ||website.mypetapp.co.za^
 ||widexenmexico.com.mx^
 ||windomstatetheater.com^
@@ -338,7 +341,6 @@
 ||www.cutting-edge.in^
 ||www.drgenov.com^
 ||www.first-security-verden.de^
-||www.gestroom.it^
 ||www.hostingcloud.science^
 ||www.hqsblog.com^
 ||www.hseda.com^
@@ -348,12 +350,14 @@
 ||www.kenwillzltd.com^
 ||www.khavar.com^
 ||www.konsor.ru^
+||www.les51pratiquesfondamentalesdesleaders.com^
 ||www.medises.co.kr^
 ||www.myvcart.com^
 ||www.namuvpn.com^
 ||www.nccommunication.be^
 ||www.newkey.co.kr^
 ||www.notbak.com^
+||www.ojang.pe.kr^
 ||www.oringosmod.com^
 ||www.pingu.surf^
 ||www.pointtohealth.com^
