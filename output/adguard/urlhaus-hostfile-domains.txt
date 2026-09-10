@@ -2,8 +2,8 @@
 ! Description: Malware distribution domains from abuse.ch URLhaus (hosts-file format, updated every 5 minutes)
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-09-10 15:44:34 UTC
-! Total rules: 373
+! Last modified: 2026-09-10 20:21:55 UTC
+! Total rules: 372
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -14,6 +14,7 @@
 ||198348.gl^
 ||1h.vuregyy1.ru^
 ||1h.xeteloi4.ru^
+||3brosstore.com^
 ||4eclient.com^
 ||abilityindisabilityindia.org^
 ||acc.jiangsujiaxue.com^
@@ -39,9 +40,11 @@
 ||atasapka.com.tr^
 ||atom.freehosting.dev^
 ||audicontadores.com^
+||auravibes04ko.shop^
 ||b2b.jewmailer.net^
 ||backupso.com^
 ||balanced-red-emhnkdfj-dp7g2kvqxx8n.edgeone.dev^
+||beak.in^
 ||bito.com.pk^
 ||blankeyeo.com^
 ||blessdayservices.org^
@@ -51,7 +54,6 @@
 ||bnet-api.playm8ru.win^
 ||bnet.playm8ru.win^
 ||book.rollingvideogames.com^
-||booking.captcha-message-extranet.com^
 ||bridgeroad.maverickpreviews.com^
 ||brightworks.cz^
 ||bserail.com^
@@ -62,7 +64,6 @@
 ||cat.xiaoshabi.nl^
 ||catbaparadisehotel.com.vn^
 ||cdaonline.com.ar^
-||cdn.file6.goodid.com^
 ||celebratingseniors.net^
 ||chat-server.maverickpreviews.com^
 ||checkfivem.com^
@@ -72,6 +73,7 @@
 ||cl.ssouy.com^
 ||cloud.pearlpeel.com^
 ||clubdetiroelpicarcho.com^
+||cn.unionlever.com^
 ||co-emas.com^
 ||coconutoficial.com.br^
 ||compuserviceonline.com.br^
@@ -82,13 +84,11 @@
 ||crystalpvp.ru^
 ||cs.go.kg^
 ||d.14yaa.com^
-||d.wanyouxi7.com^
 ||damiancollier.com^
 ||data.yhydl.com^
 ||dcrun.co.uk^
 ||dcwblida.dz^
 ||deagroup-ks.com^
-||deliverymailreport.co.za^
 ||delp-heizungsbau.de^
 ||dexios.co.za^
 ||dezcom.com^
@@ -112,6 +112,7 @@
 ||download.pdf00.com^
 ||download.suxiazai.com^
 ||dreamwatchevent.com^
+||drhenrylopez.com^
 ||duct-master.com^
 ||dynga.pl^
 ||electri.billregulator.com^
@@ -134,8 +135,10 @@
 ||fullstacknir.com^
 ||fz.tiansys.cn^
 ||gaiadeqi.com^
+||galerisenimutiara.com^
 ||geoxsecurity.ro^
 ||gestionycobranzas.com^
+||gestroom.it^
 ||globalbank.us^
 ||globalsupportupdate.top^
 ||grantexx.com^
@@ -147,6 +150,7 @@
 ||hitman-pro.ru^
 ||hitstation.nl^
 ||hobobot.net^
+||htdentshop.com^
 ||icoffeecloud.com^
 ||ignetwork.us^
 ||igra123.com^
@@ -169,16 +173,17 @@
 ||landonirwin.com^
 ||lawfirm.paperbirdtech.com^
 ||liikepalvelu.com^
+||lindnerelektroanlagen.de^
 ||local-update.com^
 ||lomejordesalamanca.es^
 ||loop-lumen.com^
 ||luizmatoso.com.br^
+||lumacrea.com^
 ||luminouspower.com.pk^
 ||m.jkoa.co.kr^
 ||m.meta-dm.com^
 ||maidforyou1985.com^
 ||malupieng.com.br^
-||metrics.gocloudmaps.com^
 ||miriamgualda.com.br^
 ||mitreart.com^
 ||mkconstructions.net^
@@ -215,8 +220,6 @@
 ||preciosasjoyitas.com.mx^
 ||productoslili.cl^
 ||profitable-pink-0y9btnew-dpk6vqe6eheo.edgeone.dev^
-||protherapycenter.com^
-||ptpilatesstudio.com^
 ||public.demo.securecloudsandbox.com^
 ||pvsa.gxfugy.cn^
 ||qiniuyunxz.yxflzs.com^
@@ -227,7 +230,6 @@
 ||rdm.91yunma.cn^
 ||reauthenticator.com^
 ||records.dennisign.se^
-||redlk.com^
 ||refaccionesalma.com.mx^
 ||reifenquick.de^
 ||reservphotoinstay.one^
@@ -272,7 +274,6 @@
 ||static.topxgun.com^
 ||static.youdm.cn^
 ||stdown.dinju.com^
-||streammobs.com^
 ||studiogioeli.it^
 ||sumnitasinvestment.com^
 ||support.clz.kr^
@@ -307,7 +308,6 @@
 ||upaicdn.xinmei365.com^
 ||upchemicals.co.in^
 ||update.cg100iii.com^
-||us.wind0ws.net^
 ||versaclean.com.br^
 ||veryboys.com^
 ||vgd.vg^
@@ -316,7 +316,6 @@
 ||vizyonuniversitesi.com.tr^
 ||vizyonuniversitesi.web.tr^
 ||vrajras.com^
-||webcstore.pw^
 ||website.mypetapp.co.za^
 ||widexenmexico.com.mx^
 ||windomstatetheater.com^
@@ -339,6 +338,7 @@
 ||www.gestroom.it^
 ||www.hostingcloud.science^
 ||www.hqsblog.com^
+||www.hseda.com^
 ||www.intelligradeeducation.vicentecisnerospub.com^
 ||www.jozefinskiatelje.si^
 ||www.kenwillzltd.com^
@@ -355,7 +355,6 @@
 ||www.pingu.surf^
 ||www.pointtohealth.com^
 ||www.reifenquick.de^
-||www.ryzhe.com^
 ||www.saf-oil.ru^
 ||www.salonmarketing.ca^
 ||www.sgeseducation.com^
