@@ -2,11 +2,12 @@
 ! Description: Malware distribution domains from abuse.ch URLhaus (hosts-file format, updated every 5 minutes)
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-09-09 20:20:04 UTC
-! Total rules: 371
+! Last modified: 2026-09-10 02:47:39 UTC
+! Total rules: 374
 !
 ! Auto-generated -- do not edit manually.
 !
+||02teste.cc^
 ||0following.com^
 ||123.ywxww.net^
 ||1717.1000uc.com^
@@ -14,13 +15,14 @@
 ||1h.vuregyy1.ru^
 ||1h.xeteloi4.ru^
 ||4eclient.com^
+||6ak-tehnik.si^
 ||abilityindisabilityindia.org^
 ||acc.jiangsujiaxue.com^
 ||acms.saleseos.com^
 ||addurltogoogle.com^
 ||admin.byte.in.ua^
 ||admin.gestroom.it^
-||adps.pro^
+||aftelecom.com.br^
 ||aidlifempowerment.com^
 ||airtickts.com^
 ||alarmline.com.br^
@@ -28,8 +30,8 @@
 ||allendostmen.com^
 ||alphapicaficagency.com^
 ||alphasaling.site^
+||altamoorgoods.com^
 ||alternativas.ru^
-||api.cdn22.net^
 ||app.appzcvb.com^
 ||archivoscrosoft.com^
 ||archway.cozyvistany.com^
@@ -37,8 +39,6 @@
 ||atasapka.com.tr^
 ||atom.freehosting.dev^
 ||audicontadores.com^
-||aura.tcplegit.space^
-||authgen.deals^
 ||b2b.jewmailer.net^
 ||backupso.com^
 ||balanced-red-emhnkdfj-dp7g2kvqxx8n.edgeone.dev^
@@ -62,6 +62,7 @@
 ||cat.xiaoshabi.nl^
 ||catbaparadisehotel.com.vn^
 ||cdaonline.com.ar^
+||cdn.file6.goodid.com^
 ||celebratingseniors.net^
 ||chat-server.maverickpreviews.com^
 ||checkfivem.com^
@@ -105,6 +106,7 @@
 ||down.fwqlt.com^
 ||down.pcclear.com^
 ||down.qqfarmer.com.cn^
+||download.caihong.com^
 ||download.doumaibiji.cn^
 ||download.haozip.com^
 ||download.kaobeitu.com^
@@ -125,8 +127,8 @@
 ||farschid.de^
 ||fd.v2downf.shop^
 ||file.blackint3.com^
+||file.uhsea.com^
 ||filerit.com^
-||filmchill.net^
 ||first-security-verden.de^
 ||flyingmutts.com^
 ||fmrio.com^
@@ -144,6 +146,7 @@
 ||gutando.com^
 ||harmeetmotors.com^
 ||hasalltalent.com^
+||hip-hop-comms.com^
 ||hitman-pro.ru^
 ||hitstation.nl^
 ||hobobot.net^
@@ -152,12 +155,13 @@
 ||icoffeecloud.com^
 ||igra123.com^
 ||ikincielesyaciankara.com.tr^
-||iloveboats.st^
 ||impectorinternational.com^
+||indusenterprises.co^
 ||ircftp.net^
 ||isiore.com.co^
 ||itssprout.com^
 ||jawaratekno.com^
+||jenniferloeffler.com^
 ||jessespridecharters.com^
 ||jlwz.cn^
 ||jswen.com^
@@ -173,14 +177,15 @@
 ||lindnerelektroanlagen.de^
 ||local-update.com^
 ||lomejordesalamanca.es^
+||loop-lumen.com^
 ||luizmatoso.com.br^
 ||lumacrea.com^
 ||luminouspower.com.pk^
 ||m.jkoa.co.kr^
 ||m.meta-dm.com^
 ||maidforyou1985.com^
-||mail.quietsurfwi.help^
 ||malupieng.com.br^
+||metrics.gocloudmaps.com^
 ||miriamgualda.com.br^
 ||mitreart.com^
 ||mkconstructions.net^
@@ -189,13 +194,12 @@
 ||mrsweaterltd.com^
 ||muaklekcoop.com^
 ||muledo.com^
-||multiplay.at^
 ||munihuacho.gob.pe^
 ||mysura.it^
 ||n.vs108.com^
 ||ncxps.com^
-||neilshairdressers.co.uk^
 ||noithaticon.vn^
+||nusatoyota.co.id^
 ||ny.lshdw.cc^
 ||ojang.pe.kr^
 ||okhan.net^
@@ -204,11 +208,10 @@
 ||opalcraftsmp.com^
 ||outpost.co.ke^
 ||p3.zbjimg.com^
+||palharesinformatica.com.br^
 ||panel.mkk9991999912.observer^
 ||pay.aqiu6.com^
 ||pcupd.com^
-||pdf-editore.com^
-||pdfmun.software^
 ||pedianow.org^
 ||pfatrivandrum.org^
 ||pic.li^
@@ -221,7 +224,6 @@
 ||public.demo.securecloudsandbox.com^
 ||pvsa.gxfugy.cn^
 ||qiniuyunxz.yxflzs.com^
-||quietsurfwi.help^
 ||qv.co.ke^
 ||rabbitfuns.su^
 ||ramirex.ro^
@@ -250,6 +252,7 @@
 ||scooter.cozyvistany.com^
 ||screenconnect.pro^
 ||scrroeder.com^
+||sdufkghdfshds.cfd^
 ||sec.dashabi.in^
 ||sec.xiaojiji.nl^
 ||sec.xiaoshabi.nl^
@@ -262,7 +265,6 @@
 ||shqdown.ggzuhao.com^
 ||siaasesoria.com.mx^
 ||signageinsignia.co.za^
-||signaturenib.rest^
 ||sk-comtel.com^
 ||smartermail.host^
 ||snowproject.lol^
@@ -287,7 +289,6 @@
 ||tecunonline.com^
 ||tehnomag.rs^
 ||teleabonent.ru^
-||tengfeidn.cn^
 ||tenis-team-km.com^
 ||test.peperoncinochepassione.it^
 ||theholidayroads.com^
@@ -336,10 +337,11 @@
 ||www.cutting-edge.in^
 ||www.drgenov.com^
 ||www.first-security-verden.de^
+||www.gestroom.it^
 ||www.hostingcloud.science^
 ||www.hqsblog.com^
 ||www.hseda.com^
-||www.iloveboats.st^
+||www.intelligradeeducation.vicentecisnerospub.com^
 ||www.jozefinskiatelje.si^
 ||www.kenwillzltd.com^
 ||www.khavar.com^
@@ -348,10 +350,9 @@
 ||www.myvcart.com^
 ||www.namuvpn.com^
 ||www.nccommunication.be^
+||www.newkey.co.kr^
 ||www.notbak.com^
-||www.ojang.pe.kr^
 ||www.okhan.net^
-||www.oringosmod.com^
 ||www.pingu.surf^
 ||www.pointtohealth.com^
 ||www.reifenquick.de^
@@ -377,4 +378,6 @@
 ||yakult-hk.com^
 ||youtransfer.net^
 ||zamilgroups.com^
+||zetaval.metcalfphoto.com^
 ||zhigao5191.com^
+||zycdjz.com^
