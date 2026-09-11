@@ -2,8 +2,8 @@
 ! Description: Malware distribution domains from abuse.ch URLhaus (hosts-file format, updated every 5 minutes)
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-09-11 15:45:38 UTC
-! Total rules: 373
+! Last modified: 2026-09-11 20:22:23 UTC
+! Total rules: 363
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -51,6 +51,7 @@
 ||bnet-api.playm8ru.win^
 ||bnet.playm8ru.win^
 ||book.rollingvideogames.com^
+||booking.captcha-message-extranet.com^
 ||bridgeroad.maverickpreviews.com^
 ||brightworks.cz^
 ||bserail.com^
@@ -68,10 +69,10 @@
 ||chiroartist.com^
 ||chuguadventures.co.tz^
 ||cid.gov.so^
+||cl.ssouy.com^
 ||cloud.pearlpeel.com^
 ||clubdetiroelpicarcho.com^
 ||cn.unionlever.com^
-||co-emas.com^
 ||coconutoficial.com.br^
 ||compuserviceonline.com.br^
 ||continentalgroup.net.in^
@@ -85,7 +86,6 @@
 ||damiancollier.com^
 ||data.yhydl.com^
 ||dcrun.co.uk^
-||dcwblida.dz^
 ||deagroup-ks.com^
 ||delp-heizungsbau.de^
 ||dexios.co.za^
@@ -101,6 +101,7 @@
 ||down.54nb.com^
 ||down.fwqlt.com^
 ||down.pcclear.com^
+||down.qqfarmer.com.cn^
 ||download.caihong.com^
 ||download.doumaibiji.cn^
 ||download.haozip.com^
@@ -108,7 +109,6 @@
 ||download.pdf00.cn^
 ||download.pdf00.com^
 ||download.pocketbitcoindesktop.com^
-||download.suxiazai.com^
 ||dreamwatchevent.com^
 ||duct-master.com^
 ||dugovicova.sk^
@@ -136,7 +136,6 @@
 ||galerisenimutiara.com^
 ||geoxsecurity.ro^
 ||gestionycobranzas.com^
-||gestroom.it^
 ||globalbank.us^
 ||globalsupportupdate.top^
 ||grantexx.com^
@@ -153,7 +152,6 @@
 ||icoffeecloud.com^
 ||ignetwork.us^
 ||igra123.com^
-||ikincielesyaciankara.com.tr^
 ||impectorinternational.com^
 ||indusenterprises.co^
 ||ircftp.net^
@@ -173,6 +171,7 @@
 ||landonirwin.com^
 ||lawfirm.paperbirdtech.com^
 ||letstalkhomes.ca^
+||lindnerelektroanlagen.de^
 ||local-update.com^
 ||lomejordesalamanca.es^
 ||loop-lumen.com^
@@ -189,7 +188,6 @@
 ||mkconstructions.net^
 ||mnurlogistics.az^
 ||mogimall.com^
-||motorhomecinema.com^
 ||mrsweaterltd.com^
 ||muaklekcoop.com^
 ||muledo.com^
@@ -199,7 +197,6 @@
 ||n.vs108.com^
 ||ncxps.com^
 ||noithaticon.vn^
-||nusatoyota.co.id^
 ||ny.lshdw.cc^
 ||ojang.pe.kr^
 ||okhan.net^
@@ -210,7 +207,6 @@
 ||p3.zbjimg.com^
 ||palharesinformatica.com.br^
 ||panel.mkk9991999912.observer^
-||pay.aqiu6.com^
 ||pcupd.com^
 ||pedianow.org^
 ||pfatrivandrum.org^
@@ -222,7 +218,6 @@
 ||preciosasjoyitas.com.mx^
 ||productoslili.cl^
 ||profitable-pink-0y9btnew-dpk6vqe6eheo.edgeone.dev^
-||protherapycenter.com^
 ||public.demo.securecloudsandbox.com^
 ||pvsa.gxfugy.cn^
 ||qiniuyunxz.yxflzs.com^
@@ -244,7 +239,6 @@
 ||rxquickpay.com^
 ||sablayan.seasonshotelmindoro.com^
 ||safeifm.com^
-||sakuraloyalty.com^
 ||sales.ifree.page^
 ||samiksha.com.sg^
 ||scainseto.com.br^
@@ -293,7 +287,6 @@
 ||thementordirectory.com^
 ||theoremaoliveoil.com^
 ||thtp2.volamngayxua.net^
-||tiacreation.club^
 ||toolshare.com.tr^
 ||top8onlinegame.com^
 ||topmark-tuitioncentre.co.uk^
@@ -336,10 +329,8 @@
 ||www.cutting-edge.in^
 ||www.drgenov.com^
 ||www.first-security-verden.de^
-||www.gestroom.it^
 ||www.hostingcloud.science^
 ||www.hqsblog.com^
-||www.hseda.com^
 ||www.intelligradeeducation.vicentecisnerospub.com^
 ||www.jozefinskiatelje.si^
 ||www.kenwillzltd.com^
@@ -351,7 +342,6 @@
 ||www.nccommunication.be^
 ||www.newkey.co.kr^
 ||www.notbak.com^
-||www.ojang.pe.kr^
 ||www.okhan.net^
 ||www.pingu.surf^
 ||www.pointtohealth.com^
