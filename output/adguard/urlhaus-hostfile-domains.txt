@@ -2,8 +2,8 @@
 ! Description: Malware distribution domains from abuse.ch URLhaus (hosts-file format, updated every 5 minutes)
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-09-10 20:21:55 UTC
-! Total rules: 372
+! Last modified: 2026-09-11 02:40:53 UTC
+! Total rules: 373
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -14,7 +14,6 @@
 ||198348.gl^
 ||1h.vuregyy1.ru^
 ||1h.xeteloi4.ru^
-||3brosstore.com^
 ||4eclient.com^
 ||abilityindisabilityindia.org^
 ||acc.jiangsujiaxue.com^
@@ -32,16 +31,14 @@
 ||alphapicaficagency.com^
 ||alphasaling.site^
 ||alternativas.ru^
+||api.vexxuhq.site^
 ||api.wipmania.net^
 ||app.appzcvb.com^
 ||archivoscrosoft.com^
-||archway.cozyvistany.com^
 ||areyouready.co.za^
 ||atasapka.com.tr^
-||atom.freehosting.dev^
 ||audicontadores.com^
 ||auravibes04ko.shop^
-||b2b.jewmailer.net^
 ||backupso.com^
 ||balanced-red-emhnkdfj-dp7g2kvqxx8n.edgeone.dev^
 ||beak.in^
@@ -80,10 +77,12 @@
 ||continentalgroup.net.in^
 ||coolairesgroup.com^
 ||coralasargetia.ro^
+||cotecsecuritygroup.com^
 ||cpc188.day^
 ||crystalpvp.ru^
 ||cs.go.kg^
 ||d.14yaa.com^
+||d.wanyouxi7.com^
 ||damiancollier.com^
 ||data.yhydl.com^
 ||dcrun.co.uk^
@@ -110,10 +109,11 @@
 ||download.kaobeitu.com^
 ||download.pdf00.cn^
 ||download.pdf00.com^
+||download.pocketbitcoindesktop.com^
 ||download.suxiazai.com^
 ||dreamwatchevent.com^
-||drhenrylopez.com^
 ||duct-master.com^
+||dugovicova.sk^
 ||dynga.pl^
 ||electri.billregulator.com^
 ||elisans.novayonetim.com^
@@ -122,20 +122,24 @@
 ||envs.sh^
 ||epanpano.com^
 ||epsinf.com^
+||eurofarm.ge^
 ||fakers.co.jp^
 ||farschid.de^
 ||fd.v2downf.shop^
 ||file.blackint3.com^
 ||file.uhsea.com^
+||fileget.plumbco.co.nz^
 ||filerit.com^
 ||first-security-verden.de^
 ||flyingmutts.com^
 ||fmrio.com^
+||fortdelgres.com^
 ||fukt.link^
 ||fullstacknir.com^
 ||fz.tiansys.cn^
 ||gaiadeqi.com^
 ||galerisenimutiara.com^
+||garogradba.mk^
 ||geoxsecurity.ro^
 ||gestionycobranzas.com^
 ||gestroom.it^
@@ -150,19 +154,20 @@
 ||hitman-pro.ru^
 ||hitstation.nl^
 ||hobobot.net^
+||hseda.com^
 ||htdentshop.com^
 ||icoffeecloud.com^
 ||ignetwork.us^
 ||igra123.com^
 ||ikincielesyaciankara.com.tr^
 ||impectorinternational.com^
-||indusenterprises.co^
 ||ircftp.net^
 ||isiore.com.co^
 ||itssprout.com^
 ||jawaratekno.com^
 ||jenniferloeffler.com^
 ||jessespridecharters.com^
+||jlwz.cn^
 ||jswen.com^
 ||kavacanada.ca^
 ||kenwillzltd.com^
@@ -172,7 +177,6 @@
 ||konsor.ru^
 ||landonirwin.com^
 ||lawfirm.paperbirdtech.com^
-||liikepalvelu.com^
 ||lindnerelektroanlagen.de^
 ||local-update.com^
 ||lomejordesalamanca.es^
@@ -192,6 +196,7 @@
 ||mrsweaterltd.com^
 ||muaklekcoop.com^
 ||muledo.com^
+||multiplay.at^
 ||munihuacho.gob.pe^
 ||mysura.it^
 ||n.vs108.com^
@@ -238,7 +243,6 @@
 ||rheddh.com^
 ||robertrowe.com^
 ||royalindiancurryclub.com^
-||rubburizee.es^
 ||rxquickpay.com^
 ||sablayan.seasonshotelmindoro.com^
 ||safeifm.com^
@@ -247,9 +251,9 @@
 ||scainseto.com.br^
 ||scanbot.me^
 ||scoala1gherla.ro^
-||scooter.cozyvistany.com^
 ||screenconnect.pro^
 ||scrroeder.com^
+||sdufkghdfshds.cfd^
 ||sec.dashabi.in^
 ||sec.xiaojiji.nl^
 ||sec.xiaoshabi.nl^
@@ -257,20 +261,16 @@
 ||semencepourlavie.org^
 ||separadordecc.com^
 ||seputartuban.com^
-||sex.gemlogin.space^
 ||sg123.net^
 ||shqdown.ggzuhao.com^
 ||siaasesoria.com.mx^
 ||signageinsignia.co.za^
 ||sk-comtel.com^
 ||smartermail.host^
-||snowproject.lol^
 ||soft.110route.com^
 ||software-gateway.click^
 ||solar-sanat.net^
-||spa-com.com^
 ||spgint.com^
-||static.ilclock.com^
 ||static.topxgun.com^
 ||static.youdm.cn^
 ||stdown.dinju.com^
@@ -321,6 +321,7 @@
 ||windomstatetheater.com^
 ||wittenhorst.eu^
 ||wordtax.ink^
+||wwalucircle.com^
 ||www-connect-secure-wellcfargo.sekolahkejarpaket.com^
 ||www.ardguisser.com^
 ||www.astenterprises.com.pk^
@@ -335,7 +336,6 @@
 ||www.cutting-edge.in^
 ||www.drgenov.com^
 ||www.first-security-verden.de^
-||www.gestroom.it^
 ||www.hostingcloud.science^
 ||www.hqsblog.com^
 ||www.hseda.com^
@@ -373,6 +373,7 @@
 ||xn--yh4bx88a.com^
 ||xshop.com.tr^
 ||yakult-hk.com^
+||yokobd.com^
 ||youtransfer.net^
 ||zamilgroups.com^
 ||zetaval.metcalfphoto.com^
