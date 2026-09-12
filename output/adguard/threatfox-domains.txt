@@ -2,8 +2,8 @@
 ! Description: Indicators of compromise (domain-based) from abuse.ch ThreatFox covering C2 and payload delivery
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-09-12 09:58:16 UTC
-! Total rules: 36226
+! Last modified: 2026-09-12 14:54:01 UTC
+! Total rules: 36238
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -207,6 +207,7 @@
 ||16kg9xzz3yt30xc4.org^
 ||16mp59qr.usen-neurovera.com^
 ||16z4okne.seering5outh.digital^
+||172u1sfd.diero.store^
 ||176.65.148.212.ptr.pfcloud.network^
 ||176.65.149.124.ptr.pfcloud.network^
 ||17eqwy30.takhtenard.app^
@@ -831,6 +832,7 @@
 ||51amiyqh.biodenttix.us^
 ||51eho90n.bet404farsi.com^
 ||51fjllnm.composition-fleurs-et-plumes.com^
+||51g2l83a.bvcbx.store^
 ||51jt9qzn.us-en-us-neuroxen.com^
 ||53bbwqsrdg3rxni.top^
 ||53lbzsch.flasburn.us^
@@ -869,22 +871,17 @@
 ||58shz66o.tahlilsazeha.xyz^
 ||58vin.com^
 ||58win-vi.com^
-||58win.boo^
 ||58win.bot^
 ||58win.builders^
-||58win.computer^
 ||58win.fund^
 ||58win.futbol^
 ||58win.gifts^
 ||58win.institute^
-||58win.rsvp^
-||58win.trading^
 ||58win.vision^
 ||58win1.love^
 ||58win1vip.com^
 ||58wincom.shop^
 ||58wint5.com^
-||58winz.bio^
 ||59k3ql4x.akhlagvaahkam.xyz^
 ||59qxatd0.gtacauto.com^
 ||5a3s97ps.fitprotracker-campaign.com^
@@ -1059,6 +1056,7 @@
 ||6cs2fy7brjjx3fza7ny2vyhbkaxtn6rdx4p4js2lbgyhke7z4aslxtid.onion^
 ||6cyzeu86.bettilt90.com^
 ||6dg7sjam.bet404farsi.com^
+||6e023wyi.bossbey.store^
 ||6feq96px.eutoor.com^
 ||6fk656iq.irani-music.com^
 ||6fkzrm3o.en-en-en-cardioslim.com^
@@ -1311,6 +1309,7 @@
 ||89g7yx01.en-biobooster.com^
 ||89lcj9t170425220.cfd^
 ||89ulhsid.nycsocialsportsclub.com^
+||8a0jzezr.api24.store^
 ||8a226u7n.melemoeuhane.com^
 ||8b77timf.quantumharbinger.digital^
 ||8bitstick.com^
@@ -2790,6 +2789,7 @@
 ||api.yuretemelo.com^
 ||api1.haedalcompany.com^
 ||api17.colatv88xd.cc^
+||api24.store^
 ||apiass.brand5calpel.lat^
 ||apibyte4811.com^
 ||apicascade.eight-education.lat^
@@ -3145,13 +3145,13 @@
 ||arre-mayotte.yt^
 ||arrebolcap.com^
 ||arringtonphillips.com^
+||arrowwoodmemoir.org^
 ||arrtom.followyourjoy.hu^
 ||art-archepelago.com^
 ||art-floor24.com^
 ||artcnb.com^
 ||artdispatchers.com^
 ||artemis-studio.gr^
-||artemisc2-62621.portmap.host^
 ||artemretouching.com^
 ||artenreithof.de^
 ||artesc.org^
@@ -3827,7 +3827,6 @@
 ||bancuverperu.com^
 ||bandar-shleprx-aaag.info^
 ||bandep.net^
-||banderaboardingkennels.com^
 ||bandwid-route.mixzipcore64.lat^
 ||bangas.com.bd^
 ||banghieuachau.com^
@@ -4911,8 +4910,10 @@
 ||borschokf2dd.digital^
 ||bosphorusdisticaret.com^
 ||boss-limited.com^
+||boss1huesos.cc^
 ||bossanovabeirut.com^
 ||bossbabeai.com^
+||bossbey.store^
 ||bossgsaghdh-62973.portmap.host^
 ||bosstekirdag.store^
 ||bostarpack.com^
@@ -5314,6 +5315,7 @@
 ||bv0rhljc.en-us-theeloncod.com^
 ||bvabf.budapesthandmade.hu^
 ||bvbourbonbar.com^
+||bvcbx.store^
 ||bvcdkm.feszt360.hu^
 ||bvd0k429.maia-bentley.com^
 ||bventuretech.com.my^
@@ -6002,6 +6004,7 @@
 ||cestmuhendislik.com.tr^
 ||cetecgroups.com^
 ||cf-api.indianadforum.com^
+||cf-check.site^
 ||cf.cl^
 ||cf.evilpony.win^
 ||cf.lala1.lat^
@@ -7230,6 +7233,7 @@
 ||creativefarmsgeorgia.com^
 ||creativeprintsdxb.com^
 ||creativesol.co^
+||creativex5.cc^
 ||credi-big.com^
 ||creditchickens.xyz^
 ||creditoempreendedor.com.br^
@@ -8010,6 +8014,7 @@
 ||deltapol-cv2nwup.westrock.surf^
 ||deltatransmission.com^
 ||deltavie-iwyjqh.westcalm.surf^
+||deltawood.cc^
 ||deluxe.gl^
 ||demale.shop^
 ||demand3-logic.verdi7qor.lat^
@@ -8172,6 +8177,7 @@
 ||devmatrix.wiki^
 ||devnetsyncpro.click^
 ||devopstribe.it^
+||devtec.store^
 ||devvsecop.com^
 ||devynly.monster^
 ||dewanmanufacturing.com^
@@ -8266,6 +8272,7 @@
 ||diegestistart.com^
 ||dienlanh24h.net^
 ||dienlanhvanthanh.com^
+||diero.store^
 ||diesellabs.com^
 ||dieserbenni.ru^
 ||dietasemetas.com^
@@ -8656,6 +8663,7 @@
 ||domainesdulys.ch^
 ||dombl.yanis.hu^
 ||dome.369bbqsifangonline.com^
+||domelex.fr^
 ||domendajcman.com^
 ||domgcom.com^
 ||dominicains-strasbourg.fr^
@@ -9151,6 +9159,7 @@
 ||e7a6zgqfijn2ko6lzkz53tysjpnf22fxj4h2f3saufrmsts5pbul5eid.onion^
 ||e7ilzkhn.rockapp.digital^
 ||e7ryllbp.container-pulse.digital^
+||e7ut8w9t.devtec.store^
 ||e7w940t3.drubenginecologo.com^
 ||e8gr1jq7.pura--boost.us^
 ||e99is6wd.www-bellyflush.com^
@@ -12476,6 +12485,7 @@
 ||gigaowl.gr^
 ||gigaping.online^
 ||gigatag.info^
+||gigifilare.it^
 ||gijjr.welovevent.com^
 ||gila.ccbcpickens.org^
 ||gilasystem.ir^
@@ -17935,6 +17945,7 @@
 ||login-grvt.my^
 ||login-web.sarahkapsreit.work^
 ||login.metricsdashboard.cc^
+||login.nimbusforge.cc^
 ||login.trees4sale.net^
 ||login.v-panel.asia^
 ||logincrypt8338.com^
@@ -18342,6 +18353,7 @@
 ||m3f6b86b.memap.me^
 ||m3rg0-sync.cyberframe.lat^
 ||m3rnbvs5d.eth^
+||m3s.ch^
 ||m3wwhkus4dxbnxbtihexlyd2cv63qrvex6jiebc4vqe22kg2z3udebid.onion^
 ||m47hkbcd.ganuneasasi.xyz^
 ||m4ch.ru^
@@ -25625,6 +25637,7 @@
 ||revistathebard.com^
 ||revivebyviv.com^
 ||revokes-humanity.com^
+||revolutionautodetailing.ca^
 ||revteoaraenttf.com^
 ||revvedupdirect.com^
 ||revvedupnet.com^
@@ -31572,6 +31585,7 @@
 ||us-en-us--puraboost.com^
 ||us-en-us-biobooster.com^
 ||us-en-us-bizopp.com^
+||us-en-us-cognigenplus.com^
 ||us-en-us-cognisurge.com^
 ||us-en-us-darkreset.com^
 ||us-en-us-eloncode.com^
@@ -31942,7 +31956,6 @@
 ||valeribyvision.space^
 ||valeriedalleur.com^
 ||valeroks.click^
-||validacontrato.site^
 ||validateinfo.cloud^
 ||validator.uno^
 ||validatorgateway.veget-growing.garden^
@@ -33016,7 +33029,6 @@
 ||web-s3-infra.gravix-net.cfd^
 ||web-safe.beer^
 ||web-safety.beer^
-||web-security.beer^
 ||web-stack-node.wiki^
 ||web-thyrafemme-balance.com^
 ||web-tupitea.com^
