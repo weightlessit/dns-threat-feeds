@@ -2,8 +2,8 @@
 ! Description: Malware distribution domains from abuse.ch URLhaus (hosts-file format, updated every 5 minutes)
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-09-15 16:07:27 UTC
-! Total rules: 381
+! Last modified: 2026-09-15 20:48:00 UTC
+! Total rules: 389
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -11,9 +11,12 @@
 ||123.ywxww.net^
 ||1717.1000uc.com^
 ||198348.gl^
+||4eclient.com^
 ||abilityindisabilityindia.org^
 ||acc.jiangsujiaxue.com^
+||accesstelematics.com^
 ||acms.saleseos.com^
+||acrilicoporto.pt^
 ||acrobat.proposal.name.ng^
 ||addurltogoogle.com^
 ||admin.byte.in.ua^
@@ -55,6 +58,7 @@
 ||cat.xiaojiji.nl^
 ||cat.xiaoshabi.nl^
 ||catbaparadisehotel.com.vn^
+||ccleaner.gl^
 ||cdaonline.com.ar^
 ||celebratingseniors.net^
 ||chat-server.maverickpreviews.com^
@@ -79,6 +83,7 @@
 ||cs.go.kg^
 ||d.14yaa.com^
 ||d.wanyouxi7.com^
+||dailyushistory.com^
 ||damiancollier.com^
 ||data.yhydl.com^
 ||dcrun.co.uk^
@@ -100,7 +105,6 @@
 ||down.54nb.com^
 ||down.fwqlt.com^
 ||down.pcclear.com^
-||down.qqfarmer.com.cn^
 ||download.caihong.com^
 ||download.doumaibiji.cn^
 ||download.haozip.com^
@@ -111,6 +115,7 @@
 ||duct-master.com^
 ||dynga.pl^
 ||electri.billregulator.com^
+||elisans.novayonetim.com^
 ||en.taichuan.com^
 ||endpoint.project0.cc^
 ||envs.sh^
@@ -120,8 +125,10 @@
 ||fakers.co.jp^
 ||farschid.de^
 ||fd.v2downf.shop^
+||fdstat.vip^
 ||ficus.in^
 ||file.blackint3.com^
+||file.uhsea.com^
 ||filerit.com^
 ||fingerprint-veri.info^
 ||first-security-verden.de^
@@ -190,8 +197,8 @@
 ||local-update.com^
 ||lomejordesalamanca.es^
 ||luizmatoso.com.br^
+||lumacrea.com^
 ||luminouspower.com.pk^
-||m.jkoa.co.kr^
 ||m.meta-dm.com^
 ||maidforyou1985.com^
 ||malupieng.com.br^
@@ -231,6 +238,8 @@
 ||portal.onepansol.site^
 ||postelnini.mk^
 ||practisingcertificateprotection.com^
+||preciosasjoyitas.com.mx^
+||prodimetal.com^
 ||profitable-pink-0y9btnew-dpk6vqe6eheo.edgeone.dev^
 ||public.demo.securecloudsandbox.com^
 ||pvsa.gxfugy.cn^
@@ -273,7 +282,7 @@
 ||signageinsignia.co.za^
 ||sk-comtel.com^
 ||smartermail.host^
-||spgint.com^
+||soft.110route.com^
 ||srv.conti.pk^
 ||startvsgame.com^
 ||statementreaderdownload.com^
@@ -287,12 +296,12 @@
 ||sutterpoint.com^
 ||svirtual.sanviatorperu.edu.pe^
 ||swiftfusion.tech^
+||taizi.fdstat.vip^
 ||talkandtypeapp.com^
 ||tangentwaves.com^
 ||tanscarattorneys.co.tz^
 ||tapestryoftruth.com^
 ||tapped.top^
-||techtattva.in^
 ||tecunonline.com^
 ||tehnomag.rs^
 ||tengfeidn.cn^
@@ -312,8 +321,7 @@
 ||tripfarely.com^
 ||trouserstreak.net^
 ||trtmyanmar.com^
-||twu-hwt.org^
-||uno-play.online^
+||twitch.tj^
 ||upaicdn.xinmei365.com^
 ||upchemicals.co.in^
 ||update-notif.com^
