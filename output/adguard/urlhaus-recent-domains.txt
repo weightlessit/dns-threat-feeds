@@ -2,8 +2,8 @@
 ! Description: Domains extracted from recently reported malicious URLs tracked by abuse.ch URLhaus
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-09-18 10:27:40 UTC
-! Total rules: 474
+! Last modified: 2026-09-18 15:43:10 UTC
+! Total rules: 476
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -71,6 +71,7 @@
 ||brightwatch.mypi.co^
 ||bulkdevices.com^
 ||bvaco.com^
+||c1.dstatbots.win^
 ||c2.11179669.cloud^
 ||casasmediterraneas.com^
 ||ccoffice.site^
@@ -427,6 +428,7 @@
 ||uno-play.online^
 ||uno-play.xyz^
 ||update-notif.com^
+||update.googlecert.help^
 ||userhotels.org^
 ||usertunelaccount1.royalbnkmail.com^
 ||v-k.com.ua^

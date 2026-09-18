@@ -2,8 +2,8 @@
 ! Description: Malware distribution domains from abuse.ch URLhaus (hosts-file format, updated every 5 minutes)
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-09-18 10:27:40 UTC
-! Total rules: 399
+! Last modified: 2026-09-18 15:43:10 UTC
+! Total rules: 392
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -17,7 +17,6 @@
 ||abilityindisabilityindia.org^
 ||acc.jiangsujiaxue.com^
 ||acms.saleseos.com^
-||acrilicoporto.pt^
 ||addurltogoogle.com^
 ||admin.byte.in.ua^
 ||admin.gestroom.it^
@@ -32,7 +31,6 @@
 ||amaamn.com^
 ||app.appzcvb.com^
 ||areyouready.co.za^
-||asiaengrs.com^
 ||atasapka.com.tr^
 ||audicontadores.com^
 ||backupso.com^
@@ -49,6 +47,7 @@
 ||bridgeroad.maverickpreviews.com^
 ||brightworks.cz^
 ||bserail.com^
+||c2.mc-live.online^
 ||cambodiatouristservice.com^
 ||casasmediterraneas.com^
 ||cat.dashabi.in^
@@ -85,11 +84,9 @@
 ||data.yhydl.com^
 ||dcfpp.com^
 ||dcrun.co.uk^
-||dcwblida.dz^
 ||deagroup-ks.com^
 ||debugify.net^
 ||delp-heizungsbau.de^
-||dexios.co.za^
 ||dezcom.com^
 ||dinamikakargo.com^
 ||disk.accord1key.cn^
@@ -118,7 +115,6 @@
 ||dynga.pl^
 ||electri.billregulator.com^
 ||elisans.novayonetim.com^
-||en.taichuan.com^
 ||endpoint.project0.cc^
 ||envs.sh^
 ||epanpano.com^
@@ -129,6 +125,7 @@
 ||farschid.de^
 ||fd.v2downf.shop^
 ||file.blackint3.com^
+||file.uhsea.com^
 ||filerit.com^
 ||first-security-verden.de^
 ||floppaclient.com^
@@ -138,20 +135,14 @@
 ||fukt.link^
 ||fullstacknir.com^
 ||funnymap.net^
+||fz.tiansys.cn^
 ||galerisenimutiara.com^
 ||gamblerigmod.org^
 ||garogradba.mk^
 ||gboutros.howto.rocks^
 ||geoxsecurity.ro^
 ||gestionycobranzas.com^
-||get.acitvated.win^
-||get.acivated.win^
-||get.actiated.win^
-||get.activatd.win^
-||get.actrivated.win^
-||get.acttivated.win^
-||get.cativated.win^
-||get.ctivated.win^
+||gestroom.it^
 ||ghostclient.net^
 ||glbeletronica.com.br^
 ||globalbank.us^
@@ -177,9 +168,9 @@
 ||ircftp.net^
 ||isiore.com.co^
 ||itssprout.com^
+||jawaratekno.com^
 ||jenniferloeffler.com^
 ||jessespridecharters.com^
-||jlwz.cn^
 ||jswen.com^
 ||kavacanada.ca^
 ||kenwillzltd.com^
@@ -281,6 +272,7 @@
 ||semencepourlavie.org^
 ||seputartuban.com^
 ||sg123.net^
+||shqdown.ggzuhao.com^
 ||sigmaclient.net^
 ||signageinsignia.co.za^
 ||sirenasultana.com^
@@ -293,7 +285,6 @@
 ||srsorvete.com.br^
 ||srv.conti.pk^
 ||star.zcnet.net^
-||static.ilclock.com^
 ||static.topxgun.com^
 ||static.youdm.cn^
 ||stdown.dinju.com^
@@ -307,7 +298,6 @@
 ||tanscarattorneys.co.tz^
 ||tapestryoftruth.com^
 ||taunahi.st^
-||techtattva.in^
 ||tecunonline.com^
 ||tehnomag.rs^
 ||tengfeidn.cn^
@@ -323,15 +313,18 @@
 ||toolshare.com.tr^
 ||top8onlinegame.com^
 ||topmark-tuitioncentre.co.uk^
+||tpp.om-stock.com^
 ||tr.zhzy999.net^
 ||transparenciacanaa.com.br^
 ||trtmyanmar.com^
 ||twitch.tj^
+||twu-hwt.org^
 ||uasputnik.com^
 ||uno-play.xyz^
 ||upaicdn.xinmei365.com^
 ||upchemicals.co.in^
 ||update.cg100iii.com^
+||update.googlecert.help^
 ||userhotels.org^
 ||velvetcanyonline.xyz^
 ||versaclean.com.br^
@@ -341,6 +334,7 @@
 ||vizyonuniversitesi.com.tr^
 ||vizyonuniversitesi.web.tr^
 ||vrajras.com^
+||webcstore.pw^
 ||website.mypetapp.co.za^
 ||widexenmexico.com.mx^
 ||wielixclient.com^
@@ -397,7 +391,6 @@
 ||www.website.mypetapp.co.za^
 ||www.xn--on3b15m2lco2u.com^
 ||www.zamilgroups.com^
-||www.zhikey.com^
 ||xenon.studio^
 ||xn--yh4bx88a.com^
 ||xshop.com.tr^
