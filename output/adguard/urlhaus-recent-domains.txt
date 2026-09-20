@@ -2,8 +2,8 @@
 ! Description: Domains extracted from recently reported malicious URLs tracked by abuse.ch URLhaus
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-09-20 10:30:57 UTC
-! Total rules: 430
+! Last modified: 2026-09-20 15:19:19 UTC
+! Total rules: 436
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -74,6 +74,7 @@
 ||cloudeliveryenterprise.com^
 ||cloudenterprise26.com^
 ||cloudsenterprise26.com^
+||cn.devglobal.biz^
 ||coconutoficial.com.br^
 ||colibrik.com^
 ||communication-hub.vg^
@@ -295,6 +296,7 @@
 ||onlocity.com^
 ||onlypackaging.grupoinde.com^
 ||opalcraftsmp.com^
+||opsecmod.st^
 ||oss.cop.lat^
 ||packmate.in^
 ||pancar.lol^
@@ -314,6 +316,7 @@
 ||porterneuman.mx^
 ||practisingcertificateprotection.com^
 ||prestige-client.org^
+||prestigeclient.st^
 ||productoslili.cl^
 ||promnet.jp^
 ||pulgarinrealtor.com^
@@ -343,6 +346,7 @@
 ||sixmexicos.com^
 ||skyblock-addons.com^
 ||skyblock-extras.org^
+||skymoders.top^
 ||smarthomy.cl^
 ||smileshiplogistics.com^
 ||snowproject.lol^
@@ -362,6 +366,7 @@
 ||talkandtypeapp.com^
 ||tapped.top^
 ||taskerempresascol.co^
+||taunahi.client.farm^
 ||taunahi.st^
 ||teleabonent.ru^
 ||telemetryloop.net^
@@ -436,4 +441,5 @@
 ||zenithclient.com^
 ||zetaval.metcalfphoto.com^
 ||zhimaly.com^
+||zhostz.com^
 ||zunimar.cl^
