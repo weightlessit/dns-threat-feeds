@@ -2,8 +2,8 @@
 ! Description: Domains extracted from recently reported malicious URLs tracked by abuse.ch URLhaus
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-09-19 19:58:35 UTC
-! Total rules: 461
+! Last modified: 2026-09-20 03:03:09 UTC
+! Total rules: 428
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -39,7 +39,6 @@
 ||app.static-file.lol^
 ||architekten-schreiner.de^
 ||archway.cozyvistany.com^
-||art-jewels.de^
 ||asdsocial.pt^
 ||attention-check.online^
 ||aura.tcplegit.space^
@@ -49,18 +48,14 @@
 ||authshipup.net^
 ||awarenessexhibition.com^
 ||azhu.cakkaao.com^
-||azlvaka.vu^
 ||b2b.jewmailer.net^
-||balanced-red-emhnkdfj-dp7g2kvqxx8n.edgeone.dev^
 ||baomma.kmmiiaaa.com^
-||baoxissde.one^
 ||beacon.ltdglobal.co.uk^
 ||becof.org^
 ||benotrobot.online^
 ||blueoceanealtd.co.ke^
 ||blueprint-71.com^
 ||bluerelic155.mypi.co^
-||bm2contabilidade.com.br^
 ||botcheck-cf.top^
 ||breezeclient.com^
 ||brightroseax.blog^
@@ -82,7 +77,6 @@
 ||coconutoficial.com.br^
 ||colibrik.com^
 ||communication-hub.vg^
-||connectmagazineads.com^
 ||contididit.conti.pk^
 ||coolairesgroup.com^
 ||copiose.org^
@@ -147,13 +141,10 @@
 ||digitalisonesapps.com^
 ||dinamikakargo.com^
 ||dipre.com.tr^
-||dl.myresult.co.za^
 ||dl.unicron-dl.click^
 ||dl1.claudflare-gateway.net^
 ||dnswwt.club^
 ||docmntageant.com^
-||docuslutmentadoonline.top^
-||docuuumennnntonline.top^
 ||donutclients.net^
 ||download-sougou.com.cn^
 ||download.pocketbitcoindesktop.com^
@@ -165,7 +156,6 @@
 ||easyaround.st^
 ||eccmice.com^
 ||eldertechsupport.com^
-||elxxvvx.xyz^
 ||emeraldstonegc.blog^
 ||epibenie.dz^
 ||epsinf.com^
@@ -173,7 +163,6 @@
 ||faceit-anti-cheat.com^
 ||faceit-cdn.org^
 ||familyaddons.com^
-||fdrv.beeyuskincare.co.nz^
 ||femade.co.uk^
 ||fern-plume.com^
 ||ficus.in^
@@ -188,7 +177,6 @@
 ||fiscalizarais.xyz^
 ||flicargo.com^
 ||flint-32.com^
-||flooriscoveringworld.com^
 ||floppaclient.com^
 ||foundrysourcings.co.uk^
 ||fujiarte.com^
@@ -231,7 +219,6 @@
 ||graficaminascard.com.br^
 ||haiiiihello.top^
 ||hashedsolver.icu^
-||helnivo.vu^
 ||hindustancargologistic.com^
 ||hip-hop-comms.com^
 ||hotelmate.asia^
@@ -248,16 +235,13 @@
 ||infocardphoto.info^
 ||inventorychanger.com^
 ||invmove.com^
-||ip-69-33-213-199.dfw.megapath.net^
 ||iploglab.store^
-||itsmystik.com^
 ||iyn4ce9o.casero.store^
 ||jokely.icu^
 ||jswen.com^
 ||k3p8wz1n.bvcbx.store^
 ||kee126.com^
 ||killurself1337-cdn.doxbin.mom^
-||kits.frog.tw^
 ||kmmiiaaa.com^
 ||kolpa.lol^
 ||krem.mesoptik.com^
@@ -284,7 +268,6 @@
 ||massgravel.dev^
 ||massgravel.net^
 ||medicosantiagomarrero.com^
-||meeting.supply-reflection.shop^
 ||megawrzuta.pl^
 ||meissner.ae^
 ||meteorclientplus.com^
@@ -298,10 +281,8 @@
 ||mon-xxx-02.cfd^
 ||muaklekcoop.com^
 ||multiplay.at^
-||multisavcx.xyz^
 ||munihuacho.gob.pe^
 ||ndigitals.in^
-||nieuw.technoberg.nl^
 ||noamaddons.com^
 ||node-slate.com^
 ||nova-client.com^
@@ -318,7 +299,6 @@
 ||pancar.lol^
 ||panel.mkk9991999912.observer^
 ||paste.mangsud.org^
-||paularavanelli.com.br^
 ||pawsockenjoyer.site^
 ||pdf-editore.com^
 ||pdfmun.software^
@@ -334,11 +314,9 @@
 ||practisingcertificateprotection.com^
 ||prestige-client.org^
 ||productoslili.cl^
-||profitable-pink-0y9btnew-dpk6vqe6eheo.edgeone.dev^
 ||promnet.jp^
 ||pulgarinrealtor.com^
 ||puschl.langhaar-schaeferhunde.com^
-||python3.en-us--balancing.co^
 ||q7k2m9xb.us-theeloncode.com^
 ||quietsurfwi.help^
 ||rabbitfuns.su^
@@ -346,7 +324,6 @@
 ||render-6.com^
 ||repositoryserver.dpdns.org^
 ||rmm.smartscreen.lifestyle^
-||robinhoodwallet.dervano.vu^
 ||roptik.com^
 ||rubburizee.es^
 ||ryanborn.net^
@@ -362,7 +339,6 @@
 ||sigmaclient.net^
 ||signageinsignia.co.za^
 ||signaturenib.rest^
-||sivrex.click^
 ||sixmexicos.com^
 ||skyblock-addons.com^
 ||skyblock-extras.org^
@@ -371,7 +347,6 @@
 ||snowproject.lol^
 ||soft-update.dev^
 ||software-gateway.click^
-||somostask.co^
 ||spa-com.com^
 ||speddebug.com^
 ||sportssurgeon.org.pk^
@@ -381,12 +356,9 @@
 ||statementreaderdownload.com^
 ||storage.bunnycdn.com^
 ||sumnitasinvestment.com^
-||sunix-technology.com^
 ||surun.info^
-||swanrecovery.com^
 ||sxetnavelelaio.com^
 ||talkandtypeapp.com^
-||tantralegacy.com^
 ||tapped.top^
 ||taskerempresascol.co^
 ||taunahi.st^
@@ -423,7 +395,6 @@
 ||vc.tnygbw.com^
 ||velvetcanyonline.xyz^
 ||verification-process.com^
-||vibecoders.vip^
 ||vintageeventos.com.mx^
 ||vps.atlas101.us.kg^
 ||wappingerbicornshaps.com^
@@ -442,7 +413,6 @@
 ||wwalucircle.com^
 ||www.0akw8w.com^
 ||www.2bxvrc1.com^
-||www.2goelectricity.cloud^
 ||www.agcestksa.com^
 ||www.bluehorizons.travel^
 ||www.craftsparkdimensions.com^
@@ -459,10 +429,7 @@
 ||www.oringosmod.com^
 ||www.pingu.surf^
 ||www.ryzhe.com^
-||www.zenledgerpolicy.com^
-||wylkpznq.xyz^
 ||x9v2mq4t.bossbey.store^
-||xxpro.dev^
 ||zcalton.com^
 ||zenithclient.com^
 ||zetaval.metcalfphoto.com^
