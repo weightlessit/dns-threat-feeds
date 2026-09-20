@@ -2,8 +2,8 @@
 ! Description: Domains extracted from recently reported malicious URLs tracked by abuse.ch URLhaus
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-09-20 03:03:09 UTC
-! Total rules: 428
+! Last modified: 2026-09-20 10:30:57 UTC
+! Total rules: 430
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -178,6 +178,7 @@
 ||flicargo.com^
 ||flint-32.com^
 ||floppaclient.com^
+||forgewillow.com^
 ||foundrysourcings.co.uk^
 ||fujiarte.com^
 ||funnymap.net^
@@ -365,6 +366,7 @@
 ||teleabonent.ru^
 ||telemetryloop.net^
 ||thankful-cliff-01dfec010.7.azurestaticapps.net^
+||the.earth.li^
 ||themaintechnician.us^
 ||theservice4u.com^
 ||thisisafalsepositive.st^
