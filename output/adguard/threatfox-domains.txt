@@ -2,8 +2,8 @@
 ! Description: Indicators of compromise (domain-based) from abuse.ch ThreatFox covering C2 and payload delivery
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-09-20 15:19:19 UTC
-! Total rules: 32781
+! Last modified: 2026-09-20 20:13:10 UTC
+! Total rules: 32780
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -19,7 +19,6 @@
 ||00rr59n2.en-pegasus.com^
 ||00vn1.top^
 ||015bj63k.parspoker90.com^
-||01drive.com^
 ||01ejjpa2.behtarin-site-shartbandi.com^
 ||01h0oh62.www-glycofree.com^
 ||01wrcvpc.theslimsplitsmethod.us^
@@ -893,6 +892,7 @@
 ||60guam39.drubenginecologo.com^
 ||60hx33ds.minescasino.bet^
 ||60ou7kjk.dinosrestaurant.co.uk^
+||60yjiqtp.gorgeousgrowlersgrooming.com^
 ||62am4zti.rugsofus.com^
 ||62k1d7bn.shop-sightfresh.com^
 ||62mwjc02.jadoou.lat^
@@ -1772,6 +1772,7 @@
 ||aenysk.aborszerintem.hu^
 ||aeons-echo.org^
 ||aeoughaoheguaoehdg.to^
+||aerentaldecor.com^
 ||aero1logicnet.glid1zone.surf^
 ||aerotoxic.org^
 ||aesgauji.sorix1ar.lat^
@@ -3689,6 +3690,7 @@
 ||bet313.app^
 ||bet365persian.com^
 ||beta.betway071.com^
+||beta.caro-line.ch^
 ||beta.casino-fascin.surf^
 ||beta.cyberdrift.surf^
 ||beta.cyberlayer.surf^
@@ -3978,13 +3980,11 @@
 ||bizopp-online.com^
 ||biztechplanet.com^
 ||bizzypiu45.life^
-||bj88-11.com^
 ||bj88-daga.online^
 ||bj88-games.us^
 ||bj88.games^
 ||bj8826.com^
 ||bj888.email^
-||bj88games.center^
 ||bj88indo.net^
 ||bj88jpn.com^
 ||bj88play.games^
@@ -5952,6 +5952,7 @@
 ||collapsinghorsetheatre.com^
 ||collectivedigital.co.za^
 ||collectortimetech.com^
+||collegedemocratsil.com^
 ||collsns.com^
 ||colombia.embajada.gob.ve^
 ||colombiajudiciales.store^
@@ -7225,7 +7226,6 @@
 ||dgl7533w.melbetir.bet^
 ||dgmik.snydersflowershop.com^
 ||dgmnroa.elpatronrestaurantbar.com^
-||dgp13ezr.winddev.digital^
 ||dgppz.ady26.hu^
 ||dground.org^
 ||dgskofgjsdkfgm.pro^
@@ -10537,8 +10537,6 @@
 ||garutkab.kppd-jabar.org^
 ||garzaygarzalegal.com^
 ||gas3taskhub.nebulaflux.bet^
-||gasangmanual.com^
-||gasangworld.com^
 ||gascwmskqoggmyki.xyz^
 ||gasgasgaaxas-58063.portmap.host^
 ||gasmoceikmoswaqg.xyz^
@@ -11305,6 +11303,7 @@
 ||gordinez.com^
 ||gorettiterapie.com^
 ||gorgbetkade.com^
+||gorgeousgrowlersgrooming.com^
 ||gorna-kubacka.pl^
 ||gorto.ridgerenovation.com^
 ||gosea.icu^
@@ -12537,6 +12536,7 @@
 ||houseofvxv.com^
 ||housingadvice.org.uk^
 ||housinghelper.co.uk^
+||houstonhealthysmartmart.com^
 ||houstonparksboard.org^
 ||howgsr7.porukau8ar.lat^
 ||howtomovies.biz^
@@ -12728,7 +12728,6 @@
 ||hyggelig-news.com^
 ||hyh08ykm.packetmeridian.top^
 ||hylfko.pishbinibet.casino^
-||hylqpinportal.com^
 ||hyls9303v59enui.top^
 ||hymllz.deplast.hu^
 ||hypatoburn.com^
@@ -13085,7 +13084,6 @@
 ||ilovetobe.com^
 ||iloveuevenifudontlovemeback.is^
 ||iloveyoulucid.space^
-||iloveyourweewee.bz^
 ||ilovusaverivy.com^
 ||ilsomak.com.tr^
 ||iltpbkuv.snowflakecluster.christmas^
@@ -13162,7 +13160,6 @@
 ||imrmd.drdavidzweiback.com^
 ||imrnsev.askvava.com^
 ||imsbap.thelibertytoken.net^
-||imsowiwiwiwiwi.com^
 ||imstil.de^
 ||imtesasanqaolo.homes^
 ||imwgptl.nygyrowillmar.com^
@@ -14385,7 +14382,6 @@
 ||k8xn2yer.go-flashburn.com^
 ||k969mylb.casinokade.online^
 ||k96h8q0b.fubet24.net^
-||k9a7tswv.winddev.digital^
 ||k9h20m23.observability-matrix.digital^
 ||k9qxyqt8.jetbt8.online^
 ||ka-design.fr^
@@ -19423,6 +19419,7 @@
 ||o6h0n635.shop-theslimsplitsmethod.us^
 ||o6iz.rosevale.garden^
 ||o6k7lcz5.shartbazi.net^
+||o72vyfqo.collegedemocratsil.com^
 ||o7se9wfy.stack-matrix.digital^
 ||o7tyz0a3.pura--boost.us^
 ||o7ve5wvj.cognigen-plus.net^
@@ -19649,7 +19646,6 @@
 ||okfuck001.com^
 ||okgmmikekimyikmm.xyz^
 ||okigeyqwuwkgqawc.xyz^
-||okiloveyoupleasedonttouchme.net^
 ||okioyycyoaekuicm.xyz^
 ||okiqmaumowmmiyeq.xyz^
 ||okkarvin.is^
@@ -21913,6 +21909,7 @@
 ||pwsljqp.1xbeet.vip^
 ||pwuz.jadoou.lat^
 ||pwzkdexx.mechanicsayalat.xyz^
+||px1i9fym.aerentaldecor.com^
 ||pxbhgsn.bahiscom2023.online^
 ||pxic.bet1xegypt.com^
 ||pxknfth.bakhtazmaeii.com^
@@ -22477,6 +22474,7 @@
 ||r1dge2-stream.grove5s.garden^
 ||r1iugua4.cloud-meridian.digital^
 ||r1l.me^
+||r214gfd5.theslimsplitsmethod.com^
 ||r22mgsv1.bobatouch.com^
 ||r26pytag.ama1gamb1ast.digital^
 ||r2ahpyt9.us-en-us-heroup.com^
@@ -22914,7 +22912,6 @@
 ||remcos.incover.com.co^
 ||remcos.online-floorplanner.com^
 ||remember-autoparts.com^
-||rememberer.digital^
 ||remenacevintage.com^
 ||remhungyen.com^
 ||remin.ir^
@@ -28752,6 +28749,7 @@
 ||uvxzsajar.lion1bet.com^
 ||uvzbxwuc.gamehazarat.com^
 ||uvzfxyz.thewildbrow.com^
+||uw3ucyjy.houstonhealthysmartmart.com^
 ||uw4x5jzx.usa-us-flashburn.com^
 ||uwaho.midiowagrowth.com^
 ||uwaowgwwiokugqqk.xyz^
@@ -32714,6 +32712,7 @@
 ||zub-bonn.de^
 ||zucx.bet90forward.win^
 ||zugaztieta.com^
+||zugp0kx8.en-us-easybatteryfixed.com^
 ||zuhg5fig.drubenginecologo.com^
 ||zuibs.jetbet.download^
 ||zujqygdq.sakhtemandade.shop^
