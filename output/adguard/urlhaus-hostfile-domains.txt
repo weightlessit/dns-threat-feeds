@@ -2,7 +2,7 @@
 ! Description: Malware distribution domains from abuse.ch URLhaus (hosts-file format, updated every 5 minutes)
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-09-22 16:09:38 UTC
+! Last modified: 2026-09-22 20:48:44 UTC
 ! Total rules: 373
 !
 ! Auto-generated -- do not edit manually.
@@ -17,7 +17,9 @@
 ||4eclient.com^
 ||acc.jiangsujiaxue.com^
 ||acms.saleseos.com^
+||acrilicoporto.pt^
 ||activatef.win^
+||adcentral.com.mx^
 ||addurltogoogle.com^
 ||admin.byte.in.ua^
 ||admin.gestroom.it^
@@ -27,6 +29,7 @@
 ||alineeleuterio.com.br^
 ||allendostmen.com^
 ||alternativas.ru^
+||amc-us.mprevive.com^
 ||app.appzcvb.com^
 ||areyouready.co.za^
 ||atasapka.com.tr^
@@ -42,7 +45,6 @@
 ||bnet-api.playm8ru.win^
 ||bnet.playm8ru.win^
 ||book.rollingvideogames.com^
-||booking.captcha-message-extranet.com^
 ||breezeclient.com^
 ||bridgeroad.maverickpreviews.com^
 ||brightworks.cz^
@@ -57,6 +59,7 @@
 ||cdn.file6.goodid.com^
 ||celebratingseniors.net^
 ||chat-server.maverickpreviews.com^
+||checkfivem.com^
 ||cheetoclient.com^
 ||chiroartist.com^
 ||chuguadventures.co.tz^
@@ -67,7 +70,6 @@
 ||cn.devglobal.biz^
 ||cn.unionlever.com^
 ||coconutoficial.com.br^
-||codeassociates.co.ke^
 ||compuserviceonline.com.br^
 ||contididit.conti.pk^
 ||continentalgroup.net.in^
@@ -83,6 +85,7 @@
 ||damiancollier.com^
 ||data.yhydl.com^
 ||dcrun.co.uk^
+||dcwblida.dz^
 ||deagroup-ks.com^
 ||debugify.net^
 ||delp-heizungsbau.de^
@@ -119,6 +122,7 @@
 ||farschid.de^
 ||fd.v2downf.shop^
 ||file.blackint3.com^
+||file.uhsea.com^
 ||filerit.com^
 ||first-security-verden.de^
 ||flyingmutts.com^
@@ -141,10 +145,13 @@
 ||grupomcperu.com^
 ||harmeetmotors.com^
 ||hasalltalent.com^
+||helpdesk09-26.com^
+||hhtdyj.com^
 ||hitman-pro.ru^
 ||hitstation.nl^
 ||hobobot.net^
 ||hseda.com^
+||htdentshop.com^
 ||icoffeecloud.com^
 ||ignetwork.us^
 ||igra123.com^
@@ -164,13 +171,11 @@
 ||kimyen.net^
 ||kineticlenz.com^
 ||konsor.ru^
-||kryptonclient-cracked.com^
 ||landonirwin.com^
 ||lawfirm.paperbirdtech.com^
 ||lindnerelektroanlagen.de^
 ||local-update.com^
 ||lomejordesalamanca.es^
-||luizmatoso.com.br^
 ||lumacrea.com^
 ||luminexclient.com^
 ||luminouspower.com.pk^
@@ -179,8 +184,8 @@
 ||maidforyou1985.com^
 ||malupieng.com.br^
 ||massgravel.net^
+||masterplasticpack.com^
 ||meteorclients.com^
-||metrics.gocloudmaps.com^
 ||mibd.org^
 ||miriamgualda.com.br^
 ||mitreart.com^
@@ -188,7 +193,6 @@
 ||mnurlogistics.az^
 ||mogimall.com^
 ||muaklekcoop.com^
-||muledo.com^
 ||munihuacho.gob.pe^
 ||mysura.it^
 ||n.vs108.com^
@@ -200,7 +204,6 @@
 ||ny.lshdw.cc^
 ||obearo.com^
 ||odinclient.com^
-||oim.doganltd.com.tr^
 ||ojang.pe.kr^
 ||okhan.net^
 ||oknoplastik.sk^
@@ -215,18 +218,17 @@
 ||pcupd.com^
 ||pfatrivandrum.org^
 ||phantom-client.com^
+||photolivebook.pro^
 ||planetariumobil.ro^
 ||polarclient.net^
 ||polinexclient.org^
 ||portal.onepansol.site^
 ||postelnini.mk^
 ||practisingcertificateprotection.com^
-||preciosasjoyitas.com.mx^
 ||prestige-client.org^
 ||prestigeclient.st^
 ||proalamir.dz^
 ||profitable-pink-0y9btnew-dpk6vqe6eheo.edgeone.dev^
-||protherapycenter.com^
 ||public.demo.securecloudsandbox.com^
 ||pvsa.gxfugy.cn^
 ||qiniuyunxz.yxflzs.com^
@@ -236,9 +238,9 @@
 ||rdm.91yunma.cn^
 ||reauthenticator.com^
 ||records.dennisign.se^
-||refaccionesalma.com.mx^
 ||reifenquick.de^
 ||reservphotoinstay.one^
+||reservphotoinstaynow.shop^
 ||reutilizemais.co.mz^
 ||robertrowe.com^
 ||royalcuts.co.uk^
@@ -249,7 +251,6 @@
 ||sales.ifree.page^
 ||samiksha.com.sg^
 ||scainseto.com.br^
-||scanbot.me^
 ||scoala1gherla.ro^
 ||screenconnect.pro^
 ||scrroeder.com^
@@ -279,6 +280,7 @@
 ||stdown.dinju.com^
 ||streammobs.com^
 ||support.clz.kr^
+||surun.info^
 ||sutterpoint.com^
 ||svirtual.sanviatorperu.edu.pe^
 ||talkandtypeapp.com^
@@ -287,6 +289,7 @@
 ||tapestryoftruth.com^
 ||taunahi.client.farm^
 ||taunahi.st^
+||tecunonline.com^
 ||tehnomag.rs^
 ||tengfeidn.cn^
 ||tenis-team-km.com^
@@ -302,6 +305,7 @@
 ||top8onlinegame.com^
 ||tpp.om-stock.com^
 ||tr.zhzy999.net^
+||trabzonmegareklamllc.shop^
 ||transparenciacanaa.com.br^
 ||trtmyanmar.com^
 ||twitch.tj^
@@ -345,12 +349,10 @@
 ||www.kenwillzltd.com^
 ||www.khavar.com^
 ||www.konsor.ru^
-||www.medises.co.kr^
 ||www.myvcart.com^
 ||www.namuvpn.com^
 ||www.nccommunication.be^
 ||www.newkey.co.kr^
-||www.notbak.com^
 ||www.ojang.pe.kr^
 ||www.okhan.net^
 ||www.pointtohealth.com^
@@ -375,8 +377,6 @@
 ||y32me8.com^
 ||yakult-hk.com^
 ||youtransfer.net^
-||zaluposs.com^
 ||zamilgroups.com^
 ||zhigao5191.com^
 ||zhostz.com^
-||zycdjz.com^
