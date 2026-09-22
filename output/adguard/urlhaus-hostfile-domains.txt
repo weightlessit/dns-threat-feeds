@@ -2,8 +2,8 @@
 ! Description: Malware distribution domains from abuse.ch URLhaus (hosts-file format, updated every 5 minutes)
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-09-22 10:51:25 UTC
-! Total rules: 381
+! Last modified: 2026-09-22 16:09:38 UTC
+! Total rules: 373
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -33,8 +33,8 @@
 ||audicontadores.com^
 ||backupso.com^
 ||balanced-red-emhnkdfj-dp7g2kvqxx8n.edgeone.dev^
+||beak.in^
 ||beoauto.alexion.rs^
-||bito.com.pk^
 ||blankeyeo.com^
 ||blessdayservices.org^
 ||blogs.sokun.jp^
@@ -42,6 +42,7 @@
 ||bnet-api.playm8ru.win^
 ||bnet.playm8ru.win^
 ||book.rollingvideogames.com^
+||booking.captcha-message-extranet.com^
 ||breezeclient.com^
 ||bridgeroad.maverickpreviews.com^
 ||brightworks.cz^
@@ -66,13 +67,14 @@
 ||cn.devglobal.biz^
 ||cn.unionlever.com^
 ||coconutoficial.com.br^
+||codeassociates.co.ke^
 ||compuserviceonline.com.br^
 ||contididit.conti.pk^
 ||continentalgroup.net.in^
 ||coolairesgroup.com^
 ||coralasargetia.ro^
 ||cpc188.day^
-||cresvin.com^
+||crazypianoswebshop.nl^
 ||crystalpvp.ru^
 ||cs.go.kg^
 ||d.14yaa.com^
@@ -103,13 +105,11 @@
 ||download.kaobeitu.com^
 ||download.pdf00.cn^
 ||download.pdf00.com^
-||download.suxiazai.com^
 ||dreamwatchevent.com^
 ||duct-master.com^
 ||dynga.pl^
 ||electri.billregulator.com^
 ||elisans.novayonetim.com^
-||en.taichuan.com^
 ||endpoint.project0.cc^
 ||entry-code-cdn.codes^
 ||envs.sh^
@@ -137,29 +137,23 @@
 ||gestroom.it^
 ||glbeletronica.com.br^
 ||globalbank.us^
-||gobiotechpestcontrol.com^
 ||greenf.alexion.rs^
+||grupomcperu.com^
 ||harmeetmotors.com^
 ||hasalltalent.com^
 ||hitman-pro.ru^
 ||hitstation.nl^
 ||hobobot.net^
 ||hseda.com^
-||htdentshop.com^
 ||icoffeecloud.com^
 ||ignetwork.us^
 ||igra123.com^
 ||impectorinternational.com^
-||indeanapolice.cc^
-||indonesias.me^
-||indusenterprises.co^
 ||iniciaonline.com^
-||innovantksa.com^
 ||invmove.com^
 ||ircftp.net^
 ||isiore.com.co^
 ||itssprout.com^
-||jawaratekno.com^
 ||jenniferloeffler.com^
 ||jessespridecharters.com^
 ||jlwz.cn^
@@ -177,15 +171,17 @@
 ||local-update.com^
 ||lomejordesalamanca.es^
 ||luizmatoso.com.br^
+||lumacrea.com^
 ||luminexclient.com^
 ||luminouspower.com.pk^
 ||m.jkoa.co.kr^
 ||m.meta-dm.com^
 ||maidforyou1985.com^
 ||malupieng.com.br^
-||mamabearcoffee.com^
 ||massgravel.net^
 ||meteorclients.com^
+||metrics.gocloudmaps.com^
+||mibd.org^
 ||miriamgualda.com.br^
 ||mitreart.com^
 ||mkconstructions.net^
@@ -202,11 +198,13 @@
 ||nova-client.com^
 ||nusatoyota.co.id^
 ||ny.lshdw.cc^
+||obearo.com^
 ||odinclient.com^
 ||oim.doganltd.com.tr^
 ||ojang.pe.kr^
 ||okhan.net^
 ||oknoplastik.sk^
+||onfiltre.com.tr^
 ||opalcraftsmp.com^
 ||opsecmod.st^
 ||outpost.co.ke^
@@ -217,7 +215,6 @@
 ||pcupd.com^
 ||pfatrivandrum.org^
 ||phantom-client.com^
-||physicsbyfiziks.org^
 ||planetariumobil.ro^
 ||polarclient.net^
 ||polinexclient.org^
@@ -229,6 +226,7 @@
 ||prestigeclient.st^
 ||proalamir.dz^
 ||profitable-pink-0y9btnew-dpk6vqe6eheo.edgeone.dev^
+||protherapycenter.com^
 ||public.demo.securecloudsandbox.com^
 ||pvsa.gxfugy.cn^
 ||qiniuyunxz.yxflzs.com^
@@ -266,7 +264,6 @@
 ||shqdown.ggzuhao.com^
 ||sirenasultana.com^
 ||sk-comtel.com^
-||skolazasisanjepasa.com^
 ||skyblock-addons.com^
 ||skyblock-extras.org^
 ||skymoders.top^
@@ -281,12 +278,9 @@
 ||static.youdm.cn^
 ||stdown.dinju.com^
 ||streammobs.com^
-||studiogioeli.it^
-||sultanaexecutive.com^
 ||support.clz.kr^
 ||sutterpoint.com^
 ||svirtual.sanviatorperu.edu.pe^
-||tabak.hr^
 ||talkandtypeapp.com^
 ||tangentwaves.com^
 ||tanscarattorneys.co.tz^
@@ -294,15 +288,14 @@
 ||taunahi.client.farm^
 ||taunahi.st^
 ||tehnomag.rs^
-||teleconcepts.net^
 ||tengfeidn.cn^
 ||tenis-team-km.com^
 ||test.peperoncinochepassione.it^
+||thehaider.com^
 ||theholidayroads.com^
 ||themaintechnician.us^
 ||thementordirectory.com^
 ||theoremaoliveoil.com^
-||thesalons.in^
 ||thtp2.volamngayxua.net^
 ||tiacreation.club^
 ||toolshare.com.tr^
@@ -311,7 +304,6 @@
 ||tr.zhzy999.net^
 ||transparenciacanaa.com.br^
 ||trtmyanmar.com^
-||tvkladovo.com^
 ||twitch.tj^
 ||twu-hwt.org^
 ||upaicdn.xinmei365.com^
@@ -367,7 +359,6 @@
 ||www.salonmarketing.ca^
 ||www.sgeseducation.com^
 ||www.silver-hubdachwohnwagen.de^
-||www.sivritepeinsaat.com^
 ||www.ss-01.com^
 ||www.starcountry.net^
 ||www.tdejb.com^
@@ -384,6 +375,7 @@
 ||y32me8.com^
 ||yakult-hk.com^
 ||youtransfer.net^
+||zaluposs.com^
 ||zamilgroups.com^
 ||zhigao5191.com^
 ||zhostz.com^
