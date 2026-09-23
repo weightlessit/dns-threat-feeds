@@ -2,8 +2,8 @@
 ! Description: Malware distribution domains from abuse.ch URLhaus (hosts-file format, updated every 5 minutes)
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-09-23 03:00:27 UTC
-! Total rules: 387
+! Last modified: 2026-09-23 10:40:11 UTC
+! Total rules: 389
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -46,10 +46,13 @@
 ||bnet-api.playm8ru.win^
 ||bnet.playm8ru.win^
 ||book.rollingvideogames.com^
+||booking.captcha-message-extranet.com^
+||bratarfood.com^
 ||breezeclient.com^
 ||bridgeroad.maverickpreviews.com^
 ||brightworks.cz^
 ||bserail.com^
+||cablewireltd.site^
 ||cambodiatouristservice.com^
 ||casasmediterraneas.com^
 ||cat.dashabi.in^
@@ -57,6 +60,7 @@
 ||cat.xiaoshabi.nl^
 ||catbaparadisehotel.com.vn^
 ||cdaonline.com.ar^
+||cdn.file6.goodid.com^
 ||celebratingseniors.net^
 ||chat-server.maverickpreviews.com^
 ||checkfivem.com^
@@ -68,9 +72,7 @@
 ||cloud.pearlpeel.com^
 ||clubdetiroelpicarcho.com^
 ||cn.unionlever.com^
-||coconutoficial.com.br^
 ||compuserviceonline.com.br^
-||contididit.conti.pk^
 ||continentalgroup.net.in^
 ||coolairesgroup.com^
 ||coralasargetia.ro^
@@ -81,7 +83,6 @@
 ||cs.go.kg^
 ||d.14yaa.com^
 ||d.wanyouxi7.com^
-||dailyushistory.com^
 ||damiancollier.com^
 ||data.yhydl.com^
 ||dcrun.co.uk^
@@ -108,6 +109,7 @@
 ||download.kaobeitu.com^
 ||download.pdf00.cn^
 ||download.pdf00.com^
+||download.suxiazai.com^
 ||dreamwatchevent.com^
 ||duct-master.com^
 ||dynga.pl^
@@ -123,12 +125,14 @@
 ||fakers.co.jp^
 ||farschid.de^
 ||fd.v2downf.shop^
+||ficus.in^
 ||file.blackint3.com^
 ||file.uhsea.com^
 ||filerit.com^
 ||first-security-verden.de^
 ||flyingmutts.com^
 ||fmrio.com^
+||freeclients.net^
 ||fukt.link^
 ||fullstacknir.com^
 ||funnymap.net^
@@ -140,6 +144,7 @@
 ||gestionycobranzas.com^
 ||gestroom.it^
 ||glbeletronica.com.br^
+||globalbank.us^
 ||greenf.alexion.rs^
 ||grupomcperu.com^
 ||harmeetmotors.com^
@@ -151,6 +156,7 @@
 ||hitstation.nl^
 ||hobobot.net^
 ||hseda.com^
+||htdentshop.com^
 ||icoffeecloud.com^
 ||ignetwork.us^
 ||igra123.com^
@@ -187,12 +193,11 @@
 ||m.jkoa.co.kr^
 ||m.meta-dm.com^
 ||maidforyou1985.com^
+||makemewin.club^
 ||malupieng.com.br^
-||mandarin.net.au^
 ||massgravel.net^
 ||masterplasticpack.com^
 ||meteorclients.com^
-||metrics.gocloudmaps.com^
 ||mhmehadi.top^
 ||mibd.org^
 ||miriamgualda.com.br^
@@ -201,15 +206,14 @@
 ||mnurlogistics.az^
 ||mogimall.com^
 ||muaklekcoop.com^
+||muledo.com^
 ||munihuacho.gob.pe^
 ||mysura.it^
 ||n.vs108.com^
 ||ncxps.com^
-||neilshairdressers.co.uk^
 ||noamaddons.com^
 ||noithaticon.vn^
 ||nova-client.com^
-||nusatoyota.co.id^
 ||ny.lshdw.cc^
 ||obearo.com^
 ||odinclient.com^
@@ -223,6 +227,7 @@
 ||p3.zbjimg.com^
 ||palharesinformatica.com.br^
 ||pastee.dev^
+||pay.aqiu6.com^
 ||pcupd.com^
 ||pfatrivandrum.org^
 ||phantom-client.com^
@@ -230,6 +235,7 @@
 ||planetariumobil.ro^
 ||polarclient.net^
 ||polinexclient.org^
+||portal.onepansol.site^
 ||postelnini.mk^
 ||practisingcertificateprotection.com^
 ||preciosasjoyitas.com.mx^
@@ -272,19 +278,16 @@
 ||semencepourlavie.org^
 ||seputartuban.com^
 ||sg123.net^
+||shipminttracking.net^
 ||shqdown.ggzuhao.com^
-||sirenasultana.com^
 ||sk-comtel.com^
 ||skyblock-addons.com^
 ||skyblock-extras.org^
-||skymoders.top^
 ||smartermail.host^
 ||soft.110route.com^
 ||spgint.com^
 ||srsorvete.com.br^
-||srv.conti.pk^
 ||star.zcnet.net^
-||static.ilclock.com^
 ||static.topxgun.com^
 ||static.youdm.cn^
 ||stdown.dinju.com^
@@ -293,7 +296,6 @@
 ||surun.info^
 ||sutterpoint.com^
 ||svirtual.sanviatorperu.edu.pe^
-||taizi.fdstat.vip^
 ||talkandtypeapp.com^
 ||tangentwaves.com^
 ||tanscarattorneys.co.tz^
@@ -304,6 +306,7 @@
 ||tengfeidn.cn^
 ||tenis-team-km.com^
 ||test.peperoncinochepassione.it^
+||thehaider.com^
 ||theholidayroads.com^
 ||themaintechnician.us^
 ||thementordirectory.com^
@@ -324,12 +327,10 @@
 ||update.cg100iii.com^
 ||versaclean.com.br^
 ||veryboys.com^
-||vgd.vg^
 ||visam.info^
 ||vizyonuniversitesi.com.tr^
 ||vizyonuniversitesi.web.tr^
 ||vrajras.com^
-||webcstore.pw^
 ||website.mypetapp.co.za^
 ||widexenmexico.com.mx^
 ||windomstatetheater.com^
@@ -364,6 +365,7 @@
 ||www.namuvpn.com^
 ||www.nccommunication.be^
 ||www.newkey.co.kr^
+||www.notbak.com^
 ||www.ojang.pe.kr^
 ||www.okhan.net^
 ||www.pointtohealth.com^
