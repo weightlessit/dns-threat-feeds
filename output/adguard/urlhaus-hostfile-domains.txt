@@ -2,8 +2,8 @@
 ! Description: Malware distribution domains from abuse.ch URLhaus (hosts-file format, updated every 5 minutes)
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-09-23 10:40:11 UTC
-! Total rules: 389
+! Last modified: 2026-09-23 15:59:23 UTC
+! Total rules: 387
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -15,8 +15,8 @@
 ||198348.gl^
 ||22qq-client.com^
 ||4eclient.com^
-||acc.jiangsujiaxue.com^
 ||acms.saleseos.com^
+||acrilicoporto.pt^
 ||activatef.win^
 ||adcentral.com.mx^
 ||addurltogoogle.com^
@@ -46,13 +46,11 @@
 ||bnet-api.playm8ru.win^
 ||bnet.playm8ru.win^
 ||book.rollingvideogames.com^
-||booking.captcha-message-extranet.com^
 ||bratarfood.com^
 ||breezeclient.com^
 ||bridgeroad.maverickpreviews.com^
 ||brightworks.cz^
 ||bserail.com^
-||cablewireltd.site^
 ||cambodiatouristservice.com^
 ||casasmediterraneas.com^
 ||cat.dashabi.in^
@@ -72,6 +70,7 @@
 ||cloud.pearlpeel.com^
 ||clubdetiroelpicarcho.com^
 ||cn.unionlever.com^
+||codeassociates.co.ke^
 ||compuserviceonline.com.br^
 ||continentalgroup.net.in^
 ||coolairesgroup.com^
@@ -83,6 +82,7 @@
 ||cs.go.kg^
 ||d.14yaa.com^
 ||d.wanyouxi7.com^
+||dailyushistory.com^
 ||damiancollier.com^
 ||data.yhydl.com^
 ||dcrun.co.uk^
@@ -90,22 +90,20 @@
 ||deagroup-ks.com^
 ||debugify.net^
 ||delp-heizungsbau.de^
+||delta-canvas.com^
 ||dezcom.com^
 ||dinamikakargo.com^
 ||disk.accord1key.cn^
 ||divvanews.com^
 ||dl.1003b.56a.com^
-||dl.dzqzd.com^
 ||dl.natgo.cn^
 ||doc.e-statements.app^
 ||donkeytourscroatia.com^
 ||down.54nb.com^
 ||down.fwqlt.com^
 ||down.pcclear.com^
-||down.qqfarmer.com.cn^
 ||download.caihong.com^
 ||download.doumaibiji.cn^
-||download.haozip.com^
 ||download.kaobeitu.com^
 ||download.pdf00.cn^
 ||download.pdf00.com^
@@ -132,10 +130,10 @@
 ||first-security-verden.de^
 ||flyingmutts.com^
 ||fmrio.com^
-||freeclients.net^
 ||fukt.link^
 ||fullstacknir.com^
 ||funnymap.net^
+||funrat.co^
 ||fz.tiansys.cn^
 ||galerisenimutiara.com^
 ||gamblerigmod.org^
@@ -156,14 +154,12 @@
 ||hitstation.nl^
 ||hobobot.net^
 ||hseda.com^
-||htdentshop.com^
 ||icoffeecloud.com^
 ||ignetwork.us^
 ||igra123.com^
 ||impectorinternational.com^
 ||indonesias.me^
 ||indusenterprises.co^
-||iniciaonline.com^
 ||invmove.com^
 ||ircftp.net^
 ||isiore.com.co^
@@ -198,6 +194,7 @@
 ||massgravel.net^
 ||masterplasticpack.com^
 ||meteorclients.com^
+||metrics.gocloudmaps.com^
 ||mhmehadi.top^
 ||mibd.org^
 ||miriamgualda.com.br^
@@ -217,6 +214,7 @@
 ||ny.lshdw.cc^
 ||obearo.com^
 ||odinclient.com^
+||oim.doganltd.com.tr^
 ||ojang.pe.kr^
 ||okhan.net^
 ||oknoplastik.sk^
@@ -239,7 +237,6 @@
 ||postelnini.mk^
 ||practisingcertificateprotection.com^
 ||preciosasjoyitas.com.mx^
-||prestige-client.org^
 ||prestigeclient.st^
 ||proalamir.dz^
 ||profitable-pink-0y9btnew-dpk6vqe6eheo.edgeone.dev^
@@ -258,6 +255,7 @@
 ||reservphotoinstaynow.shop^
 ||reutilizemais.co.mz^
 ||robertrowe.com^
+||romeopirlanta.com^
 ||royalcuts.co.uk^
 ||royalindiancurryclub.com^
 ||rxquickpay.com^
@@ -288,6 +286,7 @@
 ||spgint.com^
 ||srsorvete.com.br^
 ||star.zcnet.net^
+||static.ilclock.com^
 ||static.topxgun.com^
 ||static.youdm.cn^
 ||stdown.dinju.com^
@@ -337,7 +336,6 @@
 ||windowsdiagnostics.st^
 ||wittenhorst.eu^
 ||workerstats.net^
-||www-connect-secure-wellcfargo.sekolahkejarpaket.com^
 ||www.ardguisser.com^
 ||www.astenterprises.com.pk^
 ||www.automobile-bk.de^
