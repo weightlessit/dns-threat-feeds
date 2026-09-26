@@ -2,8 +2,8 @@
 ! Description: Domains extracted from recently reported malicious URLs tracked by abuse.ch URLhaus
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-09-25 21:02:28 UTC
-! Total rules: 427
+! Last modified: 2026-09-26 03:11:51 UTC
+! Total rules: 400
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -30,23 +30,18 @@
 ||adps.pro^
 ||aetherone.su^
 ||ahsniper.com^
-||algi-english.4lima.at^
 ||alphapicaficagency.com^
 ||alphasaling.site^
 ||amaamn.com^
 ||amc-us.mprevive.com^
 ||amparolarsonpw.com^
-||andrewtreks.com^
 ||angefundsu.sbs^
 ||api-relay.cc^
 ||api.cdn22.net^
 ||api.vexxuhq.site^
-||app.static-file.lol^
 ||archway.cozyvistany.com^
 ||armoniamiddleeast.ae^
-||asdsocial.pt^
 ||astraia.co.za^
-||attention-check.online^
 ||aura.tcplegit.space^
 ||auravibes04ko.shop^
 ||authgen.deals^
@@ -61,7 +56,6 @@
 ||benotrobot.online^
 ||blueoceanealtd.co.ke^
 ||blueprint-71.com^
-||bluerelic155.mypi.co^
 ||botcheck-cf.top^
 ||brasilengenhariaecom.store^
 ||bratarfood.com^
@@ -77,7 +71,6 @@
 ||chiroartist.com^
 ||chrome.windows-browser.net^
 ||cid.gov.so^
-||click.vectorlabs.com^
 ||cloud-sharing.com^
 ||cloud.calltop.com.br^
 ||cloudeliveryenterprise.com^
@@ -87,10 +80,8 @@
 ||coolairesgroup.com^
 ||copiose.org^
 ||corzclient.net^
-||crazy2cdn.com^
 ||croco.cx^
 ||cryptovectorhub1.lol^
-||cta.edu.pe^
 ||cu.srijanajha.com.np^
 ||curlservice.com^
 ||cyberleak.top^
@@ -106,7 +97,6 @@
 ||digitalisonesapps.com^
 ||dinamikakargo.com^
 ||dipre.com.tr^
-||dl.unicron-dl.click^
 ||dl1.claudflare-gateway.net^
 ||dnswwt.club^
 ||docmntageant.com^
@@ -140,14 +130,12 @@
 ||files.catbox.moe^
 ||filmchill.net^
 ||fingerprint-veri.info^
-||fiscalizarais.xyz^
 ||flint-32.com^
 ||floppaclient.com^
 ||floppaclient.org^
 ||forgewillow.com^
 ||foundrysourcings.co.uk^
 ||freeclients.net^
-||fujiarte.com^
 ||fullinstall.sbs^
 ||funnymap.net^
 ||funnymap.org^
@@ -202,7 +190,6 @@
 ||hpfile.cyou^
 ||hponline.run.place^
 ||hypercorevector4.lol^
-||idylliccreations.net^
 ||ifunayaikechukwu.kesug.com^
 ||iloveboats.st^
 ||images.fishing-tools.cyou^
@@ -212,7 +199,6 @@
 ||infocardphoto.info^
 ||inventorychanger.com^
 ||invmove.com^
-||iploglab.store^
 ||iyn4ce9o.casero.store^
 ||jointaxel.online^
 ||jokely.icu^
@@ -233,8 +219,6 @@
 ||letsupconfig.sbs^
 ||liikepalvelu.com^
 ||lilong.kmmiiaaa.com^
-||limewire.com^
-||linen-harbor.com^
 ||lion.kmmiiaaa.com^
 ||loop-lumen.com^
 ||loveher.dpdns.org^
@@ -246,12 +230,10 @@
 ||mail.emeraldstonegc.blog^
 ||mail.quietsurfwi.help^
 ||makemewin.club^
-||manita.lol^
 ||marlowclient.com^
 ||massgravel.dev^
 ||massgravel.net^
 ||masterplasticpack.com^
-||medicosantiagomarrero.com^
 ||megawrzuta.pl^
 ||meissner.ae^
 ||meteorclientplus.com^
@@ -270,7 +252,6 @@
 ||node-slate.com^
 ||nordertextil.de^
 ||nova-client.com^
-||nw.almfwb.com^
 ||obearo.com^
 ||od.lk^
 ||odinclient.com^
@@ -282,9 +263,7 @@
 ||opsecmod.st^
 ||oss.cop.lat^
 ||packmate.in^
-||pancar.lol^
 ||panel.mkk9991999912.observer^
-||paste.mangsud.org^
 ||pastee.dev^
 ||pdf-editore.com^
 ||pdfmun.software^
@@ -310,14 +289,12 @@
 ||rabbitfuns.su^
 ||radium-client.org^
 ||render-6.com^
-||repositoryserver.dpdns.org^
 ||rmm.smartscreen.lifestyle^
 ||romeopirlanta.com^
 ||roptik.com^
 ||royalcuts.co.uk^
 ||rubburizee.es^
 ||ryanborn.net^
-||safe-pdf-viewer.lat^
 ||safeifm.com^
 ||sail.autolabsouthgate.com^
 ||sandboxle.com.cn^
@@ -387,12 +364,10 @@
 ||userhotels.org^
 ||usertunelaccount1.royalbnkmail.com^
 ||v7yp4wts.fourstarcampground.com^
-||vc.tnygbw.com^
 ||velvetcanyonline.xyz^
 ||verification-process.com^
 ||vintageeventos.com.mx^
 ||vps.atlas101.us.kg^
-||wappingerbicornshaps.com^
 ||waveplus.mediabyte.be^
 ||web.opendrive.com^
 ||webhook.site^
@@ -420,7 +395,6 @@
 ||www.mediocasavolponi.com^
 ||www.minecraft-cheats.com^
 ||www.movy.bz^
-||www.nishiwaki.ne.jp^
 ||www.oringosmod.com^
 ||www.pingu.surf^
 ||www.ryzhe.com^
@@ -431,6 +405,5 @@
 ||zanderrealestate.com^
 ||zenithclient.com^
 ||zetaval.metcalfphoto.com^
-||zhimaly.com^
 ||zhostz.com^
 ||zunimar.cl^
