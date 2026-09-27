@@ -2,8 +2,8 @@
 ! Description: Malvertising distribution domains from Disconnect.me
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-09-26 20:35:11 UTC
-! Total rules: 2417
+! Last modified: 2026-09-27 03:18:47 UTC
+! Total rules: 2418
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -506,6 +506,7 @@
 ||ads.olivebrandresponse.com^
 ||ads.oneplace.com^
 ||ads.ookla.com^
+||ads.optusnet.com.au^
 ||ads.outpersonals.com^
 ||ads.p161.net^
 ||ads.passion.com^
