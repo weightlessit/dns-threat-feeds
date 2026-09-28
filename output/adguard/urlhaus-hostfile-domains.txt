@@ -2,8 +2,8 @@
 ! Description: Malware distribution domains from abuse.ch URLhaus (hosts-file format, updated every 5 minutes)
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-09-27 20:46:02 UTC
-! Total rules: 380
+! Last modified: 2026-09-28 03:15:47 UTC
+! Total rules: 376
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -15,6 +15,7 @@
 ||22qq-client.com^
 ||31.shaderzone.org^
 ||4eclient.com^
+||4flng-filedrive.sbs^
 ||a.hbweb.icu^
 ||acc.jiangsujiaxue.com^
 ||acms.saleseos.com^
@@ -42,7 +43,6 @@
 ||bmdcompany.com^
 ||bnet-api.playm8ru.win^
 ||bnet.playm8ru.win^
-||book.rollingvideogames.com^
 ||breezeclient.com^
 ||breezeclient.org^
 ||bridgeroad.maverickpreviews.com^
@@ -72,7 +72,6 @@
 ||continentalgroup.net.in^
 ||coolairesgroup.com^
 ||coralasargetia.ro^
-||corzclient.net^
 ||cpc188.day^
 ||crazypianoswebshop.nl^
 ||crystalpvp.ru^
@@ -82,7 +81,6 @@
 ||dailyushistory.com^
 ||damiancollier.com^
 ||data.yhydl.com^
-||dcrun.co.uk^
 ||dcwblida.dz^
 ||deagroup-ks.com^
 ||debugify.net^
@@ -106,7 +104,6 @@
 ||download.pdf00.cn^
 ||download.pdf00.com^
 ||duct-master.com^
-||dynga.pl^
 ||electri.billregulator.com^
 ||elisans.novayonetim.com^
 ||elrneba.com^
@@ -147,6 +144,7 @@
 ||helpdesk09-26.com^
 ||hitman-pro.ru^
 ||hitstation.nl^
+||hobobot.net^
 ||hseda.com^
 ||htdentshop.com^
 ||icoffeecloud.com^
@@ -158,19 +156,20 @@
 ||ircftp.net^
 ||isiore.com.co^
 ||itssprout.com^
+||jawaratekno.com^
 ||jenniferloeffler.com^
 ||jessespridecharters.com^
 ||jlwz.cn^
 ||kavacanada.ca^
 ||kenwillzltd.com^
 ||khavar.com^
+||kimdoo-app.top^
 ||kimyen.net^
 ||kiss.a-dog.top^
 ||konakonacricket.com^
 ||konsor.ru^
 ||kryptonclient-cracked.com^
 ||landonirwin.com^
-||larpdebug.com^
 ||lawfirm.paperbirdtech.com^
 ||lindnerelektroanlagen.de^
 ||local-update.com^
@@ -194,7 +193,6 @@
 ||miriamgualda.com.br^
 ||mitreart.com^
 ||mkconstructions.net^
-||mm-mvshahacademy.ac.ke^
 ||mnurlogistics.az^
 ||mogimall.com^
 ||muaklekcoop.com^
@@ -203,10 +201,8 @@
 ||mysura.it^
 ||n.vs108.com^
 ||ncxps.com^
-||nebula-client.org^
 ||noamaddons.com^
 ||noithaticon.vn^
-||nordertextil.de^
 ||nova-client.com^
 ||nusatoyota.co.id^
 ||ny.lshdw.cc^
@@ -214,7 +210,6 @@
 ||odinclient.com^
 ||odinclient.st^
 ||odinmod.org^
-||oim.doganltd.com.tr^
 ||ojang.pe.kr^
 ||okhan.net^
 ||oknoplastik.sk^
@@ -224,6 +219,7 @@
 ||outpost.co.ke^
 ||p3.zbjimg.com^
 ||pay.aqiu6.com^
+||pcupd.com^
 ||pfatrivandrum.org^
 ||phantom-client.com^
 ||photolivebook.pro^
@@ -249,7 +245,6 @@
 ||reifenquick.de^
 ||reservphotoinstay.one^
 ||reservphotoinstaynow.shop^
-||reutilizemais.co.mz^
 ||rheddh.com^
 ||robertrowe.com^
 ||romeopirlanta.com^
@@ -258,7 +253,6 @@
 ||rxquickpay.com^
 ||sablayan.seasonshotelmindoro.com^
 ||safeifm.com^
-||sail.autolabsouthgate.com^
 ||sales.ifree.page^
 ||samiksha.com.sg^
 ||scainseto.com.br^
@@ -266,6 +260,7 @@
 ||scoala1gherla.ro^
 ||screenconnect.pro^
 ||scrroeder.com^
+||sdufkghdfshds.cfd^
 ||sec.dashabi.in^
 ||sec.xiaojiji.nl^
 ||sec.xiaoshabi.nl^
@@ -273,7 +268,6 @@
 ||semencepourlavie.org^
 ||seputartuban.com^
 ||sg123.net^
-||shipminttracking.net^
 ||shqdown.ggzuhao.com^
 ||sigmaclient.net^
 ||sigmaclient.org^
@@ -288,10 +282,13 @@
 ||static.topxgun.com^
 ||static.youdm.cn^
 ||stdown.dinju.com^
+||streammobs.com^
 ||support.clz.kr^
 ||sutterpoint.com^
 ||svirtual.sanviatorperu.edu.pe^
+||swatting.wiki^
 ||swiftfusion.tech^
+||taizi.fdstat.vip^
 ||talkandtypeapp.com^
 ||tangentwaves.com^
 ||tanscarattorneys.co.tz^
@@ -302,7 +299,6 @@
 ||tengfeidn.cn^
 ||tenis-team-km.com^
 ||test.peperoncinochepassione.it^
-||thehaider.com^
 ||theholidayroads.com^
 ||themaintechnician.us^
 ||thementordirectory.com^
