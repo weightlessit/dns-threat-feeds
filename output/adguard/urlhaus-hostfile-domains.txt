@@ -2,8 +2,8 @@
 ! Description: Malware distribution domains from abuse.ch URLhaus (hosts-file format, updated every 5 minutes)
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-09-28 12:44:33 UTC
-! Total rules: 370
+! Last modified: 2026-09-28 19:51:54 UTC
+! Total rules: 383
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -19,10 +19,12 @@
 ||a.hbweb.icu^
 ||acc.jiangsujiaxue.com^
 ||acms.saleseos.com^
+||acrilicoporto.pt^
 ||adcentral.com.mx^
 ||admin.byte.in.ua^
 ||admin.gestroom.it^
 ||aftelecom.com.br^
+||ahsniper.org^
 ||aidlifempowerment.com^
 ||alarmline.com.br^
 ||alineeleuterio.com.br^
@@ -30,17 +32,19 @@
 ||alternativas.ru^
 ||app.appzcvb.com^
 ||areyouready.co.za^
+||astraluxclient.com^
 ||atasapka.com.tr^
 ||audicontadores.com^
 ||backupso.com^
 ||balanced-red-emhnkdfj-dp7g2kvqxx8n.edgeone.dev^
-||beak.in^
 ||beoauto.alexion.rs^
+||blankeyeo.com^
 ||blessdayservices.org^
 ||blogs.sokun.jp^
 ||bmdcompany.com^
 ||bnet-api.playm8ru.win^
 ||bnet.playm8ru.win^
+||book.rollingvideogames.com^
 ||breezeclient.com^
 ||breezeclient.org^
 ||bridgeroad.maverickpreviews.com^
@@ -50,6 +54,7 @@
 ||cambodiatouristservice.com^
 ||capricecapitalpartners.com^
 ||casasmediterraneas.com^
+||castroycontadores.com^
 ||cat.dashabi.in^
 ||cat.xiaojiji.nl^
 ||cat.xiaoshabi.nl^
@@ -73,6 +78,7 @@
 ||coralasargetia.ro^
 ||cpc188.day^
 ||crazypianoswebshop.nl^
+||crystalbranchtw.blog^
 ||crystalpvp.ru^
 ||cs.go.kg^
 ||d.14yaa.com^
@@ -88,6 +94,7 @@
 ||dezcom.com^
 ||dinamikakargo.com^
 ||disk.accord1key.cn^
+||dl.1003b.56a.com^
 ||dl.dzqzd.com^
 ||dl.natgo.cn^
 ||doc.e-statements.app^
@@ -95,6 +102,7 @@
 ||down.54nb.com^
 ||down.fwqlt.com^
 ||down.pcclear.com^
+||down.qqfarmer.com.cn^
 ||download.caihong.com^
 ||download.doumaibiji.cn^
 ||download.haozip.com^
@@ -117,12 +125,14 @@
 ||farschid.de^
 ||fd.v2downf.shop^
 ||file.blackint3.com^
+||file.uhsea.com^
 ||filerit.com^
 ||first-security-verden.de^
 ||floppaclient.com^
 ||floppaclient.org^
 ||flyingmutts.com^
 ||fmrio.com^
+||forsalenear.me^
 ||fukt.link^
 ||fullstacknir.com^
 ||funnymap.net^
@@ -142,6 +152,7 @@
 ||hitstation.nl^
 ||hobobot.net^
 ||hseda.com^
+||htdentshop.com^
 ||icoffeecloud.com^
 ||ignetwork.us^
 ||igra123.com^
@@ -160,7 +171,6 @@
 ||kimdoo-app.top^
 ||kimyen.net^
 ||kiss.a-dog.top^
-||konakonacricket.com^
 ||konsor.ru^
 ||kryptonclient-cracked.com^
 ||landonirwin.com^
@@ -181,12 +191,15 @@
 ||maple30.com^
 ||meteorclients.com^
 ||metrics.agoxpathbet.one^
+||metrics.gocloudmaps.com^
 ||mibd.org^
 ||miriamgualda.com.br^
 ||mitreart.com^
 ||mkconstructions.net^
+||mm-mvshahacademy.ac.ke^
 ||mnurlogistics.az^
 ||mogimall.com^
+||moniquejhingon.com^
 ||muaklekcoop.com^
 ||muledo.com^
 ||munihuacho.gob.pe^
@@ -196,6 +209,7 @@
 ||noamaddons.com^
 ||noithaticon.vn^
 ||nova-client.com^
+||nusatoyota.co.id^
 ||ny.lshdw.cc^
 ||obearo.com^
 ||odinclient.com^
@@ -210,6 +224,7 @@
 ||outpost.co.ke^
 ||p3.zbjimg.com^
 ||pay.aqiu6.com^
+||pcupd.com^
 ||pfatrivandrum.org^
 ||phantom-client.com^
 ||photolivebook.pro^
@@ -261,7 +276,6 @@
 ||seputartuban.com^
 ||sg123.net^
 ||shqdown.ggzuhao.com^
-||shreesaiseva.org^
 ||sigmaclient.net^
 ||sigmaclient.org^
 ||sirenasultana.com^
@@ -314,7 +328,6 @@
 ||vizyonuniversitesi.com.tr^
 ||vizyonuniversitesi.web.tr^
 ||vrajras.com^
-||webcstore.pw^
 ||website.mypetapp.co.za^
 ||widexenmexico.com.mx^
 ||wielixclient.com^
@@ -337,7 +350,6 @@
 ||www.drgenov.com^
 ||www.duelvalenza.it^
 ||www.first-security-verden.de^
-||www.gestroom.it^
 ||www.hostingcloud.science^
 ||www.hqsblog.com^
 ||www.hseda.com^
@@ -370,6 +382,7 @@
 ||www.zamilgroups.com^
 ||www.zhikey.com^
 ||xenon.studio^
+||xenonclient.com^
 ||xn--yh4bx88a.com^
 ||xshop.com.tr^
 ||yakult-hk.com^
