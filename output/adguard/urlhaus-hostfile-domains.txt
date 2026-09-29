@@ -2,8 +2,8 @@
 ! Description: Malware distribution domains from abuse.ch URLhaus (hosts-file format, updated every 5 minutes)
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-09-29 18:02:28 UTC
-! Total rules: 369
+! Last modified: 2026-09-29 22:10:57 UTC
+! Total rules: 370
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -33,7 +33,6 @@
 ||audicontadores.com^
 ||backupso.com^
 ||balanced-red-emhnkdfj-dp7g2kvqxx8n.edgeone.dev^
-||beak.in^
 ||beoauto.alexion.rs^
 ||blankeyeo.com^
 ||blaxllantas.com^
@@ -55,6 +54,7 @@
 ||cat.xiaoshabi.nl^
 ||catbaparadisehotel.com.vn^
 ||cdaonline.com.ar^
+||cdn.file6.goodid.com^
 ||celebratingseniors.net^
 ||chat-server.maverickpreviews.com^
 ||checkfivem.com^
@@ -85,9 +85,11 @@
 ||deagroup-ks.com^
 ||debugify.net^
 ||delp-heizungsbau.de^
+||delta-canvas.com^
 ||dezcom.com^
 ||dinamikakargo.com^
 ||disk.accord1key.cn^
+||dl.1003b.56a.com^
 ||dl.dzqzd.com^
 ||dl.natgo.cn^
 ||doc.e-statements.app^
@@ -119,7 +121,6 @@
 ||farschid.de^
 ||fd.v2downf.shop^
 ||file.blackint3.com^
-||file.uhsea.com^
 ||filerit.com^
 ||first-security-verden.de^
 ||floppaclient.com^
@@ -149,12 +150,14 @@
 ||icoffeecloud.com^
 ||ignetwork.us^
 ||igra123.com^
+||ijbfi.pk^
 ||impectorinternational.com^
-||iniciaonline.com^
+||indonesias.me^
 ||invmove.com^
 ||ircftp.net^
 ||isiore.com.co^
 ||itssprout.com^
+||jawaratekno.com^
 ||jessespridecharters.com^
 ||jlwz.cn^
 ||kavacanada.ca^
@@ -169,7 +172,6 @@
 ||lindnerelektroanlagen.de^
 ||local-update.com^
 ||lomejordesalamanca.es^
-||loop-lumen.com^
 ||luizmatoso.com.br^
 ||lumacrea.com^
 ||luminexclient.com^
@@ -186,6 +188,7 @@
 ||miriamgualda.com.br^
 ||mitreart.com^
 ||mkconstructions.net^
+||mm-mvshahacademy.ac.ke^
 ||mnurlogistics.az^
 ||mogimall.com^
 ||moniquejhingon.com^
@@ -198,7 +201,6 @@
 ||noamaddons.com^
 ||noithaticon.vn^
 ||nova-client.com^
-||nusatoyota.co.id^
 ||ny.lshdw.cc^
 ||obearo.com^
 ||odinclient.com^
@@ -211,6 +213,7 @@
 ||opsecmod.st^
 ||outpost.co.ke^
 ||p3.zbjimg.com^
+||palharesinformatica.com.br^
 ||pay.aqiu6.com^
 ||pcupd.com^
 ||pfatrivandrum.org^
@@ -234,7 +237,6 @@
 ||reauthenticator.com^
 ||records.dennisign.se^
 ||reifenquick.de^
-||reinigung-kosanke.de^
 ||reservphotoinstay.one^
 ||reservphotoinstaynow.shop^
 ||reutilizemais.co.mz^
@@ -253,6 +255,7 @@
 ||scoala1gherla.ro^
 ||screenconnect.pro^
 ||scrroeder.com^
+||sdufkghdfshds.cfd^
 ||sec.dashabi.in^
 ||sec.xiaojiji.nl^
 ||sec.xiaoshabi.nl^
@@ -268,18 +271,18 @@
 ||skyblock-addons.com^
 ||smartermail.host^
 ||soft.110route.com^
-||spgint.com^
 ||srsorvete.com.br^
 ||star.zcnet.net^
+||static.ilclock.com^
 ||static.topxgun.com^
 ||static.youdm.cn^
 ||stdown.dinju.com^
 ||streammobs.com^
 ||support.clz.kr^
+||sushiandpoke.pt^
 ||sutterpoint.com^
 ||svirtual.sanviatorperu.edu.pe^
 ||swatting.wiki^
-||swiftfusion.tech^
 ||talkandtypeapp.com^
 ||tangentwaves.com^
 ||tanscarattorneys.co.tz^
@@ -287,7 +290,6 @@
 ||taunahi.st^
 ||tecunonline.com^
 ||tehnomag.rs^
-||telpak.icu^
 ||tengfeidn.cn^
 ||tenis-team-km.com^
 ||test.peperoncinochepassione.it^
@@ -300,6 +302,7 @@
 ||tiacreation.club^
 ||toolshare.com.tr^
 ||top8onlinegame.com^
+||tpp.om-stock.com^
 ||transparenciacanaa.com.br^
 ||trtmyanmar.com^
 ||trust-soft.cc^
@@ -335,7 +338,6 @@
 ||www.drgenov.com^
 ||www.duelvalenza.it^
 ||www.first-security-verden.de^
-||www.gestroom.it^
 ||www.hostingcloud.science^
 ||www.hqsblog.com^
 ||www.hseda.com^
@@ -360,7 +362,6 @@
 ||www.ss-01.com^
 ||www.starcountry.net^
 ||www.tdejb.com^
-||www.tecunonline.com^
 ||www.test.peperoncinochepassione.it^
 ||www.vuelaviajero.com^
 ||www.website.mypetapp.co.za^
