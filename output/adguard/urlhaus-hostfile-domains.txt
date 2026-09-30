@@ -2,8 +2,8 @@
 ! Description: Malware distribution domains from abuse.ch URLhaus (hosts-file format, updated every 5 minutes)
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-09-30 03:41:30 UTC
-! Total rules: 394
+! Last modified: 2026-09-30 11:49:38 UTC
+! Total rules: 408
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -16,6 +16,7 @@
 ||4eclient.com^
 ||6tu2zzl7q5wtdm6icmutlb6ifr7zz3z2svxvieaz7u4pqxrbblc7ltid.onion^
 ||acc.jiangsujiaxue.com^
+||accesstelematics.com^
 ||acms.saleseos.com^
 ||acrilicoporto.pt^
 ||adcentral.com.mx^
@@ -29,6 +30,7 @@
 ||alternativas.ru^
 ||app.appzcvb.com^
 ||areyouready.co.za^
+||argon-client.com^
 ||astraluxclient.com^
 ||atasapka.com.tr^
 ||audicontadores.com^
@@ -49,19 +51,21 @@
 ||bridgeroad.maverickpreviews.com^
 ||bserail.com^
 ||build.polysupport.team^
+||bumcoinc.site^
 ||cambodiatouristservice.com^
-||carcaran.com^
 ||casasmediterraneas.com^
 ||cat.dashabi.in^
 ||cat.xiaojiji.nl^
 ||cat.xiaoshabi.nl^
 ||catbaparadisehotel.com.vn^
 ||cdaonline.com.ar^
+||cdn.file6.goodid.com^
 ||celebratingseniors.net^
 ||chat-server.maverickpreviews.com^
 ||checkfivem.com^
 ||cheetoclient.com^
 ||chiroartist.com^
+||christinadudley.com^
 ||chuguadventures.co.tz^
 ||cid.gov.so^
 ||cl.ssouy.com^
@@ -73,7 +77,6 @@
 ||coolairesgroup.com^
 ||coralasargetia.ro^
 ||cpc188.day^
-||cpofficial.com^
 ||crazypianoswebshop.nl^
 ||crystalbranchtw.blog^
 ||crystalpvp.ru^
@@ -109,12 +112,10 @@
 ||download.pdf00.com^
 ||download.youlovemybiba.com^
 ||dreamwatchevent.com^
-||electri.billregulator.com^
 ||elisans.novayonetim.com^
 ||elrneba.com^
-||embedone.com^
+||emoto.mk^
 ||en.taichuan.com^
-||endpoint.project0.cc^
 ||envs.sh^
 ||epanpano.com^
 ||epsinf.com^
@@ -125,18 +126,20 @@
 ||familyaddons.org^
 ||farschid.de^
 ||fd.v2downf.shop^
+||ficus.in^
 ||file.blackint3.com^
 ||file.uhsea.com^
 ||filerit.com^
 ||first-security-verden.de^
 ||floppaclient.com^
-||floppaclient.org^
 ||flyingmutts.com^
 ||fmrio.com^
 ||fucktermedfir.st^
+||fujeigroup.com^
 ||fukt.link^
 ||fullstacknir.com^
 ||funnymap.net^
+||fussionmd.com^
 ||fz.tiansys.cn^
 ||galerisenimutiara.com^
 ||gamblerigmod.org^
@@ -145,16 +148,19 @@
 ||geoxsecurity.ro^
 ||gestroom.it^
 ||globalbank.us^
+||gobiotechpestcontrol.com^
 ||greenf.alexion.rs^
+||grupocaprem.com^
 ||grupomcperu.com^
 ||harmeetmotors.com^
 ||hasalltalent.com^
 ||helpdesk09-26.com^
+||hewadexchange.com^
 ||hitman-pro.ru^
 ||hitstation.nl^
 ||hjha.ao^
+||hobobot.net^
 ||hseda.com^
-||htdentshop.com^
 ||icoffeecloud.com^
 ||idid.pl^
 ||ignetwork.us^
@@ -165,12 +171,11 @@
 ||invmove.com^
 ||ircftp.net^
 ||isiore.com.co^
-||ita-airwaysva.com^
 ||itco.pe^
 ||itssprout.com^
-||jawaratekno.com^
 ||jessespridecharters.com^
 ||jlwz.cn^
+||johnsonsvalves.cam^
 ||kavacanada.ca^
 ||kazdiyden.ru^
 ||kenwillzltd.com^
@@ -193,8 +198,11 @@
 ||maidforyou1985.com^
 ||makemewin.club^
 ||malupieng.com.br^
+||mamabearcoffee.com^
 ||maple30.com^
 ||meteorclients.com^
+||meteorrejects.net^
+||metrics.gocloudmaps.com^
 ||mibd.org^
 ||miriamgualda.com.br^
 ||mitreart.com^
@@ -210,8 +218,8 @@
 ||ncxps.com^
 ||noamaddons.com^
 ||noithaticon.vn^
-||northernvirginiaeyeassociates.com^
 ||nova-client.com^
+||noxxclient.org^
 ||nusatoyota.co.id^
 ||ny.lshdw.cc^
 ||obearo.com^
@@ -226,14 +234,15 @@
 ||otkrytkadnya.ru^
 ||outpost.co.ke^
 ||p3.zbjimg.com^
-||palharesinformatica.com.br^
 ||pay.aqiu6.com^
 ||pcupd.com^
 ||pevrix.com^
 ||pfatrivandrum.org^
 ||phantom-client.com^
 ||photolivebook.pro^
+||physicsbyfiziks.org^
 ||planetariumobil.ro^
+||plenia.pt^
 ||polarclient.net^
 ||polinexclient.org^
 ||postelnini.mk^
@@ -241,7 +250,6 @@
 ||preciosasjoyitas.com.mx^
 ||prestigeclient.st^
 ||profitable-pink-0y9btnew-dpk6vqe6eheo.edgeone.dev^
-||protherapycenter.com^
 ||public.demo.securecloudsandbox.com^
 ||pvsa.gxfugy.cn^
 ||qiniuyunxz.yxflzs.com^
@@ -249,6 +257,7 @@
 ||qv.co.ke^
 ||rabbids.cc^
 ||ramirex.ro^
+||raqmnh.com^
 ||rcf.co.mz^
 ||rdm.91yunma.cn^
 ||reauthenticator.com^
@@ -267,7 +276,6 @@
 ||rxquickpay.com^
 ||sablayan.seasonshotelmindoro.com^
 ||safeifm.com^
-||safewatertech.com^
 ||sales.ifree.page^
 ||samiksha.com.sg^
 ||scainseto.com.br^
@@ -281,6 +289,7 @@
 ||sec.xiaoshabi.nl^
 ||seismophonic.com^
 ||semencepourlavie.org^
+||seputartuban.com^
 ||sg123.net^
 ||shqdown.ggzuhao.com^
 ||sigmaclient.net^
@@ -294,15 +303,17 @@
 ||spgint.com^
 ||srsorvete.com.br^
 ||star.zcnet.net^
+||static.ilclock.com^
 ||static.topxgun.com^
 ||static.youdm.cn^
 ||stdown.dinju.com^
-||streammobs.com^
+||studiogioeli.it^
 ||support.clz.kr^
 ||sushiandpoke.pt^
 ||sutterpoint.com^
 ||svirtual.sanviatorperu.edu.pe^
 ||swiftfusion.tech^
+||tabak.hr^
 ||talkandtypeapp.com^
 ||tangentwaves.com^
 ||tanscarattorneys.co.tz^
@@ -314,19 +325,20 @@
 ||tengfeidn.cn^
 ||tenis-team-km.com^
 ||test.peperoncinochepassione.it^
-||thehaider.com^
 ||theholidayroads.com^
 ||themaintechnician.us^
 ||thementordirectory.com^
 ||theoremaoliveoil.com^
 ||thtp2.volamngayxua.net^
 ||tiacreation.club^
+||tmcksa.com^
 ||toolshare.com.tr^
 ||top8onlinegame.com^
 ||tpp.om-stock.com^
 ||transparenciacanaa.com.br^
 ||trtmyanmar.com^
 ||trust-soft.cc^
+||twitch.tj^
 ||twu-hwt.org^
 ||uasputnik.com^
 ||upaicdn.xinmei365.com^
@@ -362,9 +374,9 @@
 ||www.drgenov.com^
 ||www.duelvalenza.it^
 ||www.first-security-verden.de^
+||www.gestroom.it^
 ||www.hostingcloud.science^
 ||www.hqsblog.com^
-||www.hseda.com^
 ||www.intelligradeeducation.vicentecisnerospub.com^
 ||www.jozefinskiatelje.si^
 ||www.kenwillzltd.com^
@@ -376,6 +388,7 @@
 ||www.newkey.co.kr^
 ||www.notbak.com^
 ||www.oj44472.com^
+||www.ojang.pe.kr^
 ||www.okhan.net^
 ||www.pointtohealth.com^
 ||www.reifenquick.de^
@@ -392,6 +405,7 @@
 ||www.xn--on3b15m2lco2u.com^
 ||www.zamilgroups.com^
 ||www.zhikey.com^
+||xaerosminimap.com^
 ||xenon.studio^
 ||xenonclient.com^
 ||xn--yh4bx88a.com^
