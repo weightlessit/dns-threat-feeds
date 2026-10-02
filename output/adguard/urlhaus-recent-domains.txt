@@ -2,8 +2,8 @@
 ! Description: Domains extracted from recently reported malicious URLs tracked by abuse.ch URLhaus
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-10-02 03:45:57 UTC
-! Total rules: 391
+! Last modified: 2026-10-02 11:47:20 UTC
+! Total rules: 396
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -77,6 +77,7 @@
 ||ccoffice.site^
 ||cheetoclient.com^
 ||chiroartist.com^
+||chrome.browserdownloads.ru^
 ||chrome.windows-browser.net^
 ||cid.gov.so^
 ||cloud-sharing.com^
@@ -188,6 +189,7 @@
 ||hpfile.cyou^
 ||hponline.run.place^
 ||idid.pl^
+||ik.imagekit.io^
 ||ikechux.publicvm.com^
 ||iloveboats.st^
 ||images.fishing-tools.cyou^
@@ -278,6 +280,7 @@
 ||portal.onepansol.site^
 ||porterneuman.mx^
 ||power.belyxhost.in^
+||prestige-client.live^
 ||prestige-client.org^
 ||prestigeclient.st^
 ||proalamir.dz^
@@ -323,6 +326,7 @@
 ||startvsgame.com^
 ||statementreaderdownload.com^
 ||storage.bunnycdn.com^
+||stratos-delta.com^
 ||sumnitasinvestment.com^
 ||surun.info^
 ||swatting.wiki^
@@ -339,6 +343,7 @@
 ||theservice4u.com^
 ||thisisafalsepositive.st^
 ||tinyurls.in^
+||tmpfiles.org^
 ||togethers.tv^
 ||trabzonmegareklamllc.shop^
 ||tradingengineers.in^
