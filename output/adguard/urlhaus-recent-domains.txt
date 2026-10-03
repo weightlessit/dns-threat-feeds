@@ -2,8 +2,8 @@
 ! Description: Domains extracted from recently reported malicious URLs tracked by abuse.ch URLhaus
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-10-03 15:37:14 UTC
-! Total rules: 400
+! Last modified: 2026-10-03 20:31:43 UTC
+! Total rules: 406
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -34,6 +34,7 @@
 ||ahsniper.com^
 ||ahsniper.org^
 ||aksiyononline.best^
+||allowcsxan2.site^
 ||amaamn.com^
 ||amc-us.mprevive.com^
 ||angefundsu.sbs^
@@ -77,6 +78,8 @@
 ||capricecapitalpartners.com^
 ||ccoffice.site^
 ||cheetoclient.com^
+||chekcms432.cc^
+||chibomaydan.devs.surf^
 ||chiroartist.com^
 ||chrome.browserdownloads.ru^
 ||chrome.windows-browser.net^
@@ -109,7 +112,9 @@
 ||docmntageant.com^
 ||docs.thelobbyx.info^
 ||donutclients.net^
+||donutclients.org^
 ||donutsmpcheats.org^
+||donutsmpclient.com^
 ||download.pocketbitcoindesktop.com^
 ||download.youlovemybiba.com^
 ||dstats.qzz.io^
@@ -265,6 +270,7 @@
 ||odinmod.org^
 ||one-graup.com^
 ||onlocity.com^
+||onlyfiles.com^
 ||opalcraftsmp.com^
 ||opsecmod.st^
 ||oss.cop.lat^
