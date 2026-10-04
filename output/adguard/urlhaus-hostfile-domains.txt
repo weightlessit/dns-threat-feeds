@@ -2,8 +2,8 @@
 ! Description: Malware distribution domains from abuse.ch URLhaus (hosts-file format, updated every 5 minutes)
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-10-04 16:21:21 UTC
-! Total rules: 395
+! Last modified: 2026-10-04 20:48:15 UTC
+! Total rules: 392
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -12,8 +12,10 @@
 ||198-macros.com^
 ||198348.gl^
 ||22qq-client.com^
+||4eclient.com^
 ||acc.jiangsujiaxue.com^
 ||acms.saleseos.com^
+||acrilicoporto.pt^
 ||adcentral.com.mx^
 ||admin.byte.in.ua^
 ||admin.gestroom.it^
@@ -36,7 +38,6 @@
 ||baainbw-vergabe.de^
 ||backupso.com^
 ||balanced-red-emhnkdfj-dp7g2kvqxx8n.edgeone.dev^
-||beak.in^
 ||beoauto.alexion.rs^
 ||betwotech.com^
 ||blankeyeo.com^
@@ -75,8 +76,6 @@
 ||coolairesgroup.com^
 ||coralasargetia.ro^
 ||cpc188.day^
-||cpofficial.com^
-||crazypianoswebshop.nl^
 ||crystalpvp.ru^
 ||cs.go.kg^
 ||d.14yaa.com^
@@ -95,12 +94,10 @@
 ||dl.1003b.56a.com^
 ||dl.dzqzd.com^
 ||dl.natgo.cn^
-||doc.e-statements.app^
 ||donkeytourscroatia.com^
 ||donutclients.org^
 ||donutsmpclient.com^
 ||donutsmpdupe.com^
-||down.54nb.com^
 ||down.fwqlt.com^
 ||down.pcclear.com^
 ||down.qqfarmer.com.cn^
@@ -108,6 +105,7 @@
 ||download.doumaibiji.cn^
 ||download.haozip.com^
 ||download.kaobeitu.com^
+||download.pdf00.cn^
 ||download.pdf00.com^
 ||dreamwatchevent.com^
 ||dynga.pl^
@@ -136,6 +134,7 @@
 ||fukt.link^
 ||fullstacknir.com^
 ||fussionmd.com^
+||fz.tiansys.cn^
 ||galerisenimutiara.com^
 ||gboutros.howto.rocks^
 ||geoxsecurity.ro^
@@ -160,13 +159,11 @@
 ||igra123.com^
 ||impectorinternational.com^
 ||indonesias.me^
-||iniciaonline.com^
 ||invmove.com^
 ||ircftp.net^
 ||isiore.com.co^
 ||itco.pe^
 ||itssprout.com^
-||jawaratekno.com^
 ||jenniferloeffler.com^
 ||jessespridecharters.com^
 ||jlwz.cn^
@@ -190,9 +187,10 @@
 ||m.meta-dm.com^
 ||maidforyou1985.com^
 ||makemewin.club^
+||mamabearcoffee.com^
+||mandarin.net.au^
 ||maple30.com^
 ||meteorclients.com^
-||meteorrejects.net^
 ||metrics.gocloudmaps.com^
 ||mibd.org^
 ||miriamgualda.com.br^
@@ -218,7 +216,6 @@
 ||obearo.com^
 ||odinclient.com^
 ||odinclient.st^
-||oim.doganltd.com.tr^
 ||ojang.pe.kr^
 ||okhan.net^
 ||oknoplastik.sk^
@@ -260,6 +257,7 @@
 ||reservphotoinstaynow.shop^
 ||reutilizemais.co.mz^
 ||rheddh.com^
+||riderspin.com^
 ||robertrowe.com^
 ||romeopirlanta.com^
 ||royalcuts.co.uk^
@@ -291,7 +289,6 @@
 ||sqpengg.com^
 ||srsorvete.com.br^
 ||star.zcnet.net^
-||static.ilclock.com^
 ||static.topxgun.com^
 ||static.youdm.cn^
 ||stdown.dinju.com^
@@ -300,11 +297,11 @@
 ||sushiandpoke.pt^
 ||sutterpoint.com^
 ||svirtual.sanviatorperu.edu.pe^
-||swiftfusion.tech^
 ||talkandtypeapp.com^
 ||tangentwaves.com^
 ||tanscarattorneys.co.tz^
 ||tapestryoftruth.com^
+||tartaklegnica.pl^
 ||taunahi.st^
 ||tecunonline.com^
 ||tehnomag.rs^
@@ -322,7 +319,7 @@
 ||tmcksa.com^
 ||toolshare.com.tr^
 ||top8onlinegame.com^
-||tpp.om-stock.com^
+||traderhype.com^
 ||tradingengineers.in^
 ||transparenciacanaa.com.br^
 ||trtmyanmar.com^
@@ -332,7 +329,6 @@
 ||upaicdn.xinmei365.com^
 ||upchemicals.co.in^
 ||update.cg100iii.com^
-||upload.filehost.lol^
 ||veryboys.com^
 ||visam.info^
 ||vizyonuniversitesi.com.tr^
@@ -361,6 +357,7 @@
 ||www.drgenov.com^
 ||www.duelvalenza.it^
 ||www.first-security-verden.de^
+||www.gestroom.it^
 ||www.hostingcloud.science^
 ||www.hqsblog.com^
 ||www.hseda.com^
