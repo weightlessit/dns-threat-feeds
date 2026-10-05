@@ -2,8 +2,8 @@
 ! Description: Malware distribution domains from abuse.ch URLhaus (hosts-file format, updated every 5 minutes)
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-10-05 03:43:52 UTC
-! Total rules: 404
+! Last modified: 2026-10-05 13:25:43 UTC
+! Total rules: 405
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -13,7 +13,6 @@
 ||198348.gl^
 ||22qq-client.com^
 ||4eclient.com^
-||abitcoinbull.com^
 ||acc.jiangsujiaxue.com^
 ||acms.saleseos.com^
 ||acrilicoporto.pt^
@@ -29,14 +28,13 @@
 ||alternativas.ru^
 ||api.wipmania.net^
 ||app.appzcvb.com^
+||aquatitewaterproofing.com^
 ||areyouready.co.za^
 ||argon-client.com^
 ||astroliper.ac^
 ||atasapka.com.tr^
 ||audicontadores.com^
-||autoclinic.autos^
 ||autoflotte-vergabe.de^
-||b2b.jewmailer.net^
 ||baainbw-vergabe.de^
 ||backupso.com^
 ||balanced-red-emhnkdfj-dp7g2kvqxx8n.edgeone.dev^
@@ -51,8 +49,6 @@
 ||bridgeroad.maverickpreviews.com^
 ||bserail.com^
 ||bumcoinc.site^
-||buruujtech.com^
-||c2.teamzeroday.net^
 ||cambodiatouristservice.com^
 ||casasmediterraneas.com^
 ||cat.dashabi.in^
@@ -77,7 +73,6 @@
 ||continentalgroup.net.in^
 ||coolairesgroup.com^
 ||cpc188.day^
-||cresvin.com^
 ||crystalpvp.ru^
 ||cs.go.kg^
 ||d.14yaa.com^
@@ -91,6 +86,7 @@
 ||delp-heizungsbau.de^
 ||delta-canvas.com^
 ||dezcom.com^
+||dinamikakargo.com^
 ||disk.accord1key.cn^
 ||dl.1003b.56a.com^
 ||dl.dzqzd.com^
@@ -101,6 +97,7 @@
 ||donutsmpdupe.com^
 ||down.fwqlt.com^
 ||down.pcclear.com^
+||down.qqfarmer.com.cn^
 ||download.caihong.com^
 ||download.doumaibiji.cn^
 ||download.haozip.com^
@@ -109,8 +106,7 @@
 ||download.pdf00.com^
 ||dreamwatchevent.com^
 ||dynga.pl^
-||ebullientlife.in^
-||educacom.com.br^
+||easyrentbyowner.com^
 ||electri.billregulator.com^
 ||elisans.novayonetim.com^
 ||embedone.com^
@@ -139,11 +135,12 @@
 ||fz.tiansys.cn^
 ||galerisenimutiara.com^
 ||gboutros.howto.rocks^
-||geeconglobal.com^
 ||geoxsecurity.ro^
 ||gestroom.it^
 ||globalbank.us^
+||gloryhaven.org^
 ||grantexx.com^
+||greatwhite.me^
 ||greenf.alexion.rs^
 ||grupocaprem.com^
 ||grupomcperu.com^
@@ -155,15 +152,18 @@
 ||hitman-pro.ru^
 ||hitstation.nl^
 ||hobobot.net^
+||horno-rafelet.es^
 ||hotelhungry.com^
-||hseda.com^
+||htdentshop.com^
 ||icoffeecloud.com^
 ||ignetwork.us^
 ||igra123.com^
 ||impectorinternational.com^
+||indonesias.me^
 ||iniciaonline.com^
 ||invmove.com^
 ||ircftp.net^
+||isiore.com.co^
 ||itco.pe^
 ||itssprout.com^
 ||jawaratekno.com^
@@ -179,10 +179,8 @@
 ||lawfirm.paperbirdtech.com^
 ||likedrink.beer^
 ||lindnerelektroanlagen.de^
-||loanoffer.co.in^
 ||local-update.com^
 ||lomejordesalamanca.es^
-||loop-lumen.com^
 ||luizmatoso.com.br^
 ||lumacrea.com^
 ||luminexclient.net^
@@ -195,11 +193,11 @@
 ||maple30.com^
 ||maverick174.org^
 ||maxxlavalink.cyou^
-||medlinelab.com^
 ||meteorclients.com^
 ||metrics.gocloudmaps.com^
 ||mibd.org^
 ||miriamgualda.com.br^
+||mitreart.com^
 ||mkconstructions.net^
 ||mnurlogistics.az^
 ||mogimall.com^
@@ -216,6 +214,8 @@
 ||nfadealer.top^
 ||noithaticon.vn^
 ||nordmann-automobilgruppe.de^
+||nusatoyota.co.id^
+||nutrisc.com.br^
 ||ny.lshdw.cc^
 ||obearo.com^
 ||odinclient.com^
@@ -225,6 +225,7 @@
 ||oknoplastik.sk^
 ||onfiltre.com.tr^
 ||onlyfiles.com^
+||onyx-medical.com^
 ||opsecmod.st^
 ||outpost.co.ke^
 ||p3.zbjimg.com^
@@ -242,8 +243,10 @@
 ||porterneuman.mx^
 ||postelnini.mk^
 ||practisingcertificateprotection.com^
+||preciosasjoyitas.com.mx^
 ||prestige-client.live^
 ||prestigeclient.st^
+||primeemberq.cfd^
 ||profitable-pink-0y9btnew-dpk6vqe6eheo.edgeone.dev^
 ||project0.cc^
 ||public.demo.securecloudsandbox.com^
@@ -253,7 +256,6 @@
 ||qv.co.ke^
 ||rabbids.cc^
 ||ramirex.ro^
-||raqmnh.com^
 ||rcf.co.mz^
 ||rdm.91yunma.cn^
 ||reauthenticator.com^
@@ -276,7 +278,6 @@
 ||scanbot.me^
 ||screenconnect.pro^
 ||scrroeder.com^
-||sdufkghdfshds.cfd^
 ||sec.dashabi.in^
 ||sec.xiaojiji.nl^
 ||sec.xiaoshabi.nl^
@@ -299,23 +300,24 @@
 ||static.youdm.cn^
 ||stdown.dinju.com^
 ||streammobs.com^
-||studiogioeli.it^
 ||sudariocontabilidade.com.br^
 ||sultanaexecutive.com^
+||summitcapitalpatners.info^
 ||support.clz.kr^
 ||sushiandpoke.pt^
 ||sutterpoint.com^
 ||svirtual.sanviatorperu.edu.pe^
 ||swiftfusion.tech^
 ||t-me.xyz^
-||tabak.hr^
 ||talkandtypeapp.com^
 ||tangentwaves.com^
 ||tanscarattorneys.co.tz^
 ||tapestryoftruth.com^
 ||tartaklegnica.pl^
 ||taunahi.st^
+||tecunonline.com^
 ||tehnomag.rs^
+||tengfeidn.cn^
 ||tenis-team-km.com^
 ||test.peperoncinochepassione.it^
 ||thehaider.com^
@@ -335,11 +337,11 @@
 ||trtmyanmar.com^
 ||truswallet.foundation^
 ||twitch.tj^
-||twu-hwt.org^
 ||upaicdn.xinmei365.com^
 ||upchemicals.co.in^
 ||update.cg100iii.com^
 ||upload.filehost.lol^
+||uu.v2raynapps.com.cn^
 ||veryboys.com^
 ||visam.info^
 ||vizyonuniversitesi.com.tr^
@@ -353,11 +355,13 @@
 ||windomstatetheater.com^
 ||windowsdiagnostics.st^
 ||wittenhorst.eu^
+||wp.fujeigroup.com^
 ||www-connect-secure-wellcfargo.sekolahkejarpaket.com^
 ||www.ardguisser.com^
 ||www.astenterprises.com.pk^
 ||www.automobile-bk.de^
 ||www.backupallfresh2030.com^
+||www.beinke-aufzuege.de^
 ||www.benshamcentre.co.uk^
 ||www.blackhattoolz.com^
 ||www.bratusferramentas.grupomoltz.com.br^
@@ -368,12 +372,8 @@
 ||www.drgenov.com^
 ||www.duelvalenza.it^
 ||www.first-security-verden.de^
-||www.gemrazorback.com^
-||www.gestroom.it^
 ||www.hostingcloud.science^
 ||www.hqsblog.com^
-||www.hseda.com^
-||www.icomsa.com.mx^
 ||www.intelligradeeducation.vicentecisnerospub.com^
 ||www.jozefinskiatelje.si^
 ||www.kenwillzltd.com^
@@ -396,6 +396,7 @@
 ||www.tdejb.com^
 ||www.tecunonline.com^
 ||www.test.peperoncinochepassione.it^
+||www.tmcksa.com^
 ||www.vuelaviajero.com^
 ||www.website.mypetapp.co.za^
 ||www.wuming0.tech^

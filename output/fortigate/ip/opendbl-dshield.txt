@@ -2,7 +2,7 @@
 # Description: SANS DShield top attacking subnets, optimized for firewall ingestion -- uses IP range format (opendbl.net)
 # Homepage: https://github.com/weightlessit/dns-threat-feeds
 # License: MIT
-# Last modified: 2026-10-05 03:44:48 UTC
+# Last modified: 2026-10-05 13:26:40 UTC
 # Total entrys: 20
 #
 # Auto-generated -- do not edit manually.
@@ -17,6 +17,7 @@
 198.235.24.0-198.235.24.255
 205.210.31.0-205.210.31.255
 216.180.246.0-216.180.246.255
+45.148.10.0-45.148.10.255
 45.198.224.0-45.198.224.255
 45.205.1.0-45.205.1.255
 64.62.156.0-64.62.156.255
@@ -27,4 +28,3 @@
 69.5.169.0-69.5.169.255
 77.239.124.0-77.239.124.255
 85.217.149.0-85.217.149.255
-94.154.43.0-94.154.43.255
