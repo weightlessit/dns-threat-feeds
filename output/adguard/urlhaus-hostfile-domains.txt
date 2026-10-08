@@ -2,8 +2,8 @@
 ! Description: Malware distribution domains from abuse.ch URLhaus (hosts-file format, updated every 5 minutes)
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-10-08 04:10:43 UTC
-! Total rules: 399
+! Last modified: 2026-10-08 12:42:03 UTC
+! Total rules: 397
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -12,13 +12,9 @@
 ||198-macros.com^
 ||198348.gl^
 ||22qq-client.com^
-||3.zhzy999.net3.zhzy999.net^
-||3.zhzy999.net^
-||31.128.173.853.zhzy999.net31.128.173.853.zhzy999.net^
 ||4eclient.com^
 ||acc.jiangsujiaxue.com^
 ||acms.saleseos.com^
-||adcentral.com.mx^
 ||admin.byte.in.ua^
 ||admin.gestroom.it^
 ||aetherius.live^
@@ -36,12 +32,15 @@
 ||app.appzcvb.com^
 ||areyouready.co.za^
 ||argon-client.com^
+||ascomsecurity.com.au^
 ||atasapka.com.tr^
 ||athuselevadores.com.br^
 ||b.clu-e.eu^
 ||backupso.com^
 ||balanced-red-emhnkdfj-dp7g2kvqxx8n.edgeone.dev^
 ||beoauto.alexion.rs^
+||bergmann-automobile.de^
+||beschaffung-portal.de^
 ||blankeyeo.com^
 ||blessdayservices.org^
 ||blogs.sokun.jp^
@@ -61,6 +60,7 @@
 ||cdaonline.com.ar^
 ||cdn.file6.goodid.com^
 ||celebratingseniors.net^
+||cepde.org^
 ||chat-server.maverickpreviews.com^
 ||checkfivem.com^
 ||chiroartist.com^
@@ -68,7 +68,6 @@
 ||cid.gov.so^
 ||cl.ssouy.com^
 ||clubdetiroelpicarcho.com^
-||cn.devglobal.biz^
 ||cn.unionlever.com^
 ||compuserviceonline.com.br^
 ||continentalgroup.net.in^
@@ -87,9 +86,7 @@
 ||debugify.net^
 ||deffnelreports.bramblequarz.ru^
 ||delp-heizungsbau.de^
-||delta-canvas.com^
 ||dezcom.com^
-||dfd.zhzy999.net^
 ||dinamikakargo.com^
 ||disk.accord1key.cn^
 ||dl.1003b.56a.com^
@@ -116,6 +113,7 @@
 ||en.taichuan.com^
 ||epanpano.com^
 ||escrowbank.co^
+||evergabe-bund.de^
 ||fakers.co.jp^
 ||farschid.de^
 ||fd.v2downf.shop^
@@ -151,7 +149,7 @@
 ||helpdesk09-26.com^
 ||hitman-pro.ru^
 ||hitstation.nl^
-||hobobot.net^
+||horno-rafelet.es^
 ||hotelhungry.com^
 ||hseda.com^
 ||icoffeecloud.com^
@@ -160,7 +158,6 @@
 ||ikovrsps.com^
 ||impectorinternational.com^
 ||indonesias.me^
-||intelli-sys.co.zw^
 ||invmove.com^
 ||ircftp.net^
 ||isiore.com.co^
@@ -192,6 +189,7 @@
 ||malupieng.com.br^
 ||manmenduster.online^
 ||maple30.com^
+||marlowclient.com^
 ||meteorclients.com^
 ||meteorrejects.net^
 ||metrics.gocloudmaps.com^
@@ -212,8 +210,7 @@
 ||ncxps.com^
 ||nd.tdpqnf.com^
 ||noithaticon.vn^
-||northernvirginiaeyeassociates.com^
-||ny.lshdw.cc^
+||nusatoyota.co.id^
 ||obearo.com^
 ||odinclient.st^
 ||ohhhhhmoney.com^
@@ -239,9 +236,9 @@
 ||postelnini.mk^
 ||preciosasjoyitas.com.mx^
 ||prestigeclient.st^
-||primeemberq.cfd^
 ||profitable-pink-0y9btnew-dpk6vqe6eheo.edgeone.dev^
 ||project0.cc^
+||proveedoradeproyectosysoluciones.com^
 ||public.demo.securecloudsandbox.com^
 ||pvsa.gxfugy.cn^
 ||qiniuyunxz.yxflzs.com^
@@ -273,6 +270,7 @@
 ||scoala1gherla.ro^
 ||screenconnect.pro^
 ||scrroeder.com^
+||sdufkghdfshds.cfd^
 ||sec.dashabi.in^
 ||sec.xiaojiji.nl^
 ||sec.xiaoshabi.nl^
@@ -325,12 +323,10 @@
 ||toolshare.com.tr^
 ||top8onlinegame.com^
 ||tpp.om-stock.com^
-||tr.zhzy999.net^
 ||transparenciacanaa.com.br^
 ||trtmyanmar.com^
 ||tttkkkssww.com^
 ||twitch.tj^
-||twu-hwt.org^
 ||upaicdn.xinmei365.com^
 ||upchemicals.co.in^
 ||update.cg100iii.com^
@@ -340,7 +336,7 @@
 ||vizyonuniversitesi.com.tr^
 ||vizyonuniversitesi.web.tr^
 ||vrajras.com^
-||w.zhzy999.net^
+||webcstore.pw^
 ||website.mypetapp.co.za^
 ||wicresetconnect.com^
 ||widexenmexico.com.mx^
@@ -364,10 +360,12 @@
 ||www.cutting-edge.in^
 ||www.drgenov.com^
 ||www.duelvalenza.it^
+||www.epibenie.dz^
 ||www.first-security-verden.de^
 ||www.gestroom.it^
 ||www.hostingcloud.science^
 ||www.hqsblog.com^
+||www.hseda.com^
 ||www.intelligradeeducation.vicentecisnerospub.com^
 ||www.jozefinskiatelje.si^
 ||www.kenwillzltd.com^
