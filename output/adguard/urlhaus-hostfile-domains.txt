@@ -2,8 +2,8 @@
 ! Description: Malware distribution domains from abuse.ch URLhaus (hosts-file format, updated every 5 minutes)
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-10-09 04:16:03 UTC
-! Total rules: 394
+! Last modified: 2026-10-09 12:29:17 UTC
+! Total rules: 395
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -17,6 +17,7 @@
 ||4eclient.com^
 ||acc.jiangsujiaxue.com^
 ||acms.saleseos.com^
+||adcentral.com.mx^
 ||admin.byte.in.ua^
 ||admin.gestroom.it^
 ||aetherius.live^
@@ -33,6 +34,7 @@
 ||areyouready.co.za^
 ||argon-client.com^
 ||ascomsecurity.com.au^
+||atasapka.com.tr^
 ||athuselevadores.com.br^
 ||b.clu-e.eu^
 ||backupso.com^
@@ -51,6 +53,7 @@
 ||bridgeroad.maverickpreviews.com^
 ||bserail.com^
 ||bumcoinc.site^
+||c2.teamzeroday.net^
 ||c23c1b-fa77-48e0-8272-692b579a574c.gorsefield.cc^
 ||cambodiatouristservice.com^
 ||casasmediterraneas.com^
@@ -60,10 +63,8 @@
 ||catbaparadisehotel.com.vn^
 ||cdaonline.com.ar^
 ||celebratingseniors.net^
-||cepde.org^
 ||chat-server.maverickpreviews.com^
 ||checkfivem.com^
-||chiroartist.com^
 ||chuguadventures.co.tz^
 ||cid.gov.so^
 ||cl.ssouy.com^
@@ -102,6 +103,7 @@
 ||donutsmpclient.com^
 ||down.fwqlt.com^
 ||down.pcclear.com^
+||down.qqfarmer.com.cn^
 ||download.caihong.com^
 ||download.doumaibiji.cn^
 ||download.haozip.com^
@@ -122,7 +124,6 @@
 ||fd.v2downf.shop^
 ||fibernetperu.pe^
 ||file.blackint3.com^
-||file.uhsea.com^
 ||filerit.com^
 ||first-security-verden.de^
 ||flocmaterials.shop^
@@ -161,13 +162,12 @@
 ||igra123.com^
 ||ikovrsps.com^
 ||impectorinternational.com^
-||indonesias.me^
 ||invmove.com^
 ||ircftp.net^
 ||isiore.com.co^
-||ita-airwaysva.com^
 ||itco.pe^
 ||itssprout.com^
+||jawaratekno.com^
 ||jenniferloeffler.com^
 ||jessespridecharters.com^
 ||jlwz.cn^
@@ -181,11 +181,9 @@
 ||lindnerelektroanlagen.de^
 ||local-update.com^
 ||lomejordesalamanca.es^
-||loop-lumen.com^
 ||luizmatoso.com.br^
 ||lumacrea.com^
 ||luminexclient.net^
-||luminouspower.com.pk^
 ||m.jkoa.co.kr^
 ||m.meta-dm.com^
 ||maidforyou1985.com^
@@ -198,6 +196,7 @@
 ||metrics.gocloudmaps.com^
 ||mibd.org^
 ||miriamgualda.com.br^
+||miskolc-dugulaselharitas.hu^
 ||mitreart.com^
 ||mkconstructions.net^
 ||mnurlogistics.az^
@@ -223,6 +222,7 @@
 ||opsecmod.st^
 ||outpost.co.ke^
 ||p3.zbjimg.com^
+||palharesinformatica.com.br^
 ||pay.aqiu6.com^
 ||pcupd.com^
 ||pfatrivandrum.org^
@@ -237,6 +237,7 @@
 ||preciosasjoyitas.com.mx^
 ||prestigeclient.st^
 ||profitable-pink-0y9btnew-dpk6vqe6eheo.edgeone.dev^
+||project0.cc^
 ||public.demo.securecloudsandbox.com^
 ||pvsa.gxfugy.cn^
 ||qiniuyunxz.yxflzs.com^
@@ -254,7 +255,6 @@
 ||reservphotoinstaynow.shop^
 ||reutilizemais.co.mz^
 ||rheddh.com^
-||riderspin.com^
 ||robertrowe.com^
 ||romeopirlanta.com^
 ||royalindiancurryclub.com^
@@ -268,7 +268,6 @@
 ||scoala1gherla.ro^
 ||screenconnect.pro^
 ||scrroeder.com^
-||sdufkghdfshds.cfd^
 ||sec.dashabi.in^
 ||sec.xiaojiji.nl^
 ||sec.xiaoshabi.nl^
@@ -286,12 +285,12 @@
 ||sqpengg.com^
 ||srsorvete.com.br^
 ||stanarcservice.com^
-||star.zcnet.net^
 ||static.ilclock.com^
 ||static.topxgun.com^
 ||static.youdm.cn^
 ||stdown.dinju.com^
 ||stellaspicy.org^
+||streammobs.com^
 ||sugarfreedcup.co.za^
 ||support.clz.kr^
 ||sushiandpoke.pt^
@@ -316,6 +315,7 @@
 ||theoremaoliveoil.com^
 ||thisisafalsepositive.st^
 ||tiacreation.club^
+||ticpc8a.com^
 ||tmcksa.com^
 ||toolshare.com.tr^
 ||top8onlinegame.com^
@@ -335,6 +335,7 @@
 ||vizyonuniversitesi.web.tr^
 ||vrajras.com^
 ||w.zhzy999.net^
+||w5q.eu^
 ||webcstore.pw^
 ||website.mypetapp.co.za^
 ||wicresetconnect.com^
