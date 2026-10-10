@@ -2,8 +2,8 @@
 ! Description: Malware distribution domains from abuse.ch URLhaus (hosts-file format, updated every 5 minutes)
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-10-10 11:48:17 UTC
-! Total rules: 393
+! Last modified: 2026-10-10 16:51:08 UTC
+! Total rules: 403
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -24,14 +24,12 @@
 ||aftelecom.com.br^
 ||aidlifempowerment.com^
 ||aksiyononline.best^
-||alarmline.com.br^
 ||alineeleuterio.com.br^
 ||allendostmen.com^
 ||alternativas.ru^
 ||api.wipmania.net^
 ||app.appzcvb.com^
 ||areyouready.co.za^
-||argon-client.com^
 ||ascomsecurity.com.au^
 ||athuselevadores.com.br^
 ||backupso.com^
@@ -62,7 +60,6 @@
 ||cdaonline.com.ar^
 ||cdn.file6.goodid.com^
 ||celebratingseniors.net^
-||cepde.org^
 ||chat-server.maverickpreviews.com^
 ||checkfivem.com^
 ||chiroartist.com^
@@ -75,6 +72,7 @@
 ||compuserviceonline.com.br^
 ||continentalgroup.net.in^
 ||coolairesgroup.com^
+||coreprotector.org^
 ||cpc188.day^
 ||crystalpvp.ru^
 ||cs.go.kg^
@@ -82,7 +80,6 @@
 ||d.wanyouxi7.com^
 ||damiancollier.com^
 ||data.yhydl.com^
-||dcrun.co.uk^
 ||dcwblida.dz^
 ||deagroup-ks.com^
 ||deathboundcraft.com^
@@ -92,14 +89,12 @@
 ||dezcom.com^
 ||dfd.zhzy999.net^
 ||dinamikakargo.com^
-||disk.accord1key.cn^
 ||dl.1003b.56a.com^
 ||dl.dzqzd.com^
 ||dl.natgo.cn^
 ||donkeytourscroatia.com^
 ||donutclients.st^
 ||donutclientsmods.xyz^
-||donutdupe.com^
 ||donutsmpclient.com^
 ||down.fwqlt.com^
 ||down.pcclear.com^
@@ -120,6 +115,7 @@
 ||epanpano.com^
 ||escrowbank.co^
 ||evergabe-bund.de^
+||exec-roblox.com^
 ||fakers.co.jp^
 ||farschid.de^
 ||fd.v2downf.shop^
@@ -128,6 +124,7 @@
 ||file.uhsea.com^
 ||filerit.com^
 ||first-security-verden.de^
+||fitforevercavan.ie^
 ||flocmaterials.shop^
 ||floppaclient.com^
 ||flyingmutts.com^
@@ -142,6 +139,7 @@
 ||gestroom.it^
 ||globalbank.us^
 ||gloryhaven.org^
+||goobaaclient.com^
 ||grantexx.com^
 ||greatwhite.me^
 ||greenf.alexion.rs^
@@ -156,6 +154,7 @@
 ||hobobot.net^
 ||hotelhungry.com^
 ||hseda.com^
+||htdentshop.com^
 ||icoffeecloud.com^
 ||ignetwork.us^
 ||igra123.com^
@@ -166,14 +165,15 @@
 ||invmove.com^
 ||ircftp.net^
 ||isiore.com.co^
+||itco.pe^
 ||itssprout.com^
 ||jawaratekno.com^
 ||jenniferloeffler.com^
 ||jessespridecharters.com^
+||jlwz.cn^
 ||kavacanada.ca^
 ||kenwillzltd.com^
 ||khavar.com^
-||kimyen.net^
 ||konsor.ru^
 ||landonirwin.com^
 ||lawfirm.paperbirdtech.com^
@@ -182,7 +182,6 @@
 ||lomejordesalamanca.es^
 ||loop-lumen.com^
 ||luizmatoso.com.br^
-||lumacrea.com^
 ||luminexclient.net^
 ||luminouspower.com.pk^
 ||m.jkoa.co.kr^
@@ -190,6 +189,7 @@
 ||maidforyou1985.com^
 ||makemewin.club^
 ||malupieng.com.br^
+||mandarin.net.au^
 ||maple30.com^
 ||marlowclient.com^
 ||meteorclients.com^
@@ -201,18 +201,21 @@
 ||mitreart.com^
 ||mkconstructions.net^
 ||mnurlogistics.az^
+||mobiletoolapp.com^
 ||mogimall.com^
 ||mrsweaterltd.com^
 ||muaklekcoop.com^
 ||muledo.com^
-||multiplay.at^
 ||munihuacho.gob.pe^
+||mx9x.com^
 ||mysura.it^
 ||n.vs108.com^
 ||natashamohan.com^
 ||ncxps.com^
 ||nd.tdpqnf.com^
+||niggersmp.net^
 ||noithaticon.vn^
+||nusatoyota.co.id^
 ||obearo.com^
 ||odinclient.st^
 ||ojang.pe.kr^
@@ -229,6 +232,7 @@
 ||pfatrivandrum.org^
 ||phantom-client.com^
 ||photolivebook.pro^
+||polar.moe^
 ||polarclient.net^
 ||polinexclient.org^
 ||porterneuman.mx^
@@ -260,6 +264,7 @@
 ||robertrowe.com^
 ||romeopirlanta.com^
 ||royalindiancurryclub.com^
+||rxb.immortales.fun^
 ||sablayan.seasonshotelmindoro.com^
 ||safeifm.com^
 ||sales.ifree.page^
@@ -286,16 +291,19 @@
 ||sqpengg.com^
 ||srsorvete.com.br^
 ||stanarcservice.com^
+||star.zcnet.net^
 ||static.ilclock.com^
 ||static.topxgun.com^
 ||static.youdm.cn^
 ||stdown.dinju.com^
 ||stellaspicy.org^
+||streammobs.com^
 ||sugarfreedcup.co.za^
 ||support.clz.kr^
 ||sushiandpoke.pt^
 ||sutterpoint.com^
 ||svirtual.sanviatorperu.edu.pe^
+||swervimgbackj.top^
 ||swiftfusion.tech^
 ||talkandtypeapp.com^
 ||tangentwaves.com^
@@ -315,6 +323,7 @@
 ||theoremaoliveoil.com^
 ||thisisafalsepositive.st^
 ||tiacreation.club^
+||ticpc8a.com^
 ||tmcksa.com^
 ||toolshare.com.tr^
 ||top8onlinegame.com^
@@ -336,6 +345,7 @@
 ||vrajras.com^
 ||w.zhzy999.net^
 ||w5q.eu^
+||webcstore.pw^
 ||website.mypetapp.co.za^
 ||widexenmexico.com.mx^
 ||wielixclient.com^
@@ -360,6 +370,7 @@
 ||www.duelvalenza.it^
 ||www.epibenie.dz^
 ||www.first-security-verden.de^
+||www.gestroom.it^
 ||www.hostingcloud.science^
 ||www.hqsblog.com^
 ||www.hseda.com^
@@ -391,12 +402,11 @@
 ||www.xn--on3b15m2lco2u.com^
 ||www.zamilgroups.com^
 ||www.zhikey.com^
+||xeno-cheats.xyz^
 ||xenon.studio^
 ||xenonclient.com^
-||xiazailianjie.com^
 ||xshop.com.tr^
 ||yakult-hk.com^
 ||youtransfer.net^
 ||zamilgroups.com^
 ||zhigao5191.com^
-||zycdjz.com^
