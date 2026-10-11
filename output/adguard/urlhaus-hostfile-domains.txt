@@ -2,8 +2,8 @@
 ! Description: Malware distribution domains from abuse.ch URLhaus (hosts-file format, updated every 5 minutes)
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-10-11 12:00:30 UTC
-! Total rules: 399
+! Last modified: 2026-10-11 17:37:09 UTC
+! Total rules: 414
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -24,6 +24,7 @@
 ||admin.byte.in.ua^
 ||admin.gestroom.it^
 ||aftelecom.com.br^
+||aidlifempowerment.com^
 ||alarmline.com.br^
 ||alineeleuterio.com.br^
 ||allendostmen.com^
@@ -31,6 +32,7 @@
 ||api.wipmania.net^
 ||app.appzcvb.com^
 ||areyouready.co.za^
+||argon-client.com^
 ||astroliper.ac^
 ||atasapka.com.tr^
 ||athuselevadores.com.br^
@@ -69,6 +71,7 @@
 ||chuguadventures.co.tz^
 ||cid.gov.so^
 ||cl.ssouy.com^
+||cloudzsoft.com^
 ||clownguard.us^
 ||clubdetiroelpicarcho.com^
 ||cn.unionlever.com^
@@ -77,6 +80,7 @@
 ||coolairesgroup.com^
 ||coreprotector.org^
 ||cpc188.day^
+||cpofficial.com^
 ||crystalpvp.ru^
 ||cs.go.kg^
 ||d.14yaa.com^
@@ -89,7 +93,6 @@
 ||deathboundcraft.com^
 ||debugify.net^
 ||delp-heizungsbau.de^
-||delta-canvas.com^
 ||dezcom.com^
 ||dfd.zhzy999.net^
 ||dinamikakargo.com^
@@ -124,11 +127,14 @@
 ||fd.v2downf.shop^
 ||ficus.in^
 ||file.blackint3.com^
+||file.uhsea.com^
 ||filerit.com^
+||filezilla.cc^
 ||first-security-verden.de^
 ||floppaclient.com^
 ||flyingmutts.com^
 ||fmrio.com^
+||fotoschop.cl^
 ||fucktermedfir.st^
 ||fukt.link^
 ||fullstacknir.com^
@@ -152,8 +158,10 @@
 ||hitman-pro.ru^
 ||hitstation.nl^
 ||hobobot.net^
+||horno-rafelet.es^
 ||hotelhungry.com^
 ||hseda.com^
+||htdentshop.com^
 ||icoffeecloud.com^
 ||ignetwork.us^
 ||igra123.com^
@@ -180,7 +188,6 @@
 ||lindnerelektroanlagen.de^
 ||local-update.com^
 ||lomejordesalamanca.es^
-||loop-lumen.com^
 ||luizmatoso.com.br^
 ||lumacrea.com^
 ||luminexclient.com^
@@ -204,24 +211,26 @@
 ||mnurlogistics.az^
 ||mobiletoolapp.com^
 ||mogimall.com^
+||mothertouch.ac.zw^
 ||mrsweaterltd.com^
 ||muaklekcoop.com^
 ||muledo.com^
 ||multiplay.at^
 ||munihuacho.gob.pe^
 ||mysura.it^
+||n.vs108.com^
 ||natashamohan.com^
 ||ncxps.com^
 ||nd.tdpqnf.com^
 ||niggersmp.net^
 ||noithaticon.vn^
 ||nova-client.com^
-||nusatoyota.co.id^
 ||obearo.com^
 ||odinclient.st^
 ||ojang.pe.kr^
 ||okhan.net^
 ||oknoplastik.sk^
+||oldisgoldgameis.com^
 ||onfiltre.com.tr^
 ||opsecmod.st^
 ||osbot.net^
@@ -268,6 +277,7 @@
 ||rxb.immortales.fun^
 ||sablayan.seasonshotelmindoro.com^
 ||safeifm.com^
+||sales.ifree.page^
 ||samiksha.com.sg^
 ||scanbot.me^
 ||scoala1gherla.ro^
@@ -287,6 +297,7 @@
 ||skyblock-addons.com^
 ||smartermail.host^
 ||soft.110route.com^
+||sp.negrrwe.info^
 ||spgint.com^
 ||sqpengg.com^
 ||srsorvete.com.br^
@@ -297,20 +308,19 @@
 ||static.youdm.cn^
 ||stdown.dinju.com^
 ||stellaspicy.org^
-||streammobs.com^
 ||sugarfreedcup.co.za^
 ||support.clz.kr^
 ||sushiandpoke.pt^
 ||sutterpoint.com^
 ||svirtual.sanviatorperu.edu.pe^
 ||swervimgbackj.top^
+||swiftfusion.tech^
 ||talkandtypeapp.com^
 ||tangentwaves.com^
 ||tanscarattorneys.co.tz^
 ||tapestryoftruth.com^
 ||tartaklegnica.pl^
 ||taunahi.st^
-||techbud.ro^
 ||tecunonline.com^
 ||tehnomag.rs^
 ||tengfeidn.cn^
@@ -326,6 +336,7 @@
 ||tmcksa.com^
 ||toolshare.com.tr^
 ||top8onlinegame.com^
+||tpp.om-stock.com^
 ||tr.zhzy999.net^
 ||transparenciacanaa.com.br^
 ||tronzadorasnng.com^
@@ -340,9 +351,11 @@
 ||visam.info^
 ||vizyonuniversitesi.com.tr^
 ||vizyonuniversitesi.web.tr^
+||voidgame.ink^
 ||vrajras.com^
 ||w.zhzy999.net^
 ||w5q.eu^
+||webcstore.pw^
 ||website.mypetapp.co.za^
 ||widexenmexico.com.mx^
 ||wielixclient.com^
@@ -351,6 +364,7 @@
 ||windowsdiagnostics.st^
 ||wittenhorst.eu^
 ||wp.fujeigroup.com^
+||wsd.immortales.fun^
 ||www-connect-secure-wellcfargo.sekolahkejarpaket.com^
 ||www.ardguisser.com^
 ||www.astenterprises.com.pk^
@@ -365,6 +379,7 @@
 ||www.cutting-edge.in^
 ||www.drgenov.com^
 ||www.duelvalenza.it^
+||www.eyqw474.com^
 ||www.first-security-verden.de^
 ||www.gestroom.it^
 ||www.hostingcloud.science^
