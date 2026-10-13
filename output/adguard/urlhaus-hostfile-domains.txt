@@ -2,12 +2,11 @@
 ! Description: Malware distribution domains from abuse.ch URLhaus (hosts-file format, updated every 5 minutes)
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-10-13 00:04:40 UTC
-! Total rules: 421
+! Last modified: 2026-10-13 06:41:42 UTC
+! Total rules: 423
 !
 ! Auto-generated -- do not edit manually.
 !
-||123.ywxww.net^
 ||1717.1000uc.com^
 ||198-macros.com^
 ||22qq-client.com^
@@ -19,11 +18,12 @@
 ||65512.cfd^
 ||acc.jiangsujiaxue.com^
 ||acms.saleseos.com^
+||acrilicoporto.pt^
 ||activegrp.co.za^
-||adcentral.com.mx^
 ||admin.byte.in.ua^
 ||admin.gestroom.it^
 ||aftelecom.com.br^
+||ahsniper.org^
 ||aidlifempowerment.com^
 ||alarmline.com.br^
 ||alineeleuterio.com.br^
@@ -37,8 +37,9 @@
 ||athuselevadores.com.br^
 ||backupso.com^
 ||balanced-red-emhnkdfj-dp7g2kvqxx8n.edgeone.dev^
+||beak.in^
+||beamtechmacros.com^
 ||beoauto.alexion.rs^
-||blankeyeo.com^
 ||blaze-x.com^
 ||blessdayservices.org^
 ||blogs.sokun.jp^
@@ -51,6 +52,7 @@
 ||bridgeroad.maverickpreviews.com^
 ||bserail.com^
 ||bumcoinc.site^
+||bvmatqnam.com.vn^
 ||c--617b5f35-a107-4800-9047-a429934c0483-prod.lovable.cloud^
 ||c2.teamzeroday.net^
 ||cambodiatouristservice.com^
@@ -60,8 +62,8 @@
 ||cat.xiaoshabi.nl^
 ||catbaparadisehotel.com.vn^
 ||cdaonline.com.ar^
-||cdn.file6.goodid.com^
 ||celebratingseniors.net^
+||cepde.org^
 ||chat-server.maverickpreviews.com^
 ||checkfivem.com^
 ||cheetoclient.com^
@@ -76,11 +78,11 @@
 ||compuserviceonline.com.br^
 ||continentalgroup.net.in^
 ||coolairesgroup.com^
-||coralpac.com^
 ||coreprotector.org^
 ||cpc188.day^
 ||crystalpvp.ru^
 ||cs.go.kg^
+||csgroup.host^
 ||d.14yaa.com^
 ||d.wanyouxi7.com^
 ||damiancollier.com^
@@ -89,6 +91,7 @@
 ||deagroup-ks.com^
 ||debugify.net^
 ||delp-heizungsbau.de^
+||delta-canvas.com^
 ||dezcom.com^
 ||dfd.zhzy999.net^
 ||dinamikakargo.com^
@@ -111,7 +114,6 @@
 ||download.pdf00.cn^
 ||download.pdf00.com^
 ||dreamwatchevent.com^
-||dudn.xyz^
 ||dynga.pl^
 ||electri.billregulator.com^
 ||elisans.novayonetim.com^
@@ -126,10 +128,12 @@
 ||feed-delta.com^
 ||fil.immortales.life^
 ||file.blackint3.com^
+||file.uhsea.com^
 ||filerit.com^
 ||filezilla.cc^
 ||first-security-verden.de^
 ||floppaclient.com^
+||floppaclient.org^
 ||flyingmutts.com^
 ||fmrio.com^
 ||fotoschop.cl^
@@ -245,15 +249,14 @@
 ||phantom-client.com^
 ||photolivebook.pro^
 ||polarclient.net^
+||polinex.org^
 ||polinexclient.org^
 ||porterneuman.mx^
 ||postelnini.mk^
-||preciosasjoyitas.com.mx^
 ||prestigeclient.st^
 ||profitable-pink-0y9btnew-dpk6vqe6eheo.edgeone.dev^
 ||project0.cc^
 ||public.demo.securecloudsandbox.com^
-||pvphood.cc^
 ||pvsa.gxfugy.cn^
 ||qiniuyunxz.yxflzs.com^
 ||quillchant14.com^
@@ -288,6 +291,7 @@
 ||sec.dashabi.in^
 ||sec.xiaojiji.nl^
 ||sec.xiaoshabi.nl^
+||security-analyze.ltd^
 ||sedrezltd.best^
 ||seismophonic.com^
 ||semencepourlavie.org^
@@ -300,23 +304,24 @@
 ||skynetwork.lat^
 ||smartermail.host^
 ||soft.110route.com^
+||software.security-analyze.ltd^
 ||sp.negrrwe.info^
 ||spgint.com^
 ||sqpengg.com^
 ||srsorvete.com.br^
 ||stanarcservice.com^
 ||star.zcnet.net^
+||stat.bestcompliance.net^
 ||static.ilclock.com^
-||static.topxgun.com^
 ||static.youdm.cn^
 ||stdown.dinju.com^
-||streammobs.com^
+||stellaspicy.org^
 ||sugarfreedcup.co.za^
 ||summitcapitalpatners.ink^
 ||support.clz.kr^
-||sushiandpoke.pt^
 ||sutterpoint.com^
 ||svirtual.sanviatorperu.edu.pe^
+||swiftfusion.tech^
 ||talkandtypeapp.com^
 ||tangentwaves.com^
 ||tanscarattorneys.co.tz^
@@ -351,8 +356,6 @@
 ||upaicdn.xinmei365.com^
 ||upchemicals.co.in^
 ||update.cg100iii.com^
-||uu.v2raynapps.com.cn^
-||vedantawisdom.org^
 ||veryboys.com^
 ||visam.info^
 ||vizyonuniversitesi.com.tr^
@@ -360,7 +363,6 @@
 ||voidgame.ink^
 ||vrajras.com^
 ||w.zhzy999.net^
-||w5q.eu^
 ||wall.casajuanchos.com^
 ||website.mypetapp.co.za^
 ||whisone.cc^
@@ -368,11 +370,11 @@
 ||wielixclient.com^
 ||wielixclient.net^
 ||windomstatetheater.com^
-||windowsdiagnostics.st^
 ||wittenhorst.eu^
 ||wp.fujeigroup.com^
 ||wsd.immortales.fun^
 ||www-connect-secure-wellcfargo.sekolahkejarpaket.com^
+||www.2goelectricity.cloud^
 ||www.ardguisser.com^
 ||www.astenterprises.com.pk^
 ||www.automobile-bk.de^
