@@ -2,8 +2,8 @@
 ! Description: Domains extracted from recently reported malicious URLs tracked by abuse.ch URLhaus
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-10-13 14:35:52 UTC
-! Total rules: 482
+! Last modified: 2026-10-13 22:14:22 UTC
+! Total rules: 485
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -98,6 +98,7 @@
 ||copiose.org^
 ||coreprotector.org^
 ||corzclient.net^
+||crackedclients.com^
 ||croco.cx^
 ||crystalbranchtw.blog^
 ||csgroup.host^
@@ -386,6 +387,7 @@
 ||situations-clarity-pill-preceding.trycloudflare.com^
 ||skyblock-addons.com^
 ||skyblock-extras.org^
+||skyblock-qol.com^
 ||skymoders.top^
 ||skynetwork.lat^
 ||software.security-analyze.ltd^
@@ -455,6 +457,7 @@
 ||wicresetconnect.com^
 ||wielixclient.com^
 ||wielixclient.net^
+||willow-13.com^
 ||windowsdiagnostics.st^
 ||wir.consultingics.com^
 ||wizzyaddon.com^
