@@ -2,8 +2,8 @@
 ! Description: Malware distribution domains from abuse.ch URLhaus (hosts-file format, updated every 5 minutes)
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-10-15 10:46:02 UTC
-! Total rules: 387
+! Last modified: 2026-10-15 16:12:09 UTC
+! Total rules: 392
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -14,8 +14,8 @@
 ||31.128.173.853.zhzy999.net31.128.173.853.zhzy999.net^
 ||6sim.vip^
 ||aafesorder.com^
+||acc.jiangsujiaxue.com^
 ||acms.saleseos.com^
-||adcentral.com.mx^
 ||admin.byte.in.ua^
 ||admin.gestroom.it^
 ||aftelecom.com.br^
@@ -39,12 +39,14 @@
 ||blogs.sokun.jp^
 ||bmdcompany.com^
 ||bnet-api.playm8ru.win^
+||bnet.playm8ru.win^
 ||book.rollingvideogames.com^
 ||briannacorporation.com^
 ||bridgeroad.maverickpreviews.com^
 ||bserail.com^
 ||bumcoinc.site^
 ||bvmatqnam.com.vn^
+||c-f-u.com^
 ||cambodiatouristservice.com^
 ||casasmediterraneas.com^
 ||cat.dashabi.in^
@@ -58,6 +60,7 @@
 ||celebratingseniors.net^
 ||chantcompass9.com^
 ||chat-server.maverickpreviews.com^
+||checkfivem.com^
 ||cheminees-philippe45.com^
 ||chiroartist.com^
 ||chuguadventures.co.tz^
@@ -77,6 +80,7 @@
 ||crystalpvp.ru^
 ||cs.go.kg^
 ||csgroup.host^
+||d-j-d.com^
 ||d.14yaa.com^
 ||d.wanyouxi7.com^
 ||damiancollier.com^
@@ -86,7 +90,6 @@
 ||dcwblida.dz^
 ||deagroup-ks.com^
 ||delp-heizungsbau.de^
-||delta-canvas.com^
 ||devs.kantales.life^
 ||dezcom.com^
 ||dfd.zhzy999.net^
@@ -101,7 +104,6 @@
 ||donutsmpclient.com^
 ||down.fwqlt.com^
 ||down.pcclear.com^
-||down.qqfarmer.com.cn^
 ||download.caihong.com^
 ||download.doumaibiji.cn^
 ||download.haozip.com^
@@ -114,14 +116,15 @@
 ||embedone.com^
 ||en.taichuan.com^
 ||epanpano.com^
+||epic.edu.gt^
 ||escrowbank.co^
 ||fable-shine.com^
+||fabrics.lahoreshoes.com^
 ||fairsexsecutor.xyz^
 ||fakers.co.jp^
 ||farschid.de^
 ||fd.v2downf.shop^
 ||file.blackint3.com^
-||file.uhsea.com^
 ||filerit.com^
 ||filezilla.cc^
 ||first-security-verden.de^
@@ -151,7 +154,6 @@
 ||helpdesk09-26.com^
 ||hitman-pro.ru^
 ||hitstation.nl^
-||hobobot.net^
 ||hotelhungry.com^
 ||hseda.com^
 ||htdentshop.com^
@@ -161,15 +163,16 @@
 ||igra123.com^
 ||ikovrsps.com^
 ||impectorinternational.com^
+||intelli-sys.co.zw^
 ||ircftp.net^
 ||isiore.com.co^
 ||itco.pe^
 ||itssprout.com^
 ||java.omsules.life^
 ||javb.omsules.life^
+||jawaratekno.com^
 ||jenniferloeffler.com^
 ||jessespridecharters.com^
-||jlwz.cn^
 ||kavacanada.ca^
 ||kenwillzltd.com^
 ||khavar.com^
@@ -182,17 +185,20 @@
 ||livinginpurpose.co.za^
 ||local-update.com^
 ||lomejordesalamanca.es^
-||loop-lumen.com^
 ||luizmatoso.com.br^
+||lumacrea.com^
 ||luminouspower.com.pk^
 ||m.jkoa.co.kr^
 ||m.meta-dm.com^
 ||maidforyou1985.com^
 ||makemewin.club^
 ||malupieng.com.br^
+||mamabearcoffee.com^
+||mandarin.net.au^
 ||maple30.com^
 ||meteorclients.com^
 ||meteorrejects.net^
+||metrics.gocloudmaps.com^
 ||mibd.org^
 ||miriamgualda.com.br^
 ||mitreart.com^
@@ -200,6 +206,7 @@
 ||mnurlogistics.az^
 ||mobiletoolapp.com^
 ||mogimall.com^
+||mrsweaterltd.com^
 ||muaklekcoop.com^
 ||muledo.com^
 ||multiplay.at^
@@ -244,8 +251,6 @@
 ||reservphotoinstay.one^
 ||reservphotoinstaynow.shop^
 ||reutilizemais.co.mz^
-||rheddh.com^
-||riderspin.com^
 ||robertrowe.com^
 ||royalindiancurryclub.com^
 ||rxb.immortales.fun^
@@ -281,7 +286,6 @@
 ||stanarcservice.com^
 ||star.zcnet.net^
 ||stat.bestcompliance.net^
-||static.ilclock.com^
 ||static.topxgun.com^
 ||static.youdm.cn^
 ||stdown.dinju.com^
@@ -291,7 +295,7 @@
 ||sushiandpoke.pt^
 ||sutterpoint.com^
 ||svirtual.sanviatorperu.edu.pe^
-||swiftfusion.tech^
+||tabak.hr^
 ||talkandtypeapp.com^
 ||tangentwaves.com^
 ||tanscarattorneys.co.tz^
@@ -311,7 +315,6 @@
 ||tmcksa.com^
 ||toolshare.com.tr^
 ||top8onlinegame.com^
-||totemstudios.xyz^
 ||tpp.om-stock.com^
 ||tr.zhzy999.net^
 ||transparenciacanaa.com.br^
@@ -323,6 +326,7 @@
 ||upchemicals.co.in^
 ||update.cg100iii.com^
 ||uu.v2raynapps.com.cn^
+||v-w-v.com^
 ||veryboys.com^
 ||visam.info^
 ||vizyonuniversitesi.com.tr^
@@ -354,6 +358,7 @@
 ||www.gestroom.it^
 ||www.hostingcloud.science^
 ||www.hqsblog.com^
+||www.hseda.com^
 ||www.intelligradeeducation.vicentecisnerospub.com^
 ||www.jozefinskiatelje.si^
 ||www.kenwillzltd.com^
