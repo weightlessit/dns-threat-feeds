@@ -2,8 +2,8 @@
 ! Description: Domains extracted from recently reported malicious URLs tracked by abuse.ch URLhaus
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-10-15 20:52:47 UTC
-! Total rules: 493
+! Last modified: 2026-10-16 02:52:02 UTC
+! Total rules: 464
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -35,6 +35,7 @@
 ||amaamn.com^
 ||amc-us.mprevive.com^
 ||andbake.cam^
+||anthonyspizzeriainc.com^
 ||aolgepacklng.com^
 ||api-relay.cc^
 ||api.9hits.com^
@@ -68,6 +69,7 @@
 ||breezeclient.com^
 ||breezeclient.org^
 ||briannacorporation.com^
+||brotherspizzapeoria.com^
 ||brows-check.codes^
 ||bucket-cf-weur-a.uploadnow.io^
 ||build.polysupport.team^
@@ -99,8 +101,6 @@
 ||cn.devglobal.biz^
 ||cocuktekstil.com^
 ||configprovider.short.gy^
-||contididit.conti.pk^
-||copiose.org^
 ||coreprotector.org^
 ||corzclient.net^
 ||cosmical2049.com^
@@ -113,18 +113,17 @@
 ||dao1an8ingei2dinnnpgqa7k564nf3q81.oast.live^
 ||darkroute.mypi.co^
 ||dasdase13.icu^
+||db.foodbook.pk^
 ||dcfpp.com^
 ||deathboundcraft.com^
-||debloatex.com^
 ||debugify.net^
 ||deffnelreports.bramblequarz.ru^
 ||delphiaonline.top^
 ||delta-canvas.com^
 ||devruntime.cy^
 ||devs.kantales.life^
+||dir.sonikjp.org^
 ||dklak.cam^
-||dnswwt.club^
-||docmntageant.com^
 ||docs.cs-supplements.de^
 ||docs.thelobbyx.info^
 ||docsend.com^
@@ -192,28 +191,9 @@
 ||gamblerigmod.org^
 ||gammanort.thekielement.com^
 ||genovaw.com^
-||get.acitvated.win^
-||get.acivated.win^
-||get.acrivated.win^
-||get.actiated.win^
-||get.actiavted.win^
-||get.activaed.win^
-||get.activatde.win^
-||get.activatedd.win^
-||get.activates.win^
-||get.activeted.win^
-||get.activtaed.win^
-||get.activted.win^
-||get.actrivated.win^
-||get.acttivated.win^
-||get.actvated.win^
-||get.atcivated.win^
-||get.ativated.win^
-||get.cativated.win^
-||get.ctivated.win^
-||get.sctivated.win^
 ||getoutofthebackseat.com^
 ||gfgxcx.com^
+||ggi.dietondemand.com^
 ||ghost-new-live.ink^
 ||ghostclient.net^
 ||gitrm.cfd^
@@ -249,13 +229,11 @@
 ||internetlouisiana.com^
 ||internetmissouri.com^
 ||invmove.com^
-||iyn4ce9o.casero.store^
 ||java.omsules.life^
 ||javb.omsules.life^
 ||johnsonsvalves.cam^
 ||jointaxel.online^
 ||journeylake11.com^
-||k3p8wz1n.bvcbx.store^
 ||kazdiyden.ru^
 ||kdglsj93fdslkg.com^
 ||kimdoo-app.top^
@@ -286,14 +264,12 @@
 ||manmenduster.online^
 ||maple30.com^
 ||marlowclient.com^
-||massgravel.dev^
 ||massgravel.net^
 ||masterplasticpack.com^
 ||maverick174.org^
 ||maxxlavalink.cyou^
 ||melonandworld.top^
 ||metabolism-effectively-logo-chrome.trycloudflare.com^
-||meteorclientplus.com^
 ||meteorclients.com^
 ||meteorrejects.net^
 ||metrics.agoxpathbet.one^
@@ -359,7 +335,6 @@
 ||proalamir.dz^
 ||profileone.jo3.org^
 ||project0.cc^
-||q7k2m9xb.us-theeloncode.com^
 ||qpwot.cfd^
 ||qq.kipsharijan.cfd^
 ||quillchant14.com^
@@ -390,6 +365,7 @@
 ||seguranca.versionnova.site^
 ||seitinloelinsa.com^
 ||sendit.sh^
+||sep.dailytechinsight.com^
 ||severidades.cfd^
 ||sigmaclient.net^
 ||sigmaclient.org^
@@ -404,7 +380,6 @@
 ||software.security-analyze.ltd^
 ||sp.negrrwe.info^
 ||spaceware.cc^
-||speddebug.com^
 ||spitandmalachite.com^
 ||sqpengg.com^
 ||stanarcservice.com^
@@ -442,7 +417,6 @@
 ||tutpaste.com^
 ||twejamaica.org^
 ||uasputnik.com^
-||uno-play.online^
 ||uno-play.xyz^
 ||up.sb^
 ||update-acrobatdc.shop^
@@ -467,11 +441,10 @@
 ||wielixclient.net^
 ||willow-13.com^
 ||windowsdiagnostics.st^
-||wizzyaddon.com^
 ||workerstats.net^
 ||wp.fujeigroup.com^
 ||wsd.immortales.fun^
-||www.2bxvrc1.com^
+||ww.menara5d.net^
 ||www.beinke-aufzuege.de^
 ||www.bluehorizons.travel^
 ||www.cakkaao.com^
@@ -487,7 +460,6 @@
 ||www.tmcksa.com^
 ||www.tribot.co.uk^
 ||www.wuming0.tech^
-||x9v2mq4t.bossbey.store^
 ||xaerosminimap.com^
 ||xeno-cheats.xyz^
 ||xenonclient.com^
@@ -498,5 +470,4 @@
 ||yoauction.com^
 ||zaluposs.com^
 ||zanderrealestate.com^
-||zenithclient.com^
 ||zhostz.com^
