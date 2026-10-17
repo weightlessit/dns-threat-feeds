@@ -2,8 +2,8 @@
 ! Description: Malware distribution domains from abuse.ch URLhaus (hosts-file format, updated every 5 minutes)
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-10-17 10:03:19 UTC
-! Total rules: 428
+! Last modified: 2026-10-17 14:51:33 UTC
+! Total rules: 413
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -34,7 +34,6 @@
 ||argon-client.com^
 ||atasapka.com.tr^
 ||audicontadores.com^
-||backupso.com^
 ||balanced-red-emhnkdfj-dp7g2kvqxx8n.edgeone.dev^
 ||beak.in^
 ||beoauto.alexion.rs^
@@ -53,6 +52,7 @@
 ||bumcoinc.site^
 ||bvmatqnam.com.vn^
 ||c-f-u.com^
+||c2.teamzeroday.net^
 ||cambodiatouristservice.com^
 ||casasmediterraneas.com^
 ||cat.dashabi.in^
@@ -60,12 +60,10 @@
 ||cat.xiaoshabi.nl^
 ||catbaparadisehotel.com.vn^
 ||cdaonline.com.ar^
-||cdn.file6.goodid.com^
 ||cdn.monther.life^
 ||cdt.omsules.life^
 ||cdw.omsules.life^
 ||celebratingseniors.net^
-||cepde.org^
 ||chantcompass9.com^
 ||chat-server.maverickpreviews.com^
 ||checkfivem.com^
@@ -123,7 +121,6 @@
 ||download.pdf00.com^
 ||dreambot.info^
 ||dynga.pl^
-||electri.billregulator.com^
 ||elisans.novayonetim.com^
 ||en.taichuan.com^
 ||epanpano.com^
@@ -139,10 +136,10 @@
 ||file.uhsea.com^
 ||filerit.com^
 ||first-security-verden.de^
-||fitforevercavan.ie^
 ||floppaclient.com^
 ||flyingmutts.com^
 ||fmrio.com^
+||frame-kite.com^
 ||ftp.vietnam852.com^
 ||fucktermedfir.st^
 ||fukt.link^
@@ -167,7 +164,7 @@
 ||helpdesk09-26.com^
 ||hitman-pro.ru^
 ||hitstation.nl^
-||horno-rafelet.es^
+||hobobot.net^
 ||hotelhungry.com^
 ||hseda.com^
 ||htdentshop.com^
@@ -176,12 +173,10 @@
 ||ignetwork.us^
 ||igra123.com^
 ||impectorinternational.com^
-||intelli-sys.co.zw^
 ||internetmissouri.com^
 ||invmove.com^
 ||ircftp.net^
 ||isiore.com.co^
-||itbakersfield.com^
 ||itco.pe^
 ||itssprout.com^
 ||jawaratekno.com^
@@ -189,7 +184,6 @@
 ||jessespridecharters.com^
 ||jlwz.cn^
 ||kavacanada.ca^
-||kenwillzltd.com^
 ||khavar.com^
 ||kimyen.net^
 ||konsor.ru^
@@ -204,6 +198,7 @@
 ||local-update.com^
 ||lomejordesalamanca.es^
 ||luizmatoso.com.br^
+||lumacrea.com^
 ||luminexclient.com^
 ||luminexclient.net^
 ||luminouspower.com.pk^
@@ -212,7 +207,6 @@
 ||maidforyou1985.com^
 ||makemewin.club^
 ||malupieng.com.br^
-||mandarin.net.au^
 ||maple30.com^
 ||marlowclient.com^
 ||melonandworld.top^
@@ -225,8 +219,6 @@
 ||mkconstructions.net^
 ||mnurlogistics.az^
 ||mogimall.com^
-||mrsweaterltd.com^
-||msgrouppolicy.vg^
 ||muaklekcoop.com^
 ||muledo.com^
 ||multiplay.at^
@@ -235,19 +227,16 @@
 ||n.vs108.com^
 ||ncxps.com^
 ||nd.tdpqnf.com^
-||nebula-client.com^
 ||new.omsules.life^
 ||noithaticon.vn^
 ||nova-75.com^
 ||nova-client.com^
-||nusatoyota.co.id^
 ||obearo.com^
 ||odinclient.st^
 ||ojang.pe.kr^
 ||okhan.net^
 ||oknoplastik.sk^
 ||onfiltre.com.tr^
-||oopz.app^
 ||opsecmod.st^
 ||outpost.co.ke^
 ||p3.zbjimg.com^
@@ -274,6 +263,7 @@
 ||razao.pt^
 ||rcf.co.mz^
 ||rdm.91yunma.cn^
+||re-id-v3.com^
 ||reauthenticator.com^
 ||records.dennisign.se^
 ||redxcvfsdgth.info^
@@ -283,7 +273,6 @@
 ||reutilizemais.co.mz^
 ||riderspin.com^
 ||robertrowe.com^
-||rosirs-edu.com^
 ||royalindiancurryclub.com^
 ||runelite.cc^
 ||safeifm.com^
@@ -312,20 +301,20 @@
 ||smartermail.host^
 ||soft.110route.com^
 ||spaceware.cc^
-||spgint.com^
 ||srsorvete.com.br^
+||stanarcservice.com^
 ||star.zcnet.net^
 ||static.ilclock.com^
 ||static.topxgun.com^
 ||static.youdm.cn^
 ||stdown.dinju.com^
 ||steelstanleystaystrong.top^
-||streammobs.com^
 ||sugarfreedcup.co.za^
 ||support.clz.kr^
 ||sushiandpoke.pt^
 ||sutterpoint.com^
 ||svirtual.sanviatorperu.edu.pe^
+||swiftfusion.tech^
 ||talkandtypeapp.com^
 ||tangentwaves.com^
 ||tanscarattorneys.co.tz^
@@ -359,7 +348,6 @@
 ||upaicdn.xinmei365.com^
 ||upchemicals.co.in^
 ||update.cg100iii.com^
-||uu.v2raynapps.com.cn^
 ||v-w-v.com^
 ||veryboys.com^
 ||visam.info^
@@ -368,7 +356,6 @@
 ||vrajras.com^
 ||vtivision-fi.com^
 ||w.zhzy999.net^
-||webcstore.pw^
 ||website.mypetapp.co.za^
 ||widexenmexico.com.mx^
 ||wielixclient.com^
@@ -376,7 +363,6 @@
 ||windomstatetheater.com^
 ||wittenhorst.eu^
 ||ww.menara5d.net^
-||www-connect-secure-wellcfargo.sekolahkejarpaket.com^
 ||www.2goelectricity.cloud^
 ||www.ardguisser.com^
 ||www.astenterprises.com.pk^
@@ -397,7 +383,6 @@
 ||www.hseda.com^
 ||www.intelligradeeducation.vicentecisnerospub.com^
 ||www.jozefinskiatelje.si^
-||www.kenwillzltd.com^
 ||www.khavar.com^
 ||www.konsor.ru^
 ||www.medises.co.kr^
