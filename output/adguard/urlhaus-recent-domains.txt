@@ -2,8 +2,8 @@
 ! Description: Domains extracted from recently reported malicious URLs tracked by abuse.ch URLhaus
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-10-18 02:44:42 UTC
-! Total rules: 453
+! Last modified: 2026-10-18 10:16:29 UTC
+! Total rules: 456
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -39,6 +39,7 @@
 ||api.darkside.cy^
 ||api.jsonsilo.com^
 ||api.npoint.io^
+||api.recapcha.fun^
 ||app.ezmarketz.com^
 ||argon-client.com^
 ||armoniamiddleeast.ae^
@@ -86,6 +87,7 @@
 ||cde.omsules.life^
 ||cdn.filestackcontent.com^
 ||cdn.monther.life^
+||cdn.wovplaying.help^
 ||cdt.omsules.life^
 ||cdw.omsules.life^
 ||chantcompass9.com^
@@ -125,6 +127,7 @@
 ||docs.cs-supplements.de^
 ||docs.thelobbyx.info^
 ||docsend.com^
+||donutbasefinder.com^
 ||donutclients.org^
 ||donutclients.st^
 ||donutclientsmods.xyz^
