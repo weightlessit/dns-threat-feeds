@@ -2,8 +2,8 @@
 ! Description: Malware distribution domains from abuse.ch URLhaus (hosts-file format, updated every 5 minutes)
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-10-19 22:24:29 UTC
-! Total rules: 422
+! Last modified: 2026-10-20 03:07:52 UTC
+! Total rules: 419
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -16,8 +16,8 @@
 ||3.zhzy999.net^
 ||31.128.173.853.zhzy999.net31.128.173.853.zhzy999.net^
 ||4eclient.com^
+||6ak-tehnik.si^
 ||6sim.vip^
-||80a6jnaz.basickantoor1.nl^
 ||acc.jiangsujiaxue.com^
 ||acms.saleseos.com^
 ||adcentral.com.mx^
@@ -38,9 +38,11 @@
 ||autohaus-bender.de^
 ||backupso.com^
 ||balanced-red-emhnkdfj-dp7g2kvqxx8n.edgeone.dev^
+||bankruptcyrhodeisland.com^
 ||beak.in^
 ||beoauto.alexion.rs^
 ||betmagik.com^
+||bismarckchiropractor.com^
 ||blankeyeo.com^
 ||blessdayservices.org^
 ||blogs.sokun.jp^
@@ -63,7 +65,6 @@
 ||cat.xiaoshabi.nl^
 ||catbaparadisehotel.com.vn^
 ||cdaonline.com.ar^
-||cde.monther.life^
 ||cdk.monther.life^
 ||cdn.file6.goodid.com^
 ||cdn.wovplaying.help^
@@ -77,6 +78,7 @@
 ||cid.gov.so^
 ||cl.ssouy.com^
 ||cloubflare.net^
+||cloubflare.top^
 ||clownguard.us^
 ||clubdetiroelpicarcho.com^
 ||cn.unionlever.com^
@@ -88,7 +90,6 @@
 ||cs.go.kg^
 ||d.14yaa.com^
 ||d.wanyouxi7.com^
-||damiancollier.com^
 ||data.yhydl.com^
 ||dcrun.co.uk^
 ||dcwblida.dz^
@@ -107,18 +108,17 @@
 ||domainmob.com^
 ||donkeytourscroatia.com^
 ||donutbasefinder.com^
-||donutclients.st^
-||donutdupe.com^
 ||donutsmpclient.com^
-||donutsmpdupes.lol^
 ||down.fwqlt.com^
 ||down.pcclear.com^
+||down.qqfarmer.com.cn^
 ||download.caihong.com^
 ||download.doumaibiji.cn^
 ||download.haozip.com^
 ||download.kaobeitu.com^
 ||download.pdf00.cn^
 ||download.pdf00.com^
+||download.vertex-software.digital^
 ||dynga.pl^
 ||electri.billregulator.com^
 ||elisans.novayonetim.com^
@@ -152,7 +152,6 @@
 ||galerisenimutiara.com^
 ||gboutros.howto.rocks^
 ||geoxsecurity.ro^
-||gestroom.it^
 ||gitrm.sbs^
 ||gitsl.xyz^
 ||gitview.sbs^
@@ -161,7 +160,6 @@
 ||greenf.alexion.rs^
 ||griffcar.com.br^
 ||groverudder12.com^
-||growgreenhorizons.com^
 ||grupomcperu.com^
 ||gutando.com^
 ||harmeetmotors.com^
@@ -178,11 +176,9 @@
 ||ignetwork.us^
 ||igra123.com^
 ||impectorinternational.com^
-||intelli-sys.co.zw^
 ||invmove.com^
 ||ircftp.net^
 ||isiore.com.co^
-||itbakersfield.com^
 ||itco.pe^
 ||itssprout.com^
 ||jawaratekno.com^
@@ -204,7 +200,6 @@
 ||livinginpurpose.co.za^
 ||local-update.com^
 ||lomejordesalamanca.es^
-||londonairportstransfer.co.uk^
 ||luizmatoso.com.br^
 ||lumacrea.com^
 ||luminexclient.com^
@@ -222,12 +217,12 @@
 ||meteorrejects.net^
 ||metrics.gocloudmaps.com^
 ||mibd.org^
-||minefox.lol^
 ||miriamgualda.com.br^
 ||mitreart.com^
 ||mkconstructions.net^
 ||mnurlogistics.az^
 ||mogimall.com^
+||msedge.vg^
 ||muaklekcoop.com^
 ||muledo.com^
 ||multiplay.at^
@@ -247,7 +242,6 @@
 ||okhan.net^
 ||oknoplastik.sk^
 ||onfiltre.com.tr^
-||oopz.app^
 ||opsecmod.st^
 ||outpost.co.ke^
 ||p3.zbjimg.com^
@@ -261,6 +255,7 @@
 ||polinexclient.org^
 ||porterneuman.mx^
 ||postelnini.mk^
+||power-shell.cc^
 ||prestigeclient.st^
 ||profitable-pink-0y9btnew-dpk6vqe6eheo.edgeone.dev^
 ||project0.cc^
@@ -314,9 +309,10 @@
 ||srsorvete.com.br^
 ||stanarcservice.com^
 ||star.zcnet.net^
+||static.ilclock.com^
 ||static.topxgun.com^
 ||static.youdm.cn^
-||stdown.dinju.com^
+||streammobs.com^
 ||sugarfreedcup.co.za^
 ||support.clz.kr^
 ||sushiandpoke.pt^
@@ -354,6 +350,7 @@
 ||upchemicals.co.in^
 ||update.cg100iii.com^
 ||uu.v2raynapps.com.cn^
+||verifing-server.codes^
 ||veryboys.com^
 ||viewgit.sbs^
 ||vine-linen.com^
