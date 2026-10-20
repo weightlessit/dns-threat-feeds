@@ -2,8 +2,8 @@
 ! Description: Domains extracted from recently reported malicious URLs tracked by abuse.ch URLhaus
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-10-20 16:15:34 UTC
-! Total rules: 476
+! Last modified: 2026-10-20 21:10:51 UTC
+! Total rules: 477
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -137,6 +137,7 @@
 ||donutbasefinder.com^
 ||donutclients.org^
 ||donutclients.st^
+||donutclients.top^
 ||donutclientsmods.xyz^
 ||donutdupe.com^
 ||donutdupe.skyblock-qol.com^

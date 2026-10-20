@@ -2,8 +2,8 @@
 ! Description: Malware distribution domains from abuse.ch URLhaus (hosts-file format, updated every 5 minutes)
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-10-20 16:15:34 UTC
-! Total rules: 422
+! Last modified: 2026-10-20 21:10:51 UTC
+! Total rules: 431
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -27,6 +27,7 @@
 ||alarmline.com.br^
 ||alineeleuterio.com.br^
 ||allendostmen.com^
+||altamoorgoods.com^
 ||alternativas.ru^
 ||anubisclient.co.uk^
 ||api.recapcha.fun^
@@ -36,6 +37,7 @@
 ||atasapka.com.tr^
 ||audicontadores.com^
 ||autohaus-bender.de^
+||backupso.com^
 ||balanced-red-emhnkdfj-dp7g2kvqxx8n.edgeone.dev^
 ||bankruptcyrhodeisland.com^
 ||beak.in^
@@ -107,9 +109,11 @@
 ||domainmob.com^
 ||donkeytourscroatia.com^
 ||donutbasefinder.com^
+||donutclients.top^
 ||donutsmpclient.com^
 ||down.fwqlt.com^
 ||down.pcclear.com^
+||down.qqfarmer.com.cn^
 ||download.caihong.com^
 ||download.doumaibiji.cn^
 ||download.haozip.com^
@@ -121,12 +125,14 @@
 ||electri.billregulator.com^
 ||elisans.novayonetim.com^
 ||embedone.com^
+||emoto.mk^
 ||en.taichuan.com^
 ||epanpano.com^
 ||epstexsecutor.com^
 ||escrowbank.co^
 ||exo-api.tf^
 ||fable-shine.com^
+||faceit.syncacc.pro^
 ||fakers.co.jp^
 ||familyaddons.com^
 ||familyaddons.org^
@@ -142,6 +148,7 @@
 ||frame-kite.com^
 ||frame97.com^
 ||ftp.vietnam852.com^
+||fucktermedfir.st^
 ||fukt.link^
 ||fullstacknir.com^
 ||funnymap.net^
@@ -167,6 +174,7 @@
 ||helpdesk09-26.com^
 ||hitman-pro.ru^
 ||hitstation.nl^
+||hobobot.net^
 ||hotelhungry.com^
 ||hseda.com^
 ||ibidasjohnnraplc.com^
@@ -175,6 +183,7 @@
 ||igra123.com^
 ||impectorinternational.com^
 ||innovspora.co.zw^
+||intelli-sys.co.zw^
 ||invmove.com^
 ||ircftp.net^
 ||isiore.com.co^
@@ -244,6 +253,7 @@
 ||outpost.co.ke^
 ||p3.zbjimg.com^
 ||palharesinformatica.com.br^
+||pay.aqiu6.com^
 ||pcupd.com^
 ||pee-files.nl^
 ||pfatrivandrum.org^
@@ -321,7 +331,6 @@
 ||svirtual.sanviatorperu.edu.pe^
 ||swiftfusion.tech^
 ||swscripts.com^
-||taizi.fdstat.vip^
 ||tangentwaves.com^
 ||tanscarattorneys.co.tz^
 ||tapestryoftruth.com^
