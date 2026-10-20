@@ -2,8 +2,8 @@
 ! Description: Domains extracted from recently reported malicious URLs tracked by abuse.ch URLhaus
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-10-20 10:51:13 UTC
-! Total rules: 474
+! Last modified: 2026-10-20 16:15:34 UTC
+! Total rules: 476
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -103,6 +103,7 @@
 ||chrome.windows-browser.net^
 ||cloubflare.net^
 ||cloubflare.top^
+||cloud-browse.codes^
 ||clownguard.us^
 ||cmp4.top^
 ||cn.devglobal.biz^
@@ -166,6 +167,7 @@
 ||fa.windows32.men^
 ||fable-shine.com^
 ||facai.makaaop.cc^
+||faceit.syncacc.pro^
 ||fahrzeugvergabe.de^
 ||fairsexsecutor.xyz^
 ||familyaddons.com^
