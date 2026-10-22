@@ -2,8 +2,8 @@
 # Description: C2 servers, botnet controllers, malware drop sites, and phishing hosts -- for outbound traffic blocking (updated 2h)
 # Homepage: https://github.com/weightlessit/dns-threat-feeds
 # License: MIT
-# Last modified: 2026-10-22 11:03:10 UTC
-# Total entrys: 91808
+# Last modified: 2026-10-22 16:32:39 UTC
+# Total entrys: 91809
 #
 # Auto-generated -- do not edit manually.
 # FortiGate external threat feed format (one entry per line).
@@ -76880,6 +76880,7 @@
 5.2.67.9
 5.2.69.82/31
 5.2.69.84/31
+5.2.69.86
 5.2.72.110
 5.2.72.202
 5.2.79.10
