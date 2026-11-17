@@ -2,8 +2,8 @@
 ! Description: Malvertising distribution domains from Disconnect.me
 ! Homepage: https://github.com/weightlessit/dns-threat-feeds
 ! License: MIT
-! Last modified: 2026-11-16 14:36:06 UTC
-! Total rules: 2416
+! Last modified: 2026-11-17 01:29:27 UTC
+! Total rules: 2419
 !
 ! Auto-generated -- do not edit manually.
 !
@@ -145,6 +145,7 @@
 ||ad.weatherbug.com^
 ||ad.wsod.com^
 ||ad.wz.cz^
+||ad.yadro.ru^
 ||ad.yourmedia.com^
 ||ad.zanox.com^
 ||ad0.bigmir.net^
@@ -1182,6 +1183,7 @@
 ||counter.nowlinux.com^
 ||counter.search.bg^
 ||counter.sparklit.com^
+||counter.yadro.ru^
 ||counters.honesty.com^
 ||counting.kmindex.ru^
 ||counts.tucows.com^
@@ -2395,6 +2397,7 @@
 ||xy7elite.com^
 ||y.ibsys.com^
 ||yabuka.com^
+||yadro.ru^
 ||ybrantdigital.com^
 ||ydworld.com^
 ||yesads.com^
